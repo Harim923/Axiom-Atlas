@@ -1,0 +1,153 @@
+{
+  "name": "Hilbert's Axioms",
+  "category": "Geometry",
+  "source": "David Hilbert, Grundlagen der Geometrie (1899)",
+  "description": "A comprehensive list of Hilbert's 20 axioms, organized into five groups: Incidence, Order, Congruence, Parallels, and Continuity.",
+  "groups": [
+    {
+      "group_name": "I. Incidence Axioms",
+      "axioms": [
+        {
+          "id": "I1",
+          "name": "Incidence Axiom 1",
+          "statement": "For every two distinct points A and B, there exists a unique line that passes through both.",
+          "tags": ["incidence", "geometry"]
+        },
+        {
+          "id": "I2",
+          "name": "Incidence Axiom 2",
+          "statement": "Any two points on a line completely determine that line.",
+          "tags": ["incidence"]
+        },
+        {
+          "id": "I3",
+          "name": "Incidence Axiom 3",
+          "statement": "Three points not on the same line determine a plane.",
+          "tags": ["incidence", "plane"]
+        },
+        {
+          "id": "I4",
+          "name": "Incidence Axiom 4",
+          "statement": "Any three points of a plane, which do not lie on the same line, completely determine that plane.",
+          "tags": ["incidence", "plane"]
+        },
+        {
+          "id": "I5",
+          "name": "Incidence Axiom 5",
+          "statement": "If two points of a line lie in a plane, then all points of the line lie in that plane.",
+          "tags": ["incidence", "plane"]
+        },
+        {
+          "id": "I6",
+          "name": "Incidence Axiom 6",
+          "statement": "If two planes have a point in common, then they have at least one more point in common.",
+          "tags": ["incidence", "plane"]
+        },
+        {
+          "id": "I7",
+          "name": "Incidence Axiom 7",
+          "statement": "There exist at least four points not lying in a plane.",
+          "tags": ["incidence", "space"]
+        }
+      ]
+    },
+    {
+      "group_name": "II. Order Axioms",
+      "axioms": [
+        {
+          "id": "O1",
+          "name": "Order Axiom 1",
+          "statement": "If a point B lies between points A and C, then B also lies between C and A, and A, B, C are distinct points on a line.",
+          "tags": ["order", "betweenness"]
+        },
+        {
+          "id": "O2",
+          "name": "Order Axiom 2",
+          "statement": "Given two points A and C, there exists at least one point B such that B lies between A and C.",
+          "tags": ["order", "betweenness"]
+        },
+        {
+          "id": "O3",
+          "name": "Order Axiom 3",
+          "statement": "Of any three points on a line, one and only one lies between the other two.",
+          "tags": ["order", "betweenness"]
+        },
+        {
+          "id": "O4",
+          "name": "Pasch's Axiom",
+          "statement": "If a line intersects one side of a triangle, not at a vertex, then it must intersect another side.",
+          "tags": ["order", "triangle", "pasch"]
+        }
+      ]
+    },
+    {
+      "group_name": "III. Congruence Axioms",
+      "axioms": [
+        {
+          "id": "C1",
+          "name": "Congruence Axiom 1",
+          "statement": "If A and B are points on a line, and A' is a point on the same or another line, then there exists a point B' such that segment AB is congruent to segment A'B'.",
+          "tags": ["congruence", "segment"]
+        },
+        {
+          "id": "C2",
+          "name": "Congruence Axiom 2",
+          "statement": "If two segments are each congruent to a third segment, then they are congruent to each other.",
+          "tags": ["congruence", "segment"]
+        },
+        {
+          "id": "C3",
+          "name": "Congruence Axiom 3",
+          "statement": "If A, B, C are points on a line, and A', B', C' are points on another line, with AB congruent to A'B' and BC congruent to B'C', then AC is congruent to A'C'.",
+          "tags": ["congruence", "segment"]
+        },
+        {
+          "id": "C4",
+          "name": "Congruence Axiom 4",
+          "statement": "Given an angle ∠(h, k) and a line a' with a point O' on it, there exists a ray k' on a' such that the angle ∠(h', k') is congruent to ∠(h, k).",
+          "tags": ["congruence", "angle"]
+        },
+        {
+          "id": "C5",
+          "name": "Congruence Axiom 5",
+          "statement": "If two angles are each congruent to a third angle, then they are congruent to each other.",
+          "tags": ["congruence", "angle"]
+        },
+        {
+          "id": "C6",
+          "name": "Congruence Axiom 6",
+          "statement": "If in two triangles, two sides and the included angle are respectively congruent, then the triangles are congruent.",
+          "tags": ["congruence", "triangle"]
+        }
+      ]
+    },
+    {
+      "group_name": "IV. Parallel Axiom",
+      "axioms": [
+        {
+          "id": "P1",
+          "name": "Parallel Axiom",
+          "statement": "Given a line a and a point A not on it, there exists at most one line b in the plane of A and a that passes through A and does not intersect a.",
+          "tags": ["parallel", "geometry"]
+        }
+      ]
+    },
+    {
+      "group_name": "V. Continuity Axioms",
+      "axioms": [
+        {
+          "id": "Co1",
+          "name": "Archimedean Axiom",
+          "statement": "Given two segments, there exists a number n such that laying the first segment end to end n times exceeds the second.",
+          "tags": ["continuity", "archimedean"]
+        },
+        {
+          "id": "Co2",
+          "name": "Dedekind's Axiom",
+          "statement": "If all points of a line fall into two non-empty classes such that every point of the first class lies to the left of every point of the second, then there exists exactly one point that separates the two classes.",
+          "tags": ["continuity", "dedekind", "cut"]
+        }
+      ]
+    }
+  ]
+}

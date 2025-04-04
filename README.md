@@ -67,11 +67,12 @@ MIT License.
 ---
 
 ## ✍️ Author
-
+```plaintext
 Created and maintained by **Harim Yoo**,  
 Mathematics Distance M.S. Student @ Texas A&M University  
 Mathematics B.A. @ Northwestern University
 Director of ReachPrep in Seoul
+```
 ---
 
 

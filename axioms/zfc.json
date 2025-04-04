@@ -1,0 +1,78 @@
+{
+  "name": "Zermelo–Fraenkel Set Theory with Choice (ZFC)",
+  "category": "Set Theory",
+  "source": "Zermelo (1908), Fraenkel (1922), Skolem, von Neumann",
+  "description": "The standard axiomatic foundation of modern mathematics, consisting of ten axioms including the Axiom of Choice.",
+  "axioms": [
+    {
+      "id": "Z1",
+      "name": "Axiom of Extensionality",
+      "statement": "Two sets are equal if and only if they have the same elements.",
+      "formal": "∀A ∀B (∀x (x ∈ A ↔ x ∈ B) → A = B)",
+      "tags": ["equality", "identity"]
+    },
+    {
+      "id": "Z2",
+      "name": "Axiom of Empty Set",
+      "statement": "There exists a set with no elements.",
+      "formal": "∃A ∀x (x ∉ A)",
+      "tags": ["existence", "empty"]
+    },
+    {
+      "id": "Z3",
+      "name": "Axiom of Pairing",
+      "statement": "For any two sets, there exists a set that contains exactly those two sets.",
+      "formal": "∀A ∀B ∃C ∀x (x ∈ C ↔ (x = A ∨ x = B))",
+      "tags": ["pair", "existence"]
+    },
+    {
+      "id": "Z4",
+      "name": "Axiom of Union",
+      "statement": "For any set A, there exists a set that contains exactly the elements of the elements of A.",
+      "formal": "∀A ∃U ∀x (x ∈ U ↔ ∃B (x ∈ B ∧ B ∈ A))",
+      "tags": ["union", "existence"]
+    },
+    {
+      "id": "Z5",
+      "name": "Axiom of Power Set",
+      "statement": "For any set A, there exists a set whose elements are all the subsets of A.",
+      "formal": "∀A ∃P ∀x (x ∈ P ↔ x ⊆ A)",
+      "tags": ["power set", "construction"]
+    },
+    {
+      "id": "Z6",
+      "name": "Axiom of Infinity",
+      "statement": "There exists a set that contains the empty set and is closed under the successor function.",
+      "formal": "∃A (∅ ∈ A ∧ ∀x (x ∈ A → x ∪ {x} ∈ A))",
+      "tags": ["infinity", "existence"]
+    },
+    {
+      "id": "Z7",
+      "name": "Axiom Schema of Replacement",
+      "statement": "If F is a definable function, then the image of a set under F is also a set.",
+      "formal": "∀A ∃B ∀y (y ∈ B ↔ ∃x (x ∈ A ∧ y = F(x)))",
+      "tags": ["schema", "function", "replacement"]
+    },
+    {
+      "id": "Z8",
+      "name": "Axiom Schema of Separation",
+      "statement": "Given any set and any definable property, there exists a subset containing exactly those elements that satisfy the property.",
+      "formal": "∀A ∃B ∀x (x ∈ B ↔ (x ∈ A ∧ φ(x)))",
+      "tags": ["schema", "subset", "separation"]
+    },
+    {
+      "id": "Z9",
+      "name": "Axiom of Regularity (Foundation)",
+      "statement": "Every non-empty set A contains an element that is disjoint from A.",
+      "formal": "∀A (A ≠ ∅ → ∃x (x ∈ A ∧ x ∩ A = ∅))",
+      "tags": ["foundation", "well-founded"]
+    },
+    {
+      "id": "Z10",
+      "name": "Axiom of Choice",
+      "statement": "For any set of non-empty, disjoint sets, there exists a set containing exactly one element from each subset.",
+      "formal": "∀A (∀x ∈ A (x ≠ ∅ ∧ ∀y ∈ A (x ≠ y → x ∩ y = ∅)) → ∃f ⊆ ⋃A (∀x ∈ A (∃!y ∈ x (y ∈ f))))",
+      "tags": ["choice", "selection", "function"]
+    }
+  ]
+}

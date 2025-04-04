@@ -1,0 +1,89 @@
+{
+  "name": "Tarski's Axioms of Geometry",
+  "category": "Geometry",
+  "source": "Alfred Tarski, 1926–1959",
+  "description": "A first-order logic formulation of Euclidean plane geometry using only points and two predicates: Betweenness and Congruence.",
+  "language": {
+    "variables": ["points a, b, c, ..."],
+    "predicates": ["Bet(a, b, c)", "Cong(a, b, c, d)"]
+  },
+  "axioms": [
+    {
+      "id": "T1",
+      "name": "Identity for Congruence",
+      "statement": "Congruence is reflexive on equal segments.",
+      "formal": "∀a ∀b Cong(a, b, a, b)",
+      "tags": ["congruence", "identity"]
+    },
+    {
+      "id": "T2",
+      "name": "Symmetry of Congruence",
+      "statement": "If ab ≅ cd then cd ≅ ab.",
+      "formal": "∀a ∀b ∀c ∀d (Cong(a, b, c, d) → Cong(c, d, a, b))",
+      "tags": ["congruence", "symmetry"]
+    },
+    {
+      "id": "T3",
+      "name": "Transitivity of Congruence",
+      "statement": "Cong(ab, cd) and Cong(cd, ef) implies Cong(ab, ef).",
+      "formal": "∀a ∀b ∀c ∀d ∀e ∀f ((Cong(a, b, c, d) ∧ Cong(c, d, e, f)) → Cong(a, b, e, f))",
+      "tags": ["congruence", "transitivity"]
+    },
+    {
+      "id": "T4",
+      "name": "Segment Construction",
+      "statement": "Given a point a and a ray from b through c, there exists a point d on the ray such that bd ≅ ab.",
+      "formal": "∀a ∀b ∀c ∃d (Bet(b, c, d) ∧ Cong(b, d, a, b))",
+      "tags": ["construction", "segment"]
+    },
+    {
+      "id": "T5",
+      "name": "Five-Segment Axiom",
+      "statement": "A substitution-free triangle congruence axiom for copying triangles.",
+      "formal": "∀a ∀b ∀c ∀d ∀a' ∀b' ∀c' ∀d' (Cong(a, b, a', b') ∧ Cong(b, c, b', c') ∧ Cong(a, d, a', d') ∧ Cong(b, d, b', d') ∧ Bet(a, b, c) ∧ Bet(a', b', c') → Cong(c, d, c', d'))",
+      "tags": ["congruence", "triangle"]
+    },
+    {
+      "id": "T6",
+      "name": "Identity for Betweenness",
+      "statement": "If b is between a and b, then a = b.",
+      "formal": "∀a ∀b (Bet(a, b, a) → a = b)",
+      "tags": ["betweenness", "identity"]
+    },
+    {
+      "id": "T7",
+      "name": "Betweenness Symmetry",
+      "statement": "Bet(a, b, c) implies Bet(c, b, a).",
+      "formal": "∀a ∀b ∀c (Bet(a, b, c) → Bet(c, b, a))",
+      "tags": ["betweenness", "symmetry"]
+    },
+    {
+      "id": "T8",
+      "name": "Pasch's Axiom",
+      "statement": "If a line enters a triangle, it must exit it.",
+      "formal": "∀a ∀b ∀c ∀p ∀q (Bet(a, p, c) ∧ Bet(b, q, c) → ∃x (Bet(p, x, b) ∧ Bet(q, x, a)))",
+      "tags": ["pasch", "betweenness"]
+    },
+    {
+      "id": "T9",
+      "name": "Lower Dimension Axiom",
+      "statement": "There exist three non-collinear points.",
+      "formal": "∃a ∃b ∃c ¬Bet(a, b, c) ∧ ¬Bet(b, c, a) ∧ ¬Bet(c, a, b)",
+      "tags": ["dimension", "non-collinearity"]
+    },
+    {
+      "id": "T10",
+      "name": "Euclidean Axiom (Parallel Postulate)",
+      "statement": "The Tarski-form of the Euclidean fifth postulate.",
+      "formal": "∀a ∀b ∃x ∃y (Bet(a, x, y) ∧ Cong(a, x, a, b) ∧ Cong(a, y, a, b))",
+      "tags": ["parallel", "euclidean"]
+    },
+    {
+      "id": "T11",
+      "name": "Continuity Axiom (Segment-Circle)",
+      "statement": "If one point lies inside a circle and another outside, then the segment between them intersects the circle.",
+      "formal": "(Circle A r), Point p inside, Point q outside → ∃x (x on Circle ∧ x between p and q)",
+      "tags": ["continuity", "intersection"]
+    }
+  ]
+}

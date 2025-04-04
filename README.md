@@ -40,4 +40,39 @@ Stay tuned — ProofGPT will use Axiom-Atlas as its knowledge backbone.
 ---
 
 ## 📂 Repository Structure
+Axiom-Atlas/ 
+├── axioms/ # JSON files for various axiom systems (Hilbert, ZFC, Peano, etc.)
+├── theorems/ # Encoded theorems with axiom vectors and polynomial form 
+├── graphs/ # Graph visualizations of axiom dependencies and theorem connections 
+├── experiments/ # Jupyter notebooks for clustering, similarity analysis, etc. 
+└── proofgpt_engine/ # Inference and search engine (ProofGPT)
+
+
+---
+
+## 🛠 How to Contribute
+
+1. Fork this repo
+2. Explore `axioms/` or `theorems/`
+3. Add or refine an axiom system, or encode a new theorem
+4. Submit a pull request!
+
+Every contribution helps build a more complete map of mathematics.
+
+---
+
+## 📜 License
+
+MIT License.
+
+---
+
+## ✍️ Author
+
+Created and maintained by **Harim Yoo**,  
+Mathematics Distance M.S. Student @ Texas A&M University  
+Mathematics B.A. @ Northwestern University
+Director of ReachPrep in Seoul
+---
+
 

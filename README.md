@@ -46,7 +46,7 @@ Axiom-Atlas/
 ├── theorems/        # Encoded theorems with axiom vectors and polynomial form
 ├── graphs/          # Graph visualizations of axiom dependencies and theorem connections
 ├── experiments/     # Jupyter notebooks for clustering, similarity analysis, etc.
-
+```
 ---
 
 ## 🛠 How to Contribute

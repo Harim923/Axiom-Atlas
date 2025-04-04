@@ -1,0 +1,78 @@
+{
+  "name": "Euclidean Axioms",
+  "category": "Geometry",
+  "source": "Euclid, Elements (~300 BCE)",
+  "description": "The original axiomatic basis of geometry from Euclid's Elements, consisting of 5 geometric postulates and 5 common notions.",
+  "groups": [
+    {
+      "group_name": "Geometric Postulates",
+      "axioms": [
+        {
+          "id": "E1",
+          "name": "Postulate 1",
+          "statement": "A straight line can be drawn from any point to any other point.",
+          "tags": ["line", "construction"]
+        },
+        {
+          "id": "E2",
+          "name": "Postulate 2",
+          "statement": "A finite straight line can be extended continuously in a straight line.",
+          "tags": ["line extension"]
+        },
+        {
+          "id": "E3",
+          "name": "Postulate 3",
+          "statement": "A circle can be drawn with any center and any radius.",
+          "tags": ["circle", "construction"]
+        },
+        {
+          "id": "E4",
+          "name": "Postulate 4",
+          "statement": "All right angles are equal to one another.",
+          "tags": ["angle", "equality"]
+        },
+        {
+          "id": "E5",
+          "name": "Postulate 5 (Parallel Postulate)",
+          "statement": "If a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, then the two lines, if extended indefinitely, meet on that side.",
+          "tags": ["parallel", "controversial"]
+        }
+      ]
+    },
+    {
+      "group_name": "Common Notions",
+      "axioms": [
+        {
+          "id": "CN1",
+          "name": "Common Notion 1",
+          "statement": "Things that are equal to the same thing are also equal to one another.",
+          "tags": ["equality", "transitivity"]
+        },
+        {
+          "id": "CN2",
+          "name": "Common Notion 2",
+          "statement": "If equals are added to equals, the wholes are equal.",
+          "tags": ["addition", "equality"]
+        },
+        {
+          "id": "CN3",
+          "name": "Common Notion 3",
+          "statement": "If equals are subtracted from equals, the remainders are equal.",
+          "tags": ["subtraction", "equality"]
+        },
+        {
+          "id": "CN4",
+          "name": "Common Notion 4",
+          "statement": "Things which coincide with one another are equal to one another.",
+          "tags": ["coincide", "geometry"]
+        },
+        {
+          "id": "CN5",
+          "name": "Common Notion 5",
+          "statement": "The whole is greater than the part.",
+          "tags": ["part-whole", "inequality"]
+        }
+      ]
+    }
+  ]
+}

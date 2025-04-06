@@ -1,0 +1,105 @@
+[
+  {
+    "id": "T1",
+    "name": "Centroid Theorem",
+    "statement": "The medians of a triangle intersect at a single point called the centroid.",
+    "formal": "The three medians of triangle ABC are concurrent at point G (the centroid).",
+    "tags": [
+      "centroid",
+      "triangle",
+      "collinearity",
+      "geometry"
+    ],
+    "philosophy": "The centroid is the average of the triangle's vertices and lies on all three medians.",
+    "used_in_proofs": [
+      "CentroidCollinearity",
+      "EulerLine"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2",
+    "name": "Euler Line Theorem",
+    "statement": "In any non-equilateral triangle, the centroid, circumcenter, and orthocenter are collinear.",
+    "formal": "Points G (centroid), O (circumcenter), and H (orthocenter) lie on a line (Euler line).",
+    "tags": [
+      "euler",
+      "collinearity",
+      "centroid",
+      "orthocenter",
+      "circumcenter"
+    ],
+    "philosophy": "A deep alignment of triangle centers along a single line. Fundamental for synthetic geometry.",
+    "used_in_proofs": [
+      "EulerLineProofs",
+      "CenterAlignments"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "T3",
+    "name": "Incenter via Angle Bisectors",
+    "statement": "The incenter of a triangle lies at the intersection of its angle bisectors.",
+    "formal": "Angle bisectors of triangle ABC are concurrent at I (incenter).",
+    "tags": [
+      "incenter",
+      "concurrency",
+      "angle bisector"
+    ],
+    "philosophy": "The incenter is equidistant from the triangle's sides. Its existence relies on concurrency of bisectors.",
+    "used_in_proofs": [
+      "IncircleConstruction",
+      "RadiusFromIncenter"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T4",
+    "name": "Circumcenter via Perpendicular Bisectors",
+    "statement": "The perpendicular bisectors of a triangle’s sides intersect at the circumcenter.",
+    "formal": "Perpendicular bisectors of triangle ABC are concurrent at O (circumcenter).",
+    "tags": [
+      "circumcenter",
+      "perpendicular bisector",
+      "concurrency"
+    ],
+    "philosophy": "The circumcenter is equidistant from the triangle's vertices and exists by bisector concurrency.",
+    "used_in_proofs": [
+      "CirclePassingThroughVertices"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T5",
+    "name": "Collinearity by Zero Area",
+    "statement": "Three points are collinear if and only if the area of the triangle they form is zero.",
+    "formal": "Area(A, B, C) = 0 ⇔ A, B, C collinear",
+    "tags": [
+      "collinearity",
+      "area",
+      "triangle"
+    ],
+    "philosophy": "A general and coordinate-agnostic way to check collinearity using geometric invariants.",
+    "used_in_proofs": [
+      "CollinearCheck",
+      "AreaRatioArguments"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry",
+      "CoordinateGeometry"
+    ],
+    "strength_score": 1.0
+  }
+]

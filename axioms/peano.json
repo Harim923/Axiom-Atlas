@@ -1,76 +1,182 @@
-{
-  "name": "Peano Arithmetic",
-  "category": "Arithmetic",
-  "source": "Giuseppe Peano, 1889",
-  "description": "First-order axiomatization of the natural numbers with successor function, zero, and induction.",
-  "language": {
-    "constants": ["0"],
-    "functions": ["S(x)"], 
-    "predicates": ["="]
+[
+  {
+    "id": "P1",
+    "name": "Zero is a natural number",
+    "statement": "0 is a natural number.",
+    "formal": "N(0)",
+    "tags": [
+      "zero",
+      "domain",
+      "arithmetic"
+    ],
+    "philosophy": "Zero is the foundation of the natural number system. It anchors the inductive structure of arithmetic.",
+    "used_in_proofs": [
+      "BaseOfInduction",
+      "AddZeroIdentity"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.6
   },
-  "axioms": [
-    {
-      "id": "P1",
-      "name": "Zero is a natural number",
-      "statement": "0 is a natural number.",
-      "formal": "N(0)",
-      "tags": ["zero", "domain"]
-    },
-    {
-      "id": "P2",
-      "name": "Successor is a function on natural numbers",
-      "statement": "For every natural number x, its successor S(x) is also a natural number.",
-      "formal": "∀x (N(x) → N(S(x)))",
-      "tags": ["successor", "function"]
-    },
-    {
-      "id": "P3",
-      "name": "Zero is not the successor of any number",
-      "statement": "There is no x such that S(x) = 0.",
-      "formal": "∀x (S(x) ≠ 0)",
-      "tags": ["zero", "non-circular"]
-    },
-    {
-      "id": "P4",
-      "name": "Distinct numbers have distinct successors",
-      "statement": "If S(x) = S(y), then x = y.",
-      "formal": "∀x ∀y (S(x) = S(y) → x = y)",
-      "tags": ["injectivity", "successor"]
-    },
-    {
-      "id": "P5",
-      "name": "Induction Axiom Schema",
-      "statement": "If a property P holds for 0, and holds for S(x) whenever it holds for x, then it holds for all natural numbers.",
-      "formal": "P(0) ∧ ∀x (P(x) → P(S(x))) → ∀x P(x)",
-      "tags": ["induction", "schema"]
-    },
-    {
-      "id": "P6",
-      "name": "Addition base case",
-      "statement": "x + 0 = x",
-      "formal": "∀x (x + 0 = x)",
-      "tags": ["addition", "base"]
-    },
-    {
-      "id": "P7",
-      "name": "Addition recursion",
-      "statement": "x + S(y) = S(x + y)",
-      "formal": "∀x ∀y (x + S(y) = S(x + y))",
-      "tags": ["addition", "recursion"]
-    },
-    {
-      "id": "P8",
-      "name": "Multiplication base case",
-      "statement": "x × 0 = 0",
-      "formal": "∀x (x × 0 = 0)",
-      "tags": ["multiplication", "base"]
-    },
-    {
-      "id": "P9",
-      "name": "Multiplication recursion",
-      "statement": "x × S(y) = x × y + x",
-      "formal": "∀x ∀y (x × S(y) = (x × y) + x)",
-      "tags": ["multiplication", "recursion"]
-    }
-  ]
-}
+  {
+    "id": "P2",
+    "name": "Successor is a function on natural numbers",
+    "statement": "For every natural number x, its successor S(x) is also a natural number.",
+    "formal": "∀x (N(x) → N(S(x)))",
+    "tags": [
+      "successor",
+      "function",
+      "arithmetic"
+    ],
+    "philosophy": "The structure of natural numbers is built on the successor operation, capturing endless progression.",
+    "used_in_proofs": [
+      "Induction",
+      "RecursiveDefinition"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.8
+  },
+  {
+    "id": "P3",
+    "name": "Zero is not the successor of any number",
+    "statement": "There is no x such that S(x) = 0.",
+    "formal": "∀x (S(x) ≠ 0)",
+    "tags": [
+      "zero",
+      "non-circular",
+      "arithmetic"
+    ],
+    "philosophy": "Prevents circularity in number definition. Ensures a well-founded order starting from 0.",
+    "used_in_proofs": [
+      "WellOrdering",
+      "MinimalityProofs"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "P4",
+    "name": "Distinct numbers have distinct successors",
+    "statement": "If S(x) = S(y), then x = y.",
+    "formal": "∀x ∀y (S(x) = S(y) → x = y)",
+    "tags": [
+      "injectivity",
+      "successor",
+      "arithmetic"
+    ],
+    "philosophy": "Successor acts like a function: it’s injective. No two numbers can map to the same next number.",
+    "used_in_proofs": [
+      "InductionUniqueness",
+      "IdentityProofs"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.8
+  },
+  {
+    "id": "P5",
+    "name": "Induction Axiom Schema",
+    "statement": "If a property P holds for 0, and holds for S(x) whenever it holds for x, then it holds for all natural numbers.",
+    "formal": "P(0) ∧ ∀x (P(x) → P(S(x))) → ∀x P(x)",
+    "tags": [
+      "induction",
+      "schema",
+      "arithmetic"
+    ],
+    "philosophy": "This is the engine of arithmetic. It enables reasoning over infinite sets with finite means.",
+    "used_in_proofs": [
+      "RecursiveDefinitions",
+      "ProofsByInduction"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P6",
+    "name": "Addition base case",
+    "statement": "x + 0 = x",
+    "formal": "∀x (x + 0 = x)",
+    "tags": [
+      "addition",
+      "base",
+      "arithmetic"
+    ],
+    "philosophy": "Defines addition starting from the identity element 0.",
+    "used_in_proofs": [
+      "AdditionIdentity",
+      "AdditiveInduction"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.7
+  },
+  {
+    "id": "P7",
+    "name": "Addition recursion",
+    "statement": "x + S(y) = S(x + y)",
+    "formal": "∀x ∀y (x + S(y) = S(x + y))",
+    "tags": [
+      "addition",
+      "recursion",
+      "arithmetic"
+    ],
+    "philosophy": "Defines addition recursively, mirroring the inductive structure of the natural numbers.",
+    "used_in_proofs": [
+      "AdditionAssociativity",
+      "AdditionInduction"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "P8",
+    "name": "Multiplication base case",
+    "statement": "x × 0 = 0",
+    "formal": "∀x (x × 0 = 0)",
+    "tags": [
+      "multiplication",
+      "base",
+      "arithmetic"
+    ],
+    "philosophy": "Defines multiplication from zero, the absorbing element of arithmetic.",
+    "used_in_proofs": [
+      "MultiplicativeIdentity",
+      "ZeroMultiplication"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.7
+  },
+  {
+    "id": "P9",
+    "name": "Multiplication recursion",
+    "statement": "x × S(y) = x × y + x",
+    "formal": "∀x ∀y (x × S(y) = (x × y) + x)",
+    "tags": [
+      "multiplication",
+      "recursion",
+      "arithmetic"
+    ],
+    "philosophy": "Defines multiplication recursively as repeated addition, aligning with Peano's inductive philosophy.",
+    "used_in_proofs": [
+      "Distributivity",
+      "MultiplicationInduction"
+    ],
+    "used_in_systems": [
+      "Peano"
+    ],
+    "strength_score": 0.95
+  }
+]

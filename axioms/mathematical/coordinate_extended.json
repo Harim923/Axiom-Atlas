@@ -1,0 +1,124 @@
+[
+  {
+    "id": "C1",
+    "name": "Distance Formula",
+    "statement": "The distance between two points (x₁, y₁) and (x₂, y₂) is √((x₂ - x₁)² + (y₂ - y₁)²).",
+    "formal": "d = √((x₂ - x₁)² + (y₂ - y₁)²)",
+    "tags": [
+      "distance",
+      "geometry",
+      "coordinate",
+      "euclidean"
+    ],
+    "philosophy": "This formula defines Euclidean distance in 2D space using the Pythagorean theorem.",
+    "used_in_proofs": [
+      "CircleDefinition",
+      "TriangleInequality"
+    ],
+    "used_in_systems": [
+      "CoordinateGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "C2",
+    "name": "Midpoint Formula",
+    "statement": "The midpoint of a segment between points (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+    "formal": "M = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+    "tags": [
+      "midpoint",
+      "geometry",
+      "coordinate"
+    ],
+    "philosophy": "Identifies the center of a segment, useful in symmetry and triangle centroid analysis.",
+    "used_in_proofs": [
+      "CentroidTheorem",
+      "CoordinateBisection"
+    ],
+    "used_in_systems": [
+      "CoordinateGeometry"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "C3",
+    "name": "Slope of a Line",
+    "statement": "The slope m of a line through points (x₁, y₁) and (x₂, y₂) is (y₂ - y₁) / (x₂ - x₁), x₁ ≠ x₂.",
+    "formal": "m = (y₂ - y₁)/(x₂ - x₁)",
+    "tags": [
+      "slope",
+      "geometry",
+      "coordinate"
+    ],
+    "philosophy": "Encodes the angle and direction of a line in Cartesian space.",
+    "used_in_proofs": [
+      "ParallelLines",
+      "Perpendicularity"
+    ],
+    "used_in_systems": [
+      "CoordinateGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "C4",
+    "name": "Collinearity via Slope",
+    "statement": "Three points are collinear if the slopes between each pair are equal.",
+    "formal": "(y₂ - y₁)/(x₂ - x₁) = (y₃ - y₂)/(x₃ - x₂)",
+    "tags": [
+      "collinearity",
+      "geometry",
+      "slope"
+    ],
+    "philosophy": "Collinearity is established when all segment directions align.",
+    "used_in_proofs": [
+      "LineContainment",
+      "AreaZeroTriangle"
+    ],
+    "used_in_systems": [
+      "CoordinateGeometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "C5",
+    "name": "Slope Multiplication Rule for Perpendicularity",
+    "statement": "Two lines are perpendicular if the product of their slopes is -1.",
+    "formal": "m₁ * m₂ = -1",
+    "tags": [
+      "perpendicular",
+      "geometry",
+      "slope"
+    ],
+    "philosophy": "Encodes orthogonality in linear relationships through negative reciprocal slopes.",
+    "used_in_proofs": [
+      "RightAngleProofs",
+      "Orthogonality"
+    ],
+    "used_in_systems": [
+      "CoordinateGeometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "C6",
+    "name": "Triangle Area by Coordinates",
+    "statement": "The area of triangle with vertices (x₁, y₁), (x₂, y₂), (x₃, y₃) is ½ |x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)|.",
+    "formal": "A = ½ |x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)|",
+    "tags": [
+      "area",
+      "triangle",
+      "geometry",
+      "coordinate"
+    ],
+    "philosophy": "Efficient formula for triangle area directly from coordinates, useful for collinearity and ratio problems.",
+    "used_in_proofs": [
+      "AreaComparisons",
+      "CollinearityCheck"
+    ],
+    "used_in_systems": [
+      "CoordinateGeometry"
+    ],
+    "strength_score": 1.0
+  }
+]

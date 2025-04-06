@@ -10,7 +10,7 @@
       "geometry",
       "hilbert"
     ],
-    "philosophy": "Defines the fundamental relational nature of geometry: space is structured by connections between points.",
+    "philosophy": "Defines the relational nature of points and lines. Space begins with connections.",
     "used_in_proofs": [
       "LineUniqueness",
       "TriangleExistence"
@@ -33,9 +33,9 @@
       "geometry",
       "hilbert"
     ],
-    "philosophy": "A line is defined not in isolation but by the distinct points that it contains.",
+    "philosophy": "A line is defined by being the connection between two distinct points.",
     "used_in_proofs": [
-      "LineConstructibility"
+      "LineDefinition"
     ],
     "used_in_systems": [
       "Hilbert"
@@ -45,7 +45,7 @@
   {
     "id": "H3",
     "name": "Incidence Axiom I-3",
-    "statement": "There exist at least three non-collinear points.",
+    "statement": "There exist at least three points not lying on the same line.",
     "formal": "\u2203a \u2203b \u2203c (\u00acCollinear(a, b, c))",
     "tags": [
       "dimension",
@@ -53,10 +53,10 @@
       "geometry",
       "hilbert"
     ],
-    "philosophy": "Guarantees the existence of two-dimensional structure in geometry by ensuring not all points lie on a single line.",
+    "philosophy": "Ensures the geometry is at least two-dimensional.",
     "used_in_proofs": [
-      "PlaneExistence",
-      "TriangleAreaNonzero"
+      "TriangleDefinition",
+      "PlaneExistence"
     ],
     "used_in_systems": [
       "Hilbert",
@@ -66,46 +66,130 @@
   },
   {
     "id": "H4",
-    "name": "Betweenness Axiom II-1",
-    "statement": "If B is between A and C, then A, B, and C are three distinct points on the same line, and B is also between C and A.",
-    "formal": "\u2200a \u2200b \u2200c (Between(a, b, c) \u2192 (Collinear(a, b, c) \u2227 Between(c, b, a)))",
+    "name": "Order Axiom II-1",
+    "statement": "If point B is between A and C, then A, B, and C are distinct and collinear, and B is also between C and A.",
+    "formal": "\u2200a \u2200b \u2200c (Bet(a, b, c) \u2192 (Collinear(a, b, c) \u2227 a \u2260 b \u2227 b \u2260 c \u2227 a \u2260 c \u2227 Bet(c, b, a)))",
     "tags": [
       "betweenness",
       "symmetry",
       "geometry",
       "hilbert"
     ],
-    "philosophy": "Introduces symmetry in the concept of betweenness and reinforces linear ordering.",
+    "philosophy": "Defines the symmetry and structure of linear betweenness among three points.",
     "used_in_proofs": [
-      "SegmentMidpointProperties",
-      "PaschAxiom"
+      "SegmentDivision",
+      "LineOrdering"
     ],
     "used_in_systems": [
-      "Hilbert",
-      "Tarski"
+      "Hilbert"
     ],
     "strength_score": 0.8
   },
   {
     "id": "H5",
+    "name": "Order Axiom II-2 (Existence of Between)",
+    "statement": "Given any two points A and B, there exists a point C such that B is between A and C.",
+    "formal": "\u2200a \u2200b \u2203c (Bet(a, b, c))",
+    "tags": [
+      "betweenness",
+      "existence",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "Asserts the infinite divisibility of line segments.",
+    "used_in_proofs": [
+      "SegmentSubdivision",
+      "MidpointExistence"
+    ],
+    "used_in_systems": [
+      "Hilbert"
+    ],
+    "strength_score": 0.7
+  },
+  {
+    "id": "H6",
     "name": "Congruence Axiom III-1",
-    "statement": "Congruence of segments is reflexive, symmetric, and transitive.",
-    "formal": "\u2200a \u2200b Congruent(a, b, a, b) \u2227 Symmetry(Congruent) \u2227 Transitivity(Congruent)",
+    "statement": "Segments are congruent to themselves, and congruence is symmetric and transitive.",
+    "formal": "\u2200a \u2200b Cong(a, b, a, b) \u2227 (Cong(a, b, c, d) \u2192 Cong(c, d, a, b)) \u2227 ((Cong(a, b, c, d) \u2227 Cong(c, d, e, f)) \u2192 Cong(a, b, e, f))",
     "tags": [
       "congruence",
       "equivalence",
       "geometry",
       "hilbert"
     ],
-    "philosophy": "Defines congruence as an equivalence relation, foundational for geometric transformations.",
+    "philosophy": "Establishes congruence as an equivalence relation.",
     "used_in_proofs": [
       "TriangleCongruence",
-      "DistancePreservation"
+      "SegmentExtension"
     ],
     "used_in_systems": [
       "Hilbert",
       "Tarski"
     ],
     "strength_score": 0.9
+  },
+  {
+    "id": "H7",
+    "name": "Parallels Axiom IV-1",
+    "statement": "For every line l and point P not on l, there is at most one line through P that does not meet l (i.e., is parallel to l).",
+    "formal": "\u2200l \u2200p (\u00acOn(p, l) \u2192 \u2203!m (\u00acIntersects(m, l) \u2227 On(p, m)))",
+    "tags": [
+      "parallel",
+      "geometry",
+      "hilbert",
+      "euclidean"
+    ],
+    "philosophy": "Encodes Euclidean flatness through uniqueness of parallels.",
+    "used_in_proofs": [
+      "ParallelConstruction",
+      "TriangleAngleSum"
+    ],
+    "used_in_systems": [
+      "Hilbert",
+      "Euclid"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "H8",
+    "name": "Continuity Axiom V-1 (Archimedean Axiom)",
+    "statement": "If a segment is repeatedly laid off on a ray, it will eventually pass any given point on that ray.",
+    "formal": "\u2200a \u2200b \u2200c (Ray(a, b) \u2227 On(c, Ray(a, b)) \u2192 \u2203n (LayOff(ab, n) > ac))",
+    "tags": [
+      "continuity",
+      "archimedean",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "Captures the infinite scalability of space, foundational for real-number continuity.",
+    "used_in_proofs": [
+      "LengthComparability",
+      "RealLineProperties"
+    ],
+    "used_in_systems": [
+      "Hilbert"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "H9",
+    "name": "Axiom of Completeness (VI-1)",
+    "statement": "The system of axioms is complete; no additional points, lines, or planes can be added without violating a previous axiom.",
+    "formal": "\u00ac\u2203(P\u2032, L\u2032, \u03c0\u2032) (SatisfyAllAxioms \u2227 (P\u2032 \u2209 Points \u2228 L\u2032 \u2209 Lines \u2228 \u03c0\u2032 \u2209 Planes))",
+    "tags": [
+      "completeness",
+      "foundation",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "Declares that the space defined by these axioms is logically maximal and closed.",
+    "used_in_proofs": [
+      "ModelUniqueness",
+      "ConsistencyProof"
+    ],
+    "used_in_systems": [
+      "Hilbert"
+    ],
+    "strength_score": 1.0
   }
 ]

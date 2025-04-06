@@ -1,0 +1,156 @@
+[
+  {
+    "id": "A1",
+    "name": "Distributive Law",
+    "statement": "For all real numbers a, b, and c, a(b + c) = ab + ac.",
+    "formal": "∀a, b, c ∈ ℝ, a(b + c) = ab + ac",
+    "tags": [
+      "algebra",
+      "distributive",
+      "basic property"
+    ],
+    "philosophy": "Distribution allows us to simplify or expand expressions efficiently.",
+    "used_in_proofs": [
+      "ExpandingExpressions",
+      "Factoring"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "A2",
+    "name": "Commutative Law of Addition",
+    "statement": "For all real numbers a and b, a + b = b + a.",
+    "formal": "∀a, b ∈ ℝ, a + b = b + a",
+    "tags": [
+      "algebra",
+      "addition",
+      "commutative"
+    ],
+    "philosophy": "Order of addition does not change the result.",
+    "used_in_proofs": [
+      "SimplifyingSums"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "A3",
+    "name": "Commutative Law of Multiplication",
+    "statement": "For all real numbers a and b, ab = ba.",
+    "formal": "∀a, b ∈ ℝ, ab = ba",
+    "tags": [
+      "algebra",
+      "multiplication",
+      "commutative"
+    ],
+    "philosophy": "Multiplication is symmetric with respect to operands.",
+    "used_in_proofs": [
+      "ReorderingFactors"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "A4",
+    "name": "Associative Law of Addition",
+    "statement": "For all real numbers a, b, and c, (a + b) + c = a + (b + c).",
+    "formal": "∀a, b, c ∈ ℝ, (a + b) + c = a + (b + c)",
+    "tags": [
+      "algebra",
+      "associative",
+      "addition"
+    ],
+    "philosophy": "Grouping of terms in addition does not affect the result.",
+    "used_in_proofs": [
+      "CombiningLikeTerms"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "A5",
+    "name": "Associative Law of Multiplication",
+    "statement": "For all real numbers a, b, and c, (ab)c = a(bc).",
+    "formal": "∀a, b, c ∈ ℝ, (ab)c = a(bc)",
+    "tags": [
+      "algebra",
+      "associative",
+      "multiplication"
+    ],
+    "philosophy": "Grouping of terms in multiplication does not affect the result.",
+    "used_in_proofs": [
+      "SimplifyProducts"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "A6",
+    "name": "Zero Property of Multiplication",
+    "statement": "Any number multiplied by zero is zero.",
+    "formal": "∀a ∈ ℝ, a·0 = 0",
+    "tags": [
+      "algebra",
+      "zero",
+      "multiplication"
+    ],
+    "philosophy": "A fundamental identity that helps solve equations.",
+    "used_in_proofs": [
+      "ZeroElimination",
+      "EquationSolving"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "A7",
+    "name": "Multiplicative Inverse",
+    "statement": "Every nonzero number a has a reciprocal 1/a such that a·(1/a) = 1.",
+    "formal": "∀a ∈ ℝ, a ≠ 0 → ∃b (a·b = 1)",
+    "tags": [
+      "algebra",
+      "inverse",
+      "division"
+    ],
+    "philosophy": "Basis of solving equations via division.",
+    "used_in_proofs": [
+      "InverseSolving"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "A8",
+    "name": "Exponent Rule (Product of Powers)",
+    "statement": "a^m · a^n = a^(m+n)",
+    "formal": "∀a ∈ ℝ, ∀m, n ∈ ℕ, a^m · a^n = a^(m+n)",
+    "tags": [
+      "exponent",
+      "algebra",
+      "powers"
+    ],
+    "philosophy": "Foundational identity for simplifying exponential expressions.",
+    "used_in_proofs": [
+      "ExponentSimplification"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.95
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "M1",
+    "name": "Definition of Congruence Modulo n",
+    "statement": "a ≡ b (mod n) means that n divides (a - b).",
+    "formal": "a ≡ b (mod n) ⇔ ∃k ∈ ℤ, a - b = nk",
+    "tags": [
+      "modular",
+      "definition",
+      "congruence"
+    ],
+    "philosophy": "Modular congruence captures equivalence under periodicity defined by modulus n.",
+    "used_in_proofs": [
+      "ModularEquivalence",
+      "ResidueClass"
+    ],
+    "used_in_systems": [
+      "ModularArithmetic"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "M2",
+    "name": "Addition preserves congruence",
+    "statement": "If a ≡ b (mod n) and c ≡ d (mod n), then a + c ≡ b + d (mod n).",
+    "formal": "a ≡ b (mod n) ∧ c ≡ d (mod n) → a + c ≡ b + d (mod n)",
+    "tags": [
+      "modular",
+      "addition",
+      "congruence"
+    ],
+    "philosophy": "Congruence is stable under addition, which preserves structure within modulo systems.",
+    "used_in_proofs": [
+      "ModularSumProperties"
+    ],
+    "used_in_systems": [
+      "ModularArithmetic"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "M3",
+    "name": "Multiplication preserves congruence",
+    "statement": "If a ≡ b (mod n) and c ≡ d (mod n), then ac ≡ bd (mod n).",
+    "formal": "a ≡ b (mod n) ∧ c ≡ d (mod n) → ac ≡ bd (mod n)",
+    "tags": [
+      "modular",
+      "multiplication",
+      "congruence"
+    ],
+    "philosophy": "Like addition, multiplication respects equivalence classes modulo n.",
+    "used_in_proofs": [
+      "ModularMultiplication"
+    ],
+    "used_in_systems": [
+      "ModularArithmetic"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "M4",
+    "name": "Transitivity of congruence",
+    "statement": "If a ≡ b (mod n) and b ≡ c (mod n), then a ≡ c (mod n).",
+    "formal": "a ≡ b (mod n) ∧ b ≡ c (mod n) → a ≡ c (mod n)",
+    "tags": [
+      "modular",
+      "transitivity",
+      "congruence"
+    ],
+    "philosophy": "Congruence is an equivalence relation; transitivity is its core.",
+    "used_in_proofs": [
+      "ChainedModularEquations"
+    ],
+    "used_in_systems": [
+      "ModularArithmetic"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "M5",
+    "name": "Symmetry of congruence",
+    "statement": "If a ≡ b (mod n), then b ≡ a (mod n).",
+    "formal": "a ≡ b (mod n) → b ≡ a (mod n)",
+    "tags": [
+      "modular",
+      "symmetry",
+      "congruence"
+    ],
+    "philosophy": "Equivalence under mod n is bidirectional.",
+    "used_in_proofs": [
+      "ModularReversal"
+    ],
+    "used_in_systems": [
+      "ModularArithmetic"
+    ],
+    "strength_score": 0.85
+  },
+  {
+    "id": "M6",
+    "name": "Multiplying both sides preserves congruence",
+    "statement": "If a ≡ b (mod n), then ak ≡ bk (mod n).",
+    "formal": "a ≡ b (mod n) → ak ≡ bk (mod n)",
+    "tags": [
+      "modular",
+      "scaling",
+      "multiplication",
+      "congruence"
+    ],
+    "philosophy": "Congruence is preserved under scalar multiplication.",
+    "used_in_proofs": [
+      "ModularScaling"
+    ],
+    "used_in_systems": [
+      "ModularArithmetic"
+    ],
+    "strength_score": 0.85
+  },
+  {
+    "id": "M7",
+    "name": "Divisibility condition for cancellation",
+    "statement": "If ka ≡ kb (mod n), then a ≡ b (mod n/gcd(k,n)).",
+    "formal": "ka ≡ kb (mod n) → a ≡ b (mod n / gcd(k,n))",
+    "tags": [
+      "modular",
+      "cancellation",
+      "congruence"
+    ],
+    "philosophy": "Congruence can be simplified when factors are removed, with modulus adjusted accordingly.",
+    "used_in_proofs": [
+      "CongruenceReduction"
+    ],
+    "used_in_systems": [
+      "ModularArithmetic"
+    ],
+    "strength_score": 0.95
+  }
+]

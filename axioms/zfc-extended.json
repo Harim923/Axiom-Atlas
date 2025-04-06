@@ -1,0 +1,206 @@
+[
+  {
+    "id": "Z1",
+    "name": "Axiom of Extensionality",
+    "statement": "Two sets are equal if and only if they have the same elements.",
+    "formal": "∀A ∀B (∀x (x ∈ A ↔ x ∈ B) → A = B)",
+    "tags": [
+      "equality",
+      "identity",
+      "set theory"
+    ],
+    "philosophy": "Defines set identity purely in terms of membership. Sets are determined by what they contain.",
+    "used_in_proofs": [
+      "SetEqualitySimplification",
+      "UniquenessLemmas"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.8
+  },
+  {
+    "id": "Z2",
+    "name": "Axiom of Empty Set",
+    "statement": "There exists a set with no elements.",
+    "formal": "∃A ∀x (x ∉ A)",
+    "tags": [
+      "existence",
+      "empty",
+      "set theory"
+    ],
+    "philosophy": "Establishes the base object of set theory. The empty set is the seed from which all sets grow.",
+    "used_in_proofs": [
+      "BaseSetConstruction",
+      "Foundation"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.7
+  },
+  {
+    "id": "Z3",
+    "name": "Axiom of Pairing",
+    "statement": "For any two sets, there exists a set that contains exactly those two sets.",
+    "formal": "∀A ∀B ∃C ∀x (x ∈ C ↔ (x = A ∨ x = B))",
+    "tags": [
+      "pair",
+      "existence",
+      "set theory"
+    ],
+    "philosophy": "Allows creation of sets from arbitrary elements. Foundational to ordered pairs and tuples.",
+    "used_in_proofs": [
+      "OrderedPairConstruction",
+      "ProductDefinition"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.75
+  },
+  {
+    "id": "Z4",
+    "name": "Axiom of Union",
+    "statement": "For any set A, there exists a set that contains exactly the elements of the elements of A.",
+    "formal": "∀A ∃U ∀x (x ∈ U ↔ ∃B (x ∈ B ∧ B ∈ A))",
+    "tags": [
+      "union",
+      "existence",
+      "set theory"
+    ],
+    "philosophy": "Allows flattening of sets of sets. Enables the construction of larger sets from smaller ones.",
+    "used_in_proofs": [
+      "FlatteningHierarchy",
+      "ClosureUnderUnion"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.8
+  },
+  {
+    "id": "Z5",
+    "name": "Axiom of Power Set",
+    "statement": "For any set A, there exists a set whose elements are all the subsets of A.",
+    "formal": "∀A ∃P ∀x (x ∈ P ↔ x ⊆ A)",
+    "tags": [
+      "power set",
+      "construction",
+      "set theory"
+    ],
+    "philosophy": "Generates new sets that capture the combinatoric explosion of substructures.",
+    "used_in_proofs": [
+      "FunctionDefinition",
+      "CardinalityProofs"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "Z6",
+    "name": "Axiom of Infinity",
+    "statement": "There exists a set that contains the empty set and is closed under the successor function.",
+    "formal": "∃A (∅ ∈ A ∧ ∀x (x ∈ A → x ∪ {x} ∈ A))",
+    "tags": [
+      "infinity",
+      "existence",
+      "set theory"
+    ],
+    "philosophy": "Constructs the infinite using purely finite logic. Provides the universe for arithmetic.",
+    "used_in_proofs": [
+      "PeanoConstruction",
+      "NaturalNumbersEmbedding"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "Z7",
+    "name": "Axiom Schema of Replacement",
+    "statement": "If F is a definable function, then the image of a set under F is also a set.",
+    "formal": "∀A ∃B ∀y (y ∈ B ↔ ∃x (x ∈ A ∧ y = F(x)))",
+    "tags": [
+      "schema",
+      "function",
+      "replacement",
+      "set theory"
+    ],
+    "philosophy": "Allows defining sets through definable transformations. Essential for large constructions.",
+    "used_in_proofs": [
+      "OrdinalConstruction",
+      "SetImageMapping"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "Z8",
+    "name": "Axiom Schema of Separation",
+    "statement": "Given any set and any definable property, there exists a subset containing exactly those elements that satisfy the property.",
+    "formal": "∀A ∃B ∀x (x ∈ B ↔ (x ∈ A ∧ φ(x)))",
+    "tags": [
+      "schema",
+      "subset",
+      "separation",
+      "set theory"
+    ],
+    "philosophy": "Enables restriction of sets by property. Prevents paradoxes by bounding comprehension.",
+    "used_in_proofs": [
+      "RestrictedSubsets",
+      "SafeComprehension"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "Z9",
+    "name": "Axiom of Regularity (Foundation)",
+    "statement": "Every non-empty set A contains an element that is disjoint from A.",
+    "formal": "∀A (A ≠ ∅ → ∃x (x ∈ A ∧ x ∩ A = ∅))",
+    "tags": [
+      "foundation",
+      "well-founded",
+      "set theory"
+    ],
+    "philosophy": "Eliminates infinite descending membership chains. Gives a hierarchical structure to sets.",
+    "used_in_proofs": [
+      "SetWellFoundedness",
+      "MembershipTreeProofs"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "Z10",
+    "name": "Axiom of Choice",
+    "statement": "For any set of non-empty, disjoint sets, there exists a set containing exactly one element from each subset.",
+    "formal": "∀A (∀x ∈ A (x ≠ ∅ ∧ ∀y ∈ A (x ≠ y → x ∩ y = ∅)) → ∃f ⊆ ⋃A (∀x ∈ A (∃!y ∈ x (y ∈ f))))",
+    "tags": [
+      "choice",
+      "selection",
+      "function",
+      "set theory"
+    ],
+    "philosophy": "One of the most debated axioms. It enables selection from infinite collections and is equivalent to Zorn’s Lemma and the Well-Ordering Theorem.",
+    "used_in_proofs": [
+      "BasisOfVectorSpaces",
+      "ZornsLemma",
+      "TychonoffTheorem"
+    ],
+    "used_in_systems": [
+      "ZFC"
+    ],
+    "strength_score": 1.0
+  }
+]

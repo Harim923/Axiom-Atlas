@@ -1,0 +1,83 @@
+[
+  {
+    "id": "LR1",
+    "name": "Axiom Application Rule",
+    "statement": "An axiom may be applied directly if its conditions are matched in the current context.",
+    "formal": "Match(P, Axiom) → Apply(Axiom, P)",
+    "tags": [
+      "axiom",
+      "application",
+      "inference",
+      "control"
+    ],
+    "philosophy": "This rule allows applying any known axiom directly to a case if it syntactically or structurally matches.",
+    "used_in_proofs": [
+      "DirectAxiomUse"
+    ],
+    "used_in_systems": [
+      "Formalizer"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "LR2",
+    "name": "Assumption Rule",
+    "statement": "Any assumption introduced during a proof is valid only within its local scope.",
+    "formal": "Assume(P) ⊢ Q → P → Q (within context)",
+    "tags": [
+      "assumption",
+      "logic",
+      "scope",
+      "deduction"
+    ],
+    "philosophy": "Assumptions must be tracked and eventually discharged to ensure valid inference.",
+    "used_in_proofs": [
+      "ConditionalProofs",
+      "ProofByContradiction"
+    ],
+    "used_in_systems": [
+      "Formalizer"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "LR3",
+    "name": "Discharge Rule",
+    "statement": "A temporary assumption can be discharged to derive an implication.",
+    "formal": "If P ⊢ Q, then infer P → Q",
+    "tags": [
+      "discharge",
+      "implication",
+      "logic"
+    ],
+    "philosophy": "Forms the core of natural deduction systems. It turns local reasoning into global truths.",
+    "used_in_proofs": [
+      "ConditionalIntroduction"
+    ],
+    "used_in_systems": [
+      "NaturalDeduction",
+      "Formalizer"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "LR4",
+    "name": "Recursive Proof Step",
+    "statement": "A proof step may call subproofs under defined constraints.",
+    "formal": "If ⊢ P requires Q, initiate subproof ⊢ Q",
+    "tags": [
+      "recursion",
+      "logic",
+      "control"
+    ],
+    "philosophy": "Allows modular composition of multi-step proofs. Enables structured and layered logic.",
+    "used_in_proofs": [
+      "NestedProofs",
+      "Induction"
+    ],
+    "used_in_systems": [
+      "Formalizer"
+    ],
+    "strength_score": 0.85
+  }
+]

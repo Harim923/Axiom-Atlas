@@ -1,0 +1,46 @@
+[
+  {
+    "id": "L1",
+    "name": "Modus Ponens",
+    "statement": "If P is true and P → Q is true, then Q is true.",
+    "formal": "(P ∧ (P → Q)) → Q",
+    "tags": ["implication", "propositional logic", "inference"],
+    "philosophy": "The most basic rule of inference: from cause and implication, deduce result.",
+    "used_in_proofs": ["DirectProof", "Contrapositive"],
+    "used_in_systems": ["PropositionalLogic"],
+    "strength_score": 1.0
+  },
+  {
+    "id": "L2",
+    "name": "Double Negation Elimination",
+    "statement": "If not-not P is true, then P is true.",
+    "formal": "¬(¬P) → P",
+    "tags": ["negation", "logic", "elimination"],
+    "philosophy": "Assumes classical logic. Eliminates redundancy in negations.",
+    "used_in_proofs": ["ContradictionProofs"],
+    "used_in_systems": ["ClassicalLogic"],
+    "strength_score": 0.9
+  },
+  {
+    "id": "L3",
+    "name": "Contrapositive",
+    "statement": "P → Q is logically equivalent to ¬Q → ¬P.",
+    "formal": "(P → Q) ⇔ (¬Q → ¬P)",
+    "tags": ["implication", "equivalence", "logic"],
+    "philosophy": "Inverts implications logically. Core to indirect proof techniques.",
+    "used_in_proofs": ["ContrapositiveProof"],
+    "used_in_systems": ["ClassicalLogic"],
+    "strength_score": 0.85
+  },
+  {
+    "id": "L4",
+    "name": "Disjunction Elimination",
+    "statement": "If P ∨ Q is true, and ¬P is true, then Q is true.",
+    "formal": "((P ∨ Q) ∧ ¬P) → Q",
+    "tags": ["or", "elimination", "logic"],
+    "philosophy": "Narrows alternatives when one is excluded.",
+    "used_in_proofs": ["CaseAnalysis"],
+    "used_in_systems": ["PropositionalLogic"],
+    "strength_score": 0.8
+  }
+]

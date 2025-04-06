@@ -1,0 +1,111 @@
+[
+  {
+    "id": "H1",
+    "name": "Incidence Axiom I-1",
+    "statement": "For every two distinct points, there exists a unique line that contains them.",
+    "formal": "\u2200a \u2200b (a \u2260 b \u2192 \u2203!l (Line(l) \u2227 On(a, l) \u2227 On(b, l)))",
+    "tags": [
+      "incidence",
+      "existence",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "Defines the fundamental relational nature of geometry: space is structured by connections between points.",
+    "used_in_proofs": [
+      "LineUniqueness",
+      "TriangleExistence"
+    ],
+    "used_in_systems": [
+      "Hilbert",
+      "Euclid",
+      "Tarski"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "H2",
+    "name": "Incidence Axiom I-2",
+    "statement": "Every line contains at least two distinct points.",
+    "formal": "\u2200l \u2203a \u2203b (a \u2260 b \u2227 On(a, l) \u2227 On(b, l))",
+    "tags": [
+      "incidence",
+      "minimality",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "A line is defined not in isolation but by the distinct points that it contains.",
+    "used_in_proofs": [
+      "LineConstructibility"
+    ],
+    "used_in_systems": [
+      "Hilbert"
+    ],
+    "strength_score": 0.6
+  },
+  {
+    "id": "H3",
+    "name": "Incidence Axiom I-3",
+    "statement": "There exist at least three non-collinear points.",
+    "formal": "\u2203a \u2203b \u2203c (\u00acCollinear(a, b, c))",
+    "tags": [
+      "dimension",
+      "non-collinearity",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "Guarantees the existence of two-dimensional structure in geometry by ensuring not all points lie on a single line.",
+    "used_in_proofs": [
+      "PlaneExistence",
+      "TriangleAreaNonzero"
+    ],
+    "used_in_systems": [
+      "Hilbert",
+      "Euclid"
+    ],
+    "strength_score": 0.7
+  },
+  {
+    "id": "H4",
+    "name": "Betweenness Axiom II-1",
+    "statement": "If B is between A and C, then A, B, and C are three distinct points on the same line, and B is also between C and A.",
+    "formal": "\u2200a \u2200b \u2200c (Between(a, b, c) \u2192 (Collinear(a, b, c) \u2227 Between(c, b, a)))",
+    "tags": [
+      "betweenness",
+      "symmetry",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "Introduces symmetry in the concept of betweenness and reinforces linear ordering.",
+    "used_in_proofs": [
+      "SegmentMidpointProperties",
+      "PaschAxiom"
+    ],
+    "used_in_systems": [
+      "Hilbert",
+      "Tarski"
+    ],
+    "strength_score": 0.8
+  },
+  {
+    "id": "H5",
+    "name": "Congruence Axiom III-1",
+    "statement": "Congruence of segments is reflexive, symmetric, and transitive.",
+    "formal": "\u2200a \u2200b Congruent(a, b, a, b) \u2227 Symmetry(Congruent) \u2227 Transitivity(Congruent)",
+    "tags": [
+      "congruence",
+      "equivalence",
+      "geometry",
+      "hilbert"
+    ],
+    "philosophy": "Defines congruence as an equivalence relation, foundational for geometric transformations.",
+    "used_in_proofs": [
+      "TriangleCongruence",
+      "DistancePreservation"
+    ],
+    "used_in_systems": [
+      "Hilbert",
+      "Tarski"
+    ],
+    "strength_score": 0.9
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "id": "G1",
+    "name": "Closure",
+    "statement": "For all elements a and b in G, the product a * b is also in G.",
+    "formal": "\u2200a \u2208 G, \u2200b \u2208 G, a * b \u2208 G",
+    "tags": [
+      "group",
+      "closure",
+      "algebra",
+      "structure"
+    ],
+    "philosophy": "A group must be internally complete under its operation. This ensures that the operation never exits the structure.",
+    "used_in_proofs": [
+      "GroupProductWellDefined",
+      "SubgroupCriteria"
+    ],
+    "used_in_systems": [
+      "Group",
+      "Monoid",
+      "Semigroup"
+    ],
+    "strength_score": 0.8
+  },
+  {
+    "id": "G2",
+    "name": "Associativity",
+    "statement": "For all elements a, b, and c in G, (a * b) * c = a * (b * c).",
+    "formal": "\u2200a, b, c \u2208 G, (a * b) * c = a * (b * c)",
+    "tags": [
+      "group",
+      "associativity",
+      "algebra",
+      "structure"
+    ],
+    "philosophy": "Associativity ensures that the order of operations does not matter when chaining elements. This is key to simplification and composition.",
+    "used_in_proofs": [
+      "GroupHomomorphism",
+      "GroupActionProperties"
+    ],
+    "used_in_systems": [
+      "Group",
+      "Monoid",
+      "Semigroup"
+    ],
+    "strength_score": 0.85
+  },
+  {
+    "id": "G3",
+    "name": "Identity element",
+    "statement": "There exists an identity element e in G such that for all elements a in G, e * a = a * e = a.",
+    "formal": "\u2203e \u2208 G, \u2200a \u2208 G, e * a = a \u2227 a * e = a",
+    "tags": [
+      "group",
+      "identity",
+      "algebra",
+      "structure"
+    ],
+    "philosophy": "The identity element acts as a neutral element in the group. Its presence allows reversibility and simplification.",
+    "used_in_proofs": [
+      "GroupUniquenessOfIdentity",
+      "InversionProofs"
+    ],
+    "used_in_systems": [
+      "Group",
+      "Monoid"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "G4",
+    "name": "Inverse element",
+    "statement": "For each element a in G, there exists an element b in G such that a * b = b * a = e.",
+    "formal": "\u2200a \u2208 G, \u2203b \u2208 G, a * b = e \u2227 b * a = e",
+    "tags": [
+      "group",
+      "inverse",
+      "algebra",
+      "structure"
+    ],
+    "philosophy": "Inverses guarantee that every action has a counteraction, creating symmetry and enabling solving of equations within the group.",
+    "used_in_proofs": [
+      "CancellationLaw",
+      "SolvingGroupEquations"
+    ],
+    "used_in_systems": [
+      "Group"
+    ],
+    "strength_score": 1.0
+  }
+]

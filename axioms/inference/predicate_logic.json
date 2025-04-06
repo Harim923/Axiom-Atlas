@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PL1",
+    "name": "Universal Elimination (∀ Elim)",
+    "statement": "If ∀x P(x) is true, then P(a) is true for any a.",
+    "formal": "∀x P(x) → P(a)",
+    "tags": [
+      "universal",
+      "quantifier",
+      "elimination",
+      "predicate logic"
+    ],
+    "philosophy": "Allows application of a universal claim to specific instances.",
+    "used_in_proofs": [
+      "Instantiation",
+      "DirectProof"
+    ],
+    "used_in_systems": [
+      "PredicateLogic"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "PL2",
+    "name": "Existential Introduction (∃ Intro)",
+    "statement": "If P(a) is true for some a, then ∃x P(x) is true.",
+    "formal": "P(a) → ∃x P(x)",
+    "tags": [
+      "existential",
+      "quantifier",
+      "introduction",
+      "predicate logic"
+    ],
+    "philosophy": "Allows generalizing from a single instance to the existence of such instances.",
+    "used_in_proofs": [
+      "ExistenceClaims"
+    ],
+    "used_in_systems": [
+      "PredicateLogic"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "PL3",
+    "name": "Existential Elimination (∃ Elim)",
+    "statement": "From ∃x P(x), assume P(c) and derive conclusion under that assumption.",
+    "formal": "(∃x P(x) ∧ (P(c) → Q)) → Q",
+    "tags": [
+      "existential",
+      "elimination",
+      "assumption",
+      "predicate logic"
+    ],
+    "philosophy": "Permits reasoning from assumed existence by using a witness variable.",
+    "used_in_proofs": [
+      "WitnessProofs"
+    ],
+    "used_in_systems": [
+      "PredicateLogic"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "PL4",
+    "name": "Universal Introduction (∀ Intro)",
+    "statement": "If P(x) holds for arbitrary x, then ∀x P(x) holds.",
+    "formal": "(∀x P(x)) ← P(x) (x arbitrary)",
+    "tags": [
+      "universal",
+      "introduction",
+      "predicate logic"
+    ],
+    "philosophy": "Generalizes from arbitrary cases to a universal statement, assuming x was not constrained.",
+    "used_in_proofs": [
+      "Generalization"
+    ],
+    "used_in_systems": [
+      "PredicateLogic"
+    ],
+    "strength_score": 0.9
+  }
+]

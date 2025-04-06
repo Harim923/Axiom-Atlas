@@ -122,5 +122,16 @@
       "SyntheticGeometry"
     ],
     "strength_score": 1.0
+  },
+  {
+  "id": "S7",
+  "name": "Angle Bisector Theorem",
+  "statement": "In triangle ABC, if AD is the angle bisector of angle BAC and D lies on BC, then BD/DC = AB/AC.",
+  "formal": "If AD is angle bisector, then (BD / DC) = (AB / AC).",
+  "tags": ["angle bisector", "similarity", "ratio", "geometry"],
+  "philosophy": "This theorem connects angle bisection to segment ratios and is often used in triangle length calculations.",
+  "used_in_proofs": ["AngleRatioInTriangle", "LengthFromBisection"],
+  "used_in_systems": ["SyntheticGeometry"],
+  "strength_score": 1.0
   }
 ]

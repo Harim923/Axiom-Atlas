@@ -1,0 +1,26 @@
+[
+  {
+    "id": "G1",
+    "name": "Closure",
+    "statement": "For all elements a and b in G, the product a * b is also in G.",
+    "formal": "∀a ∈ G, ∀b ∈ G, a * b ∈ G"
+  },
+  {
+    "id": "G2",
+    "name": "Associativity",
+    "statement": "For all elements a, b, and c in G, (a * b) * c = a * (b * c).",
+    "formal": "∀a, b, c ∈ G, (a * b) * c = a * (b * c)"
+  },
+  {
+    "id": "G3",
+    "name": "Identity element",
+    "statement": "There exists an identity element e in G such that for all elements a in G, e * a = a * e = a.",
+    "formal": "∃e ∈ G, ∀a ∈ G, e * a = a ∧ a * e = a"
+  },
+  {
+    "id": "G4",
+    "name": "Inverse element",
+    "statement": "For each element a in G, there exists an element b in G such that a * b = b * a = e.",
+    "formal": "∀a ∈ G, ∃b ∈ G, a * b = e ∧ b * a = e"
+  }
+]

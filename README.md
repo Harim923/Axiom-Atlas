@@ -29,13 +29,13 @@ By tracking and embedding axioms, **we can quantify, compare, and visualize proo
 
 ## 🚀 What's Coming Next?
 
-The follow-up system, **ProofGPT**, will extend this work by enabling:
+The follow-up system, ""FormalizerInsideLLM"", (previously known as **ProofGPT**), will extend this work by enabling:
 
 - **Proof synthesis** using the embedded axiom structure
 - **Theorem vectorization** for neural comparison
 - **Cross-foundation translation**, suggesting alternate proof strategies across axiom systems
 
-Stay tuned — ProofGPT will use Axiom-Atlas as its knowledge backbone.
+Stay tuned — Formalizer will use Axiom-Atlas as its knowledge backbone.
 
 ---
 

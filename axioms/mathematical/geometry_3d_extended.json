@@ -1,0 +1,167 @@
+[
+  {
+    "id": "G3D1",
+    "name": "3D Distance Formula",
+    "statement": "The distance between two points in 3D is √((x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²).",
+    "formal": "d = √((x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²)",
+    "tags": [
+      "3d",
+      "distance",
+      "geometry",
+      "euclidean"
+    ],
+    "philosophy": "An extension of the Pythagorean theorem to three dimensions.",
+    "used_in_proofs": [
+      "LengthInSpace",
+      "SphereProblems"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "G3D2",
+    "name": "3D Midpoint Formula",
+    "statement": "The midpoint of segment AB in 3D is the average of each coordinate component.",
+    "formal": "M = ((x₁+x₂)/2, (y₁+y₂)/2, (z₁+z₂)/2)",
+    "tags": [
+      "3d",
+      "midpoint",
+      "geometry"
+    ],
+    "philosophy": "Extends planar midpoint logic to three coordinates.",
+    "used_in_proofs": [
+      "3DCenter",
+      "TetrahedronCenter"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "G3D3",
+    "name": "Dot Product in 3D",
+    "statement": "The dot product of two vectors is a·b = axbx + ayby + azbz.",
+    "formal": "a·b = axbx + ayby + azbz",
+    "tags": [
+      "3d",
+      "dot product",
+      "geometry",
+      "vector"
+    ],
+    "philosophy": "Connects angle between vectors to scalar computation.",
+    "used_in_proofs": [
+      "AngleBetweenVectors",
+      "Orthogonality"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "G3D4",
+    "name": "Orthogonality via Dot Product",
+    "statement": "Two vectors are orthogonal if and only if their dot product is zero.",
+    "formal": "a·b = 0 ⇔ a ⊥ b",
+    "tags": [
+      "3d",
+      "perpendicular",
+      "orthogonal",
+      "vector"
+    ],
+    "philosophy": "A simple algebraic criterion for perpendicularity in space.",
+    "used_in_proofs": [
+      "RightAnglesIn3D"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "G3D5",
+    "name": "Cross Product in 3D",
+    "statement": "The cross product of vectors a and b is a vector perpendicular to both.",
+    "formal": "a × b ⊥ a and b",
+    "tags": [
+      "3d",
+      "cross product",
+      "vector",
+      "perpendicular"
+    ],
+    "philosophy": "Produces normal vectors and allows computation of oriented areas.",
+    "used_in_proofs": [
+      "VolumeProofs",
+      "PlaneNormals"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "G3D6",
+    "name": "Plane Equation",
+    "statement": "A plane in 3D is given by Ax + By + Cz + D = 0.",
+    "formal": "Ax + By + Cz + D = 0",
+    "tags": [
+      "3d",
+      "plane",
+      "equation",
+      "geometry"
+    ],
+    "philosophy": "Canonical representation of a plane in space, used in intersection and distance calculations.",
+    "used_in_proofs": [
+      "PlaneIntersection",
+      "DistanceToPlane"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "G3D7",
+    "name": "Point to Plane Distance",
+    "statement": "The distance from point (x₀, y₀, z₀) to plane Ax+By+Cz+D=0 is |Ax₀ + By₀ + Cz₀ + D| / √(A² + B² + C²).",
+    "formal": "d = |Ax₀ + By₀ + Cz₀ + D| / √(A² + B² + C²)",
+    "tags": [
+      "3d",
+      "distance",
+      "plane",
+      "geometry"
+    ],
+    "philosophy": "Measures shortest path from a point to a surface.",
+    "used_in_proofs": [
+      "OrthogonalProjection"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "G3D8",
+    "name": "Volume of a Tetrahedron",
+    "statement": "The volume of a tetrahedron defined by three vectors is (1/6)|a·(b×c)|.",
+    "formal": "V = (1/6)|a·(b×c)|",
+    "tags": [
+      "3d",
+      "volume",
+      "geometry",
+      "tetrahedron"
+    ],
+    "philosophy": "Connects scalar triple product to 3D volume.",
+    "used_in_proofs": [
+      "Volume3DProofs",
+      "TetrahedronGeometry"
+    ],
+    "used_in_systems": [
+      "3DGeometry"
+    ],
+    "strength_score": 1.0
+  }
+]

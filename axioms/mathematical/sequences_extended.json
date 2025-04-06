@@ -1,0 +1,141 @@
+[
+  {
+    "id": "S1",
+    "name": "Arithmetic Sequence General Term",
+    "statement": "The nth term of an arithmetic sequence with first term a and common difference d is aₙ = a + (n−1)d.",
+    "formal": "aₙ = a + (n−1)d",
+    "tags": [
+      "sequence",
+      "arithmetic",
+      "term"
+    ],
+    "philosophy": "Defines a linear pattern across equally spaced terms.",
+    "used_in_proofs": [
+      "ArithmeticSums",
+      "LinearPatternRecognition"
+    ],
+    "used_in_systems": [
+      "Sequences"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S2",
+    "name": "Arithmetic Series Sum",
+    "statement": "The sum of the first n terms of an arithmetic sequence is Sₙ = n/2 · (a + aₙ).",
+    "formal": "Sₙ = n/2 · (a + aₙ)",
+    "tags": [
+      "series",
+      "arithmetic",
+      "sum"
+    ],
+    "philosophy": "Summing a linearly increasing sequence via pair matching.",
+    "used_in_proofs": [
+      "SummationProofs"
+    ],
+    "used_in_systems": [
+      "Sequences"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S3",
+    "name": "Geometric Sequence General Term",
+    "statement": "The nth term of a geometric sequence with first term a and common ratio r is aₙ = a · rⁿ⁻¹.",
+    "formal": "aₙ = a · rⁿ⁻¹",
+    "tags": [
+      "sequence",
+      "geometric",
+      "term"
+    ],
+    "philosophy": "Defines an exponential pattern across multiplicatively spaced terms.",
+    "used_in_proofs": [
+      "GeometricSums",
+      "ExponentialGrowth"
+    ],
+    "used_in_systems": [
+      "Sequences"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S4",
+    "name": "Geometric Series Sum (Finite)",
+    "statement": "The sum of the first n terms of a geometric sequence is Sₙ = a(1−rⁿ)/(1−r), for r ≠ 1.",
+    "formal": "Sₙ = a(1−rⁿ)/(1−r)",
+    "tags": [
+      "series",
+      "geometric",
+      "sum"
+    ],
+    "philosophy": "Uses cancellation to sum geometric growth patterns.",
+    "used_in_proofs": [
+      "GeometricConvergence",
+      "RatioAnalysis"
+    ],
+    "used_in_systems": [
+      "Sequences"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S5",
+    "name": "Geometric Series Sum (Infinite)",
+    "statement": "The infinite geometric series converges to a/(1−r) for |r| < 1.",
+    "formal": "S = a / (1−r), for |r| < 1",
+    "tags": [
+      "series",
+      "infinite",
+      "geometric",
+      "limit"
+    ],
+    "philosophy": "Infinite growth is tamed when decay dominates multiplication.",
+    "used_in_proofs": [
+      "ConvergenceSeries"
+    ],
+    "used_in_systems": [
+      "Sequences"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S6",
+    "name": "Recursive Definition of Sequence",
+    "statement": "A sequence can be defined recursively by specifying the initial term and recurrence relation.",
+    "formal": "aₙ₊₁ = f(aₙ) with a₁ = a",
+    "tags": [
+      "sequence",
+      "recursive",
+      "definition"
+    ],
+    "philosophy": "Defines each term in terms of previous ones; essential for recurrence solving.",
+    "used_in_proofs": [
+      "RecurrenceExpansion"
+    ],
+    "used_in_systems": [
+      "Sequences"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S7",
+    "name": "Mathematical Induction",
+    "statement": "To prove a property for all natural numbers, prove base case and inductive step.",
+    "formal": "P(1) ∧ ∀k (P(k) → P(k+1)) ⇒ ∀n P(n)",
+    "tags": [
+      "induction",
+      "proof",
+      "sequence"
+    ],
+    "philosophy": "A fundamental principle for proving properties of sequences.",
+    "used_in_proofs": [
+      "RecursionValidation",
+      "SumFormulas"
+    ],
+    "used_in_systems": [
+      "Logic",
+      "Sequences"
+    ],
+    "strength_score": 1.0
+  }
+]

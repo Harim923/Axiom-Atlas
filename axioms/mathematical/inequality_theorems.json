@@ -1,0 +1,120 @@
+[
+  {
+    "id": "I1",
+    "name": "Triangle Inequality",
+    "statement": "For any real numbers a and b, |a + b| ≤ |a| + |b|.",
+    "formal": "∀a, b ∈ ℝ, |a + b| ≤ |a| + |b|",
+    "tags": [
+      "inequality",
+      "triangle",
+      "absolute value"
+    ],
+    "philosophy": "A geometric property interpreted algebraically to bound expressions.",
+    "used_in_proofs": [
+      "DistanceEstimates",
+      "MetricSpace"
+    ],
+    "used_in_systems": [
+      "InequalityAlgebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "I2",
+    "name": "Arithmetic Mean - Geometric Mean (AM ≥ GM)",
+    "statement": "For any non-negative real numbers a and b, (a + b)/2 ≥ √(ab), with equality iff a = b.",
+    "formal": "∀a, b ≥ 0, (a + b)/2 ≥ √(ab)",
+    "tags": [
+      "inequality",
+      "am-gm",
+      "means"
+    ],
+    "philosophy": "Balances between additive and multiplicative tendencies.",
+    "used_in_proofs": [
+      "SymmetricInequalities",
+      "Optimization"
+    ],
+    "used_in_systems": [
+      "InequalityAlgebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "I3",
+    "name": "Cauchy-Schwarz Inequality (2D)",
+    "statement": "(a₁b₁ + a₂b₂)² ≤ (a₁² + a₂²)(b₁² + b₂²)",
+    "formal": "(a₁b₁ + a₂b₂)² ≤ (a₁² + a₂²)(b₁² + b₂²)",
+    "tags": [
+      "inequality",
+      "cauchy-schwarz",
+      "algebra"
+    ],
+    "philosophy": "Fundamental in bounding dot products and proving norm inequalities.",
+    "used_in_proofs": [
+      "Vectors",
+      "HolderApplications"
+    ],
+    "used_in_systems": [
+      "InequalityAlgebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "I4",
+    "name": "Rearrangement Inequality",
+    "statement": "For sorted sequences a₁ ≤ a₂ and b₁ ≤ b₂, a₁b₁ + a₂b₂ ≥ a₁b₂ + a₂b₁.",
+    "formal": "a₁b₁ + a₂b₂ ≥ a₁b₂ + a₂b₁",
+    "tags": [
+      "inequality",
+      "rearrangement"
+    ],
+    "philosophy": "Matching like-sized terms maximizes pairwise products.",
+    "used_in_proofs": [
+      "ExtremalValueProofs"
+    ],
+    "used_in_systems": [
+      "InequalityAlgebra"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "I5",
+    "name": "Basic Inequality: x² ≥ 0",
+    "statement": "For all real numbers x, x² ≥ 0, with equality iff x = 0.",
+    "formal": "∀x ∈ ℝ, x² ≥ 0",
+    "tags": [
+      "inequality",
+      "nonnegative",
+      "basic"
+    ],
+    "philosophy": "The fundamental building block of many inequality arguments.",
+    "used_in_proofs": [
+      "QuadraticBounds",
+      "AlgebraicManipulations"
+    ],
+    "used_in_systems": [
+      "InequalityAlgebra"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "I6",
+    "name": "Jensen's Inequality (for convex f)",
+    "statement": "For convex function f and weights w₁ + w₂ = 1, f(w₁x₁ + w₂x₂) ≤ w₁f(x₁) + w₂f(x₂)",
+    "formal": "f(w₁x₁ + w₂x₂) ≤ w₁f(x₁) + w₂f(x₂), where f is convex, w₁ + w₂ = 1",
+    "tags": [
+      "inequality",
+      "jensen",
+      "convex"
+    ],
+    "philosophy": "Convexity allows bounding function values from above or below using averages.",
+    "used_in_proofs": [
+      "ConvexityProofs",
+      "WeightedInequalities"
+    ],
+    "used_in_systems": [
+      "InequalityAlgebra"
+    ],
+    "strength_score": 0.95
+  }
+]

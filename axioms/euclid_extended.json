@@ -1,0 +1,114 @@
+[
+  {
+    "id": "E1",
+    "name": "Euclid's Postulate 1",
+    "statement": "A straight line segment can be drawn joining any two points.",
+    "formal": "\u2200a \u2200b \u2203l (Line(l) \u2227 On(a, l) \u2227 On(b, l))",
+    "tags": [
+      "incidence",
+      "existence",
+      "geometry",
+      "euclid"
+    ],
+    "philosophy": "Geometry begins with the idea that space is connected. This axiom affirms that between any two points, there exists a fundamental relation\u2014a line.",
+    "used_in_proofs": [
+      "TriangleConstructibility",
+      "CongruentSegments"
+    ],
+    "used_in_systems": [
+      "Euclid",
+      "Hilbert",
+      "Tarski"
+    ],
+    "strength_score": 0.8
+  },
+  {
+    "id": "E2",
+    "name": "Euclid's Postulate 2",
+    "statement": "A finite straight line can be extended continuously in a straight line.",
+    "formal": "\u2200a \u2200b \u2203c (On(b, Line(a, b)) \u2227 a \u2260 b \u2227 Between(a, b, c))",
+    "tags": [
+      "extension",
+      "line",
+      "geometry",
+      "euclid"
+    ],
+    "philosophy": "This postulate introduces the idea of space being extendable. That geometric relations are not bounded arbitrarily.",
+    "used_in_proofs": [
+      "ExternalPointConstruction",
+      "RayLengthScaling"
+    ],
+    "used_in_systems": [
+      "Euclid",
+      "Hilbert"
+    ],
+    "strength_score": 0.7
+  },
+  {
+    "id": "E3",
+    "name": "Euclid's Postulate 3",
+    "statement": "A circle can be drawn with any center and distance (radius).",
+    "formal": "\u2200a \u2200b \u2203C (Circle(C) \u2227 Center(C, a) \u2227 Radius(C, a, b))",
+    "tags": [
+      "construction",
+      "circle",
+      "geometry",
+      "euclid"
+    ],
+    "philosophy": "Introduces compass-based constructibility. Space allows symmetry and rotation around any center.",
+    "used_in_proofs": [
+      "EquilateralTriangleConstruction",
+      "CircleIntersections"
+    ],
+    "used_in_systems": [
+      "Euclid",
+      "Tarski"
+    ],
+    "strength_score": 0.6
+  },
+  {
+    "id": "E4",
+    "name": "Euclid's Postulate 4",
+    "statement": "All right angles are equal to one another.",
+    "formal": "\u2200A \u2200B \u2200C \u2200D (RightAngle(A, B) \u2227 RightAngle(C, D) \u2192 Congruent(A, B, C, D))",
+    "tags": [
+      "angle",
+      "congruence",
+      "geometry",
+      "euclid"
+    ],
+    "philosophy": "Asserts a universal measurement standard for perpendicularity. Lays foundation for congruence theory.",
+    "used_in_proofs": [
+      "AngleTransfer",
+      "PerpendicularBisection"
+    ],
+    "used_in_systems": [
+      "Euclid",
+      "Hilbert"
+    ],
+    "strength_score": 0.5
+  },
+  {
+    "id": "E5",
+    "name": "Euclid's Fifth Postulate (Parallel Postulate)",
+    "statement": "If a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side.",
+    "formal": "A complex implication involving angle relationships (often replaced in modern axiomatics)",
+    "tags": [
+      "parallel",
+      "angle",
+      "geometry",
+      "euclid",
+      "controversial"
+    ],
+    "philosophy": "This postulate defines the very shape of space. Whether this is accepted or rejected determines the curvature of geometry\u2014Euclidean or not.",
+    "used_in_proofs": [
+      "AngleSumOfTriangle",
+      "PythagoreanTheorem"
+    ],
+    "used_in_systems": [
+      "Euclid",
+      "Hilbert"
+    ],
+    "strength_score": 1.0
+  }
+]

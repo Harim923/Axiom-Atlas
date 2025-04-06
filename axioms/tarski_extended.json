@@ -1,0 +1,132 @@
+[
+  {
+    "id": "T6",
+    "name": "Identity for Betweenness",
+    "statement": "If b is between a and b, then a equals b.",
+    "formal": "\u2200a \u2200b (Bet(a, b, a) \u2192 a = b)",
+    "tags": [
+      "betweenness",
+      "identity",
+      "geometry",
+      "tarski"
+    ],
+    "philosophy": "This axiom prevents degenerate cases in the definition of betweenness, ensuring logical consistency in segment ordering.",
+    "used_in_proofs": [
+      "BetweennessReflexivity"
+    ],
+    "used_in_systems": [
+      "Tarski"
+    ],
+    "strength_score": 0.4
+  },
+  {
+    "id": "T7",
+    "name": "Betweenness Symmetry",
+    "statement": "If b is between a and c, then it is also between c and a.",
+    "formal": "\u2200a \u2200b \u2200c (Bet(a, b, c) \u2192 Bet(c, b, a))",
+    "tags": [
+      "betweenness",
+      "symmetry",
+      "geometry",
+      "tarski"
+    ],
+    "philosophy": "Betweenness should be reversible in a linear ordering of points. This symmetry aligns with intuitive understanding of lines.",
+    "used_in_proofs": [
+      "LineOrdering",
+      "SegmentSplitting"
+    ],
+    "used_in_systems": [
+      "Tarski",
+      "Hilbert"
+    ],
+    "strength_score": 0.6
+  },
+  {
+    "id": "T8",
+    "name": "Pasch's Axiom",
+    "statement": "If a line enters a triangle, it must exit it.",
+    "formal": "\u2200a \u2200b \u2200c \u2200p \u2200q (Bet(a, p, c) \u2227 Bet(b, q, c) \u2192 \u2203x (Bet(p, x, b) \u2227 Bet(q, x, a)))",
+    "tags": [
+      "betweenness",
+      "pasch",
+      "geometry",
+      "tarski"
+    ],
+    "philosophy": "Pasch's axiom encodes the continuity of intersection, ensuring the structure of lines passing through triangles behaves as expected.",
+    "used_in_proofs": [
+      "PaschTheorem",
+      "CrossingLines"
+    ],
+    "used_in_systems": [
+      "Tarski",
+      "Hilbert"
+    ],
+    "strength_score": 0.85
+  },
+  {
+    "id": "T9",
+    "name": "Lower Dimension Axiom",
+    "statement": "There exist three non-collinear points.",
+    "formal": "\u2203a \u2203b \u2203c (\u00acBet(a, b, c) \u2227 \u00acBet(b, c, a) \u2227 \u00acBet(c, a, b))",
+    "tags": [
+      "dimension",
+      "non-collinearity",
+      "geometry",
+      "tarski"
+    ],
+    "philosophy": "This axiom prevents collapse into one dimension by ensuring a plane structure with distinct directions.",
+    "used_in_proofs": [
+      "TriangleExistence",
+      "PlaneDefinition"
+    ],
+    "used_in_systems": [
+      "Tarski",
+      "Hilbert"
+    ],
+    "strength_score": 0.7
+  },
+  {
+    "id": "T10",
+    "name": "Euclidean Axiom (Parallel Postulate)",
+    "statement": "Given a point and a line, there is one parallel through the point.",
+    "formal": "\u2200a \u2200b \u2203x \u2203y (Bet(a, x, y) \u2227 Cong(a, x, a, b) \u2227 Cong(a, y, a, b))",
+    "tags": [
+      "parallel",
+      "euclidean",
+      "geometry",
+      "tarski"
+    ],
+    "philosophy": "This axiom characterizes flat geometry. Its acceptance or denial defines Euclidean vs. non-Euclidean space.",
+    "used_in_proofs": [
+      "ParallelLineConstruction",
+      "AngleSumTheorem"
+    ],
+    "used_in_systems": [
+      "Tarski",
+      "Hilbert",
+      "Euclid"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "T11",
+    "name": "Continuity Axiom (Segment-Circle)",
+    "statement": "If one point lies inside a circle and another outside, then the segment between them intersects the circle.",
+    "formal": "(Circle C \u2227 Inside(C, p) \u2227 Outside(C, q)) \u2192 \u2203x (OnCircle(C, x) \u2227 Between(p, x, q))",
+    "tags": [
+      "continuity",
+      "intersection",
+      "geometry",
+      "tarski"
+    ],
+    "philosophy": "Captures the continuous nature of geometry and prevents logical gaps when moving between configurations.",
+    "used_in_proofs": [
+      "CircleIntersection",
+      "SegmentContinuity"
+    ],
+    "used_in_systems": [
+      "Tarski"
+    ],
+    "strength_score": 0.95
+  }
+]

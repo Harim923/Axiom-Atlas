@@ -1,0 +1,137 @@
+[
+  {
+    "id": "CMB1",
+    "name": "Definition of Factorial",
+    "statement": "n! = n × (n−1) × ... × 1 for n ≥ 1, and 0! = 1.",
+    "formal": "n! = Π_{k=1}^{n} k; 0! = 1",
+    "tags": [
+      "combinatorics",
+      "factorial",
+      "definition"
+    ],
+    "philosophy": "The basis of counting arrangements and permutations.",
+    "used_in_proofs": [
+      "Permutations",
+      "BinomialCoefficients"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CMB2",
+    "name": "Permutation Formula",
+    "statement": "The number of ways to arrange r items from n is P(n, r) = n! / (n−r)!",
+    "formal": "P(n, r) = n! / (n−r)!",
+    "tags": [
+      "permutation",
+      "combinatorics"
+    ],
+    "philosophy": "Counts ordered selections; foundational in arrangements.",
+    "used_in_proofs": [
+      "CountingOrderings"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "CMB3",
+    "name": "Combination Formula",
+    "statement": "The number of ways to choose r items from n is C(n, r) = n! / (r!(n−r)!)",
+    "formal": "C(n, r) = n! / (r!(n−r)!)",
+    "tags": [
+      "combination",
+      "binomial",
+      "combinatorics"
+    ],
+    "philosophy": "Unordered selection is the foundation of binomial coefficients.",
+    "used_in_proofs": [
+      "BinomialTheorem",
+      "SubsetCounting"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CMB4",
+    "name": "Binomial Theorem",
+    "statement": "(a + b)^n = Σ_{k=0}^{n} C(n, k)a^{n−k}b^k",
+    "formal": "(a + b)^n = Σ_{k=0}^{n} C(n, k)a^{n−k}b^k",
+    "tags": [
+      "binomial",
+      "theorem",
+      "expansion"
+    ],
+    "philosophy": "Connects algebraic expansion with combinatorial structure.",
+    "used_in_proofs": [
+      "BinomialExpansion",
+      "PascalProofs"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CMB5",
+    "name": "Pascal's Rule",
+    "statement": "C(n, r) = C(n−1, r−1) + C(n−1, r)",
+    "formal": "C(n, r) = C(n−1, r−1) + C(n−1, r)",
+    "tags": [
+      "binomial",
+      "recursion",
+      "identity"
+    ],
+    "philosophy": "Builds the binomial triangle and supports inductive proofs.",
+    "used_in_proofs": [
+      "PascalTriangle",
+      "InductiveIdentities"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CMB6",
+    "name": "Inclusion-Exclusion Principle (2 sets)",
+    "statement": "|A ∪ B| = |A| + |B| − |A ∩ B|",
+    "formal": "|A ∪ B| = |A| + |B| − |A ∩ B|",
+    "tags": [
+      "inclusion-exclusion",
+      "sets",
+      "counting"
+    ],
+    "philosophy": "Avoids overcounting when multiple conditions overlap.",
+    "used_in_proofs": [
+      "OverlappingCounts"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "CMB7",
+    "name": "Complement Principle",
+    "statement": "To count the number of elements not in a set, subtract from the total.",
+    "formal": "|U \\ A| = |U| − |A|",
+    "tags": [
+      "complement",
+      "counting"
+    ],
+    "philosophy": "Turning a hard inclusion count into an exclusion count.",
+    "used_in_proofs": [
+      "ComplementaryCounting"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  }
+]

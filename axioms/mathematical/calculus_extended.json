@@ -1,0 +1,132 @@
+[
+  {
+    "id": "CAL1",
+    "name": "Limit Definition of Derivative",
+    "statement": "The derivative of f at x is defined as the limit of the difference quotient.",
+    "formal": "f'(x) = lim_{h→0} (f(x+h) − f(x)) / h",
+    "tags": [
+      "derivative",
+      "limit",
+      "definition"
+    ],
+    "philosophy": "Captures instantaneous rate of change via infinitesimal differences.",
+    "used_in_proofs": [
+      "DifferentiationRules",
+      "TangentLine"
+    ],
+    "used_in_systems": [
+      "Calculus"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CAL2",
+    "name": "Linearity of Derivatives",
+    "statement": "The derivative of a sum or scalar multiple distributes: (af + bg)' = af' + bg'.",
+    "formal": "(af + bg)' = af' + bg'",
+    "tags": [
+      "derivative",
+      "linearity"
+    ],
+    "philosophy": "Differentiation respects algebraic structure.",
+    "used_in_proofs": [
+      "SumRule",
+      "Differentiation"
+    ],
+    "used_in_systems": [
+      "Calculus"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CAL3",
+    "name": "Product Rule",
+    "statement": "The derivative of a product is (fg)' = f'g + fg'.",
+    "formal": "(fg)' = f'g + fg'",
+    "tags": [
+      "product rule",
+      "derivative"
+    ],
+    "philosophy": "Differentiation involves both functions' growth simultaneously.",
+    "used_in_proofs": [
+      "ProductExpansion"
+    ],
+    "used_in_systems": [
+      "Calculus"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CAL4",
+    "name": "Quotient Rule",
+    "statement": "The derivative of a quotient is (f/g)' = (f'g − fg') / g².",
+    "formal": "(f/g)' = (f'g − fg') / g²",
+    "tags": [
+      "quotient rule",
+      "derivative"
+    ],
+    "philosophy": "Change rate of ratios involves both numerator and denominator rates.",
+    "used_in_proofs": [
+      "QuotientApplication"
+    ],
+    "used_in_systems": [
+      "Calculus"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CAL5",
+    "name": "Chain Rule",
+    "statement": "The derivative of a composition is (f∘g)'(x) = f'(g(x))·g'(x).",
+    "formal": "(f∘g)'(x) = f'(g(x))·g'(x)",
+    "tags": [
+      "chain rule",
+      "composition",
+      "derivative"
+    ],
+    "philosophy": "Composite change requires inner and outer change chained.",
+    "used_in_proofs": [
+      "NestedFunctions"
+    ],
+    "used_in_systems": [
+      "Calculus"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CAL6",
+    "name": "Fundamental Theorem of Calculus (Part 1)",
+    "statement": "If F is the antiderivative of f, then ∫ₐᵇ f(x) dx = F(b) − F(a).",
+    "formal": "∫ₐᵇ f(x) dx = F(b) − F(a), where F' = f",
+    "tags": [
+      "integral",
+      "fundamental theorem"
+    ],
+    "philosophy": "Relates accumulation (area) and change (rate).",
+    "used_in_proofs": [
+      "DefiniteIntegrals"
+    ],
+    "used_in_systems": [
+      "Calculus"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "CAL7",
+    "name": "Power Rule (Differentiation)",
+    "statement": "The derivative of xⁿ is nxⁿ⁻¹ for any real n.",
+    "formal": "d/dx xⁿ = nxⁿ⁻¹",
+    "tags": [
+      "power rule",
+      "derivative"
+    ],
+    "philosophy": "General rule for polynomial and real powers.",
+    "used_in_proofs": [
+      "PolynomialDerivatives"
+    ],
+    "used_in_systems": [
+      "Calculus"
+    ],
+    "strength_score": 1.0
+  }
+]

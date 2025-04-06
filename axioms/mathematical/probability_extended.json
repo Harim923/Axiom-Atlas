@@ -1,0 +1,156 @@
+[
+  {
+    "id": "P1",
+    "name": "Probability Axiom 1: Non-negativity",
+    "statement": "The probability of any event A is greater than or equal to 0.",
+    "formal": "∀A, P(A) ≥ 0",
+    "tags": [
+      "probability",
+      "axiom",
+      "non-negative"
+    ],
+    "philosophy": "Probabilities represent real-world likelihoods and must be non-negative.",
+    "used_in_proofs": [
+      "BasicProbabilityBounds"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P2",
+    "name": "Probability Axiom 2: Normalization",
+    "statement": "The probability of the sample space is 1.",
+    "formal": "P(S) = 1",
+    "tags": [
+      "probability",
+      "axiom",
+      "total"
+    ],
+    "philosophy": "The certainty that some outcome will occur is complete.",
+    "used_in_proofs": [
+      "ComplementRule"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P3",
+    "name": "Probability Axiom 3: Additivity",
+    "statement": "If A and B are mutually exclusive events, then P(A ∪ B) = P(A) + P(B).",
+    "formal": "A ∩ B = ∅ → P(A ∪ B) = P(A) + P(B)",
+    "tags": [
+      "probability",
+      "union",
+      "axiom"
+    ],
+    "philosophy": "For disjoint events, total probability is additive.",
+    "used_in_proofs": [
+      "EventUnions"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P4",
+    "name": "Complement Rule",
+    "statement": "P(not A) = 1 - P(A)",
+    "formal": "P(¬A) = 1 − P(A)",
+    "tags": [
+      "probability",
+      "complement"
+    ],
+    "philosophy": "The likelihood of not happening complements happening.",
+    "used_in_proofs": [
+      "ComplementaryCounting",
+      "DualEvents"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P5",
+    "name": "Conditional Probability",
+    "statement": "P(A | B) = P(A ∩ B) / P(B), provided P(B) > 0.",
+    "formal": "P(A | B) = P(A ∩ B) / P(B)",
+    "tags": [
+      "conditional",
+      "probability",
+      "definition"
+    ],
+    "philosophy": "Conditioning filters the sample space to within event B.",
+    "used_in_proofs": [
+      "BayesRule",
+      "ChainRule"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P6",
+    "name": "Independence Definition",
+    "statement": "Events A and B are independent if P(A ∩ B) = P(A) · P(B).",
+    "formal": "P(A ∩ B) = P(A)P(B) ⇔ A ⊥ B",
+    "tags": [
+      "independence",
+      "probability"
+    ],
+    "philosophy": "Independence implies no informational gain between events.",
+    "used_in_proofs": [
+      "IndependentEvents",
+      "MultiplicationRule"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P7",
+    "name": "Expected Value (Finite)",
+    "statement": "The expected value of a discrete variable is the weighted sum of outcomes.",
+    "formal": "E[X] = Σ xᵢ · P(X = xᵢ)",
+    "tags": [
+      "expected value",
+      "probability",
+      "discrete"
+    ],
+    "philosophy": "Expectation reflects the long-run average outcome.",
+    "used_in_proofs": [
+      "LinearityOfExpectation",
+      "AverageOutcome"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "P8",
+    "name": "Linearity of Expectation",
+    "statement": "E[X + Y] = E[X] + E[Y] regardless of dependence.",
+    "formal": "E[X + Y] = E[X] + E[Y]",
+    "tags": [
+      "expected value",
+      "linearity",
+      "probability"
+    ],
+    "philosophy": "A powerful property that bypasses dependence.",
+    "used_in_proofs": [
+      "ExpectedValueSum"
+    ],
+    "used_in_systems": [
+      "Probability"
+    ],
+    "strength_score": 1.0
+  }
+]

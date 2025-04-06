@@ -1,0 +1,126 @@
+[
+  {
+    "id": "S1",
+    "name": "Angle in a Semicircle",
+    "statement": "An angle inscribed in a semicircle is a right angle.",
+    "formal": "If AB is a diameter and C lies on the circle, then ∠ACB = 90°.",
+    "tags": [
+      "circle",
+      "angle",
+      "semicircle",
+      "geometry"
+    ],
+    "philosophy": "This classic result connects circular geometry with orthogonality and triangle properties.",
+    "used_in_proofs": [
+      "RightAngleInCircle",
+      "CyclicTriangles"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "S2",
+    "name": "Cyclic Quadrilateral Angle Rule",
+    "statement": "In a cyclic quadrilateral, opposite angles are supplementary.",
+    "formal": "If ABCD is cyclic, then ∠A + ∠C = 180°, ∠B + ∠D = 180°.",
+    "tags": [
+      "cyclic",
+      "quadrilateral",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "The angle structure of a cyclic quadrilateral reveals the relationship between arcs and linear angles.",
+    "used_in_proofs": [
+      "AngleChasing",
+      "CircleCharacterization"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "S3",
+    "name": "Power of a Point (Chord Case)",
+    "statement": "The products of the segments of two intersecting chords are equal.",
+    "formal": "If chords AB and CD intersect at P, then PA·PB = PC·PD.",
+    "tags": [
+      "power of a point",
+      "circle",
+      "chord",
+      "geometry"
+    ],
+    "philosophy": "Encodes a distance-preserving invariant when a point intersects a circle’s chords.",
+    "used_in_proofs": [
+      "CircleIntersection",
+      "GeometricInversion"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S4",
+    "name": "Power of a Point (Tangent-Secant)",
+    "statement": "The square of the tangent segment equals the product of the secant’s external and full length.",
+    "formal": "If PA is tangent, and PBC is secant, then PA² = PB·PC.",
+    "tags": [
+      "power of a point",
+      "circle",
+      "tangent",
+      "secant"
+    ],
+    "philosophy": "Unifies tangents and secants in one invariant formula from a fixed external point.",
+    "used_in_proofs": [
+      "CirclePowerProofs",
+      "SimilarityApplications"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "S5",
+    "name": "Intersecting Chords Angle Rule",
+    "statement": "The angle formed by intersecting chords is half the sum of the arcs they intercept.",
+    "formal": "∠ = ½(arc₁ + arc₂)",
+    "tags": [
+      "angle",
+      "circle",
+      "chord",
+      "intersect"
+    ],
+    "philosophy": "Connects linear angles to intercepted arcs. Useful in indirect angle chasing.",
+    "used_in_proofs": [
+      "ChordIntersectionAngle"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "S6",
+    "name": "Tangent Perpendicular to Radius",
+    "statement": "A tangent to a circle is perpendicular to the radius at the point of contact.",
+    "formal": "If PT is tangent and O is center, then ∠OTP = 90°.",
+    "tags": [
+      "tangent",
+      "radius",
+      "perpendicular",
+      "circle"
+    ],
+    "philosophy": "Basic property of tangents, often used to define and construct right angles.",
+    "used_in_proofs": [
+      "TangentLineProofs"
+    ],
+    "used_in_systems": [
+      "SyntheticGeometry"
+    ],
+    "strength_score": 1.0
+  }
+]

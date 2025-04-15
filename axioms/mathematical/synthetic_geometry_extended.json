@@ -138,7 +138,11 @@
   "id": "S8",
   "name": "Triangle Inequality",
   "statement": "In any triangle, the sum of the lengths of any two sides is greater than the length of the third.",
-  "formal_logic": "∀a ∈ ℝ⁺, ∀b ∈ ℝ⁺, ∀c ∈ ℝ⁺. isTriangle(a, b, c) → (a + b > c ∧ b + c > a ∧ c + a > b)",
-  "tags": ["geometry", "triangle", "inequality", "synthetic"]
+  "formal": "For all a, b, c ∈ ℝ⁺, if isTriangle(a, b, c), then a + b > c ∧ b + c > a ∧ c + a > b.",
+  "tags": ["triangle", "inequality", "existence", "geometry"],
+  "philosophy": "The triangle inequality ensures the geometric possibility of a triangle given three segments. It is foundational to all triangle existence proofs.",
+  "used_in_proofs": ["ValidTriangleCheck", "MinimalPerimeterExistence", "NonCongruentTriangleEnumeration"],
+  "used_in_systems": ["SyntheticGeometry"],
+  "strength_score": 1.0
   }
 ]

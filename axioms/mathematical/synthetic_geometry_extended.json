@@ -133,5 +133,12 @@
   "used_in_proofs": ["AngleRatioInTriangle", "LengthFromBisection"],
   "used_in_systems": ["SyntheticGeometry"],
   "strength_score": 1.0
+  },
+  {
+  "id": "S8",
+  "name": "Triangle Inequality",
+  "statement": "In any triangle, the sum of the lengths of any two sides is greater than the length of the third.",
+  "formal_logic": "∀a ∈ ℝ⁺, ∀b ∈ ℝ⁺, ∀c ∈ ℝ⁺. isTriangle(a, b, c) → (a + b > c ∧ b + c > a ∧ c + a > b)",
+  "tags": ["geometry", "triangle", "inequality", "synthetic"]
   }
 ]

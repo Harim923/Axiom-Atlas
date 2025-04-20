@@ -1,0 +1,574 @@
+[
+  {
+    "id": "T2_CMB1",
+    "name": "Definition of Factorial",
+    "statement": "n! = n \u00d7 (n\u22121) \u00d7 ... \u00d7 1 for n \u2265 1, and 0! = 1.",
+    "formal": "n! = \u03a0_{k=1}^{n} k; 0! = 1",
+    "tags": [
+      "combinatorics",
+      "factorial",
+      "definition"
+    ],
+    "philosophy": "The basis of counting arrangements and permutations.",
+    "used_in_proofs": [
+      "Permutations",
+      "BinomialCoefficients"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "T2_CMB2",
+    "name": "Permutation Formula",
+    "statement": "The number of ways to arrange r items from n is P(n, r) = n! / (n\u2212r)!",
+    "formal": "P(n, r) = n! / (n\u2212r)!",
+    "tags": [
+      "permutation",
+      "combinatorics"
+    ],
+    "philosophy": "Counts ordered selections; foundational in arrangements.",
+    "used_in_proofs": [
+      "CountingOrderings"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB3",
+    "name": "Combination Formula",
+    "statement": "The number of ways to choose r items from n is C(n, r) = n! / (r!(n\u2212r)!)",
+    "formal": "C(n, r) = n! / (r!(n\u2212r)!)",
+    "tags": [
+      "combination",
+      "binomial",
+      "combinatorics"
+    ],
+    "philosophy": "Unordered selection is the foundation of binomial coefficients.",
+    "used_in_proofs": [
+      "BinomialTheorem",
+      "SubsetCounting"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "T2_CMB4",
+    "name": "Binomial Theorem",
+    "statement": "(a + b)^n = \u03a3_{k=0}^{n} C(n, k)a^{n\u2212k}b^k",
+    "formal": "(a + b)^n = \u03a3_{k=0}^{n} C(n, k)a^{n\u2212k}b^k",
+    "tags": [
+      "binomial",
+      "theorem",
+      "expansion"
+    ],
+    "philosophy": "Connects algebraic expansion with combinatorial structure.",
+    "used_in_proofs": [
+      "BinomialExpansion",
+      "PascalProofs"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "T2_CMB5",
+    "name": "Pascal's Rule",
+    "statement": "C(n, r) = C(n\u22121, r\u22121) + C(n\u22121, r)",
+    "formal": "C(n, r) = C(n\u22121, r\u22121) + C(n\u22121, r)",
+    "tags": [
+      "binomial",
+      "recursion",
+      "identity"
+    ],
+    "philosophy": "Builds the binomial triangle and supports inductive proofs.",
+    "used_in_proofs": [
+      "PascalTriangle",
+      "InductiveIdentities"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "T2_CMB6",
+    "name": "Inclusion-Exclusion Principle (2 sets)",
+    "statement": "|A \u222a B| = |A| + |B| \u2212 |A \u2229 B|",
+    "formal": "|A \u222a B| = |A| + |B| \u2212 |A \u2229 B|",
+    "tags": [
+      "inclusion-exclusion",
+      "sets",
+      "counting"
+    ],
+    "philosophy": "Avoids overcounting when multiple conditions overlap.",
+    "used_in_proofs": [
+      "OverlappingCounts"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB7",
+    "name": "Complement Principle",
+    "statement": "To count the number of elements not in a set, subtract from the total.",
+    "formal": "|U \\ A| = |U| \u2212 |A|",
+    "tags": [
+      "complement",
+      "counting"
+    ],
+    "philosophy": "Turning a hard inclusion count into an exclusion count.",
+    "used_in_proofs": [
+      "ComplementaryCounting"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB8",
+    "name": "Stars and Bars",
+    "statement": "The number of ways to place k indistinguishable balls into n distinguishable boxes is C(k+n\u22121, n\u22121).",
+    "formal": "C(k+n\u22121, n\u22121)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used for solving integer equations and distributing items.",
+    "used_in_proofs": [
+      "IntegerDistribution"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB9",
+    "name": "Pigeonhole Principle",
+    "statement": "If more than n items are put into n containers, at least one container has more than one item.",
+    "formal": "If k > n \u21d2 \u2203 container with \u2265 2 items",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Guarantees repetition in constrained spaces.",
+    "used_in_proofs": [
+      "PigeonholeUse"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB10",
+    "name": "Circular Permutations",
+    "statement": "The number of ways to arrange n objects in a circle is (n \u2212 1)!",
+    "formal": "(n \u2212 1)!",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used when rotation is considered identical.",
+    "used_in_proofs": [
+      "CircularArrangement"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB11",
+    "name": "Derangement Formula",
+    "statement": "The number of derangements (no fixed point) of n elements is D(n) = n! \u00d7 (1 \u2212 1/1! + 1/2! \u2212 ... + (\u22121)^n/n!)",
+    "formal": "D(n) = n! \u00d7 \u2211_{k=0}^n (\u22121)^k / k!",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used in exclusion-based arrangements.",
+    "used_in_proofs": [
+      "DerangementCount"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB12",
+    "name": "Double Counting",
+    "statement": "Count the same set in two ways to find a useful identity.",
+    "formal": "Set A counted as \u03a3 and as \u03a0 \u21d2 \u03a3 = \u03a0",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Powerful identity-finding method.",
+    "used_in_proofs": [
+      "DoubleCountingTrick"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB13",
+    "name": "Multiset Permutations",
+    "statement": "The number of permutations of a multiset is n! / (n1! n2! ... nk!)",
+    "formal": "n! / (n1! n2! ... nk!)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used for repeated elements.",
+    "used_in_proofs": [
+      "MultisetArrangement"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB14",
+    "name": "Catalan Numbers (Definition)",
+    "statement": "C_n = (1/(n+1)) C(2n, n)",
+    "formal": "C_n = (1/(n+1)) C(2n, n)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Counts valid parentheses, Dyck paths, and tree shapes.",
+    "used_in_proofs": [
+      "CatalanApplication"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB15",
+    "name": "Catalan Recurrence",
+    "statement": "C_n = \u03a3_{i=0}^{n\u22121} C_i * C_{n\u22121\u2212i}",
+    "formal": "C_n = \u03a3 C_i * C_{n\u22121\u2212i}",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Catalan sequence inductive property.",
+    "used_in_proofs": [
+      "CatalanStructure"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB16",
+    "name": "Stirling Numbers (Second Kind)",
+    "statement": "S(n, k): # of ways to partition n items into k non-empty sets",
+    "formal": "S(n, k)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used in set partition problems.",
+    "used_in_proofs": [
+      "SetPartition"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB17",
+    "name": "Bell Numbers",
+    "statement": "Number of ways to partition a set of n elements into any number of nonempty subsets.",
+    "formal": "B_n = \u03a3 S(n, k)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Counts total partitions.",
+    "used_in_proofs": [
+      "PartitionCounting"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB18",
+    "name": "Partition of Integer",
+    "statement": "Number of ways to write n as a sum of positive integers.",
+    "formal": "P(n)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Fundamental in number-based combinatorics.",
+    "used_in_proofs": [
+      "IntegerPartition"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB19",
+    "name": "Symmetry Argument",
+    "statement": "Use symmetry to divide overcounted configurations.",
+    "formal": "count = total / symmetry factor",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Reduces permutations with identical cases.",
+    "used_in_proofs": [
+      "SymmetricReduction"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB20",
+    "name": "Recursion via Cases",
+    "statement": "Recurrence relations built from constructive cases.",
+    "formal": "f(n) = f(n\u22121) + f(n\u22122), etc.",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Builds identities for tiling, coloring, and paths.",
+    "used_in_proofs": [
+      "RecursiveStrategy"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB21",
+    "name": "Generating Function Coefficients",
+    "statement": "a_n = coefficient of x^n in generating function expansion.",
+    "formal": "G(x) = \u03a3 a_n x^n \u21d2 a_n = [x^n]G(x)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used in advanced enumeration problems.",
+    "used_in_proofs": [
+      "GeneratingFunctions"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB22",
+    "name": "Complementary Subsets",
+    "statement": "C(n, r) = C(n, n\u2212r)",
+    "formal": "C(n, r) = C(n, n\u2212r)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Binomial symmetry, useful in proofs.",
+    "used_in_proofs": [
+      "SubsetSwap"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB23",
+    "name": "Sum of Binomial Coefficients",
+    "statement": "\u03a3_{k=0}^{n} C(n, k) = 2^n",
+    "formal": "\u03a3 C(n, k) = 2^n",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used in power set arguments.",
+    "used_in_proofs": [
+      "BinomialSum"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB24",
+    "name": "Vandermonde's Identity",
+    "statement": "C(m+n, r) = \u03a3 C(m, k)C(n, r\u2212k)",
+    "formal": "C(m+n, r) = \u03a3 C(m, k)C(n, r\u2212k)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Connects sums over disjoint choices.",
+    "used_in_proofs": [
+      "Vandermonde"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB25",
+    "name": "Pascal's Identity (Recursive)",
+    "statement": "C(n, k) = C(n\u22121, k) + C(n\u22121, k\u22121)",
+    "formal": "C(n, k) = C(n\u22121, k) + C(n\u22121, k\u22121)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Another form of recursive expansion.",
+    "used_in_proofs": [
+      "PascalPath"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB26",
+    "name": "Subsets of Set",
+    "statement": "A set with n elements has 2^n subsets.",
+    "formal": "2^n subsets",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used in exhaustive case counting.",
+    "used_in_proofs": [
+      "SetPower"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB27",
+    "name": "Binary Strings with k ones",
+    "statement": "C(n, k) = # of binary strings of length n with k ones.",
+    "formal": "C(n, k)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Connects binomial with string representation.",
+    "used_in_proofs": [
+      "BinaryStringCount"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB28",
+    "name": "Grid Paths (no obstacles)",
+    "statement": "From (0,0) to (m,n) in a grid: C(m+n, m)",
+    "formal": "C(m+n, m)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used in counting lattice paths.",
+    "used_in_proofs": [
+      "GridCount"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB29",
+    "name": "Grid Paths (with diagonal)",
+    "statement": "Includes (1,1) diagonal: F(n) = F(n\u22121) + F(n\u22122)",
+    "formal": "F(n) = F(n\u22121) + F(n\u22122)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Connection to Fibonacci.",
+    "used_in_proofs": [
+      "LatticeWithDiag"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB30",
+    "name": "Fibonacci Recursion",
+    "statement": "F(n) = F(n\u22121) + F(n\u22122), F(0)=0, F(1)=1",
+    "formal": "F(n) = F(n\u22121) + F(n\u22122)",
+    "tags": [
+      "combinatorics",
+      "counting",
+      "strategy"
+    ],
+    "philosophy": "Used in many combinatorial structures.",
+    "used_in_proofs": [
+      "FibonacciStructure"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
+  }
+]

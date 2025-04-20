@@ -79,5 +79,81 @@
       "Formalizer"
     ],
     "strength_score": 0.85
+  },
+  {
+    "id": "LR5",
+    "name": "Transitivity of Inequality",
+    "statement": "If a > b and b > c, then a > c",
+    "formal": "a > b ∧ b > c ⟹ a > c",
+    "tags": [
+      "inequality",
+      "transitive",
+      "logic"
+    ],
+    "philosophy": "Establishes chaining of inequalities, fundamental to ordered reasoning.",
+    "used_in_proofs": [
+      "InequalityChain"
+    ],
+    "used_in_systems": [
+      "Formalizer"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "LR6",
+    "name": "Transitivity of Equality",
+    "statement": "If a = b and b = c, then a = c",
+    "formal": "a = b ∧ b = c ⟹ a = c",
+    "tags": [
+      "equality",
+      "transitive",
+      "logic"
+    ],
+    "philosophy": "Allows value replacement through equalities.",
+    "used_in_proofs": [
+      "EquationChain"
+    ],
+    "used_in_systems": [
+      "Formalizer"
+    ],
+    "strength_score": 1.0
+  },
+  {
+    "id": "LR7",
+    "name": "Squaring Inequality (Positive Case)",
+    "statement": "If 0 ≤ a < b, then a² < b²",
+    "formal": "0 ≤ a < b ⟹ a² < b²",
+    "tags": [
+      "inequality",
+      "square",
+      "logic"
+    ],
+    "philosophy": "Supports bounding square terms during proofs.",
+    "used_in_proofs": [
+      "BoundingSquares"
+    ],
+    "used_in_systems": [
+      "Formalizer"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "LR8",
+    "name": "AM-GM Derived Lower Bound",
+    "statement": "If a + b = 1 and a, b > 0, then a² + b² ≥ 1/2",
+    "formal": "a + b = 1 ∧ a > 0 ∧ b > 0 ⟹ a² + b² ≥ 1/2",
+    "tags": [
+      "inequality",
+      "derived",
+      "am-gm"
+    ],
+    "philosophy": "Provides common derivation path using AM-GM and squaring identities.",
+    "used_in_proofs": [
+      "AMGM_Squares"
+    ],
+    "used_in_systems": [
+      "Formalizer"
+    ],
+    "strength_score": 0.9
   }
 ]

@@ -3,88 +3,553 @@
     "id": "T2_ALG1",
     "name": "Distributive Law",
     "statement": "For all real numbers a, b, and c, a(b + c) = ab + ac.",
-    "formal": "∀a, b, c ∈ ℝ, a(b + c) = ab + ac",
-    "tags": ["algebra", "distributive", "basic property"],
+    "formal": "\u2200a, b, c \u2208 \u211d, a(b + c) = ab + ac",
+    "tags": [
+      "algebra",
+      "distributive",
+      "basic property"
+    ],
     "philosophy": "Distribution allows us to simplify or expand expressions efficiently.",
-    "used_in_proofs": ["ExpandingExpressions", "Factoring"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "ExpandingExpressions",
+      "Factoring"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 1.0
   },
   {
     "id": "T2_ALG2",
     "name": "Commutative Law of Addition",
     "statement": "For all real numbers a and b, a + b = b + a.",
-    "formal": "∀a, b ∈ ℝ, a + b = b + a",
-    "tags": ["algebra", "addition", "commutative"],
+    "formal": "\u2200a, b \u2208 \u211d, a + b = b + a",
+    "tags": [
+      "algebra",
+      "addition",
+      "commutative"
+    ],
     "philosophy": "Order of addition does not change the result.",
-    "used_in_proofs": ["SimplifyingSums"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "SimplifyingSums"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 1.0
   },
   {
     "id": "T2_ALG3",
     "name": "Commutative Law of Multiplication",
     "statement": "For all real numbers a and b, ab = ba.",
-    "formal": "∀a, b ∈ ℝ, ab = ba",
-    "tags": ["algebra", "multiplication", "commutative"],
+    "formal": "\u2200a, b \u2208 \u211d, ab = ba",
+    "tags": [
+      "algebra",
+      "multiplication",
+      "commutative"
+    ],
     "philosophy": "Multiplication is symmetric with respect to operands.",
-    "used_in_proofs": ["ReorderingFactors"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "ReorderingFactors"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 1.0
   },
   {
     "id": "T2_ALG4",
     "name": "Associative Law of Addition",
     "statement": "For all real numbers a, b, and c, (a + b) + c = a + (b + c).",
-    "formal": "∀a, b, c ∈ ℝ, (a + b) + c = a + (b + c)",
-    "tags": ["algebra", "associative", "addition"],
+    "formal": "\u2200a, b, c \u2208 \u211d, (a + b) + c = a + (b + c)",
+    "tags": [
+      "algebra",
+      "associative",
+      "addition"
+    ],
     "philosophy": "Grouping of terms in addition does not affect the result.",
-    "used_in_proofs": ["CombiningLikeTerms"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "CombiningLikeTerms"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 1.0
   },
   {
     "id": "T2_ALG5",
     "name": "Associative Law of Multiplication",
     "statement": "For all real numbers a, b, and c, (ab)c = a(bc).",
-    "formal": "∀a, b, c ∈ ℝ, (ab)c = a(bc)",
-    "tags": ["algebra", "associative", "multiplication"],
+    "formal": "\u2200a, b, c \u2208 \u211d, (ab)c = a(bc)",
+    "tags": [
+      "algebra",
+      "associative",
+      "multiplication"
+    ],
     "philosophy": "Grouping of terms in multiplication does not affect the result.",
-    "used_in_proofs": ["SimplifyProducts"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "SimplifyProducts"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 1.0
   },
   {
     "id": "T2_ALG6",
     "name": "Zero Property of Multiplication",
     "statement": "Any number multiplied by zero is zero.",
-    "formal": "∀a ∈ ℝ, a·0 = 0",
-    "tags": ["algebra", "zero", "multiplication"],
+    "formal": "\u2200a \u2208 \u211d, a\u00b70 = 0",
+    "tags": [
+      "algebra",
+      "zero",
+      "multiplication"
+    ],
     "philosophy": "A fundamental identity that helps solve equations.",
-    "used_in_proofs": ["ZeroElimination", "EquationSolving"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "ZeroElimination",
+      "EquationSolving"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 1.0
   },
   {
     "id": "T2_ALG7",
     "name": "Multiplicative Inverse",
-    "statement": "Every nonzero number a has a reciprocal 1/a such that a·(1/a) = 1.",
-    "formal": "∀a ∈ ℝ, a ≠ 0 → ∃b (a·b = 1)",
-    "tags": ["algebra", "inverse", "division"],
+    "statement": "Every nonzero number a has a reciprocal 1/a such that a\u00b7(1/a) = 1.",
+    "formal": "\u2200a \u2208 \u211d, a \u2260 0 \u2192 \u2203b (a\u00b7b = 1)",
+    "tags": [
+      "algebra",
+      "inverse",
+      "division"
+    ],
     "philosophy": "Basis of solving equations via division.",
-    "used_in_proofs": ["InverseSolving"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "InverseSolving"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 0.95
   },
   {
     "id": "T2_ALG8",
     "name": "Exponent Rule (Product of Powers)",
-    "statement": "a^m · a^n = a^(m+n)",
-    "formal": "∀a ∈ ℝ, ∀m, n ∈ ℕ, a^m · a^n = a^(m+n)",
-    "tags": ["exponent", "algebra", "powers"],
+    "statement": "a^m \u00b7 a^n = a^(m+n)",
+    "formal": "\u2200a \u2208 \u211d, \u2200m, n \u2208 \u2115, a^m \u00b7 a^n = a^(m+n)",
+    "tags": [
+      "exponent",
+      "algebra",
+      "powers"
+    ],
     "philosophy": "Foundational identity for simplifying exponential expressions.",
-    "used_in_proofs": ["ExponentSimplification"],
-    "used_in_systems": ["Algebra"],
+    "used_in_proofs": [
+      "ExponentSimplification"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
     "strength_score": 0.95
+  },
+  {
+    "name": "Difference of Squares",
+    "statement": "a^2 \u2212 b^2 = (a \u2212 b)(a + b)",
+    "formal": "\u2200a, b \u2208 \u211d, a\u00b2 \u2212 b\u00b2 = (a \u2212 b)(a + b)",
+    "tags": [
+      "algebra",
+      "factoring",
+      "identity"
+    ],
+    "philosophy": "Foundational identity used in simplifying expressions and solving equations.",
+    "used_in_proofs": [
+      "FactorDifferenceOfSquares"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.95,
+    "id": "T2_ALG9"
+  },
+  {
+    "name": "Square of a Sum",
+    "statement": "(a + b)^2 = a^2 + 2ab + b^2",
+    "formal": "\u2200a, b \u2208 \u211d, (a + b)^2 = a^2 + 2ab + b^2",
+    "tags": [
+      "algebra",
+      "expansion",
+      "identity"
+    ],
+    "philosophy": "Used frequently in expansion and simplification.",
+    "used_in_proofs": [
+      "QuadraticExpansion"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.95,
+    "id": "T2_ALG10"
+  },
+  {
+    "name": "Square of a Difference",
+    "statement": "(a \u2212 b)^2 = a^2 \u2212 2ab + b^2",
+    "formal": "\u2200a, b \u2208 \u211d, (a \u2212 b)^2 = a^2 \u2212 2ab + b^2",
+    "tags": [
+      "algebra",
+      "expansion",
+      "identity"
+    ],
+    "philosophy": "Used for pattern recognition and simplification.",
+    "used_in_proofs": [
+      "QuadraticSimplification"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.95,
+    "id": "T2_ALG11"
+  },
+  {
+    "name": "Perfect Square Trinomial (Positive)",
+    "statement": "If a^2 + 2ab + b^2, then (a + b)^2",
+    "formal": "\u2200a, b \u2208 \u211d, a^2 + 2ab + b^2 = (a + b)^2",
+    "tags": [
+      "algebra",
+      "pattern",
+      "factoring"
+    ],
+    "philosophy": "Pattern recognition in factoring trinomials.",
+    "used_in_proofs": [
+      "PerfectSquareRecognition"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9,
+    "id": "T2_ALG12"
+  },
+  {
+    "name": "Perfect Square Trinomial (Negative)",
+    "statement": "If a^2 \u2212 2ab + b^2, then (a \u2212 b)^2",
+    "formal": "\u2200a, b \u2208 \u211d, a^2 \u2212 2ab + b^2 = (a \u2212 b)^2",
+    "tags": [
+      "algebra",
+      "pattern",
+      "factoring"
+    ],
+    "philosophy": "Pattern recognition in factoring trinomials.",
+    "used_in_proofs": [
+      "PerfectSquareRecognition"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9,
+    "id": "T2_ALG13"
+  },
+  {
+    "name": "Sum of Cubes",
+    "statement": "a^3 + b^3 = (a + b)(a^2 \u2212 ab + b^2)",
+    "formal": "\u2200a, b \u2208 \u211d, a^3 + b^3 = (a + b)(a^2 \u2212 ab + b^2)",
+    "tags": [
+      "algebra",
+      "cubic",
+      "identity"
+    ],
+    "philosophy": "Useful in recognizing and factoring cubic expressions.",
+    "used_in_proofs": [
+      "CubeFactoring"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9,
+    "id": "T2_ALG14"
+  },
+  {
+    "name": "Difference of Cubes",
+    "statement": "a^3 \u2212 b^3 = (a \u2212 b)(a^2 + ab + b^2)",
+    "formal": "\u2200a, b \u2208 \u211d, a^3 \u2212 b^3 = (a \u2212 b)(a^2 + ab + b^2)",
+    "tags": [
+      "algebra",
+      "cubic",
+      "identity"
+    ],
+    "philosophy": "Key to simplifying differences of cubes.",
+    "used_in_proofs": [
+      "CubeFactoring"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9,
+    "id": "T2_ALG15"
+  },
+  {
+    "id": "T2_ALG17",
+    "name": "Quadratic Formula",
+    "statement": "The solutions to ax^2 + bx + c = 0 are given by (-b \u00b1 \u221a(b^2 - 4ac)) / (2a)",
+    "formal": "\u2200a \u2260 0, x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a)",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Fundamental formula for solving quadratics.",
+    "used_in_proofs": [
+      "QuadraticSolution"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG18",
+    "name": "Zero Product Property",
+    "statement": "If ab = 0, then a = 0 or b = 0",
+    "formal": "\u2200a, b \u2208 \u211d, ab = 0 \u2192 a = 0 \u2228 b = 0",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Used in factoring-based solutions of equations.",
+    "used_in_proofs": [
+      "FactoredZero"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG19",
+    "name": "Completing the Square",
+    "statement": "To solve ax^2 + bx + c = 0 by completing the square.",
+    "formal": "ax^2 + bx = -c \u2192 (x + b/2a)^2 = ...",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Classic method to derive the quadratic formula.",
+    "used_in_proofs": [
+      "SquareCompletion"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG20",
+    "name": "Substitution Principle",
+    "statement": "If a = b, then expressions involving a can be replaced with b.",
+    "formal": "a = b \u2192 f(a) = f(b)",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Allows variable replacement and simplification.",
+    "used_in_proofs": [
+      "EquationSubstitution"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG21",
+    "name": "Coefficient Comparison",
+    "statement": "Two polynomials are equal iff their corresponding coefficients are equal.",
+    "formal": "\u2211a_i x^i = \u2211b_i x^i \u2192 a_i = b_i \u2200i",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Allows solving unknowns in polynomial identities.",
+    "used_in_proofs": [
+      "CompareCoefficients"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG22",
+    "name": "Symmetric Function Property",
+    "statement": "A symmetric polynomial remains unchanged when variables are interchanged.",
+    "formal": "f(x, y) = f(y, x)",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Used in solving expressions with symmetry.",
+    "used_in_proofs": [
+      "SymmetryReasoning"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG23",
+    "name": "Absolute Value Identity",
+    "statement": "|a| = a if a \u2265 0; = -a if a < 0",
+    "formal": "|a| = {a if a \u2265 0, -a if a < 0}",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Definition used in inequalities and piecewise.",
+    "used_in_proofs": [
+      "AbsDefinition"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG24",
+    "name": "Inequality Sign Reversal",
+    "statement": "Multiplying both sides of an inequality by a negative reverses the sign.",
+    "formal": "a > b \u2192 -a < -b",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Key in inequality manipulation.",
+    "used_in_proofs": [
+      "InequalityNegation"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG25",
+    "name": "Rational Root Theorem",
+    "statement": "Any rational root of a polynomial with integer coefficients is p/q, p|const, q|lead.",
+    "formal": "If f(x) \u2208 \u2124[x], root = p/q, then p | a\u2080, q | a_n",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Used in factoring polynomials over integers.",
+    "used_in_proofs": [
+      "RootGuess"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG26",
+    "name": "Vieta\u2019s Formula (Quadratic)",
+    "statement": "For ax^2 + bx + c = 0 with roots r, s: r + s = -b/a, rs = c/a",
+    "formal": "r + s = -b/a, rs = c/a",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Relates roots and coefficients.",
+    "used_in_proofs": [
+      "RootCoefficientLink"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG27",
+    "name": "Polynomial Remainder Theorem",
+    "statement": "The remainder of f(x) when divided by (x \u2212 a) is f(a).",
+    "formal": "f(x) = (x \u2212 a)q(x) + f(a)",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Used in evaluating polynomial division.",
+    "used_in_proofs": [
+      "PolyEval"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG28",
+    "name": "Polynomial Factor Theorem",
+    "statement": "If f(a) = 0, then (x \u2212 a) is a factor of f(x).",
+    "formal": "f(a) = 0 \u2194 (x \u2212 a) divides f(x)",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Foundation of polynomial factoring.",
+    "used_in_proofs": [
+      "FactorCheck"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG29",
+    "name": "Multiplying Equations",
+    "statement": "Multiplying both sides of an equation by the same nonzero number preserves equality.",
+    "formal": "a = b \u2192 ka = kb for k \u2260 0",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Maintains balance when solving equations.",
+    "used_in_proofs": [
+      "EquationScaling"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG30",
+    "name": "Adding to Both Sides",
+    "statement": "If a = b, then a + c = b + c",
+    "formal": "a = b \u2192 a + c = b + c",
+    "tags": [
+      "algebra",
+      "identity",
+      "equation"
+    ],
+    "philosophy": "Fundamental transformation of equations.",
+    "used_in_proofs": [
+      "EquationTranslation"
+    ],
+    "used_in_systems": [
+      "Algebra"
+    ],
+    "strength_score": 0.9
   }
 ]

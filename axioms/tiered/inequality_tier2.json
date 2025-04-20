@@ -1,0 +1,572 @@
+[
+  {
+    "id": "T2_INEQ1",
+    "name": "Non-Negative Squares",
+    "statement": "For any real number x, x\u00b2 \u2265 0.",
+    "formal": "\u2200x \u2208 \u211d, x\u00b2 \u2265 0",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Fundamental for proving other inequalities.",
+    "used_in_proofs": [
+      "SquareNonNeg"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ2",
+    "name": "Inequality Sign Reversal",
+    "statement": "Multiplying both sides by a negative reverses the inequality.",
+    "formal": "a > b \u21d2 -a < -b",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Critical rule in inequality transformation.",
+    "used_in_proofs": [
+      "ReverseSign"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ3",
+    "name": "Addition Rule",
+    "statement": "If a > b, then a + c > b + c.",
+    "formal": "a > b \u21d2 a + c > b + c",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Preserves order when constants are added.",
+    "used_in_proofs": [
+      "AdditionRule"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ4",
+    "name": "Multiplication Rule (Positive)",
+    "statement": "If a > b and c > 0, then ac > bc.",
+    "formal": "a > b \u2227 c > 0 \u21d2 ac > bc",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Maintains inequality under scaling.",
+    "used_in_proofs": [
+      "MultPos"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ5",
+    "name": "Cauchy-Schwarz Inequality",
+    "statement": "(a\u2081\u00b2 + a\u2082\u00b2)(b\u2081\u00b2 + b\u2082\u00b2) \u2265 (a\u2081b\u2081 + a\u2082b\u2082)\u00b2",
+    "formal": "\u2211a\u1d62\u00b2 \u2211b\u1d62\u00b2 \u2265 (\u2211a\u1d62b\u1d62)\u00b2",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Powerful inequality for vectors and sums.",
+    "used_in_proofs": [
+      "CauchySchwarz"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ6",
+    "name": "AM-GM for Two Variables",
+    "statement": "(a + b)/2 \u2265 \u221a(ab), equality iff a = b",
+    "formal": "\u2200a,b > 0, (a + b)/2 \u2265 \u221a(ab)",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Foundational inequality with equality condition.",
+    "used_in_proofs": [
+      "AMGM2"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ7",
+    "name": "AM-GM General Form",
+    "statement": "Arithmetic mean \u2265 Geometric mean for n positives.",
+    "formal": "\u2200a\u1d62 > 0, (\u2211a\u1d62)/n \u2265 (\u220fa\u1d62)^(1/n)",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in product-to-sum comparison.",
+    "used_in_proofs": [
+      "AMGMn"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ8",
+    "name": "Titu's Lemma",
+    "statement": "\u03a3(a\u1d62\u00b2 / b\u1d62) \u2265 (\u03a3a\u1d62)\u00b2 / \u03a3b\u1d62 for b\u1d62 > 0",
+    "formal": "\u2211a\u1d62\u00b2 / b\u1d62 \u2265 (\u2211a\u1d62)\u00b2 / \u2211b\u1d62",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Useful in rational sum bounding.",
+    "used_in_proofs": [
+      "TitusLemma"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ9",
+    "name": "Triangle Inequality",
+    "statement": "|a + b| \u2264 |a| + |b|",
+    "formal": "|a + b| \u2264 |a| + |b|",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in absolute value-based bounding.",
+    "used_in_proofs": [
+      "TriangleIneq"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ10",
+    "name": "Reverse Triangle Inequality",
+    "statement": "|a \u2212 b| \u2265 ||a| \u2212 |b||",
+    "formal": "|a \u2212 b| \u2265 ||a| \u2212 |b||",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Bound for difference of absolute values.",
+    "used_in_proofs": [
+      "ReverseTriangle"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ11",
+    "name": "Jensen's Inequality (Convex)",
+    "statement": "f((a + b)/2) \u2264 (f(a) + f(b))/2 for convex f",
+    "formal": "f(\u03bbx + (1\u2212\u03bb)y) \u2264 \u03bbf(x) + (1\u2212\u03bb)f(y)",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in function-based inequality.",
+    "used_in_proofs": [
+      "Jensen"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ12",
+    "name": "HM \u2264 GM Inequality",
+    "statement": "Harmonic mean \u2264 geometric mean.",
+    "formal": "n / (\u22111/a\u1d62) \u2264 (\u220fa\u1d62)^(1/n)",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in fractional bounds.",
+    "used_in_proofs": [
+      "HMGMIneq"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ13",
+    "name": "GM \u2264 AM \u2264 QM Chain",
+    "statement": "HM \u2264 GM \u2264 AM \u2264 RMS",
+    "formal": "H \u2264 G \u2264 A \u2264 Q",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Hierarchy of means inequality.",
+    "used_in_proofs": [
+      "MeanChain"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ14",
+    "name": "Inequality of Means (Three)",
+    "statement": "A \u2265 G \u2265 H for a,b > 0",
+    "formal": "\u2200a,b > 0, A \u2265 G \u2265 H",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "2-variable case of means.",
+    "used_in_proofs": [
+      "AGHChain"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ15",
+    "name": "Inequality by Squaring",
+    "statement": "If a, b \u2265 0, then a \u2265 b \u21d4 a\u00b2 \u2265 b\u00b2",
+    "formal": "a \u2265 b \u21d4 a\u00b2 \u2265 b\u00b2 if a,b \u2265 0",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in comparison after squaring.",
+    "used_in_proofs": [
+      "SquareCompare"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ16",
+    "name": "Cyclic Sum Inequality",
+    "statement": "Cyclic sum often \u2265 symmetric form.",
+    "formal": "\u2211cyc a/(b + c) \u2265 3/2",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Seen in cyclic inequalities.",
+    "used_in_proofs": [
+      "Cyclic3Ineq"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ17",
+    "name": "Engel\u2019s Inequality",
+    "statement": "\u03a3(a\u1d62 / (a\u1d62 + 1)) \u2264 n \u2212 1",
+    "formal": "\u2211 a/(a+1) \u2264 n \u2212 1",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in fractional bounds.",
+    "used_in_proofs": [
+      "Engel"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ18",
+    "name": "Weighted AM-GM",
+    "statement": "\u03bba + (1\u2212\u03bb)b \u2265 a^\u03bb b^{1\u2212\u03bb}",
+    "formal": "For 0 < \u03bb < 1",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Weighted generalization of AM-GM.",
+    "used_in_proofs": [
+      "WeightedAMGM"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ19",
+    "name": "Inequality by Rearrangement",
+    "statement": "Sorted sequences achieve extremum when aligned.",
+    "formal": "If a\u2081 \u2264 a\u2082 and b\u2081 \u2264 b\u2082, then a\u2081b\u2081 + a\u2082b\u2082 \u2265 a\u2081b\u2082 + a\u2082b\u2081",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used to optimize products.",
+    "used_in_proofs": [
+      "Rearrangement"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ20",
+    "name": "Chebyshev\u2019s Inequality",
+    "statement": "If a\u1d62 and b\u1d62 sorted same way, then \u03a3a\u1d62b\u1d62/n \u2265 mean(a)\u00b7mean(b)",
+    "formal": "\u03a3a\u1d62b\u1d62 \u2265 nA\u00b7B",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Ordered sequences produce bounds.",
+    "used_in_proofs": [
+      "Chebyshev"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ21",
+    "name": "Exponent Inequality",
+    "statement": "If 0 < a < b, then a^x < b^x for x > 0",
+    "formal": "a^x < b^x when a < b and x > 0",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in exponential inequalities.",
+    "used_in_proofs": [
+      "ExpCompare"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ22",
+    "name": "Cubic Inequality Expansion",
+    "statement": "(a + b + c)^2 \u2265 3(ab + bc + ca)",
+    "formal": "\u2265 3(ab + bc + ca)",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Often used in symmetric inequalities.",
+    "used_in_proofs": [
+      "CubicSymmetric"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ23",
+    "name": "Nesbitt\u2019s Inequality",
+    "statement": "a/(b + c) + b/(c + a) + c/(a + b) \u2265 3/2",
+    "formal": "\u2211 a/(b + c) \u2265 3/2 for a, b, c > 0",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Classic cyclic inequality.",
+    "used_in_proofs": [
+      "Nesbitt"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ24",
+    "name": "Inequality via Substitution",
+    "statement": "Let x = a + b, substitute to simplify inequality.",
+    "formal": "Substitute to reveal structure.",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in simplification.",
+    "used_in_proofs": [
+      "Substitution"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ25",
+    "name": "Fixed Value Bounding",
+    "statement": "When total is fixed, extremum occurs when terms are equal or skewed.",
+    "formal": "Optimize under constraint a + b = k",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in extremum proofs.",
+    "used_in_proofs": [
+      "ConstraintFix"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ26",
+    "name": "Sum of Reciprocals",
+    "statement": "If a\u1d62 > 0, then \u03a31/a\u1d62 is minimized when a\u1d62 equal.",
+    "formal": "Equal terms minimize harmonic sum.",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in equality strategy.",
+    "used_in_proofs": [
+      "ReciprocalMin"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ27",
+    "name": "Cauchy Double Form",
+    "statement": "(\u03a3a\u1d62\u00b2)(\u03a31) \u2265 (\u03a3a\u1d62)\u00b2",
+    "formal": "n \u2211a\u1d62\u00b2 \u2265 (\u2211a\u1d62)\u00b2",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Cauchy form simplification.",
+    "used_in_proofs": [
+      "CauchyDouble"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ28",
+    "name": "Radical Inequality",
+    "statement": "\u221a(a + b) \u2264 \u221aa + \u221ab",
+    "formal": "\u221a(a + b) \u2264 \u221aa + \u221ab for a,b \u2265 0",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Used in root transformations.",
+    "used_in_proofs": [
+      "RootBound"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ29",
+    "name": "Absolute Value Square",
+    "statement": "|a| = \u221a(a\u00b2)",
+    "formal": "|a| = \u221a(a\u00b2)",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Links absolute and square.",
+    "used_in_proofs": [
+      "AbsSquare"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ30",
+    "name": "Min/Max Inequality",
+    "statement": "min(a, b) \u2264 (a + b)/2 \u2264 max(a, b)",
+    "formal": "min \u2264 avg \u2264 max",
+    "tags": [
+      "inequality",
+      "algebra",
+      "bound"
+    ],
+    "philosophy": "Classic bound between values.",
+    "used_in_proofs": [
+      "MinMaxBound"
+    ],
+    "used_in_systems": [
+      "Inequality"
+    ],
+    "strength_score": 0.9
+  }
+]

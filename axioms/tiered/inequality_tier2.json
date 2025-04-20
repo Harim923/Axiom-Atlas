@@ -568,5 +568,16 @@
       "Inequality"
     ],
     "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ31",
+    "name": "Triangle Inequality (Geometric)",
+    "statement": "In any triangle with side lengths a, b, and c, we have: a + b > c, b + c > a, and c + a > b.",
+    "formal": "∀a,b,c > 0, if triangle(a,b,c), then a + b > c ∧ b + c > a ∧ c + a > b",
+    "tags": ["geometry", "inequality", "triangle"],
+    "philosophy": "Essential geometric condition for triangle side lengths.",
+    "used_in_proofs": ["TriangleSideSum"],
+    "used_in_systems": ["Inequality", "Geometry"],
+    "strength_score": 0.95
   }
 ]

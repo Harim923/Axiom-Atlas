@@ -1,0 +1,622 @@
+[
+  {
+    "id": "T2_GEO1",
+    "name": "Triangle Sum Theorem",
+    "statement": "The sum of the angles in a triangle is 180\u00b0.",
+    "formal": "\u2220A + \u2220B + \u2220C = 180\u00b0",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Foundation of triangle geometry.",
+    "used_in_proofs": [
+      "AngleSumTriangle"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO2",
+    "name": "Exterior Angle Theorem",
+    "statement": "An exterior angle is equal to the sum of the two remote interior angles.",
+    "formal": "\u2220ext = \u2220A + \u2220B",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in angle calculations.",
+    "used_in_proofs": [
+      "ExteriorAngle"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO3",
+    "name": "Isosceles Triangle Base Angles",
+    "statement": "In an isosceles triangle, the base angles are equal.",
+    "formal": "If AB = AC, then \u2220B = \u2220C",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Fundamental symmetry property.",
+    "used_in_proofs": [
+      "IsoscelesAngles"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO4",
+    "name": "Equilateral Triangle Angles",
+    "statement": "Each angle in an equilateral triangle is 60\u00b0.",
+    "formal": "\u2220A = \u2220B = \u2220C = 60\u00b0",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in regular triangle arguments.",
+    "used_in_proofs": [
+      "EquilateralAngles"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO5",
+    "name": "AA Similarity",
+    "statement": "Two triangles are similar if two corresponding angles are equal.",
+    "formal": "\u25b3ABC \u223c \u25b3DEF if \u2220A=\u2220D, \u2220B=\u2220E",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used to prove similarity.",
+    "used_in_proofs": [
+      "AASimilarity"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO6",
+    "name": "SAS Similarity",
+    "statement": "Two triangles are similar if two sides are proportional and the included angles are equal.",
+    "formal": "AB/DE = AC/DF and \u2220A=\u2220D \u21d2 \u25b3ABC \u223c \u25b3DEF",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Establishes triangle similarity.",
+    "used_in_proofs": [
+      "SASSimilarity"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO7",
+    "name": "Right Triangle Altitude Rule",
+    "statement": "In a right triangle, the altitude to the hypotenuse forms two similar triangles.",
+    "formal": "\u25b3ABC \u223c \u25b3ADB \u223c \u25b3BDC",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in many geometric ratios.",
+    "used_in_proofs": [
+      "AltitudeSimilarity"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO8",
+    "name": "Angle in a Semicircle",
+    "statement": "An angle inscribed in a semicircle is a right angle.",
+    "formal": "If AB is a diameter and C on circle, \u2220ACB = 90\u00b0",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Classical circle property.",
+    "used_in_proofs": [
+      "SemicircleAngle"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO9",
+    "name": "Inscribed Angle Theorem",
+    "statement": "An inscribed angle is half the measure of its intercepted arc.",
+    "formal": "\u2220ABC = \u00bd arc AC",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Key angle-arc relationship.",
+    "used_in_proofs": [
+      "InscribedArc"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO10",
+    "name": "Angles in Same Segment",
+    "statement": "Angles subtended by the same chord are equal.",
+    "formal": "If arc AC subtends \u2220ABC and \u2220ADC, then \u2220ABC = \u2220ADC",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Cyclic property in circles.",
+    "used_in_proofs": [
+      "SameSegment"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO11",
+    "name": "Cyclic Quadrilateral Opposite Angles",
+    "statement": "In a cyclic quadrilateral, opposite angles sum to 180\u00b0.",
+    "formal": "\u2220A + \u2220C = 180\u00b0",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Classic property of cyclic quads.",
+    "used_in_proofs": [
+      "CyclicQuad"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO12",
+    "name": "Power of a Point (Secant-Tangent)",
+    "statement": "For a point outside a circle, PA\u00b2 = PB\u00b7PC.",
+    "formal": "PA\u00b2 = PB\u00b7PC",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in circle power calculations.",
+    "used_in_proofs": [
+      "PowerPoint"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO13",
+    "name": "Power of a Point (Chord-Chord)",
+    "statement": "For chords AB and CD intersecting at E, AE\u00b7EB = CE\u00b7ED.",
+    "formal": "AE\u00b7EB = CE\u00b7ED",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used with intersecting chords.",
+    "used_in_proofs": [
+      "ChordPower"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO14",
+    "name": "Intersecting Chords Theorem",
+    "statement": "The product of segments of intersecting chords are equal.",
+    "formal": "AE\u00b7EB = CE\u00b7ED",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Same as chord-chord power.",
+    "used_in_proofs": [
+      "ChordIntersect"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO15",
+    "name": "Equal Tangents Theorem",
+    "statement": "Tangents from a common external point to a circle are equal in length.",
+    "formal": "If PA and PB are tangents, then PA = PB",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Tangents form equal lengths.",
+    "used_in_proofs": [
+      "EqualTangents"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO16",
+    "name": "Angle Bisector Theorem",
+    "statement": "An angle bisector divides the opposite side in the ratio of the adjacent sides.",
+    "formal": "BD/DC = AB/AC",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in ratio arguments.",
+    "used_in_proofs": [
+      "AngleBisectorRatio"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO17",
+    "name": "Median to Hypotenuse",
+    "statement": "In a right triangle, the median to the hypotenuse is half its length.",
+    "formal": "If M is midpoint of hypotenuse AB, then CM = \u00bd AB",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in midpoint-based proofs.",
+    "used_in_proofs": [
+      "MedianHypotenuse"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO18",
+    "name": "Centroid Ratio",
+    "statement": "The centroid divides each median in a 2:1 ratio.",
+    "formal": "AG:GM = 2:1",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in center-of-mass arguments.",
+    "used_in_proofs": [
+      "CentroidSplit"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO19",
+    "name": "Incenter Touches Sides",
+    "statement": "The incenter is equidistant from all triangle sides.",
+    "formal": "ID = IE = IF (where D, E, F are feet)",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in circle incenter problems.",
+    "used_in_proofs": [
+      "IncenterDistance"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO20",
+    "name": "Nine Point Circle",
+    "statement": "Passes through midpoints, feet of altitudes, and midpoints from orthocenter.",
+    "formal": "Exists in all triangles.",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Advanced center property.",
+    "used_in_proofs": [
+      "NinePoint"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO21",
+    "name": "Shoelace Formula",
+    "statement": "Area = \u00bd |\u03a3(x_iy_{i+1} \u2212 x_{i+1}y_i)|",
+    "formal": "Area = \u00bd \u00d7 abs(cross sum)",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in coordinate geometry.",
+    "used_in_proofs": [
+      "ShoelaceArea"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO22",
+    "name": "Distance Formula",
+    "statement": "Distance between (x1, y1) and (x2, y2) is \u221a[(x2\u2212x1)\u00b2 + (y2\u2212y1)\u00b2]",
+    "formal": "d = \u221a[(x2\u2212x1)\u00b2 + (y2\u2212y1)\u00b2]",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in analytic geometry.",
+    "used_in_proofs": [
+      "CoordinateDistance"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO23",
+    "name": "Area of Triangle (1/2 base \u00d7 height)",
+    "statement": "A = \u00bd \u00d7 base \u00d7 height",
+    "formal": "A = \u00bdbh",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Fundamental area computation.",
+    "used_in_proofs": [
+      "TriangleArea"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO24",
+    "name": "Area using Sine",
+    "statement": "A = \u00bdab sin(C)",
+    "formal": "A = \u00bdab sin C",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in angle-based area problems.",
+    "used_in_proofs": [
+      "SineArea"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO25",
+    "name": "Area using Heron\u2019s Formula",
+    "statement": "A = \u221a[s(s\u2212a)(s\u2212b)(s\u2212c)]",
+    "formal": "A = \u221a[s(s\u2212a)(s\u2212b)(s\u2212c)], s = (a+b+c)/2",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used when all sides known.",
+    "used_in_proofs": [
+      "Heron"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO26",
+    "name": "Pythagorean Theorem",
+    "statement": "In a right triangle, a\u00b2 + b\u00b2 = c\u00b2",
+    "formal": "a\u00b2 + b\u00b2 = c\u00b2",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Foundation of right triangle geometry.",
+    "used_in_proofs": [
+      "Pythagoras"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO27",
+    "name": "Pythagorean Converse",
+    "statement": "If a\u00b2 + b\u00b2 = c\u00b2, then triangle is right.",
+    "formal": "If a\u00b2 + b\u00b2 = c\u00b2 \u21d2 \u2220C = 90\u00b0",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used to prove right angle.",
+    "used_in_proofs": [
+      "PythagoreanCheck"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO28",
+    "name": "Similarity Proportions",
+    "statement": "Corresponding sides of similar triangles are proportional.",
+    "formal": "AB/DE = AC/DF = BC/EF",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in ratio problems.",
+    "used_in_proofs": [
+      "SimilarityRatios"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO29",
+    "name": "Altitude Area Splitting",
+    "statement": "An altitude divides triangle into two smaller ones of equal height.",
+    "formal": "Area = \u00bd base \u00d7 height applies to both.",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in triangle composition.",
+    "used_in_proofs": [
+      "AltitudeSplit"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO30",
+    "name": "Radius to Tangent Perpendicular",
+    "statement": "A radius is perpendicular to a tangent at point of contact.",
+    "formal": "r \u22a5 tangent",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Circle-tangent intersection rule.",
+    "used_in_proofs": [
+      "RadiusTangent"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO31",
+    "name": "Tangent-Chord Angle",
+    "statement": "Angle between a tangent and a chord is half the intercepted arc.",
+    "formal": "\u2220 = \u00bd arc",
+    "tags": [
+      "geometry",
+      "triangle",
+      "circle",
+      "angle"
+    ],
+    "philosophy": "Used in mixed angle problems.",
+    "used_in_proofs": [
+      "TangentChord"
+    ],
+    "used_in_systems": [
+      "Geometry"
+    ],
+    "strength_score": 0.9
+  }
+]

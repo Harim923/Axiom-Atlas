@@ -1,0 +1,572 @@
+[
+  {
+    "id": "T2_NT1",
+    "name": "Divisibility Definition",
+    "statement": "a divides b if \u2203k \u2208 \u2124 such that b = ak",
+    "formal": "a | b \u21d4 \u2203k \u2208 \u2124, b = ak",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Basic divisibility relationship.",
+    "used_in_proofs": [
+      "DivDef"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT2",
+    "name": "Modular Congruence",
+    "statement": "a \u2261 b mod m \u21d4 m divides (a \u2212 b)",
+    "formal": "a \u2261 b (mod m) \u21d4 m | (a \u2212 b)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Foundation of modular arithmetic.",
+    "used_in_proofs": [
+      "ModDef"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT3",
+    "name": "Addition Modulo",
+    "statement": "If a \u2261 b and c \u2261 d mod m, then a + c \u2261 b + d mod m",
+    "formal": "a \u2261 b \u2227 c \u2261 d (mod m) \u21d2 a + c \u2261 b + d (mod m)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Modular addition rule.",
+    "used_in_proofs": [
+      "ModAdd"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT4",
+    "name": "Multiplication Modulo",
+    "statement": "If a \u2261 b and c \u2261 d mod m, then ac \u2261 bd mod m",
+    "formal": "a \u2261 b \u2227 c \u2261 d (mod m) \u21d2 ac \u2261 bd (mod m)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Modular multiplication rule.",
+    "used_in_proofs": [
+      "ModMult"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT5",
+    "name": "Exponentiation Modulo",
+    "statement": "If a \u2261 b mod m, then a\u207f \u2261 b\u207f mod m",
+    "formal": "a \u2261 b (mod m) \u21d2 a\u207f \u2261 b\u207f (mod m)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in repeated power reductions.",
+    "used_in_proofs": [
+      "ModPower"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT6",
+    "name": "Divisibility by Sum Rule",
+    "statement": "If a | b and a | c, then a | (b + c)",
+    "formal": "a | b \u2227 a | c \u21d2 a | (b + c)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Additive closure under divisibility.",
+    "used_in_proofs": [
+      "DivAdd"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT7",
+    "name": "Divisibility by Difference Rule",
+    "statement": "If a | b and a | c, then a | (b \u2212 c)",
+    "formal": "a | b \u2227 a | c \u21d2 a | (b \u2212 c)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Difference of divisible numbers also divisible.",
+    "used_in_proofs": [
+      "DivDiff"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT8",
+    "name": "Prime Definition",
+    "statement": "A number p > 1 is prime if its only positive divisors are 1 and p",
+    "formal": "Prime \u21d4 only divisors are 1 and p",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Foundation of primality.",
+    "used_in_proofs": [
+      "PrimeDef"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT9",
+    "name": "Fundamental Theorem of Arithmetic",
+    "statement": "Every integer > 1 has a unique prime factorization.",
+    "formal": "\u2200n > 1, \u2203! prime powers such that n = \u220fp\u1d62^e\u1d62",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Basis of number theory.",
+    "used_in_proofs": [
+      "FTA"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT10",
+    "name": "GCD Definition",
+    "statement": "gcd(a, b) = largest integer that divides both a and b",
+    "formal": "gcd(a, b) = max d s.t. d | a \u2227 d | b",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in simplification and modular inversion.",
+    "used_in_proofs": [
+      "GCDDef"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT11",
+    "name": "Bezout Identity",
+    "statement": "\u2203x, y \u2208 \u2124 such that ax + by = gcd(a, b)",
+    "formal": "ax + by = gcd(a, b)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in modular inverse proof.",
+    "used_in_proofs": [
+      "Bezout"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT12",
+    "name": "Euclidean Algorithm",
+    "statement": "gcd(a, b) = gcd(b, a mod b)",
+    "formal": "gcd(a, b) = gcd(b, a mod b)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Algorithm to compute gcd.",
+    "used_in_proofs": [
+      "EuclidAlg"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT13",
+    "name": "LCM Definition",
+    "statement": "lcm(a, b) = least common multiple of a and b",
+    "formal": "lcm(a, b) = ab / gcd(a, b)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in alignment of periodicity.",
+    "used_in_proofs": [
+      "LCMDef"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT14",
+    "name": "Chinese Remainder Theorem (2 moduli)",
+    "statement": "If m, n coprime, \u2203x \u2261 a mod m and x \u2261 b mod n",
+    "formal": "CRT holds if gcd(m, n) = 1",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Combines systems of congruences.",
+    "used_in_proofs": [
+      "CRT2"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT15",
+    "name": "Fermat\u2019s Little Theorem",
+    "statement": "If p is prime and a not divisible by p, then a^{p\u22121} \u2261 1 mod p",
+    "formal": "a^{p\u22121} \u2261 1 (mod p) for a \u2209 p\u2124",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Foundation of many NT theorems.",
+    "used_in_proofs": [
+      "Fermat"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT16",
+    "name": "Euler\u2019s Theorem",
+    "statement": "If a and n coprime, a^{\u03c6(n)} \u2261 1 mod n",
+    "formal": "a^{\u03c6(n)} \u2261 1 mod n",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Generalizes Fermat\u2019s Theorem.",
+    "used_in_proofs": [
+      "Euler"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT17",
+    "name": "Euler\u2019s Totient Function",
+    "statement": "\u03c6(n) = number of integers \u2264 n that are coprime to n",
+    "formal": "\u03c6(p) = p \u2212 1, \u03c6(p^k) = p^k \u2212 p^{k\u22121}",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Counts residues mod n.",
+    "used_in_proofs": [
+      "Totient"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT18",
+    "name": "Wilson\u2019s Theorem",
+    "statement": "(p\u22121)! \u2261 \u22121 mod p iff p is prime",
+    "formal": "(p\u22121)! \u2261 \u22121 mod p",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Characterization of primes.",
+    "used_in_proofs": [
+      "Wilson"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT19",
+    "name": "Modular Inverse Definition",
+    "statement": "If ax \u2261 1 mod m, then x is inverse of a mod m",
+    "formal": "a\u207b\u00b9 exists iff gcd(a, m) = 1",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in solving modular equations.",
+    "used_in_proofs": [
+      "ModInv"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT20",
+    "name": "Quadratic Residue Definition",
+    "statement": "a is QR mod p if \u2203x: x\u00b2 \u2261 a mod p",
+    "formal": "\u2203x \u2208 \u2124, x\u00b2 \u2261 a mod p",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in modular square roots.",
+    "used_in_proofs": [
+      "QRDef"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT21",
+    "name": "Legendre Symbol (Definition)",
+    "statement": "(a/p) = 1 if QR, \u22121 if not, 0 if p | a",
+    "formal": "(a/p) = {1, -1, 0}",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Encodes QR status.",
+    "used_in_proofs": [
+      "Legendre"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT22",
+    "name": "Sum of Divisors Function \u03c3(n)",
+    "statement": "Sum of all positive divisors of n",
+    "formal": "\u03c3(n) = \u2211 d | n",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in NT function comparisons.",
+    "used_in_proofs": [
+      "SigmaFunc"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT23",
+    "name": "Number of Divisors d(n)",
+    "statement": "d(n) = \u220f(e\u1d62 + 1) if n = \u220fp\u1d62^e\u1d62",
+    "formal": "d(n) = \u220f(e\u1d62 + 1)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Counts total divisors.",
+    "used_in_proofs": [
+      "DivisorCount"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT24",
+    "name": "Modulo Multiplication Invertibility",
+    "statement": "a has inverse mod m iff gcd(a, m) = 1",
+    "formal": "a\u207b\u00b9 mod m \u21d4 gcd(a, m) = 1",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in solving linear congruences.",
+    "used_in_proofs": [
+      "ModInvCond"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT25",
+    "name": "Multiplicative Functions",
+    "statement": "f(ab) = f(a)f(b) if gcd(a,b)=1",
+    "formal": "f(ab) = f(a)f(b) if gcd(a,b)=1",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in totient, divisor functions.",
+    "used_in_proofs": [
+      "Multiplicative"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT26",
+    "name": "Euler\u2019s Product Formula",
+    "statement": "\u03c6(n) = n \u220f(1 \u2212 1/p) over distinct primes p",
+    "formal": "\u03c6(n) = n \u220f(1 \u2212 1/p)",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in calculating totient efficiently.",
+    "used_in_proofs": [
+      "TotientProd"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT27",
+    "name": "Congruent Squares Trick",
+    "statement": "a\u00b2 \u2261 b\u00b2 mod m \u21d2 (a \u2212 b)(a + b) \u2261 0 mod m",
+    "formal": "(a \u2212 b)(a + b) \u2261 0 mod m",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in square difference comparisons.",
+    "used_in_proofs": [
+      "SquareCong"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT28",
+    "name": "CRT Explicit Construction",
+    "statement": "x \u2261 a mod m, b mod n \u21d2 x = a + m\u00b7((b \u2212 a)/m mod n)\u00b7inv_m mod mn",
+    "formal": "Explicit CRT form",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in construction.",
+    "used_in_proofs": [
+      "CRTBuild"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT29",
+    "name": "Modulo Periodicity",
+    "statement": "a mod m is periodic with period m",
+    "formal": "a \u2261 a + km mod m",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in repeating sequences.",
+    "used_in_proofs": [
+      "ModRepeat"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT30",
+    "name": "Primitive Root Definition",
+    "statement": "g is primitive root mod p if ord_p(g) = p\u22121",
+    "formal": "g is primitive root \u21d4 ord_p(g) = p\u22121",
+    "tags": [
+      "number theory",
+      "modular",
+      "divisibility"
+    ],
+    "philosophy": "Used in modular generation.",
+    "used_in_proofs": [
+      "PrimRoot"
+    ],
+    "used_in_systems": [
+      "NumberTheory"
+    ],
+    "strength_score": 0.9
+  }
+]

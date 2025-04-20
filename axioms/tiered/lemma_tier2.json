@@ -1,21 +1,35 @@
 [
-    {
-      "id": "L1_abc_geq_ab_bc_ca",
-      "name": "ABC Sum Inequality",
-      "statement": "If a, b, c > 0 and abc = 1, then a + b + c ≥ ab + bc + ca",
-      "formal": "abc = 1 ∧ a > 0 ∧ b > 0 ∧ c > 0 ⇒ a + b + c ≥ ab + bc + ca",
-      "tags": ["inequality", "lemma", "symmetric"],
-      "source": "Derived from AM-GM variant and known symmetric inequalities",
-      "confidence": 0.95
-    },
-    {
-      "id": "L2_cyclic_sum_ab_geq_ac_bc",
-      "name": "Cyclic Product Sum Bound",
-      "statement": "For positive real numbers a, b, c, we have ab + bc + ca ≤ (a + b + c)² / 3",
-      "formal": "a > 0 ∧ b > 0 ∧ c > 0 ⇒ ab + bc + ca ≤ (a + b + c)² / 3",
-      "tags": ["inequality", "lemma", "cyclic"],
-      "source": "Inequality derived from symmetric bounds on product sums",
-      "confidence": 0.9
-    }
-  ]
-  
+  {
+    "id": "L1_abc_geq_ab_bc_ca",
+    "name": "ABC Sum Inequality",
+    "statement": "If a, b, c > 0 and abc = 1, then a + b + c ≥ ab + bc + ca",
+    "formal": "abc = 1 ∧ a > 0 ∧ b > 0 ∧ c > 0 ⇒ a + b + c ≥ ab + bc + ca",
+    "tags": ["inequality", "lemma", "symmetric"],
+    "philosophy": "Captures a nontrivial bound under a product constraint using symmetric expressions.",
+    "source": "Derived from AM-GM variant and known symmetric inequalities",
+    "confidence": 0.95,
+    "used_in_systems": ["Formalizer"]
+  },
+  {
+    "id": "L2_cyclic_sum_ab_geq_ac_bc",
+    "name": "Cyclic Product Sum Bound",
+    "statement": "For positive real numbers a, b, c, we have ab + bc + ca ≤ (a + b + c)² / 3",
+    "formal": "a > 0 ∧ b > 0 ∧ c > 0 ⇒ ab + bc + ca ≤ (a + b + c)² / 3",
+    "tags": ["inequality", "lemma", "cyclic"],
+    "philosophy": "Reflects that pairwise products are bounded by the square of the total under symmetry.",
+    "source": "Inequality derived from symmetric bounds on product sums",
+    "confidence": 0.9,
+    "used_in_systems": ["Formalizer"]
+  },
+  {
+    "id": "L3_dec_seq_0_validity",
+    "name": "Validity of strictly decreasing numbers with 0",
+    "statement": "In a strictly decreasing sequence of digits, if 0 is included, it will appear only at the last position, and thus does not invalidate the number as a valid multi-digit number.",
+    "formal": "If a sequence (d₁, d₂, d₃, d₄, d₅) of digits is strictly decreasing and 0 ∈ {d₁,…,d₅}, then 0 appears at position 5 and the number remains valid.",
+    "tags": ["combinatorics", "number theory", "digit rules"],
+    "philosophy": "Ensures that 0 is not wrongly excluded from digit sets used to form strictly decreasing integers.",
+    "source": "Digit sequencing logic in combinatorics",
+    "confidence": 0.95,
+    "used_in_systems": ["Formalizer"]
+  }
+]

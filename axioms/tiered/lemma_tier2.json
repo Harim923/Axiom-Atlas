@@ -31,27 +31,5 @@
     "source": "Digit sequencing logic in combinatorics",
     "confidence": 0.95,
     "used_in_systems": ["Formalizer"]
-  },
-  {
-  "id": "GA_REFLECT_AREA",
-  "name": "Reflection Triangle Area Preservation",
-  "statement": "If a triangle is reflected over a line, the reflected triangle has the same area as the original.",
-  "formal": "Reflect(Triangle AXY) over line XY ⇒ Area(Triangle AXY) = Area(Triangle A'XY)",
-  "tags": ["geometry", "reflection", "area"],
-  "philosophy": "Symmetry in Euclidean geometry preserves distance and area, so reflecting a triangle yields one of equal area.",
-  "source": "Euclidean geometry reflection invariance",
-  "confidence": 0.98,
-  "used_in_systems": ["Formalizer"]
-  },
-  {
-  "id": "GA_HEPTAGON_REFLECT_FORMULA",
-  "name": "Heptagon via Subtracted Reflections",
-  "statement": "The area of heptagon AFNBCEM equals the area of triangle ABC minus the area of triangle DGE plus the area of DEGF.",
-  "formal": "Area(AFNBECM) = Area(ABC) - Area(DGE) + Area(DEGF)",
-  "tags": ["geometry", "area", "composite shape", "reflection"],
-  "philosophy": "Heptagon formed by triangle with reflected and shared interior parts can be computed via additive-subtractive decomposition.",
-  "source": "Constructive geometry using reflected triangle decomposition",
-  "confidence": 0.95,
-  "used_in_systems": ["Formalizer"]
   }
 ]

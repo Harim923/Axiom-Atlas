@@ -50,5 +50,13 @@
   "tags": ["number theory", "primality", "lemma"],
   "philosophy": "Encodes prime checking through logical divisibility, usable for bounded range search.",
   "used_in_systems": ["Formalizer"]
+  },
+  {
+  "id": "L6_regular_polygon_rotation",
+  "name": "Rotation Symmetry in Regular Polygons",
+  "statement": "A regular n-gon has n-fold rotational symmetry. Any set of vertices rotated by 360/n degrees maps to another valid configuration.",
+  "formal": "RegularPolygon(n) ⇒ ∀i, Rotate(A_i, 360/n) ∈ Vertices",
+  "tags": ["geometry", "symmetry", "lemma"],
+  "used_in_systems": ["Formalizer"]
   }
 ]

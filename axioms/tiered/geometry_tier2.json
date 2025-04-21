@@ -618,5 +618,28 @@
       "Geometry"
     ],
     "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO32",
+  "name": "Box Side Center",
+  "statement": "The center of a rectangular face in 3D space is the midpoint of its diagonal.",
+  "formal": "Center = midpoint of diagonal connecting opposite corners",
+  "tags": ["geometry", "3d", "box", "center", "coordinate"],
+  "philosophy": "Defines the center of a box face via 3D coordinate geometry.",
+  "used_in_proofs": ["BoxTriangleCenter"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.8
+  },
+  {
+  "id": "T2_GEO33",
+  "name": "Area of Triangle from Vectors (3D)",
+  "statement": "The area of a triangle in 3D is half the magnitude of the cross product of two side vectors.",
+  "formal": "A = ½ * ||AB × AC||",
+  "tags": ["geometry", "triangle", "3d", "area", "vector"],
+  "philosophy": "Computes area from triangle vectors in 3D space.",
+  "used_in_proofs": ["BoxTriangleCenter"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.9
   }
+
 ]

@@ -31,5 +31,15 @@
     "source": "Digit sequencing logic in combinatorics",
     "confidence": 0.95,
     "used_in_systems": ["Formalizer"]
+  },
+  {
+  "id": "L4_prime_definition_testable",
+  "name": "Test for Primality",
+  "statement": "An integer n > 1 is prime if and only if its only positive divisors are 1 and n.",
+  "formal": "Prime(n) ⇔ ∀d ∈ ℕ, d | n ⇒ d = 1 ∨ d = n",
+  "tags": ["number theory", "primality", "definition"],
+  "philosophy": "Formalizes primality in a testable form for logic-driven reasoning.",
+  "confidence": 0.95,
+  "used_in_systems": ["Formalizer"]
   }
 ]

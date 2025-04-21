@@ -41,5 +41,14 @@
   "philosophy": "Formalizes primality in a testable form for logic-driven reasoning.",
   "confidence": 0.95,
   "used_in_systems": ["Formalizer"]
+  },
+  {
+  "id": "L5_prime_check_trial_division",
+  "name": "Prime Check via Trial Division",
+  "statement": "A number n > 1 is prime if there does not exist an integer d ∈ [2, √n] such that d divides n.",
+  "formal": "Prime(n) ⇔ ∀d ∈ ℕ, 2 ≤ d ≤ √n ⇒ d ∤ n",
+  "tags": ["number theory", "primality", "lemma"],
+  "philosophy": "Encodes prime checking through logical divisibility, usable for bounded range search.",
+  "used_in_systems": ["Formalizer"]
   }
 ]

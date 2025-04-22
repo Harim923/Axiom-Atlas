@@ -56,6 +56,31 @@
       "level": "tier2",
       "statement": "If a total count is partitioned into mutually exclusive subcases, the total equals the sum of the subcases.",
       "example": "Total = Case A + Case B + Case C, where A, B, C are disjoint."
-    }
+    },
+    {
+    "id": "LR_SORT1",
+    "type": "logic",
+    "statement": "If one element is the last in alphabetical order among a list of items, then all other elements must precede it alphabetically."
+  },
+  {
+    "id": "LR_SORT2",
+    "type": "logic",
+    "statement": "If a pair of elements is listed last in alphabetical order among all pairs, then all other pairs must be lexicographically smaller."
+  },
+  {
+    "id": "LR_SORT3",
+    "type": "logic",
+    "statement": "If a word must appear last in a sorted list, then all remaining words must be alphabetically less than it."
+  },
+  {
+    "id": "LR_SORT4",
+    "type": "logic",
+    "statement": "If a letter must be in the last listed word, and the words are alphabetically ordered, then that letter must be paired with a lexicographically large letter."
+  },
+  {
+    "id": "LR_SORT5",
+    "type": "logic",
+    "statement": "When listing combinations alphabetically, the position of a particular item affects which combinations are possible. Use this to restrict the space of valid pairings."
+  }
   ]
 }

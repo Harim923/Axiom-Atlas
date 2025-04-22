@@ -59,34 +59,45 @@
     },
     {
     "id": "LR_SORT1",
-    "type": "logic",
-    "statement": "If one element is the last in alphabetical order among a list of items, then all other elements must precede it alphabetically."
+    "type": "logic_rule",
+    "level": "tier2",
+    "statement": "If an element is stated to be the last in a sorted list, then all other elements must come before it in the sort order.",
+    "example": "If GL is the last pair in alphabetical order, then all other pairs like AB, CJ, or EK must precede GL alphabetically."
   },
   {
     "id": "LR_SORT2",
-    "type": "logic",
-    "statement": "If a pair of elements is listed last in alphabetical order among all pairs, then all other pairs must be lexicographically smaller."
+    "type": "logic_rule",
+    "level": "tier2",
+    "statement": "If elements are grouped and then sorted, the relative position of any element depends on the lexical comparison of all groupings.",
+    "example": "In a list of word pairs, the position of GH depends on the alphabetical order of GH compared to all other pairs."
   },
   {
     "id": "LR_SORT3",
-    "type": "logic",
-    "statement": "If a word must appear last in a sorted list, then all remaining words must be alphabetically less than it."
+    "type": "logic_rule",
+    "level": "tier2",
+    "statement": "If a particular item must appear at the end of a sorted list, then no other item may be lexicographically greater than it.",
+    "example": "If 'GI' is the last word, then pairs like 'GJ', 'GL', or 'JK' must not be present since they would sort after 'GI'."
   },
   {
     "id": "LR_SORT4",
-    "type": "logic",
-    "statement": "If a letter must be in the last listed word, and the words are alphabetically ordered, then that letter must be paired with a lexicographically large letter."
+    "type": "logic_rule",
+    "level": "tier2",
+    "statement": "If a specific letter must appear in the last word of a sorted list, it must be paired such that the resulting pair is greater than all other pairs.",
+    "example": "To ensure G appears in the last word, it must be paired with a letter like L, not with H, unless all other words are smaller than GH."
   },
   {
     "id": "LR_SORT5",
-    "type": "logic",
-    "statement": "When listing combinations alphabetically, the position of a particular item affects which combinations are possible. Use this to restrict the space of valid pairings."
+    "type": "logic_rule",
+    "level": "tier2",
+    "statement": "When combinations are alphabetically sorted, the lexicographical dominance of a pair depends not only on its letters but also on the absence of higher-ranked pairs.",
+    "example": "Even if GH is a valid pair, it is not the last unless all other pairs sort before it. GK or GL could push GH earlier in order."
   },
   {
-  "id": "LR_SORT6",
-  "type": "logic",
-  "statement": "If a word is the last in sorted list, all other words must be lexicographically smaller.",
-  "tags": ["ordering", "sorting", "last-element"]
+    "id": "LR_SORT6",
+    "type": "logic_rule",
+    "level": "tier2",
+    "statement": "If a specific pair must be the last in a lexicographically sorted list, all other pairs must be lexicographically smaller than it.",
+    "example": "To count the number of pairings where GL is the last word, one must ensure that no other pair in the list alphabetically follows GL."
   }
   ]
 }

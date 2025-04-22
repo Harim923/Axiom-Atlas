@@ -1,0 +1,61 @@
+{
+  "logic_rules": [
+    {
+      "id": "LR_STRUCTURAL_EQUIV_MSET",
+      "type": "logic_rule",
+      "level": "tier2",
+      "applies_to": ["combinatorics"],
+      "statement": "Multisets with the same integer counts up to permutation are structurally equivalent and must be counted only once.",
+      "example": "(1,1,5), (1,5,1), and (5,1,1) all represent the same multiset partition structure."
+    },
+    {
+      "id": "LR_CASE_EXHAUSTION_REQUIRED",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "All mutually exclusive exhaustive cases must be considered in enumerative reasoning. Partial case consideration may lead to undercounting.",
+      "example": "If splitting by even/odd or coprime/non-coprime, all branches must be checked."
+    },
+    {
+      "id": "LR_SYMMETRIC_PAIRS_COLLAPSE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Symmetric pairs such as (a, b) and (b, a) must be counted only once when the context is unordered.",
+      "example": "(1,2) and (2,1) represent the same outcome if order doesn't matter."
+    },
+    {
+      "id": "LR_BASIC_ARITHMETIC_ALLOWED",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Trivial arithmetic involving integers and basic fractions (addition, subtraction, multiplication, division) is permitted during reasoning.",
+      "example": "Formalizer may simplify 2 + 3 = 5 or 6 / 3 = 2 without explicit justification."
+    },
+    {
+      "id": "LR_PRECONDITION_CHECK_REQUIRED",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "In conditional reasoning, all preconditions must be explicitly checked before applying subsequent steps.",
+      "example": "If a step depends on x > 0, this must be shown or assumed before using it."
+    },
+    {
+      "id": "LR_MODUS_PONENS",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If 'If A then B' and 'A' are both known, then B can be concluded.",
+      "example": "From A => B and A, infer B."
+    },
+    {
+      "id": "LR_INTEGER_PARTITION_COLLAPSE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Integer partitions that are permutations of each other must be considered as one case when counting structurally distinct configurations.",
+      "example": "[2,2,3] and [3,2,2] count as one case in integer partition reasoning."
+    },
+    {
+      "id": "LR_CASE_COUNT_EQ_SUM_SUBCASES",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If a total count is partitioned into mutually exclusive subcases, the total equals the sum of the subcases.",
+      "example": "Total = Case A + Case B + Case C, where A, B, C are disjoint."
+    }
+  ]
+}

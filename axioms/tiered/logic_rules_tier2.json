@@ -101,9 +101,31 @@
   },
   {
   "id": "LR_EXPECTED_INTERSECTIONS_GIVEN_CONSTRAINTS",
+  "type": "logic_rule",
+  "level": "tier2",
   "statement": "When segments are drawn with geometric constraints (e.g., between specific sectors or quadrants), the expected number of intersections must reflect those constraints, not use uniform random approximation blindly.",
   "tags": ["expected value", "geometric probability", "intersection"]
-}
-
+  },
+  {
+  "id": "LR_VALUATION_EXP",
+  "type": "logic_rule",
+  "level": "tier2",
+  "statement": "The p-adic valuation of x^n is n times the valuation of x.",
+  "example": "If v₃(x) = 2, then v₃(x^3) = 6."
+  },
+  {
+  "id": "LR_LTE_ODD_CASE",
+  "type": "logic_rule",
+  "level": "tier2",
+  "statement": "If p is an odd prime, p divides (x + y), and p does not divide x or y, then v_p(x^n + y^n) = v_p(x + y) + v_p(n), provided n is odd.",
+  "example": "If x + y ≡ 0 mod 3 and 3 ∤ x, y, then v₃(x^3 + y^3) = v₃(x + y) + v₃(3) = v₃(x + y) + 1."
+  },
+  {
+  "id": "LR_VALUATION_ADD_REDUCTION",
+  "type": "logic_rule",
+  "level": "tier2",
+  "statement": "If all terms a^3, b^3, c^3 are divisible by p^k, then a^3 + b^3 + c^3 ≡ 0 mod p^k if and only if the sum of the reduced terms is zero modulo p^{k - m}, where m = min(v_p(a^3), v_p(b^3), v_p(c^3)).",
+  "example": "If v₃(a) = v₃(b) = v₃(c) = 2, then a^3 + b^3 + c^3 ≡ 0 mod 3^7 ⇔ a'^3 + b'^3 + c'^3 ≡ 0 mod 3."
+  }
   ]
 }

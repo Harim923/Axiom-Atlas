@@ -568,5 +568,29 @@
       "NumberTheory"
     ],
     "strength_score": 0.9
-  }
+  },
+  {
+  "id": "T2_NT31",
+  "name": "Lifting The Exponent Lemma for a^3 + b^3 + c^3 mod 3^k",
+  "statement": "If a, b, and c are divisible by 3 and a = 3^k x, b = 3^k y, c = 3^k z for integers x, y, z not divisible by 3 such that x + y + z ≡ 0 mod 3, then v₃(a^3 + b^3 + c^3) = 3k + 1.",
+  "formal": "If 3 | a, b, c and a = 3^k x, b = 3^k y, c = 3^k z with 3 ∤ x, y, z and x + y + z ≡ 0 mod 3, then v_3(a^3 + b^3 + c^3) = 3k + 1.",
+  "tags": [
+    "number theory",
+    "valuation",
+    "padic",
+    "LTE",
+    "L:TE",
+    "modular"
+  ],
+  "philosophy": "An extension of Lifting The Exponent to cubic expressions modulo powers of 3. Key to understanding p-adic behavior of symmetric sums.",
+  "used_in_proofs": [
+    "LiftingExponents"
+  ],
+  "used_in_systems": [
+    "NumberTheory",
+    "ValuationEngine"
+  ],
+  "strength_score": 0.92
+}
+
 ]

@@ -81,6 +81,12 @@
     "id": "LR_SORT5",
     "type": "logic",
     "statement": "When listing combinations alphabetically, the position of a particular item affects which combinations are possible. Use this to restrict the space of valid pairings."
+  },
+  {
+  "id": "LR_SORT6",
+  "type": "logic",
+  "statement": "If a word is the last in sorted list, all other words must be lexicographically smaller.",
+  "tags": ["ordering", "sorting", "last-element"]
   }
   ]
 }

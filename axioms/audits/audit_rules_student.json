@@ -51,10 +51,10 @@
     {
       "id": "AUDIT_ALG_MANIPULATION_INACCURATE",
       "domain": "algebra",
-      "type": "soft_warn",
+      "type": "soft_warn",  // 변경: 엄격하게 하지 말고 유도성 경고로 처리
       "description": "Support students by pointing out subtle algebra mistakes.",
       "triggers": ["expand", "simplify", "rearrange", "distribute"],
-      "fail_message": "There might be a mistake in your simplification or rearrangement. Check signs and steps."
+      "fail_message": "⚠️ Just a suggestion: Check signs and algebra steps, though your logic may be valid."
     },
     {
       "id": "AUDIT_GOAL_ALIGNMENT",

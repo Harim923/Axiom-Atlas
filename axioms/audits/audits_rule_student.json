@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "version": "0.1-student",
+    "description": "Formalizer Self-Audit Rules – Student Mode (warm, flexible enforcement)",
+    "domains": ["counting", "geometry", "optimization", "algebra"],
+    "audience": "students",
+    "created": "2025-04-24"
+  },
+  "rules": [
+    {
+      "id": "AUDIT_ENUM_EXHAUST",
+      "domain": "counting",
+      "type": "soft_warn",
+      "description": "Encourage clear enumeration, but tolerate minor omissions.",
+      "trigger_if_missing": [
+        "all possible cases",
+        "no other possibilities",
+        "cases are mutually exclusive and complete",
+        "exhaustive"
+      ],
+      "fail_message": "You might want to explain why no other cases are possible."
+    },
+    {
+      "id": "AUDIT_DUP_OVERCOUNT",
+      "domain": "counting",
+      "type": "checklist",
+      "description": "Suggest correction for overcount if not obvious.",
+      "triggers": ["arrange", "permute", "rearrange"],
+      "requires_one_of": ["divide by", "multiset", "inclusion-exclusion"],
+      "fail_message": "Consider checking for overcounts — was a correction applied?"
+    },
+    {
+      "id": "AUDIT_GEO_TRIANGLE_EXISTENCE",
+      "domain": "geometry",
+      "type": "checklist",
+      "description": "Encourage verification of triangle existence.",
+      "triggers": ["triangle", "\u25b3"],
+      "requires_one_of": ["triangle inequality", "non-collinear", "area > 0"],
+      "fail_message": "Does your triangle satisfy the triangle inequality? Double-check."
+    },
+    {
+      "id": "AUDIT_MAX_MIN_EARLY_STOP",
+      "domain": "optimization",
+      "type": "soft_warn",
+      "description": "Encourage checking more values before concluding extrema.",
+      "triggers": ["maximize", "maximum", "minimize", "minimum", "find the greatest", "find the least"],
+      "anti_patterns": ["seems optimal", "probably highest", "appears to be max", "let's assume"],
+      "requires_one_of": ["checked all", "compared each", "tested all possible values"],
+      "fail_message": "Try explaining why this is the smallest or largest possible value."
+    },
+    {
+      "id": "AUDIT_ALG_MANIPULATION_INACCURATE",
+      "domain": "algebra",
+      "type": "soft_warn",
+      "description": "Support students by pointing out subtle algebra mistakes.",
+      "triggers": ["expand", "simplify", "rearrange", "distribute"],
+      "fail_message": "There might be a mistake in your simplification or rearrangement. Check signs and steps."
+    },
+    {
+      "id": "AUDIT_GOAL_ALIGNMENT",
+      "domain": "counting",
+      "type": "checklist",
+      "description": "Encourage students to verify final answer matches question goal.",
+      "requires_consistency": true,
+      "check_fields": ["quantity type", "final expression"],
+      "fail_message": "Make sure your final answer answers exactly what the problem is asking."
+    },
+    {
+      "id": "AUDIT_APPROX_WHEN_EXACT",
+      "domain": "counting",
+      "type": "soft_warn",
+      "description": "Suggest using exact computation when approximations are seen.",
+      "triggers": ["approximately", "roughly", "about"],
+      "fail_message": "You might want to use an exact expression here if possible."
+    },
+    {
+      "id": "AUDIT_GEO_LENGTH_METHOD",
+      "domain": "geometry",
+      "type": "checklist",
+      "description": "Help students reflect on their length derivation method.",
+      "triggers": ["length of", "distance between"],
+      "requires_one_of": ["Pythagorean", "right triangle", "cosine rule", "ratio of similarity"],
+      "fail_message": "Was your length based on a known geometric method?"
+    },
+    {
+      "id": "AUDIT_ALG_FRACTION_NOT_SIMPLIFIED",
+      "domain": "algebra",
+      "type": "soft_warn",
+      "description": "Remind students to reduce fractions when needed.",
+      "triggers": ["m/n", "lowest terms"],
+      "fail_message": "Check if your fraction is in lowest terms."
+    }
+  ]
+}

@@ -271,7 +271,7 @@
       ],
       "fail_message": "Triangle mentioned without condition for existence (e.g., triangle inequality or non-collinearity)."
     },
-  {
+    {
       "id": "AUDIT_MAX_MIN_EARLY_STOP",
       "domain": "optimization",
       "type": "iteration_guard",

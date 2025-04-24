@@ -455,27 +455,6 @@
         "first term"
       ],
       "fail_message": "Sum formula applied without correct structure or parameter justification."
-    },
-    {
-      "id": "AUDIT_MAX_MIN_EARLY_STOP",
-      "description": "Warn if a minimum or maximum is declared without checking all cases.",
-      "violation_signals": [
-        "smallest",
-        "least",
-        "minimum",
-        "greatest",
-        "maximum",
-        "minimizes",
-        "maximizes"
-      ],
-      "required_triggers": [
-        "enumerate",
-        "check all",
-        "systematic",
-        "[ENUM]",
-        "compare all"
-      ],
-      "auto_detect_logic": "if any(violation_signals in output) and none(required_triggers in output) → flag violation"
     }
   ]
 }

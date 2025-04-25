@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "version": "1.0-universal",
+    "description": "Formalizer Self-Audit Rules – Universal Strict Mode (counting, geometry, optimization, algebra, logic)",
+    "domains": [
+      "counting",
+      "geometry",
+      "optimization",
+      "algebra",
+      "logic"
+    ],
+    "audience": "universal",
+    "created": "2025-04-25"
+  },
+  "rules": [
+    {
+      "id": "AUDIT_LOGIC_MODUS_PONENS",
+      "domain": "logic",
+      "type": "inference_rule_check",
+      "description": "Validate proper application of Modus Ponens: from P → Q and P, conclude Q.",
+      "triggers": [
+        "if",
+        "then",
+        "implies",
+        "therefore"
+      ],
+      "requires_structure": [
+        "P → Q",
+        "P",
+        "∴ Q"
+      ],
+      "fail_message": "Modus Ponens incorrectly applied. Ensure both the implication and premise are used to conclude Q."
+    },
+    {
+      "id": "AUDIT_LOGIC_MODUS_TOLLENS",
+      "domain": "logic",
+      "type": "inference_rule_check",
+      "description": "Validate correct application of Modus Tollens: from P → Q and ¬Q, conclude ¬P.",
+      "triggers": [
+        "not",
+        "denies",
+        "contradicts"
+      ],
+      "requires_structure": [
+        "P → Q",
+        "¬Q",
+        "∴ ¬P"
+      ],
+      "fail_message": "Modus Tollens inference failed. You must negate the conclusion to negate the premise."
+    },
+    {
+      "id": "AUDIT_LOGIC_CONTRAPOSITIVE",
+      "domain": "logic",
+      "type": "inference_rule_check",
+      "description": "Validate that contrapositive transformation is accurate: P → Q becomes ¬Q → ¬P.",
+      "triggers": [
+        "contrapositive",
+        "reverse implication"
+      ],
+      "requires_structure": [
+        "P → Q",
+        "¬Q → ¬P"
+      ],
+      "fail_message": "Incorrect contrapositive form. Ensure both negation and reversal of implication are correct."
+    },
+    {
+      "id": "AUDIT_LOGIC_DISJUNCTION_ELIMINATION",
+      "domain": "logic",
+      "type": "inference_rule_check",
+      "description": "Validate correct use of disjunction elimination: from P ∨ Q and ¬P, conclude Q.",
+      "triggers": [
+        "or",
+        "either",
+        "eliminate"
+      ],
+      "requires_structure": [
+        "P ∨ Q",
+        "¬P",
+        "∴ Q"
+      ],
+      "fail_message": "Disjunction elimination incorrectly used. You must negate one side to conclude the other."
+    },
+    {
+      "id": "AUDIT_LOGIC_CONJUNCTION_INTRODUCTION",
+      "domain": "logic",
+      "type": "inference_rule_check",
+      "description": "Ensure conjunctions are only introduced if both components are proven.",
+      "triggers": [
+        "and",
+        "both",
+        "conclude together"
+      ],
+      "requires_structure": [
+        "P",
+        "Q",
+        "∴ P ∧ Q"
+      ],
+      "fail_message": "Conjunction introduced without proving both statements independently."
+    },
+    {
+      "id": "AUDIT_LOGIC_IF_AND_ONLY_IF",
+      "domain": "logic",
+      "type": "inference_rule_check",
+      "description": "Validate that biconditional logic includes proofs in both directions.",
+      "triggers": [
+        "if and only if",
+        "iff",
+        "equivalent"
+      ],
+      "requires_structure": [
+        "P → Q",
+        "Q → P"
+      ],
+      "fail_message": "Biconditional (↔) used without proving both implications."
+    },
+    {
+      "id": "AUDIT_LOGIC_PROOF_BY_CONTRADICTION",
+      "domain": "logic",
+      "type": "inference_rule_check",
+      "description": "Ensure that proof by contradiction includes an explicit contradiction.",
+      "triggers": [
+        "assume not",
+        "contradiction",
+        "suppose not"
+      ],
+      "requires_structure": [
+        "assume ¬P",
+        "derive contradiction",
+        "∴ P"
+      ],
+      "fail_message": "Proof by contradiction incomplete. You must derive a contradiction explicitly."
+    },
+    {
+      "id": "AUDIT_LOGIC_CHAINING_REQUIRED",
+      "domain": "logic",
+      "type": "structure_check",
+      "description": "Verify that logical steps are chained with explicit connectors (→, ∧, ∨, ¬, ∴).",
+      "triggers": [
+        "so",
+        "therefore",
+        "thus",
+        "it follows",
+        "we conclude"
+      ],
+      "requires_one_of": [
+        "→",
+        "∧",
+        "∨",
+        "¬",
+        "∴"
+      ],
+      "fail_message": "Logical progression lacks formal connection between statements."
+    },
+    {
+      "id": "AUDIT_ENUM_EXHAUST",
+      "domain": "counting",
+      "type": "checklist",
+      "description": "Enumeration must be explicitly declared as exhaustive.",
+      "trigger_if_missing": [
+        "all possible cases",
+        "no other possibilities",
+        "cases are mutually exclusive and complete",
+        "exhaustive"
+      ],
+      "fail_message": "Enumeration may be incomplete. No explicit coverage statement found."
+    },
+    {
+      "id": "AUDIT_GEO_TRIANGLE_EXISTENCE",
+      "domain": "geometry",
+      "type": "checklist",
+      "description": "Verify that a triangle being referenced is actually constructible and non-degenerate.",
+      "triggers": [
+        "triangle",
+        "△"
+      ],
+      "requires_one_of": [
+        "non-collinear",
+        "triangle inequality",
+        "area > 0"
+      ],
+      "fail_message": "Triangle mentioned without condition for existence (e.g., triangle inequality or non-collinearity)."
+    },
+    {
+      "id": "AUDIT_ALG_MANIPULATION_INACCURATE",
+      "domain": "algebra",
+      "type": "symbolic_step_check",
+      "description": "Check for mistakes in basic expansion, factoring, or rearrangement steps.",
+      "triggers": [
+        "expand",
+        "simplify",
+        "rearrange",
+        "distribute"
+      ],
+      "fail_message": "Algebraic manipulation step may contain expansion/factoring/simplification errors."
+    }
+  ]
+}

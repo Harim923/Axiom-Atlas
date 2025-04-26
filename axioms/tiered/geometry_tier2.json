@@ -402,22 +402,13 @@
   {
     "id": "T2_GEO21",
     "name": "Shoelace Formula",
-    "statement": "Area = \u00bd |\u03a3(x_iy_{i+1} \u2212 x_{i+1}y_i)|",
-    "formal": "Area = \u00bd \u00d7 abs(cross sum)",
-    "tags": [
-      "geometry",
-      "triangle",
-      "circle",
-      "angle"
-    ],
-    "philosophy": "Used in coordinate geometry.",
-    "used_in_proofs": [
-      "ShoelaceArea"
-    ],
-    "used_in_systems": [
-      "Geometry"
-    ],
-    "strength_score": 0.9
+    "statement": "For a polygon with vertices (x₁, y₁), (x₂, y₂), ..., (xₙ, yₙ) listed in order, the area is ½ × |Σ(xᵢyᵢ₊₁ − xᵢ₊₁yᵢ)| with indices cyclic.",
+    "formal": "Area = ½ × abs(cross sum over cyclic indices)",
+    "tags": ["geometry", "coordinate", "area", "polygon"],
+    "philosophy": "Standard method for computing area of polygons using coordinates.",
+    "used_in_proofs": ["ShoelaceArea"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.95
   },
   {
     "id": "T2_GEO22",

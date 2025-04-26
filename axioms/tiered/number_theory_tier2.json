@@ -591,6 +591,17 @@
     "ValuationEngine"
   ],
   "strength_score": 0.92
+},
+  {
+  "id": "T2_NT32",
+  "name": "Unique Integer in Interval (Existence-Uniqueness)",
+  "statement": "Given inequalities defining an integer interval [L, R), if exactly one integer satisfies it, then the integer is uniquely determined.",
+  "formal": "If |{n ∈ ℤ : L ≤ n < R}| = 1, then n is uniquely determined.",
+  "tags": ["number_theory", "floor_function", "integer_interval", "existence", "uniqueness"],
+  "philosophy": "Formalizes the enumeration and uniqueness of integers in bounded intervals, fundamental for floor and modular arguments.",
+  "used_in_proofs": ["FloorUniqueRecovery", "ModularUniqueSolutions"],
+  "used_in_systems": ["NumberTheory"],
+  "strength_score": 0.95
 }
 
 ]

@@ -570,5 +570,46 @@
       "Combinatorics"
     ],
     "strength_score": 0.9
+  },
+  {
+  "id": "T2_CMB31",
+  "name": "First-Order Linear Recurrence",
+  "statement": "If a_n = c * a_{n-1} + d, then the general solution can be found by iteration or solving the homogeneous + particular solution.",
+  "formal": "a_n = c * a_{n-1} + d",
+  "tags": [
+    "recurrence",
+    "linear",
+    "combinatorics"
+  ],
+  "philosophy": "Captures single-step dependency for sequences; used in growth models and simple Markovian chains.",
+  "used_in_proofs": [
+    "LinearRecurrenceSolving"
+  ],
+  "used_in_systems": [
+    "Combinatorics",
+    "RecurrenceRelations"
+  ],
+  "strength_score": 0.9
+  },
+  {
+  "id": "T2_CMB32",
+  "name": "Markov Recurrence Transition",
+  "statement": "The probability of reaching a state depends only on the previous state: P(S_n) = sum over previous states of transition probability × P(S_{n-1}).",
+  "formal": "P(S_n) = \\sum P(S_{n-1}) \\times transition(S_{n-1} \\to S_n)",
+  "tags": [
+    "recurrence",
+    "markov",
+    "probability"
+  ],
+  "philosophy": "Used in random walk, coin-flipping games, memoryless processes.",
+  "used_in_proofs": [
+    "MarkovChainAnalysis"
+  ],
+  "used_in_systems": [
+    "Combinatorics",
+    "Probability",
+    "RecurrenceRelations"
+  ],
+  "strength_score": 0.9
   }
 ]

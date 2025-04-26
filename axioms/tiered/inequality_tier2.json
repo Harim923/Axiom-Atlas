@@ -580,7 +580,6 @@
     "used_in_systems": ["Inequality", "Geometry"],
     "strength_score": 0.95
   }, 
-  [
   {
     "id": "T2_INEQ32",
     "name": "Inequality Chain Forward (a < b < c implies a < c)",
@@ -621,6 +620,4 @@
     "used_in_systems": ["Inequality"],
     "strength_score": 0.9
   }
-]
-
 ]

@@ -640,6 +640,225 @@
   "used_in_proofs": ["BoxTriangleCenter"],
   "used_in_systems": ["Geometry"],
   "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO34",
+  "name": "Parameterization of a Line Segment",
+  "statement": "A line segment from point A to point B in 3D space can be parameterized as (1-t)A + tB, where 0 ≤ t ≤ 1.",
+  "formal": "(x, y, z) = (1-t)(x1, y1, z1) + t(x2, y2, z2), 0 ≤ t ≤ 1",
+  "tags": ["geometry", "line_segment", "parameterization", "coordinate_space"],
+  "philosophy": "Expresses any point on a line segment using a parameter t ranging from 0 to 1.",
+  "used_in_proofs": ["SphereEdgeIntersection", "SegmentDivision"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO35",
+  "name": "Parameterization of a Line (3D)",
+  "statement": "A line through a point A in 3D space in the direction of a vector v can be parameterized as A + tv, where t is any real number.",
+  "formal": "(x, y, z) = (x1 + td_x, y1 + td_y, z1 + td_z), t ∈ ℝ",
+  "tags": ["geometry", "line", "parameterization", "coordinate_space"],
+  "philosophy": "Expresses a line in 3D space using a base point and a direction vector scaled by a real parameter.",
+  "used_in_proofs": ["LineSphereIntersection", "ParallelLineAnalysis"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO36",
+  "name": "Parameterization of a Plane (3D)",
+  "statement": "A plane in 3D space through a point A with spanning vectors u and v can be parameterized as A + su + tv, where s and t are real numbers.",
+  "formal": "(x, y, z) = (x1, y1, z1) + s(d1_x, d1_y, d1_z) + t(d2_x, d2_y, d2_z), s, t ∈ ℝ",
+  "tags": ["geometry", "plane", "parameterization", "coordinate_space"],
+  "philosophy": "Expresses every point on a plane using two independent direction vectors from a base point.",
+  "used_in_proofs": ["PlaneIntersection", "TetrahedronVolume"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO37",
+    "name": "Triangle Congruence (SSS)",
+    "statement": "Two triangles are congruent if their corresponding sides are equal in length.",
+    "formal": "If AB = DE, BC = EF, AC = DF, then △ABC ≅ △DEF",
+    "tags": ["geometry", "triangle", "congruence"],
+    "philosophy": "Foundational rule for proving triangles congruent using side lengths.",
+    "used_in_proofs": ["TriangleCongruence"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO38",
+    "name": "Triangle Congruence (SAS)",
+    "statement": "Two triangles are congruent if two sides and the included angle are respectively equal.",
+    "formal": "If AB = DE, AC = DF, and ∠A = ∠D, then △ABC ≅ △DEF",
+    "tags": ["geometry", "triangle", "congruence"],
+    "philosophy": "Fundamental rule for triangle congruence based on two sides and included angle.",
+    "used_in_proofs": ["TriangleCongruence"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO39",
+    "name": "Triangle Congruence (ASA)",
+    "statement": "Two triangles are congruent if two angles and the included side are respectively equal.",
+    "formal": "If ∠A = ∠D, ∠B = ∠E, and AB = DE, then △ABC ≅ △DEF",
+    "tags": ["geometry", "triangle", "congruence"],
+    "philosophy": "Establishes triangle congruence based on two angles and the included side.",
+    "used_in_proofs": ["TriangleCongruence"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO40",
+    "name": "Volume of a Tetrahedron",
+    "statement": "The volume of a tetrahedron with adjacent vectors u, v, w is one-sixth the absolute value of the scalar triple product.",
+    "formal": "V = (1/6) * |u · (v × w)|",
+    "tags": ["geometry", "3d", "volume", "tetrahedron"],
+    "philosophy": "Calculates 3D volume from vectors at a vertex.",
+    "used_in_proofs": ["TetrahedronVolume"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO41",
+  "name": "Ptolemy's Theorem (Cyclic Quadrilateral)",
+  "statement": "In a cyclic quadrilateral, the product of the diagonals equals the sum of the products of the opposite sides.",
+  "formal": "AC·BD = AB·CD + AD·BC",
+  "tags": ["geometry", "circle", "cyclic", "quadrilateral", "ptolemy"],
+  "philosophy": "Relates sides and diagonals in cyclic quadrilaterals, essential for advanced circle geometry.",
+  "used_in_proofs": ["CyclicQuadDiagonalRelation"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO42",
+  "name": "Brahmagupta's Formula (Cyclic Quadrilateral Area)",
+  "statement": "The area of a cyclic quadrilateral with sides a, b, c, d is √[(s-a)(s-b)(s-c)(s-d)], where s = (a+b+c+d)/2.",
+  "formal": "Area = √[(s-a)(s-b)(s-c)(s-d)], s = (a+b+c+d)/2",
+  "tags": ["geometry", "circle", "cyclic", "quadrilateral", "area", "brahmagupta"],
+  "philosophy": "Generalizes Heron's formula for cyclic quadrilaterals, connecting side lengths to area.",
+  "used_in_proofs": ["CyclicQuadArea"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO43",
+  "name": "Menelaus' Theorem",
+  "statement": "In a triangle, if a transversal cuts across the sides (or extensions), the product of ratios of divided segments equals 1.",
+  "formal": "(AF/FB) × (BD/DC) × (CE/EA) = 1",
+  "tags": ["geometry", "triangle", "menelaus", "ratio"],
+  "philosophy": "Connects line intersections in a triangle via ratios.",
+  "used_in_proofs": ["CollinearityProofs"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO44",
+  "name": "Stewart's Theorem",
+  "statement": "In triangle ABC with point D on BC, AD² = AB²·(DC/BC) + AC²·(BD/BC) - BD·DC.",
+  "formal": "AD² = (AB²·DC + AC²·BD)/BC - BD·DC",
+  "tags": ["geometry", "triangle", "length", "stewart"],
+  "philosophy": "Relates side lengths and cevian segments in a triangle.",
+  "used_in_proofs": ["LengthRelationProofs"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO45",
+  "name": "Gergonne Point",
+  "statement": "The point of concurrency of lines from the vertices to the points of tangency of the incircle with the opposite sides.",
+  "formal": "Gergonne Point exists for any triangle.",
+  "tags": ["geometry", "triangle", "incenter", "special_points"],
+  "philosophy": "Describes the concurrency related to the triangle’s incircle.",
+  "used_in_proofs": ["IncircleConcurrencyProofs"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO46",
+  "name": "Triangle Congruence (AAS)",
+  "statement": "Two triangles are congruent if two angles and a non-included side are respectively equal.",
+  "formal": "If ∠A = ∠D, ∠B = ∠E, and BC = EF, then △ABC ≅ △DEF",
+  "tags": ["geometry", "triangle", "congruence"],
+  "philosophy": "Establishes triangle congruence based on two angles and a non-included side.",
+  "used_in_proofs": ["TriangleCongruence"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO47",
+  "name": "Extended Law of Sines",
+  "statement": "In any triangle ABC with circumradius R, a / sin A = b / sin B = c / sin C = 2R.",
+  "formal": "a / sin A = b / sin B = c / sin C = 2R",
+  "tags": ["geometry", "triangle", "circle", "sine_rule"],
+  "philosophy": "Connects side lengths and angles through the triangle's circumradius.",
+  "used_in_proofs": ["CircumradiusProblems", "SineExtendedProofs"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO48",
+  "name": "Ceva's Theorem",
+  "statement": "In triangle ABC, points D, E, F are on BC, AC, and AB respectively. Lines AD, BE, and CF concur if and only if (BD/DC) × (CE/EA) × (AF/FB) = 1.",
+  "formal": "(BD/DC) × (CE/EA) × (AF/FB) = 1 ⇔ concurrency",
+  "tags": ["geometry", "triangle", "ratio", "concurrency", "ceva"],
+  "philosophy": "Characterizes when three cevians are concurrent inside a triangle via ratios.",
+  "used_in_proofs": ["ConcurrencyProofs", "MassPointGeometry"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO49",
+  "name": "Law of Sines",
+  "statement": "In any triangle ABC, the ratio of the length of a side to the sine of its opposite angle is the same for all three sides.",
+  "formal": "a / sin A = b / sin B = c / sin C",
+  "tags": ["geometry", "triangle", "sine_rule"],
+  "philosophy": "Connects side lengths and angles in any triangle.",
+  "used_in_proofs": ["SineRuleApplications", "CircumradiusProblems"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO50",
+  "name": "Law of Cosines",
+  "statement": "In any triangle ABC, the square of one side equals the sum of the squares of the other two sides minus twice their product times the cosine of the included angle.",
+  "formal": "c² = a² + b² - 2ab cos C",
+  "tags": ["geometry", "triangle", "cosine_rule"],
+  "philosophy": "Generalizes the Pythagorean theorem to arbitrary triangles.",
+  "used_in_proofs": ["CosineRuleApplications", "DistanceCalculations"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO51",
+  "name": "Mass Point Geometry: Weight Ratios",
+  "statement": "In a triangle with mass points assigned to vertices, the ratios of divided segments are inversely proportional to the masses.",
+  "formal": "If mass(A):mass(B) = d(BE):d(AE), then m(A)d(AE) = m(B)d(BE)",
+  "tags": ["geometry", "triangle", "mass_point", "ratio"],
+  "philosophy": "Simplifies ratio problems by assigning masses to vertices.",
+  "used_in_proofs": ["MassPointRatioProblems"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO52",
+  "name": "Inversion Definition",
+  "statement": "Under inversion with center O and radius r, point P maps to P' such that OP·OP' = r².",
+  "formal": "OP × OP' = r²",
+  "tags": ["geometry", "inversion", "circle", "mapping"],
+  "philosophy": "Defines the basic relation of inversion based on fixed distance product.",
+  "used_in_proofs": ["InversionBasicProblems"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.95
+  },
+  {
+  "id": "T2_GEO53",
+  "name": "Reflection Across a Line",
+  "statement": "The reflection of a point P across a line ℓ is the point P' such that ℓ is the perpendicular bisector of segment PP'.",
+  "formal": "Line ℓ is ⟂ bisector of segment PP'",
+  "tags": ["geometry", "reflection", "symmetry", "line"],
+  "philosophy": "Defines reflection operation over a line as an isometric mapping.",
+  "used_in_proofs": ["ReflectionProblems", "SymmetryArguments"],
+  "used_in_systems": ["Geometry"],
+  "strength_score": 0.9
   }
-
 ]

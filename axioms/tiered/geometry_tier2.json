@@ -440,24 +440,27 @@
     "strength_score": 0.9
   },
   {
-    "id": "T2_GEO23",
-    "name": "Area of Triangle (1/2 base \u00d7 height)",
-    "statement": "A = \u00bd \u00d7 base \u00d7 height",
-    "formal": "A = \u00bdbh",
-    "tags": [
-      "geometry",
-      "triangle",
-      "circle",
-      "angle"
-    ],
-    "philosophy": "Fundamental area computation.",
-    "used_in_proofs": [
-      "TriangleArea"
-    ],
-    "used_in_systems": [
-      "Geometry"
-    ],
-    "strength_score": 0.9
+  "id": "T2_GEO23",
+  "name": "Area-Height-Base Relation (Bidirectional)",
+  "statement": "In any triangle, the area equals half the product of a base and its corresponding height. Conversely, the height equals twice the area divided by the base.",
+  "formal": "A = (1/2) \times \text{base} \times \text{height};\n\text{height} = (2 \times A) / \text{base}",
+  "tags": [
+    "geometry",
+    "triangle",
+    "area",
+    "height",
+    "base",
+    "bidirectional"
+  ],
+  "philosophy": "Fundamental relation connecting area, base, and height in both directions.",
+  "used_in_proofs": [
+    "TriangleArea",
+    "HeightFromArea"
+  ],
+  "used_in_systems": [
+    "Geometry"
+  ],
+  "strength_score": 0.95
   },
   {
     "id": "T2_GEO24",

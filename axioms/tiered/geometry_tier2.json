@@ -863,16 +863,5 @@
   "used_in_proofs": ["ReflectionProblems", "SymmetryArguments"],
   "used_in_systems": ["Geometry"],
   "strength_score": 0.9
-  },
-  {
-  "id": "T2_GEO54",
-  "name": "Pedal Quadrilateral Perimeter Theorem (Cyclic Quadrilateral)",
-  "statement": "In a cyclic quadrilateral, the perimeter of the pedal quadrilateral formed by projecting vertices onto the diagonals equals 4 times the area divided by the square root of the product of the diagonals.",
-  "formal": "P = 4K / √(AC² × BD²)",
-  "tags": ["geometry", "cyclic_quadrilateral", "pedal", "area", "perimeter"],
-  "philosophy": "Relates the perimeter of a pedal quadrilateral to the area and diagonals of the original cyclic quadrilateral.",
-  "used_in_proofs": ["PedalQuadPerimeter"],
-  "used_in_systems": ["Geometry"],
-  "strength_score": 0.95
   }
 ]

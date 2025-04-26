@@ -579,5 +579,48 @@
     "used_in_proofs": ["TriangleSideSum"],
     "used_in_systems": ["Inequality", "Geometry"],
     "strength_score": 0.95
+  }, 
+  [
+  {
+    "id": "T2_INEQ32",
+    "name": "Inequality Chain Forward (a < b < c implies a < c)",
+    "statement": "If a < b and b < c, then a < c.",
+    "tags": ["inequality", "chaining", "logic"],
+    "philosophy": "Allows deducing transitive relations from inequalities.",
+    "used_in_proofs": ["InequalityChaining"],
+    "used_in_systems": ["Inequality"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_INEQ33",
+    "name": "Inequality Chain Reverse (a > b > c implies a > c)",
+    "statement": "If a > b and b > c, then a > c.",
+    "tags": ["inequality", "chaining", "logic"],
+    "philosophy": "Allows deducing transitive relations for greater-than comparisons.",
+    "used_in_proofs": ["InequalityChaining"],
+    "used_in_systems": ["Inequality"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_INEQ34",
+    "name": "Inequality and Equality Chain (a < b = c implies a < c)",
+    "statement": "If a < b and b = c, then a < c.",
+    "tags": ["inequality", "chaining", "logic"],
+    "philosophy": "Maintains inequality when connecting through an equality.",
+    "used_in_proofs": ["InequalityChaining"],
+    "used_in_systems": ["Inequality"],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_INEQ35",
+    "name": "Equality and Inequality Chain (a = b < c implies a < c)",
+    "statement": "If a = b and b < c, then a < c.",
+    "tags": ["inequality", "chaining", "logic"],
+    "philosophy": "Maintains inequality direction when equality precedes inequality.",
+    "used_in_proofs": ["InequalityChaining"],
+    "used_in_systems": ["Inequality"],
+    "strength_score": 0.9
   }
+]
+
 ]

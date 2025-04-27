@@ -481,6 +481,601 @@
     "statement": "If a = b, then b = a.",
     "formal": "a = b ⇨ b = a.",
     "tags": ["algebra", "property", "equality"]
+  },
+  {
+    "id": "TCH_ALG1_070",
+    "name": "Definition of Ratio",
+    "statement": "A ratio is a comparison of two quantities by division.",
+    "formal": "Ratio of a to b is a/b, where b ≠ 0.",
+    "tags": ["algebra", "definition", "ratio"]
+  },
+  {
+    "id": "TCH_ALG1_071",
+    "name": "Definition of Proportion",
+    "statement": "A proportion is an equation that states two ratios are equal.",
+    "formal": "Proportion: a/b = c/d, where b ≠ 0 and d ≠ 0.",
+    "tags": ["algebra", "definition", "proportion"]
+  },
+  {
+    "id": "TCH_ALG1_072",
+    "name": "Cross Multiplication Property",
+    "statement": "If two ratios are equal, then the cross products are equal: a/b = c/d implies ad = bc.",
+    "formal": "If a/b = c/d, then ad = bc.",
+    "tags": ["algebra", "property", "proportion"]
+  },
+  {
+    "id": "TCH_ALG1_073",
+    "name": "Scaling Property of Ratios",
+    "statement": "Multiplying or dividing both terms of a ratio by the same nonzero number does not change the ratio.",
+    "formal": "a/b = (ka)/(kb), where k ≠ 0.",
+    "tags": ["algebra", "property", "ratio"]
+  },
+  {
+    "id": "TCH_ALG1_074",
+    "name": "Solving Proportion Rule",
+    "statement": "To solve a proportion, cross-multiply and solve the resulting equation.",
+    "formal": "From a/b = c/d, deduce ad = bc and solve for the unknown.",
+    "tags": ["algebra", "solving", "proportion"]
+  },
+  {
+    "id": "TCH_ALG1_075",
+    "name": "Definition of Unit Rate",
+    "statement": "A unit rate compares a quantity to one unit of another quantity.",
+    "formal": "Unit rate: a quantity expressed per 1 unit.",
+    "tags": ["algebra", "definition", "unit rate"]
+  },
+  {
+    "id": "TCH_ALG1_076",
+    "name": "Definition of Slope",
+    "statement": "The slope of a line measures the steepness of the line and is the ratio of the vertical change to the horizontal change between two points on the line.",
+    "formal": "Slope m = (change in y)/(change in x) = (y₂ - y₁)/(x₂ - x₁), x₁ ≠ x₂.",
+    "tags": ["algebra", "definition", "slope"]
+  },
+  {
+    "id": "TCH_ALG1_077",
+    "name": "Definition of y-Intercept",
+    "statement": "The y-intercept of a line is the point where the line crosses the y-axis.",
+    "formal": "The y-coordinate when x = 0.",
+    "tags": ["algebra", "definition", "y-intercept"]
+  },
+  {
+    "id": "TCH_ALG1_078",
+    "name": "Slope Formula Between Two Points",
+    "statement": "The slope between two distinct points (x₁, y₁) and (x₂, y₂) is given by m = (y₂ - y₁)/(x₂ - x₁).",
+    "formal": "m = (y₂ - y₁)/(x₂ - x₁), x₁ ≠ x₂.",
+    "tags": ["algebra", "formula", "slope"]
+  },
+  {
+    "id": "TCH_ALG1_079",
+    "name": "Equation of Line (Slope and Intercept Form)",
+    "statement": "The equation of a line with slope m and y-intercept b is y = mx + b.",
+    "formal": "y = mx + b.",
+    "tags": ["algebra", "equation", "line"]
+  },
+  {
+    "id": "TCH_ALG1_080",
+    "name": "Equation of Line Given Two Points",
+    "statement": "To find the equation of a line given two points, first find the slope using the slope formula, then use point-slope form to derive the equation.",
+    "formal": "Use m = (y₂ - y₁)/(x₂ - x₁), then y - y₁ = m(x - x₁).",
+    "tags": ["algebra", "equation", "two points"]
+  },
+  {
+    "id": "TCH_ALG1_081",
+    "name": "Horizontal and Vertical Line Interpretation",
+    "statement": "A horizontal line has equation y = constant and slope 0. A vertical line has equation x = constant and undefined slope.",
+    "formal": "Horizontal: y = k (m = 0); Vertical: x = k (slope undefined).",
+    "tags": ["algebra", "special cases", "lines"]
+  },
+  {
+    "id": "TCH_ALG1_082",
+    "name": "Definition of Inequality Symbols",
+    "statement": "The inequality symbols <, ≤, >, and ≥ represent 'less than', 'less than or equal to', 'greater than', and 'greater than or equal to', respectively.",
+    "formal": "<: less than, ≤: less than or equal to, >: greater than, ≥: greater than or equal to.",
+    "tags": ["algebra", "definition", "inequalities"]
+  },
+  {
+    "id": "TCH_ALG1_083",
+    "name": "Addition and Subtraction Property of Inequalities",
+    "statement": "Adding or subtracting the same number on both sides of an inequality does not change the direction of the inequality.",
+    "formal": "If a < b, then a + c < b + c and a - c < b - c.",
+    "tags": ["algebra", "property", "inequalities"]
+  },
+  {
+    "id": "TCH_ALG1_084",
+    "name": "Multiplication and Division Property of Inequalities",
+    "statement": "When multiplying or dividing both sides of an inequality by a positive number, the inequality direction remains the same. When multiplying or dividing by a negative number, the inequality direction reverses.",
+    "formal": "If a < b and c > 0, then ac < bc. If c < 0, then ac > bc.",
+    "tags": ["algebra", "property", "inequalities"]
+  },
+  {
+    "id": "TCH_ALG1_085",
+    "name": "Solving Inequalities by Inverse Operations",
+    "statement": "To solve an inequality, isolate the variable using inverse operations, carefully adjusting the direction of the inequality if multiplying or dividing by a negative number.",
+    "formal": "Apply inverse operations; flip inequality if multiplying/dividing by negative.",
+    "tags": ["algebra", "solving", "inequalities"]
+  },
+  {
+    "id": "TCH_ALG1_086",
+    "name": "Compound Inequalities Rule",
+    "statement": "A compound inequality consists of two inequalities joined by 'and' or 'or' and can be solved by solving each part individually.",
+    "formal": "Solve each inequality separately, then find the intersection (and) or union (or) of solutions.",
+    "tags": ["algebra", "compound", "inequalities"]
+  },
+  {
+    "id": "TCH_ALG1_087",
+    "name": "Definition of Quadratic Expression",
+    "statement": "A quadratic expression is a polynomial expression of degree 2, typically written as ax² + bx + c, where a, b, and c are real numbers and a ≠ 0.",
+    "formal": "Quadratic Expression: ax² + bx + c where a ≠ 0.",
+    "tags": ["algebra", "definition", "quadratic expression"]
+  },
+  {
+    "id": "TCH_ALG1_088",
+    "name": "Definition of Quadratic Equation",
+    "statement": "A quadratic equation is an equation that can be written in the form ax² + bx + c = 0, where a, b, and c are real numbers and a ≠ 0.",
+    "formal": "Quadratic Equation: ax² + bx + c = 0 where a ≠ 0.",
+    "tags": ["algebra", "definition", "quadratic equation"]
+  },
+  {
+    "id": "TCH_ALG1_089",
+    "name": "Definition of Square Root",
+    "statement": "The square root of a non-negative number a is the non-negative number x such that x² = a.",
+    "formal": "If x ≥ 0 and x² = a, then x = √a.",
+    "tags": ["algebra", "definition", "square root"]
+  },
+  {
+    "id": "TCH_ALG1_090",
+    "name": "Solving Simple Quadratic Equations",
+    "statement": "To solve an equation of the form x² = a, take the positive and negative square roots: x = ±√a.",
+    "formal": "If x² = a, then x = ±√a.",
+    "tags": ["algebra", "solving", "quadratic"]
+  },
+  {
+    "id": "TCH_ALG1_091",
+    "name": "Principle of Two Solutions for Square Roots",
+    "statement": "An equation of the form x² = a (for a > 0) has exactly two real solutions: √a and -√a.",
+    "formal": "Solutions are x = √a and x = -√a.",
+    "tags": ["algebra", "principle", "square root"]
+  },
+  {
+    "id": "TCH_ALG1_092",
+    "name": "Definition of Factoring",
+    "statement": "Factoring is the process of writing a mathematical expression as a product of its factors.",
+    "formal": "Rewrite an expression as a product of simpler expressions.",
+    "tags": ["algebra", "definition", "factoring"]
+  },
+  {
+    "id": "TCH_ALG1_093",
+    "name": "GCF Factoring Rule",
+    "statement": "The greatest common factor (GCF) of all terms can be factored out from a polynomial.",
+    "formal": "Factor out GCF common to all terms.",
+    "tags": ["algebra", "factoring", "gcf"]
+  },
+  {
+    "id": "TCH_ALG1_094",
+    "name": "Factoring Quadratic Trinomials",
+    "statement": "A quadratic trinomial ax² + bx + c can often be factored into the product of two binomials.",
+    "formal": "ax² + bx + c = (dx + e)(fx + g), where d, e, f, g ∈ ℝ.",
+    "tags": ["algebra", "factoring", "quadratic"]
+  },
+  {
+    "id": "TCH_ALG1_095",
+    "name": "Factoring Perfect Square Trinomials",
+    "statement": "A trinomial of the form a² + 2ab + b² can be factored as (a + b)², and a² - 2ab + b² can be factored as (a - b)².",
+    "formal": "a² + 2ab + b² = (a+b)²; a² - 2ab + b² = (a-b)².",
+    "tags": ["algebra", "factoring", "perfect square"]
+  },
+  {
+    "id": "TCH_ALG1_096",
+    "name": "Factoring Difference of Squares",
+    "statement": "An expression of the form a² - b² can be factored as (a + b)(a - b).",
+    "formal": "a² - b² = (a+b)(a-b).",
+    "tags": ["algebra", "factoring", "difference of squares"]
+  },
+  {
+    "id": "TCH_ALG1_097",
+    "name": "Definition of Imaginary Unit",
+    "statement": "The imaginary unit i is defined as the number satisfying i² = -1.",
+    "formal": "i² = -1.",
+    "tags": ["algebra", "definition", "imaginary unit"]
+  },
+  {
+    "id": "TCH_ALG1_098",
+    "name": "Definition of Complex Number",
+    "statement": "A complex number is a number of the form a + bi, where a and b are real numbers and i is the imaginary unit.",
+    "formal": "Complex Number: a + bi where a, b ∈ ℝ.",
+    "tags": ["algebra", "definition", "complex number"]
+  },
+  {
+    "id": "TCH_ALG1_099",
+    "name": "Addition and Subtraction of Complex Numbers",
+    "statement": "To add or subtract complex numbers, add or subtract their real parts and their imaginary parts separately.",
+    "formal": "(a + bi) ± (c + di) = (a ± c) + (b ± d)i.",
+    "tags": ["algebra", "operation", "complex numbers"]
+  },
+  {
+    "id": "TCH_ALG1_100",
+    "name": "Multiplication of Complex Numbers",
+    "statement": "To multiply two complex numbers, apply the distributive property and use the fact that i² = -1.",
+    "formal": "(a + bi)(c + di) = (ac - bd) + (ad + bc)i.",
+    "tags": ["algebra", "operation", "complex numbers"]
+  },
+  {
+    "id": "TCH_ALG1_101",
+    "name": "Powers of i Rule",
+    "statement": "The powers of i cycle every 4: i¹ = i, i² = -1, i³ = -i, i⁴ = 1, and repeat.",
+    "formal": "i¹ = i, i² = -1, i³ = -i, i⁴ = 1, and cycle repeats.",
+    "tags": ["algebra", "property", "imaginary unit"]
+  },
+  {
+    "id": "TCH_ALG1_102",
+    "name": "Definition of Completing the Square",
+    "statement": "Completing the square is the process of rewriting a quadratic expression as a perfect square trinomial plus or minus a constant.",
+    "formal": "Rewrite ax² + bx + c as (x + d)² + e or a variant after adjustment.",
+    "tags": ["algebra", "definition", "completing the square"]
+  },
+  {
+    "id": "TCH_ALG1_103",
+    "name": "Completing the Square Formula (Monic Quadratic)",
+    "statement": "For a monic quadratic expression x² + bx, completing the square involves adding (b/2)² to form (x + b/2)².",
+    "formal": "x² + bx = (x + b/2)² - (b/2)² + bx.",
+    "tags": ["algebra", "formula", "completing the square"]
+  },
+  {
+    "id": "TCH_ALG1_104",
+    "name": "Completing the Square for Non-Monic Quadratics",
+    "statement": "For a quadratic with leading coefficient a ≠ 1, divide through by a before completing the square.",
+    "formal": "ax² + bx + c → (x + b/2a)² after dividing by a.",
+    "tags": ["algebra", "technique", "completing the square"]
+  },
+  {
+    "id": "TCH_ALG1_105",
+    "name": "Solving Quadratic Equations by Completing the Square",
+    "statement": "To solve a quadratic by completing the square, complete the square, isolate the squared term, and take the square root of both sides.",
+    "formal": "Complete square → isolate square term → apply ±√.",
+    "tags": ["algebra", "solving", "quadratic"]
+  },
+  {
+    "id": "TCH_ALG1_106",
+    "name": "Perfect Square Recognition Rule",
+    "statement": "An expression of the form (x + d)² or (x - d)² is a perfect square trinomial.",
+    "formal": "(x + d)² = x² + 2dx + d².",
+    "tags": ["algebra", "recognition", "perfect square"]
+  },
+  {
+    "id": "TCH_ALG1_107",
+    "name": "Definition of Parabola",
+    "statement": "The graph of a quadratic function y = ax² + bx + c is called a parabola.",
+    "formal": "A parabola is the graph of a function y = ax² + bx + c where a ≠ 0.",
+    "tags": ["algebra", "definition", "parabola"]
+  },
+  {
+    "id": "TCH_ALG1_108",
+    "name": "Direction of Parabola",
+    "statement": "If a > 0, the parabola opens upward. If a < 0, the parabola opens downward.",
+    "formal": "a > 0 → opens upward; a < 0 → opens downward.",
+    "tags": ["algebra", "property", "parabola"]
+  },
+  {
+    "id": "TCH_ALG1_109",
+    "name": "Vertex Formula",
+    "statement": "The vertex of the parabola y = ax² + bx + c occurs at x = -b/(2a).",
+    "formal": "Vertex x-coordinate: x = -b/(2a).",
+    "tags": ["algebra", "formula", "vertex"]
+  },
+  {
+    "id": "TCH_ALG1_110",
+    "name": "Axis of Symmetry",
+    "statement": "The axis of symmetry of a parabola is the vertical line that passes through its vertex.",
+    "formal": "Axis of symmetry: x = -b/(2a).",
+    "tags": ["algebra", "definition", "symmetry"]
+  },
+  {
+    "id": "TCH_ALG1_111",
+    "name": "Maximum and Minimum Value of Parabola",
+    "statement": "If the parabola opens upward, the vertex represents the minimum value. If it opens downward, the vertex represents the maximum value.",
+    "formal": "a > 0 → vertex is minimum; a < 0 → vertex is maximum.",
+    "tags": ["algebra", "property", "extrema"]
+  },
+  {
+    "id": "TCH_ALG1_112",
+    "name": "Definition of Function",
+    "statement": "A function is a relation that assigns exactly one output value to each input value.",
+    "formal": "For each input x, there is exactly one output y.",
+    "tags": ["algebra", "definition", "function"]
+  },
+  {
+    "id": "TCH_ALG1_113",
+    "name": "Definition of Function Notation",
+    "statement": "Function notation f(x) represents the output value of function f corresponding to input x.",
+    "formal": "f(x) denotes the output when the input is x.",
+    "tags": ["algebra", "notation", "function"]
+  },
+  {
+    "id": "TCH_ALG1_114",
+    "name": "Finding Function Values",
+    "statement": "To find the value of a function at a given input, substitute the input value into the function expression.",
+    "formal": "Evaluate f(a) by substituting a for x in f(x).",
+    "tags": ["algebra", "evaluation", "function"]
+  },
+  {
+    "id": "TCH_ALG1_115",
+    "name": "Definition of Domain and Range",
+    "statement": "The domain of a function is the set of all possible input values, and the range is the set of all possible output values.",
+    "formal": "Domain: all possible x-values; Range: all possible f(x)-values.",
+    "tags": ["algebra", "definition", "domain and range"]
+  },
+  {
+    "id": "TCH_ALG1_116",
+    "name": "Distinguishing Functions from Relations",
+    "statement": "A relation is a function if and only if no input value maps to more than one output value.",
+    "formal": "Each x corresponds to exactly one y for a relation to be a function.",
+    "tags": ["algebra", "definition", "relation vs function"]
+  },
+  {
+    "id": "TCH_ALG1_117",
+    "name": "Translation of Graphs",
+    "statement": "Translating a graph horizontally by h units and vertically by k units shifts the graph of y = f(x) to y = f(x-h) + k.",
+    "formal": "Translation: y = f(x-h) + k shifts graph right h units and up k units.",
+    "tags": ["algebra", "transformation", "translation"]
+  },
+  {
+    "id": "TCH_ALG1_118",
+    "name": "Reflection Across Axes",
+    "statement": "Reflecting a graph across the x-axis transforms y = f(x) to y = -f(x). Reflecting across the y-axis transforms y = f(x) to y = f(-x).",
+    "formal": "Reflection: x-axis → y = -f(x); y-axis → y = f(-x).",
+    "tags": ["algebra", "transformation", "reflection"]
+  },
+  {
+    "id": "TCH_ALG1_119",
+    "name": "Vertical Stretch and Compression",
+    "statement": "Multiplying the output of a function by a factor a stretches or compresses the graph vertically: y = af(x).",
+    "formal": "Vertical Stretch: a > 1; Vertical Compression: 0 < a < 1.",
+    "tags": ["algebra", "transformation", "vertical stretch compression"]
+  },
+  {
+    "id": "TCH_ALG1_120",
+    "name": "Horizontal Stretch and Compression",
+    "statement": "Multiplying the input of a function by a factor b stretches or compresses the graph horizontally: y = f(bx).",
+    "formal": "Horizontal Compression: b > 1; Horizontal Stretch: 0 < b < 1.",
+    "tags": ["algebra", "transformation", "horizontal stretch compression"]
+  },
+  {
+    "id": "TCH_ALG1_121",
+    "name": "Combined Transformations",
+    "statement": "When multiple transformations are applied, perform horizontal transformations first, then reflections, stretches/compressions, and finally vertical translations.",
+    "formal": "Order: Horizontal shift → Reflection/stretch/compression → Vertical shift.",
+    "tags": ["algebra", "transformation", "combined"]
+  },
+  {
+    "id": "TCH_ALG1_122",
+    "name": "Addition and Subtraction of Polynomials",
+    "statement": "To add or subtract polynomials, combine like terms by adding or subtracting their coefficients.",
+    "formal": "Group like terms and perform addition or subtraction of coefficients.",
+    "tags": ["algebra", "operation", "polynomials"]
+  },
+  {
+    "id": "TCH_ALG1_123",
+    "name": "Multiplication of a Monomial and a Polynomial",
+    "statement": "To multiply a monomial by a polynomial, apply the distributive property to each term of the polynomial.",
+    "formal": "Distribute the monomial to each term inside the parentheses.",
+    "tags": ["algebra", "operation", "polynomials"]
+  },
+  {
+    "id": "TCH_ALG1_124",
+    "name": "Multiplication of Two Polynomials",
+    "statement": "To multiply two polynomials, apply the distributive property across all terms: each term in the first polynomial multiplies every term in the second polynomial.",
+    "formal": "Apply distributive property fully: (a+b)(c+d) = ac + ad + bc + bd.",
+    "tags": ["algebra", "operation", "polynomials"]
+  },
+  {
+    "id": "TCH_ALG1_125",
+    "name": "Recognition of Special Products",
+    "statement": "Recognize and simplify common special products like perfect square trinomials and difference of squares when expanding polynomials.",
+    "formal": "Identify patterns such as (a+b)² and (a+b)(a-b).",
+    "tags": ["algebra", "recognition", "special products"]
+  },
+  {
+    "id": "TCH_ALG1_126",
+    "name": "Definition of Mean",
+    "statement": "The mean of a data set is the sum of all data values divided by the number of values.",
+    "formal": "Mean = (sum of data values) / (number of data values).",
+    "tags": ["statistics", "definition", "mean"]
+  },
+  {
+    "id": "TCH_ALG1_127",
+    "name": "Definition of Median",
+    "statement": "The median of a data set is the middle value when the data are arranged in order. If there are an even number of values, the median is the mean of the two middle values.",
+    "formal": "Median = middle value or average of two middle values after ordering.",
+    "tags": ["statistics", "definition", "median"]
+  },
+  {
+    "id": "TCH_ALG1_128",
+    "name": "Definition of Mode",
+    "statement": "The mode of a data set is the value or values that occur most frequently.",
+    "formal": "Mode = value(s) occurring with highest frequency.",
+    "tags": ["statistics", "definition", "mode"]
+  },
+  {
+    "id": "TCH_ALG1_129",
+    "name": "Definition of Range",
+    "statement": "The range of a data set is the difference between the greatest and least data values.",
+    "formal": "Range = maximum value - minimum value.",
+    "tags": ["statistics", "definition", "range"]
+  },
+  {
+    "id": "TCH_ALG1_130",
+    "name": "Interpretation of Data Sets",
+    "statement": "Interpretation of a data set involves analyzing measures such as mean, median, mode, and range to describe the distribution.",
+    "formal": "Use measures of center and spread to describe data distribution.",
+    "tags": ["statistics", "interpretation", "data analysis"]
+  },
+  {
+    "id": "TCH_ALG1_131",
+    "name": "Product of Powers Property",
+    "statement": "When multiplying two expressions with the same base, add the exponents.",
+    "formal": "a^m × a^n = a^{m+n}, where a ≠ 0.",
+    "tags": ["algebra", "property", "exponents"]
+  },
+  {
+    "id": "TCH_ALG1_132",
+    "name": "Power of a Power Property",
+    "statement": "When raising a power to another power, multiply the exponents.",
+    "formal": "(a^m)^n = a^{mn}, where a ≠ 0.",
+    "tags": ["algebra", "property", "exponents"]
+  },
+  {
+    "id": "TCH_ALG1_133",
+    "name": "Negative Exponent Property",
+    "statement": "A negative exponent represents the reciprocal of the base raised to the positive exponent.",
+    "formal": "a^{-n} = 1/a^n, where a ≠ 0.",
+    "tags": ["algebra", "property", "exponents"]
+  },
+  {
+    "id": "TCH_ALG1_134",
+    "name": "Definition of Rational Exponent",
+    "statement": "A rational exponent represents a root: a^{1/n} is the nth root of a.",
+    "formal": "a^{1/n} = √[n]{a}, where a ≥ 0 for real numbers.",
+    "tags": ["algebra", "definition", "rational exponents"]
+  },
+  {
+    "id": "TCH_ALG1_135",
+    "name": "Radical Multiplication and Division Rules",
+    "statement": "The product or quotient of radicals can be written as the radical of the product or quotient.",
+    "formal": "√a × √b = √(ab), √(a/b) = √a/√b, where a, b ≥ 0 and b ≠ 0.",
+    "tags": ["algebra", "property", "radicals"]
+  },
+  {
+    "id": "TCH_ALG1_136",
+    "name": "Definition of Arithmetic Sequence",
+    "statement": "An arithmetic sequence is a sequence of numbers in which the difference between consecutive terms is constant.",
+    "formal": "Arithmetic Sequence: a_n = a_1 + (n-1)d where d is the common difference.",
+    "tags": ["algebra", "definition", "arithmetic sequence"]
+  },
+  {
+    "id": "TCH_ALG1_137",
+    "name": "Definition of Geometric Sequence",
+    "statement": "A geometric sequence is a sequence of numbers in which each term after the first is found by multiplying the previous term by a constant called the common ratio.",
+    "formal": "Geometric Sequence: a_n = a_1 × r^(n-1) where r is the common ratio.",
+    "tags": ["algebra", "definition", "geometric sequence"]
+  },
+  {
+    "id": "TCH_ALG1_138",
+    "name": "Formula for nth Term of Arithmetic Sequence",
+    "statement": "The nth term of an arithmetic sequence can be found using the formula a_n = a_1 + (n-1)d, where a_1 is the first term and d is the common difference.",
+    "formal": "a_n = a_1 + (n-1)d.",
+    "tags": ["algebra", "formula", "arithmetic sequence"]
+  },
+  {
+    "id": "TCH_ALG1_139",
+    "name": "Formula for nth Term of Geometric Sequence",
+    "statement": "The nth term of a geometric sequence can be found using the formula a_n = a_1 × r^(n-1), where a_1 is the first term and r is the common ratio.",
+    "formal": "a_n = a_1 × r^(n-1).",
+    "tags": ["algebra", "formula", "geometric sequence"]
+  },
+  {
+    "id": "TCH_ALG1_140",
+    "name": "Sum Formula for Arithmetic Sequence",
+    "statement": "The sum of the first n terms of an arithmetic sequence can be calculated using the formula S_n = n/2 × (a_1 + a_n), where a_1 is the first term and a_n is the nth term.",
+    "formal": "S_n = n/2 × (a_1 + a_n).",
+    "tags": ["algebra", "sum", "arithmetic sequence"]
+  },
+  {
+    "id": "TCH_ALG1_136",
+    "name": "Definition of Arithmetic Sequence",
+    "statement": "An arithmetic sequence is a sequence of numbers in which the difference between consecutive terms is constant.",
+    "formal": "Arithmetic Sequence: a_n = a_1 + (n-1)d where d is the common difference.",
+    "tags": ["algebra", "definition", "arithmetic sequence"]
+  },
+  {
+    "id": "TCH_ALG1_137",
+    "name": "Definition of Geometric Sequence",
+    "statement": "A geometric sequence is a sequence of numbers in which each term after the first is found by multiplying the previous term by a constant called the common ratio.",
+    "formal": "Geometric Sequence: a_n = a_1 × r^(n-1) where r is the common ratio.",
+    "tags": ["algebra", "definition", "geometric sequence"]
+  },
+  {
+    "id": "TCH_ALG1_138",
+    "name": "Formula for nth Term of Arithmetic Sequence",
+    "statement": "The nth term of an arithmetic sequence can be found using the formula a_n = a_1 + (n-1)d, where a_1 is the first term and d is the common difference.",
+    "formal": "a_n = a_1 + (n-1)d.",
+    "tags": ["algebra", "formula", "arithmetic sequence"]
+  },
+  {
+    "id": "TCH_ALG1_139",
+    "name": "Formula for nth Term of Geometric Sequence",
+    "statement": "The nth term of a geometric sequence can be found using the formula a_n = a_1 × r^(n-1), where a_1 is the first term and r is the common ratio.",
+    "formal": "a_n = a_1 × r^(n-1).",
+    "tags": ["algebra", "formula", "geometric sequence"]
+  },
+  {
+    "id": "TCH_ALG1_140",
+    "name": "Sum Formula for Arithmetic Sequence",
+    "statement": "The sum of the first n terms of an arithmetic sequence can be calculated using the formula S_n = n/2 × (a_1 + a_n), where a_1 is the first term and a_n is the nth term.",
+    "formal": "S_n = n/2 × (a_1 + a_n).",
+    "tags": ["algebra", "sum", "arithmetic sequence"]
+  },
+  {
+    "id": "TCH_ALG1_141",
+    "name": "Definition of Probability",
+    "statement": "Probability is the measure of the likelihood of an event, calculated as the ratio of favorable outcomes to the total number of possible outcomes.",
+    "formal": "P(A) = favorable outcomes / total outcomes.",
+    "tags": ["algebra", "definition", "probability"]
+  },
+  {
+    "id": "TCH_ALG1_142",
+    "name": "Simple Probability Formula",
+    "statement": "The probability of a simple event is the ratio of the number of favorable outcomes to the total number of possible outcomes.",
+    "formal": "P(A) = number of favorable outcomes / total number of outcomes.",
+    "tags": ["algebra", "probability", "simple"]
+  },
+  {
+    "id": "TCH_ALG1_143",
+    "name": "Combination Formula (nCr)",
+    "statement": "The number of ways to choose r objects from n distinct objects without regard to order is given by the combination formula: nCr = n! / (r!(n-r)!)",
+    "formal": "nCr = n! / (r!(n-r)!)",
+    "tags": ["algebra", "combinatorics", "probability"]
+  },
+  {
+    "id": "TCH_ALG1_144",
+    "name": "Probability of Simple Events",
+    "statement": "The probability of simple events can be calculated using the simple probability formula.",
+    "formal": "P(simple event) = favorable outcomes / total outcomes.",
+    "tags": ["algebra", "probability", "simple events"]
+  },
+  {
+    "id": "TCH_ALG1_145",
+    "name": "Complementary Events Rule",
+    "statement": "The probability of the complement of an event A is given by P(A') = 1 - P(A).",
+    "formal": "P(A') = 1 - P(A).",
+    "tags": ["algebra", "probability", "complementary events"]
+  },
+  {
+    "id": "TCH_ALG1_146",
+    "name": "Types of Graphs",
+    "statement": "Graphs can be categorized into bar graphs, line graphs, pie charts, and histograms, each serving different purposes for data representation.",
+    "formal": "Bar graphs, line graphs, pie charts, and histograms are different ways to represent data visually.",
+    "tags": ["algebra", "graphing", "types"]
+  },
+  {
+    "id": "TCH_ALG1_147",
+    "name": "Graphing Data",
+    "statement": "Graphing data involves plotting data points on a coordinate plane and connecting them using appropriate graph types based on the data.",
+    "formal": "Plot data points and connect them using a bar, line, or pie chart depending on the context of the data.",
+    "tags": ["algebra", "graphing", "data"]
+  },
+  {
+    "id": "TCH_ALG1_148",
+    "name": "Graph Interpretation",
+    "statement": "Interpreting graphs involves analyzing the relationships between variables, trends, and patterns in the data.",
+    "formal": "Examine the graph to interpret relationships between data points and identify trends.",
+    "tags": ["algebra", "graphing", "interpretation"]
+  },
+  {
+    "id": "TCH_ALG1_149",
+    "name": "Relationship Between Variables in Graphs",
+    "statement": "The relationship between variables in graphs can be observed through the slope, direction, and shape of the graph.",
+    "formal": "Analyze the slope, direction, and shape of the graph to understand the relationship between the variables.",
+    "tags": ["algebra", "graphing", "variables"]
   }
 ]
 

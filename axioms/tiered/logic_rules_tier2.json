@@ -126,6 +126,29 @@
   "level": "tier2",
   "statement": "If all terms a^3, b^3, c^3 are divisible by p^k, then a^3 + b^3 + c^3 ≡ 0 mod p^k if and only if the sum of the reduced terms is zero modulo p^{k - m}, where m = min(v_p(a^3), v_p(b^3), v_p(c^3)).",
   "example": "If v₃(a) = v₃(b) = v₃(c) = 2, then a^3 + b^3 + c^3 ≡ 0 mod 3^7 ⇔ a'^3 + b'^3 + c'^3 ≡ 0 mod 3."
-  }
-  ]
+  },
+  {
+  "id": "LR_TQS",
+  "name": "Targeted Quantity Simplification",
+  "statement": "When solving a problem where the target quantity can be computed directly using the given relationships, solve for the target quantity itself without solving for individual variables unless necessary.",
+  "formal": "If the desired quantity is an explicit expression of variables, and the given conditions yield it directly, prioritize expressing and computing the target expression rather than solving for variables separately.",
+  "tags": [
+    "algebra",
+    "efficient reasoning",
+    "competition math",
+    "logical optimization"
+  ],
+  "philosophy": "Focus reasoning effort on the target structure rather than full variable resolution, minimizing unnecessary complexity.",
+  "used_in_proofs": [
+    "difference of cubes problems",
+    "symmetric sums",
+    "geometric relation problems"
+  ],
+  "used_in_systems": [
+    "Formalizer v1.5+",
+    "competition AI solvers"
+  ],
+  "strength_score": 0.9
+  }  
+]
 }

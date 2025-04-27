@@ -1,0 +1,318 @@
+[
+  {
+    "id": "TCH_ALG1_001",
+    "name": "Definition of Variable",
+    "statement": "A variable is a symbol that represents a quantity that can change or vary.",
+    "formal": "Variable: A symbol representing a changing quantity.",
+    "tags": ["algebra", "definition", "variable"]
+  },
+  {
+    "id": "TCH_ALG1_002",
+    "name": "Definition of Constant",
+    "statement": "A constant is a fixed value that does not change.",
+    "formal": "Constant: A value that remains unchanged.",
+    "tags": ["algebra", "definition", "constant"]
+  },
+  {
+    "id": "TCH_ALG1_003",
+    "name": "Definition of Term",
+    "statement": "A term is a number, a variable, or the product of numbers and variables.",
+    "formal": "Term: A number, variable, or a product of both.",
+    "tags": ["algebra", "definition", "term"]
+  },
+  {
+    "id": "TCH_ALG1_004",
+    "name": "Definition of Coefficient",
+    "statement": "A coefficient is the numerical factor of a term that contains a variable.",
+    "formal": "Coefficient: Numerical factor of a variable term.",
+    "tags": ["algebra", "definition", "coefficient"]
+  },
+  {
+    "id": "TCH_ALG1_005",
+    "name": "Definition of Expression",
+    "statement": "An expression is a mathematical phrase that can contain numbers, variables, and operation symbols.",
+    "formal": "Expression: A combination of numbers, variables, and operations.",
+    "tags": ["algebra", "definition", "expression"]
+  },
+  {
+    "id": "TCH_ALG1_006",
+    "name": "Evaluation of Expressions",
+    "statement": "Evaluating an expression means finding its value by substituting given numbers for variables.",
+    "formal": "Evaluation: Substitute values into variables and compute.",
+    "tags": ["algebra", "evaluation", "calculation"]
+  },
+  {
+    "id": "TCH_ALG1_007",
+    "name": "Definition of Like Terms",
+    "statement": "Like terms are terms that have exactly the same variable factors.",
+    "formal": "Like Terms: Terms with identical variable parts.",
+    "tags": ["algebra", "definition", "like terms"]
+  },
+  {
+    "id": "TCH_ALG1_008",
+    "name": "Combining Like Terms",
+    "statement": "Like terms can be combined by adding or subtracting their coefficients.",
+    "formal": "If terms are like, add or subtract coefficients.",
+    "tags": ["algebra", "operation", "like terms"]
+  },
+  {
+    "id": "TCH_ALG1_009",
+    "name": "Distributive Property",
+    "statement": "The distributive property states that a(b + c) = ab + ac for any numbers a, b, and c.",
+    "formal": "a(b + c) = ab + ac",
+    "tags": ["algebra", "property", "distributive"]
+  },
+  {
+    "id": "TCH_ALG1_010",
+    "name": "Simplification of Expressions",
+    "statement": "Simplifying an expression means writing it in the simplest form by applying operations and combining like terms.",
+    "formal": "Simplification: Apply operations and combine like terms.",
+    "tags": ["algebra", "simplification", "expression"]
+  },
+  {
+    "id": "TCH_ALG1_011",
+    "name": "Addition Property of Equality",
+    "statement": "Adding the same value to both sides of an equation preserves equality.",
+    "formal": "If a = b, then a + c = b + c.",
+    "tags": ["algebra", "property", "equality"]
+  },
+  {
+    "id": "TCH_ALG1_012",
+    "name": "Subtraction Property of Equality",
+    "statement": "Subtracting the same value from both sides of an equation preserves equality.",
+    "formal": "If a = b, then a - c = b - c.",
+    "tags": ["algebra", "property", "equality"]
+  },
+  {
+    "id": "TCH_ALG1_013",
+    "name": "Multiplication Property of Equality",
+    "statement": "Multiplying both sides of an equation by the same nonzero value preserves equality.",
+    "formal": "If a = b, then ac = bc, where c ≠ 0.",
+    "tags": ["algebra", "property", "equality"]
+  },
+  {
+    "id": "TCH_ALG1_014",
+    "name": "Division Property of Equality",
+    "statement": "Dividing both sides of an equation by the same nonzero value preserves equality.",
+    "formal": "If a = b, then a/c = b/c, where c ≠ 0.",
+    "tags": ["algebra", "property", "equality"]
+  },
+  {
+    "id": "TCH_ALG1_015",
+    "name": "Definition of Solution to an Equation",
+    "statement": "A solution to an equation makes both sides of the equation equal when substituted into the equation.",
+    "formal": "Substituting the solution into the equation yields a true statement.",
+    "tags": ["algebra", "definition", "solution"]
+  },
+  {
+    "id": "TCH_ALG1_016",
+    "name": "Solving a Linear Equation",
+    "statement": "To solve a linear equation, isolate the variable by performing inverse operations.",
+    "formal": "Use inverse operations to isolate the variable.",
+    "tags": ["algebra", "equation", "solving"]
+  },
+  {
+    "id": "TCH_ALG1_017",
+    "name": "Identity Equation",
+    "statement": "An identity is an equation that is true for all values of the variable.",
+    "formal": "An identity holds for all values in the domain.",
+    "tags": ["algebra", "definition", "identity"]
+  },
+  {
+    "id": "TCH_ALG1_018",
+    "name": "Contradiction Equation",
+    "statement": "A contradiction is an equation that is false for all values of the variable.",
+    "formal": "A contradiction has no solution.",
+    "tags": ["algebra", "definition", "contradiction"]
+  },
+  {
+    "id": "TCH_ALG1_019",
+    "name": "Transitive Property of Equality",
+    "statement": "If a = b and b = c, then a = c.",
+    "formal": "a = b and b = c ⇒ a = c",
+    "tags": ["algebra", "property", "transitive"]
+  },
+  {
+    "id": "TCH_ALG1_020",
+    "name": "Substitution Property of Equality",
+    "statement": "If two values are equal, one can be substituted for the other in any expression.",
+    "formal": "If a = b, then a can replace b in any expression.",
+    "tags": ["algebra", "property", "substitution"]
+  },
+  {
+    "id": "TCH_ALG1_021",
+    "name": "Definition of Opposite",
+    "statement": "The opposite of a number is the number with the same absolute value but opposite sign.",
+    "formal": "Opposite of a is -a.",
+    "tags": ["algebra", "definition", "opposite"]
+  },
+  {
+    "id": "TCH_ALG1_022",
+    "name": "Definition of Reciprocal",
+    "statement": "The reciprocal of a nonzero number a is 1 divided by a.",
+    "formal": "Reciprocal of a (a ≠ 0) is 1/a.",
+    "tags": ["algebra", "definition", "reciprocal"]
+  },
+  {
+    "id": "TCH_ALG1_023",
+    "name": "Multiplicative Inverse Property",
+    "statement": "The product of a number and its reciprocal is 1.",
+    "formal": "a × (1/a) = 1, for a ≠ 0.",
+    "tags": ["algebra", "property", "multiplicative inverse"]
+  },
+  {
+    "id": "TCH_ALG1_024",
+    "name": "Additive Inverse Property",
+    "statement": "The sum of a number and its opposite is 0.",
+    "formal": "a + (-a) = 0.",
+    "tags": ["algebra", "property", "additive inverse"]
+  },
+  {
+    "id": "TCH_ALG1_025",
+    "name": "Commutative Property of Addition",
+    "statement": "Changing the order of addends does not change the sum.",
+    "formal": "a + b = b + a",
+    "tags": ["algebra", "property", "commutative"]
+  },
+  {
+    "id": "TCH_ALG1_026",
+    "name": "Commutative Property of Multiplication",
+    "statement": "Changing the order of factors does not change the product.",
+    "formal": "ab = ba",
+    "tags": ["algebra", "property", "commutative"]
+  },
+  {
+    "id": "TCH_ALG1_027",
+    "name": "Associative Property of Addition",
+    "statement": "The grouping of addends does not change the sum.",
+    "formal": "(a + b) + c = a + (b + c)",
+    "tags": ["algebra", "property", "associative"]
+  },
+  {
+    "id": "TCH_ALG1_028",
+    "name": "Associative Property of Multiplication",
+    "statement": "The grouping of factors does not change the product.",
+    "formal": "(ab)c = a(bc)",
+    "tags": ["algebra", "property", "associative"]
+  },
+  {
+    "id": "TCH_ALG1_029",
+    "name": "Distributive Property over Addition",
+    "statement": "Multiplying a sum by a number gives the same result as multiplying each addend by the number and then adding.",
+    "formal": "a(b + c) = ab + ac",
+    "tags": ["algebra", "property", "distributive"]
+  },
+  {
+    "id": "TCH_ALG1_030",
+    "name": "Simplifying Expressions with Distributive Property",
+    "statement": "To simplify expressions with parentheses, apply the distributive property first, then combine like terms.",
+    "formal": "Expand parentheses using distributive law, then combine like terms.",
+    "tags": ["algebra", "simplification", "distributive"]
+  },
+  {
+    "id": "TCH_ALG1_031",
+    "name": "Multiplying Integers with Same Sign",
+    "statement": "The product of two integers with the same sign is positive.",
+    "formal": "If a and b have the same sign, then ab > 0.",
+    "tags": ["algebra", "integer", "multiplication"]
+  },
+  {
+    "id": "TCH_ALG1_032",
+    "name": "Multiplying Integers with Different Signs",
+    "statement": "The product of two integers with different signs is negative.",
+    "formal": "If a and b have different signs, then ab < 0.",
+    "tags": ["algebra", "integer", "multiplication"]
+  },
+  {
+    "id": "TCH_ALG1_033",
+    "name": "Dividing Integers with Same Sign",
+    "statement": "The quotient of two integers with the same sign is positive.",
+    "formal": "If a and b have the same sign, then a ÷ b > 0.",
+    "tags": ["algebra", "integer", "division"]
+  },
+  {
+    "id": "TCH_ALG1_034",
+    "name": "Dividing Integers with Different Signs",
+    "statement": "The quotient of two integers with different signs is negative.",
+    "formal": "If a and b have different signs, then a ÷ b < 0.",
+    "tags": ["algebra", "integer", "division"]
+  },
+  {
+    "id": "TCH_ALG1_035",
+    "name": "Order of Operations (PEMDAS)",
+    "statement": "When simplifying expressions, perform operations in the order: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).",
+    "formal": "Follow the order: Parentheses → Exponents → Multiplication/Division → Addition/Subtraction.",
+    "tags": ["algebra", "operation", "order"]
+  },
+  {
+    "id": "TCH_ALG1_036",
+    "name": "Exponent of 0",
+    "statement": "Any nonzero number raised to the power of 0 is 1.",
+    "formal": "For a ≠ 0, a^0 = 1.",
+    "tags": ["algebra", "exponent", "property"]
+  },
+  {
+    "id": "TCH_ALG1_037",
+    "name": "Exponent of 1",
+    "statement": "Any number raised to the power of 1 is the number itself.",
+    "formal": "a^1 = a.",
+    "tags": ["algebra", "exponent", "property"]
+  },
+  {
+    "id": "TCH_ALG1_038",
+    "name": "Product of Powers Property",
+    "statement": "When multiplying two powers with the same base, add the exponents.",
+    "formal": "a^m × a^n = a^{m+n}",
+    "tags": ["algebra", "exponent", "property"]
+  },
+  {
+    "id": "TCH_ALG1_039",
+    "name": "Power of a Power Property",
+    "statement": "When raising a power to another power, multiply the exponents.",
+    "formal": "(a^m)^n = a^{mn}",
+    "tags": ["algebra", "exponent", "property"]
+  },
+  {
+    "id": "TCH_ALG1_040",
+    "name": "Power of a Product Property",
+    "statement": "When raising a product to a power, raise each factor to the power.",
+    "formal": "(ab)^n = a^n × b^n",
+    "tags": ["algebra", "exponent", "property"]
+  },
+  {
+    "id": "TCH_ALG1_041",
+    "name": "Quotient of Powers Property",
+    "statement": "When dividing two powers with the same base, subtract the exponents.",
+    "formal": "a^m ÷ a^n = a^{m-n}, where a ≠ 0.",
+    "tags": ["algebra", "exponent", "property"]
+  },
+  {
+    "id": "TCH_ALG1_042",
+    "name": "Negative Exponent Rule",
+    "statement": "A nonzero number raised to a negative exponent equals the reciprocal of the number raised to the opposite positive exponent.",
+    "formal": "a^{-n} = 1/a^n, where a ≠ 0.",
+    "tags": ["algebra", "exponent", "negative exponent"]
+  },
+  {
+    "id": "TCH_ALG1_043",
+    "name": "Zero Rule for Multiplication",
+    "statement": "Any number multiplied by zero equals zero.",
+    "formal": "a × 0 = 0",
+    "tags": ["algebra", "property", "multiplication"]
+  },
+  {
+    "id": "TCH_ALG1_044",
+    "name": "Division by Zero Undefined",
+    "statement": "Division by zero is undefined.",
+    "formal": "a ÷ 0 is undefined.",
+    "tags": ["algebra", "definition", "division"]
+  },
+  {
+    "id": "TCH_ALG1_045",
+    "name": "Simplifying Complex Expressions",
+    "statement": "When simplifying complex expressions, apply order of operations, properties of exponents, and combine like terms where possible.",
+    "formal": "Apply PEMDAS, exponent laws, and like terms combination in order.",
+    "tags": ["algebra", "simplification", "expression"]
+  }
+]
+

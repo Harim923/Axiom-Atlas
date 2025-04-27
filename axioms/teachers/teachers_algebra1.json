@@ -439,6 +439,48 @@
     "statement": "When simplifying expressions, first remove parentheses, then combine like terms, and finally perform any remaining operations.",
     "formal": "Simplification order: Expand parentheses → Combine like terms → Final operations.",
     "tags": ["algebra", "simplification", "strategy"]
+  },
+  {
+    "id": "TCH_ALG1_064",
+    "name": "Definition of Two-Variable Equation",
+    "statement": "A two-variable linear equation is an equation that can be written in the form ax + by = c, where a, b, and c are real numbers and at least one of a or b is nonzero.",
+    "formal": "ax + by = c where a, b, c ∈ ℝ and (a, b) ≠ (0, 0).",
+    "tags": ["algebra", "definition", "two-variable equation"]
+  },
+  {
+    "id": "TCH_ALG1_065",
+    "name": "Solution of Two-Variable Equation",
+    "statement": "A solution of a two-variable equation is an ordered pair (x, y) that makes the equation true when substituted.",
+    "formal": "If ax + by = c after substituting (x, y), then (x, y) is a solution.",
+    "tags": ["algebra", "solution", "two-variable equation"]
+  },
+  {
+    "id": "TCH_ALG1_066",
+    "name": "Substitution Principle for Two Variables",
+    "statement": "If a variable is expressed in terms of another, it can be substituted into an equation to reduce the number of variables.",
+    "formal": "If y = f(x), then substitute f(x) for y.",
+    "tags": ["algebra", "substitution", "two-variable"]
+  },
+  {
+    "id": "TCH_ALG1_067",
+    "name": "Solving for a Variable in Two-Variable Equation",
+    "statement": "To solve for a variable in a two-variable equation, isolate the target variable using inverse operations.",
+    "formal": "Use inverse operations to express one variable in terms of the other.",
+    "tags": ["algebra", "solving", "two-variable"]
+  },
+  {
+    "id": "TCH_ALG1_068",
+    "name": "Rearrangement Property",
+    "statement": "Terms can be moved to the other side of an equation by applying the opposite operation to both sides.",
+    "formal": "a + b = c ⇨ a = c - b, and similar rearrangements.",
+    "tags": ["algebra", "property", "rearrangement"]
+  },
+  {
+    "id": "TCH_ALG1_069",
+    "name": "Symmetric Property of Equality",
+    "statement": "If a = b, then b = a.",
+    "formal": "a = b ⇨ b = a.",
+    "tags": ["algebra", "property", "equality"]
   }
 ]
 

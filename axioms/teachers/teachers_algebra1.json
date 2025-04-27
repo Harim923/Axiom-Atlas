@@ -1041,6 +1041,13 @@
     "statement": "The relationship between variables in graphs can be observed through the slope, direction, and shape of the graph.",
     "formal": "Analyze the slope, direction, and shape of the graph to understand the relationship between the variables.",
     "tags": ["algebra", "graphing", "variables"]
+  },
+  {
+  "id": "TCH_ALG1_150",
+  "name": "Zero-Product Property",
+  "statement": "If the product of two expressions is zero, then at least one of the expressions is zero.",
+  "formal": "If A·B = 0, then A = 0 or B = 0.",
+  "tags": ["algebra", "property", "equation"]
   }
 ]
 

@@ -383,6 +383,62 @@
     "statement": "Real numbers consist of all rational and irrational numbers.",
     "formal": "ℝ = ℚ ∪ (irrational numbers).",
     "tags": ["algebra", "definition", "real numbers"]
+  },
+  {
+    "id": "TCH_ALG1_056",
+    "name": "Definition of Polynomial Expression",
+    "statement": "A polynomial expression is a sum of terms consisting of variables raised to non-negative integer exponents and multiplied by coefficients.",
+    "formal": "Polynomial: Sum of terms ax^n where a ∈ ℝ and n ∈ ℕ₀.",
+    "tags": ["algebra", "definition", "polynomial"]
+  },
+  {
+    "id": "TCH_ALG1_057",
+    "name": "Extended Definition of Like Terms",
+    "statement": "Like terms are terms that have exactly the same variable factors with the same exponents.",
+    "formal": "Like Terms: Identical variables with identical exponents.",
+    "tags": ["algebra", "definition", "like terms"]
+  },
+  {
+    "id": "TCH_ALG1_058",
+    "name": "Combining Like Terms Rule",
+    "statement": "Like terms can be combined by adding or subtracting their coefficients while keeping the variable part unchanged.",
+    "formal": "If terms are like, add or subtract coefficients; variable part remains the same.",
+    "tags": ["algebra", "operation", "like terms"]
+  },
+  {
+    "id": "TCH_ALG1_059",
+    "name": "Distributive Property over Subtraction",
+    "statement": "The distributive property applies to subtraction: a(b - c) = ab - ac.",
+    "formal": "a(b - c) = ab - ac",
+    "tags": ["algebra", "property", "distributive"]
+  },
+  {
+    "id": "TCH_ALG1_060",
+    "name": "Simplifying Nested Parentheses",
+    "statement": "When simplifying expressions with nested parentheses, expand from the innermost set outward, applying distributive property at each step.",
+    "formal": "Expand innermost parentheses first, then outward, using distributive law.",
+    "tags": ["algebra", "simplification", "parentheses"]
+  },
+  {
+    "id": "TCH_ALG1_061",
+    "name": "Coefficient Manipulation Rule",
+    "statement": "When combining terms, operate only on the coefficients, not on the variable parts.",
+    "formal": "Coefficients are added or subtracted; variables remain unchanged.",
+    "tags": ["algebra", "operation", "coefficient"]
+  },
+  {
+    "id": "TCH_ALG1_062",
+    "name": "Addition and Subtraction of Unlike Terms",
+    "statement": "Unlike terms cannot be combined; they must remain separate in the simplified expression.",
+    "formal": "Unlike terms cannot be combined through addition or subtraction.",
+    "tags": ["algebra", "operation", "unlike terms"]
+  },
+  {
+    "id": "TCH_ALG1_063",
+    "name": "General Simplification Strategy",
+    "statement": "When simplifying expressions, first remove parentheses, then combine like terms, and finally perform any remaining operations.",
+    "formal": "Simplification order: Expand parentheses → Combine like terms → Final operations.",
+    "tags": ["algebra", "simplification", "strategy"]
   }
 ]
 

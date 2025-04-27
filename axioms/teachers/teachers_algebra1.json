@@ -313,6 +313,76 @@
     "statement": "When simplifying complex expressions, apply order of operations, properties of exponents, and combine like terms where possible.",
     "formal": "Apply PEMDAS, exponent laws, and like terms combination in order.",
     "tags": ["algebra", "simplification", "expression"]
+  },
+  {
+    "id": "TCH_ALG1_046",
+    "name": "Definition of Absolute Value",
+    "statement": "The absolute value of a number is its distance from zero on the number line.",
+    "formal": "|a| = a if a ≥ 0, and |a| = -a if a < 0.",
+    "tags": ["algebra", "definition", "absolute value"]
+  },
+  {
+    "id": "TCH_ALG1_047",
+    "name": "Properties of Absolute Value",
+    "statement": "Absolute value properties: |ab| = |a||b|, |a/b| = |a|/|b| (b ≠ 0), and |a| ≥ 0.",
+    "formal": "|ab| = |a||b|, |a/b| = |a|/|b| (b ≠ 0), |a| ≥ 0.",
+    "tags": ["algebra", "property", "absolute value"]
+  },
+  {
+    "id": "TCH_ALG1_048",
+    "name": "Definition of Rational Numbers",
+    "statement": "Rational numbers are numbers that can be expressed as a fraction a/b where a and b are integers and b ≠ 0.",
+    "formal": "Rational Number: a/b, where a, b ∈ ℤ, b ≠ 0.",
+    "tags": ["algebra", "definition", "rational numbers"]
+  },
+  {
+    "id": "TCH_ALG1_049",
+    "name": "Definition of Irrational Numbers",
+    "statement": "Irrational numbers are real numbers that cannot be expressed as a fraction of two integers.",
+    "formal": "Irrational Number: Real number not expressible as a/b where a, b ∈ ℤ, b ≠ 0.",
+    "tags": ["algebra", "definition", "irrational numbers"]
+  },
+  {
+    "id": "TCH_ALG1_050",
+    "name": "Additive Identity Property",
+    "statement": "The additive identity property states that a number plus zero is the number itself.",
+    "formal": "a + 0 = a.",
+    "tags": ["algebra", "property", "additive identity"]
+  },
+  {
+    "id": "TCH_ALG1_051",
+    "name": "Multiplicative Identity Property",
+    "statement": "The multiplicative identity property states that a number multiplied by one is the number itself.",
+    "formal": "a × 1 = a.",
+    "tags": ["algebra", "property", "multiplicative identity"]
+  },
+  {
+    "id": "TCH_ALG1_052",
+    "name": "Closure Property of Addition",
+    "statement": "The sum of any two integers (or rational numbers) is an integer (or rational number).",
+    "formal": "If a, b ∈ ℤ (or ℚ), then a + b ∈ ℤ (or ℚ).",
+    "tags": ["algebra", "property", "closure"]
+  },
+  {
+    "id": "TCH_ALG1_053",
+    "name": "Closure Property of Multiplication",
+    "statement": "The product of any two integers (or rational numbers) is an integer (or rational number).",
+    "formal": "If a, b ∈ ℤ (or ℚ), then ab ∈ ℤ (or ℚ).",
+    "tags": ["algebra", "property", "closure"]
+  },
+  {
+    "id": "TCH_ALG1_054",
+    "name": "Substitution Principle",
+    "statement": "If two values are equal, one can be substituted for the other in any expression without changing the value.",
+    "formal": "If a = b, then a can replace b in any expression.",
+    "tags": ["algebra", "property", "substitution"]
+  },
+  {
+    "id": "TCH_ALG1_055",
+    "name": "Definition of Real Numbers",
+    "statement": "Real numbers consist of all rational and irrational numbers.",
+    "formal": "ℝ = ℚ ∪ (irrational numbers).",
+    "tags": ["algebra", "definition", "real numbers"]
   }
 ]
 

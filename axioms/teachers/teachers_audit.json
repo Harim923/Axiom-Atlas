@@ -1,0 +1,32 @@
+[
+  {
+    "id": "AUDIT_SOLVING_LINEAR",
+    "description": "Solving simple linear equations must be correct.",
+    "tags": ["solve", "linear", "equation"],
+    "penalty": 0.1
+  },
+  {
+    "id": "AUDIT_TRANSFORMATION_VALIDITY",
+    "description": "Each transformation must logically follow from previous steps.",
+    "tags": ["transform", "logic", "flow"],
+    "penalty": 0.1
+  },
+  {
+    "id": "AUDIT_SUBSTITUTION_ACCURACY",
+    "description": "Substitutions into known expressions must be accurate.",
+    "tags": ["substitution", "simplify"],
+    "penalty": 0.1
+  },
+  {
+    "id": "AUDIT_LOGICAL_FLOW_BREAK",
+    "description": "No illogical jumps or missing steps in reasoning flow.",
+    "tags": ["logic", "reasoning", "flow"],
+    "penalty": 0.2
+  },
+  {
+    "id": "AUDIT_FINAL_VERIFICATION",
+    "description": "Final result must correctly solve the original problem goal.",
+    "tags": ["final", "result", "verification"],
+    "penalty": 0.2
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "axioms": [
+    {
+      "id": "ALG1",
+      "name": "Group Definition",
+      "statement": "A group is a set G equipped with an operation * satisfying closure, associativity, existence of identity, and existence of inverses."
+    },
+    {
+      "id": "ALG2",
+      "name": "Abelian Group Definition",
+      "statement": "A group (G, *) is Abelian if for all a, b in G, a * b = b * a."
+    },
+    {
+      "id": "ALG3",
+      "name": "Subgroup Criterion",
+      "statement": "A subset H of G is a subgroup if it is nonempty and for all a, b in H, ab^{-1} is in H."
+    },
+    {
+      "id": "ALG4",
+      "name": "Order of an Element",
+      "statement": "The order of an element g in G is the smallest positive integer n such that g^n = e, where e is the identity element."
+    },
+    {
+      "id": "ALG5",
+      "name": "Lagrange's Theorem",
+      "statement": "The order of a subgroup H divides the order of the finite group G."
+    },
+    {
+      "id": "ALG6",
+      "name": "Homomorphism Definition",
+      "statement": "A map f: G → H between groups is a homomorphism if for all a, b in G, f(ab) = f(a)f(b)."
+    },
+    {
+      "id": "ALG7",
+      "name": "Kernel of a Homomorphism",
+      "statement": "The kernel of a group homomorphism f: G → H is the set of elements g in G such that f(g) = e_H."
+    },
+    {
+      "id": "ALG8",
+      "name": "First Isomorphism Theorem",
+      "statement": "If f: G → H is a group homomorphism, then G/ker(f) ≅ im(f)."
+    },
+    {
+      "id": "ALG9",
+      "name": "Ring Definition",
+      "statement": "A ring is a set R with two binary operations, addition and multiplication, such that (R, +) is an abelian group, (R, *) is associative, and multiplication distributes over addition."
+    },
+    {
+      "id": "ALG10",
+      "name": "Field Definition",
+      "statement": "A field is a commutative ring with unity in which every nonzero element has a multiplicative inverse."
+    },
+    {
+      "id": "ALG11",
+      "name": "Ideal Definition",
+      "statement": "An ideal I of a ring R is a subset such that for all r in R and i in I, ri and ir are in I."
+    },
+    {
+      "id": "ALG12",
+      "name": "Quotient Ring",
+      "statement": "Given a ring R and an ideal I, the quotient ring R/I is the set of cosets with addition and multiplication well-defined."
+    },
+    {
+      "id": "ALG13",
+      "name": "Ring Homomorphism Definition",
+      "statement": "A function f: R → S between rings is a homomorphism if f(a + b) = f(a) + f(b) and f(ab) = f(a)f(b)."
+    },
+    {
+      "id": "ALG14",
+      "name": "Integral Domain Definition",
+      "statement": "An integral domain is a commutative ring with unity with no zero divisors."
+    },
+    {
+      "id": "ALG15",
+      "name": "Field of Fractions",
+      "statement": "The field of fractions of an integral domain R consists of all elements a/b where a, b are in R and b ≠ 0."
+    },
+    {
+      "id": "ALG16",
+      "name": "Principal Ideal Domain (PID)",
+      "statement": "A PID is an integral domain in which every ideal is principal."
+    },
+    {
+      "id": "ALG17",
+      "name": "Unique Factorization Domain (UFD)",
+      "statement": "A UFD is an integral domain in which every nonzero non-unit element has a unique factorization into irreducibles, up to order and units."
+    },
+    {
+      "id": "ALG18",
+      "name": "Units in a Ring",
+      "statement": "An element u in a ring R is called a unit if there exists v in R such that uv = vu = 1."
+    },
+    {
+      "id": "ALG19",
+      "name": "Zero Divisor Definition",
+      "statement": "An element a ≠ 0 in a ring R is a zero divisor if there exists b ≠ 0 in R such that ab = 0."
+    },
+    {
+      "id": "ALG20",
+      "name": "Z/nZ Structure",
+      "statement": "The set Z/nZ of integers modulo n forms a ring. It forms a field if and only if n is prime."
+    }
+  ]
+}

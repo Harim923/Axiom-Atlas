@@ -1,0 +1,123 @@
+{
+  "Euler’s Product Formula": [
+    "Modular Inverse Definition", "Totient Congruence", "Fermat’s Little Theorem",
+    "Chinese Remainder Theorem", "Divisibility Definition", "Prime Number Definition"
+  ],
+  "Fermat’s Little Theorem": [
+    "Euler’s Product Formula", "Modular Exponentiation", "Primitive Root Definition",
+    "Multiplicative Group of Integers Modulo n", "Modular Inverse Definition"
+  ],
+  "Chinese Remainder Theorem": [
+    "Congruence Class Definition", "Euler’s Product Formula", "Modular Inverse Definition",
+    "Coprime Integer Property", "System of Modular Equations"
+  ],
+  "AM-GM Inequality": [
+    "Fixed Value Bounding", "Cauchy-Schwarz Inequality", "Symmetric Sum Principle",
+    "Jensen's Inequality (Discrete Form)", "Minimum with Constraint Lemma"
+  ],
+  "Cauchy-Schwarz Inequality": [
+    "AM-GM Inequality", "Vector Dot Product", "Inner Product Space Properties",
+    "Orthogonality Condition", "Projection Formula"
+  ],
+  "Triangle Congruence (SSS)": [
+    "Triangle Inequality", "Side-Angle-Side Rule", "Law of Cosines",
+    "Heron's Formula", "Equal Length Lemma"
+  ],
+  "Triangle Congruence (AAS)": [
+    "Law of Sines", "Angle-Angle-Side Property", "Angle Sum Theorem",
+    "Isosceles Triangle Lemma", "Congruent Angles from Parallel Lines"
+  ],
+  "Power of a Point Theorem": [
+    "Intersecting Chords Theorem", "Cyclic Quadrilateral Rule", "Tangent-Secant Theorem",
+    "Circle Radius Perpendicular Tangent", "Angle in a Semicircle"
+  ],
+  "Cyclic Quadrilateral Rule": [
+    "Supplementary Opposite Angles", "Inscribed Angle Theorem", "Exterior Angle of Circle",
+    "Tangent-Chord Angle", "Power of a Point Theorem"
+  ],
+  "Heron's Formula": [
+    "Triangle Congruence (SSS)", "Semi-Perimeter Definition", "Height via Area Formula",
+    "Triangle Area Decomposition", "Inequality of Triangle Area"
+  ],
+  "Pascal’s Identity": [
+    "Binomial Coefficient Definition", "Recursive Combinatorics", "Inductive Counting Lemma",
+    "Binomial Theorem", "Combinatorial Proof Construction"
+  ],
+  "Binomial Theorem": [
+    "Pascal’s Identity", "Binomial Coefficient Definition", "Symmetric Polynomial Identity",
+    "Expanding Powers of Binomials", "Combinatorial Argument Principle"
+  ],
+  "Modular Inverse Definition": [
+    "Bezout’s Identity", "Euler’s Product Formula", "Coprime Integer Property",
+    "Extended Euclidean Algorithm", "Chinese Remainder Theorem"
+  ],
+  "Extended Euclidean Algorithm": [
+    "Bezout’s Identity", "Modular Inverse Definition", "GCD Definition",
+    "Linear Combination Lemma", "Diophantine Equation Solvability"
+  ],
+  "Zero Product Property": [
+    "Distributive Law", "Quadratic Equation Root Principle", "Factoring Rules",
+    "Solution Set Splitting", "Implication Chain of Multiplicative Zero"
+  ],
+  "Quadratic Equation Root Principle": [
+    "Zero Product Property", "Vieta’s Formula", "Discriminant Sign Rule",
+    "Completing the Square", "Quadratic Formula Derivation"
+  ],
+  "Vieta’s Formula": [
+    "Quadratic Equation Root Principle", "Symmetric Polynomial Identity",
+    "Polynomial Root Coefficient Relation", "Sum and Product of Roots",
+    "Algebraic Manipulation of Factor Forms"
+  ],
+  "Sine Rule": [
+    "Triangle Congruence (AAS)", "Angle Proportionality in Circle", "Law of Sines Derivation",
+    "Circumradius via Sine Rule", "Inscribed Angle Lemma"
+  ],
+  "Law of Cosines": [
+    "Triangle Congruence (SSS)", "Distance in Coordinate Geometry", "Dot Product Expansion",
+    "Cosine Angle Expansion", "Generalized Pythagorean Theorem"
+  ],
+  "Burnside’s Lemma": [
+    "Group Action on Sets", "Orbit-Stabilizer Theorem", "Counting Symmetric Objects",
+    "Fixed Point Enumeration", "Rotation Group Property"
+  ],
+  "Inclusion-Exclusion Principle": [
+    "Overlapping Count Lemma", "Set Union Principle", "Complement Counting",
+    "Venn Diagram Interpretation", "Combinatorics of Overlapping Events"
+  ],
+  "Factorial Definition": [
+    "Permutation Formula", "Binomial Coefficient Definition", "Recursive Multiplicative Structure",
+    "Counting Arrangements", "Base of Counting Functions"
+  ],
+  "Permutation Formula": [
+    "Factorial Definition", "Distinct Element Counting", "Multiset Permutation Rule",
+    "Ordering Logic", "Subgroup Repetition Handling"
+  ],
+  "Distributive Law": [
+    "Commutative Law", "Associative Law", "Zero Product Property",
+    "Expanding Brackets", "Algebraic Manipulation Rules"
+  ],
+  "Associative Law": [
+    "Parentheses Rearrangement", "Order of Operations Validity", "Abstract Algebra Compatibility",
+    "Grouping Operations", "Binary Operation Structure"
+  ],
+  "Dot Product Expansion": [
+    "Cauchy-Schwarz Inequality", "Projection Formula", "Vector Magnitude Square",
+    "Cosine Angle Interpretation", "Inner Product Representation"
+  ],
+  "Angle in a Semicircle": [
+    "Right Angle Theorem", "Inscribed Angle Theorem", "Diameter Hypotenuse Property",
+    "Cyclic Circle Configuration", "Power of a Point Link"
+  ],
+  "GCD Definition": [
+    "Divisibility Definition", "Bezout’s Identity", "Euclidean Algorithm",
+    "Coprime Integer Check", "Prime Factorization Overlap"
+  ],
+  "LCM Definition": [
+    "GCD Definition", "Multiplicative Closure Lemma", "Common Multiple Logic",
+    "LCM × GCD Identity", "Prime Power Merge Rule"
+  ],
+  "Arithmetic Mean Definition": [
+    "AM-GM Inequality", "Sum of Quantities", "Averages in Inequalities",
+    "Equal Weight Mean", "Bounding via Average"
+  ]
+}

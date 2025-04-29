@@ -1,0 +1,214 @@
+{
+  "axioms": [
+    {
+      "id": "LA1",
+      "name": "Definition of Vector Space",
+      "statement": "A vector space over a field F is a set V equipped with two operations: vector addition and scalar multiplication, satisfying 8 axioms (closure, associativity, identity, inverse, distributivity, etc.).",
+      "tags": ["vector space", "definition", "linear algebra"]
+    },
+    {
+      "id": "LA2",
+      "name": "Definition of Subspace",
+      "statement": "A subset W of a vector space V is a subspace if W is itself a vector space under the same operations.",
+      "tags": ["subspace", "definition", "linear algebra"]
+    },
+    {
+      "id": "LA3",
+      "name": "Definition of Span",
+      "statement": "The span of a set of vectors is the set of all linear combinations of those vectors.",
+      "tags": ["span", "linear combination", "definition", "linear algebra"]
+    },
+    {
+      "id": "LA4",
+      "name": "Definition of Linear Independence",
+      "statement": "A set of vectors is linearly independent if no nontrivial linear combination equals the zero vector.",
+      "tags": ["linear independence", "definition", "linear algebra"]
+    },
+    {
+      "id": "LA5",
+      "name": "Definition of Basis",
+      "statement": "A basis of a vector space is a linearly independent set that spans the space.",
+      "tags": ["basis", "definition", "linear algebra"]
+    },
+    {
+      "id": "LA6",
+      "name": "Definition of Dimension",
+      "statement": "The dimension of a vector space is the cardinality of any basis of the space.",
+      "tags": ["dimension", "definition", "linear algebra"]
+    },
+    {
+      "id": "LA7",
+      "name": "Replacement Theorem",
+      "statement": "If a vector space has a finite spanning set of n vectors and a linearly independent set of m vectors, then m ≤ n, and the independent set can be extended to a basis.",
+      "tags": ["basis", "replacement theorem", "linear algebra"]
+    },
+    {
+      "id": "LA8",
+      "name": "Steinitz Exchange Lemma",
+      "statement": "In a finite-dimensional vector space, if a set of vectors is linearly independent and another set spans the space, then the independent set can be extended to a spanning set.",
+      "tags": ["exchange lemma", "basis", "linear algebra"]
+    },
+    {
+      "id": "LA9",
+      "name": "Definition of Linear Transformation",
+      "statement": "A function T between vector spaces is a linear transformation if it preserves addition and scalar multiplication.",
+      "tags": ["linear transformation", "definition", "linear algebra"]
+    },
+    {
+      "id": "LA10",
+      "name": "Kernel and Image of a Linear Transformation",
+      "statement": "The kernel of a linear transformation T is the set of vectors mapped to zero. The image is the set of vectors that are the outputs of T.",
+      "tags": ["kernel", "image", "linear transformation", "linear algebra"]
+    },
+    {
+      "id": "LA11",
+      "name": "Rank-Nullity Theorem",
+      "statement": "For a linear transformation T from V to W, dim(V) = rank(T) + nullity(T).",
+      "tags": ["rank", "nullity", "linear transformation", "linear algebra"]
+    },
+    {
+      "id": "LA12",
+      "name": "Matrix Representation of a Linear Transformation",
+      "statement": "A linear transformation between finite-dimensional vector spaces can be represented by a matrix relative to given bases.",
+      "tags": ["matrix", "linear transformation", "representation", "linear algebra"]
+    },
+    {
+    "id": "LA013",
+    "name": "Determinant Multiplication Property",
+    "statement": "For square matrices A and B of the same size, det(AB) = det(A) * det(B).",
+    "tags": ["determinant", "matrix property", "multiplication"]
+    },
+    {
+      "id": "LA014",
+      "name": "Determinant Transpose Property",
+      "statement": "For any square matrix A, det(A^T) = det(A).",
+      "tags": ["determinant", "transpose", "matrix property"]
+    },
+    {
+      "id": "LA015",
+      "name": "Invertibility via Determinant",
+      "statement": "A square matrix A is invertible if and only if det(A) ≠ 0.",
+      "tags": ["invertibility", "determinant", "matrix"]
+    },
+    {
+      "id": "LA016",
+      "name": "Invertibility via Rank",
+      "statement": "A square matrix A of size n × n is invertible if and only if rank(A) = n.",
+      "tags": ["invertibility", "rank", "matrix"]
+    },
+    {
+      "id": "LA017",
+      "name": "Rank-Nullity Theorem",
+      "statement": "For a linear transformation T: V → W, dim(ker(T)) + rank(T) = dim(V).",
+      "tags": ["rank", "nullity", "linear transformation", "theorem"]
+    },
+    {
+      "id": "LA018",
+      "name": "Eigenvalue and Eigenvector Definition",
+      "statement": "A scalar λ is an eigenvalue of A if there exists a nonzero vector v such that Av = λv.",
+      "tags": ["eigenvalue", "eigenvector", "definition"]
+    },
+    {
+      "id": "LA019",
+      "name": "Characteristic Polynomial",
+      "statement": "The characteristic polynomial of a matrix A is det(A - λI). Eigenvalues are roots of this polynomial.",
+      "tags": ["eigenvalue", "characteristic polynomial", "determinant"]
+    },
+    {
+      "id": "LA020",
+      "name": "Diagonalization Criterion",
+      "statement": "A square matrix A is diagonalizable if and only if there exists a basis of eigenvectors for A.",
+      "tags": ["diagonalization", "eigenvector", "matrix"]
+    },
+    {
+      "id": "LA021",
+      "name": "Spectral Theorem",
+      "statement": "A real symmetric matrix is orthogonally diagonalizable.",
+      "tags": ["spectral theorem", "symmetric matrix", "orthogonal diagonalization"]
+    },
+    {
+      "id": "LA022",
+      "name": "Matrix Similarity",
+      "statement": "Matrices A and B are similar if there exists an invertible matrix P such that P^{-1}AP = B.",
+      "tags": ["similarity", "matrix", "linear algebra"]
+    },
+    {
+      "id": "LA023",
+      "name": "Gram-Schmidt Orthogonalization",
+      "statement": "Any finite linearly independent set of vectors can be orthonormalized using the Gram-Schmidt process.",
+      "tags": ["orthogonalization", "gram-schmidt", "linear algebra"]
+    },
+    {
+      "id": "LA024",
+      "name": "Cayley-Hamilton Theorem",
+      "statement": "Every square matrix satisfies its own characteristic polynomial.",
+      "tags": ["cayley-hamilton", "characteristic polynomial", "linear algebra"]
+    },
+    {
+    "id": "ADV_LA1",
+    "name": "Definition of Eigenvalue",
+    "statement": "A scalar \\( \\lambda \\) is an eigenvalue of matrix \\( A \\) if there exists a nonzero vector \\( v \\) such that \\( Av = \\lambda v \\).",
+    "tags": ["linear_algebra", "eigenvalue", "definition"]
+    },
+    {
+      "id": "ADV_LA2",
+      "name": "Characteristic Polynomial",
+      "statement": "The characteristic polynomial of matrix \\( A \\) is \\( \\det(A - \\lambda I) \\).",
+      "tags": ["linear_algebra", "eigenvalue", "polynomial"]
+    },
+    {
+      "id": "ADV_LA3",
+      "name": "Diagonalization Criterion",
+      "statement": "A matrix \\( A \\) is diagonalizable if and only if there exists a basis consisting of eigenvectors of \\( A \\).",
+      "tags": ["linear_algebra", "diagonalization"]
+    },
+    {
+      "id": "ADV_LA4",
+      "name": "Schur Complement Definition",
+      "statement": "Given a block matrix, the Schur complement of a block is defined as \\( S = D - C A^{-1} B \\).",
+      "tags": ["linear_algebra", "schur_complement"]
+    },
+    {
+      "id": "ADV_LA5",
+      "name": "Gram-Schmidt Process",
+      "statement": "Any finite set of linearly independent vectors in an inner product space can be orthonormalized via the Gram-Schmidt process.",
+      "tags": ["linear_algebra", "orthonormalization"]
+    },
+    {
+      "id": "ADV_LA6",
+      "name": "Spectral Theorem (Real Symmetric)",
+      "statement": "Every real symmetric matrix is orthogonally diagonalizable.",
+      "tags": ["linear_algebra", "spectral_theorem"]
+    },
+    {
+      "id": "ADV_LA7",
+      "name": "Definition of Hermitian Matrix",
+      "statement": "A matrix \\( A \\) is Hermitian if \\( A = A^* \\).",
+      "tags": ["linear_algebra", "hermitian", "definition"]
+    },
+    {
+      "id": "ADV_LA8",
+      "name": "Moore-Penrose Pseudoinverse",
+      "statement": "Every matrix \\( A \\) has a unique pseudoinverse \\( A^+ \\) satisfying the four Penrose conditions.",
+      "tags": ["linear_algebra", "pseudoinverse"]
+    },
+    {
+      "id": "ADV_LA9",
+      "name": "Singular Value Decomposition (SVD)",
+      "statement": "Any matrix \\( A \\) can be decomposed as \\( A = U \\Sigma V^* \\) where \\( U \\) and \\( V \\) are unitary and \\( \\Sigma \\) is diagonal with non-negative entries.",
+      "tags": ["linear_algebra", "svd", "decomposition"]
+    },
+    {
+      "id": "ADV_LA10",
+      "name": "Rank-Nullity Theorem",
+      "statement": "For a linear transformation \\( T: V \\to W \\), \\( \\dim(\\text{Ker}(T)) + \\dim(\\text{Im}(T)) = \\dim(V) \\).",
+      "tags": ["linear_algebra", "rank_nullity"]
+    },
+    {
+      "id": "ADV_LA11",
+      "name": "Cayley-Hamilton Theorem",
+      "statement": "Every square matrix satisfies its own characteristic equation.",
+      "tags": ["linear_algebra", "cayley_hamilton"]
+    }
+  ]
+}

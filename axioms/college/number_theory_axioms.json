@@ -1,0 +1,104 @@
+{
+  "axioms": [
+    {
+      "id": "NT1",
+      "name": "Divisibility Definition",
+      "statement": "An integer a divides an integer b if there exists an integer k such that b = ak."
+    },
+    {
+      "id": "NT2",
+      "name": "Properties of Divisibility",
+      "statement": "If a divides b and a divides c, then a divides b+c and b-c."
+    },
+    {
+      "id": "NT3",
+      "name": "Greatest Common Divisor (GCD) Definition",
+      "statement": "The GCD of a and b is the largest integer that divides both a and b."
+    },
+    {
+      "id": "NT4",
+      "name": "Bézout's Identity",
+      "statement": "There exist integers x and y such that ax + by = gcd(a, b)."
+    },
+    {
+      "id": "NT5",
+      "name": "Euclidean Algorithm",
+      "statement": "The GCD of two integers can be computed using repeated division."
+    },
+    {
+      "id": "NT6",
+      "name": "Relatively Prime Definition",
+      "statement": "Integers a and b are relatively prime if gcd(a, b) = 1."
+    },
+    {
+      "id": "NT7",
+      "name": "Prime Number Definition",
+      "statement": "A prime number is a positive integer greater than 1 whose only divisors are 1 and itself."
+    },
+    {
+      "id": "NT8",
+      "name": "Fundamental Theorem of Arithmetic",
+      "statement": "Every integer greater than 1 can be uniquely factored into primes, up to order."
+    },
+    {
+      "id": "NT9",
+      "name": "Modular Arithmetic Definition",
+      "statement": "a ≡ b (mod n) if n divides (a - b)."
+    },
+    {
+      "id": "NT10",
+      "name": "Properties of Congruence",
+      "statement": "Congruence modulo n is an equivalence relation and respects addition, subtraction, and multiplication."
+    },
+    {
+      "id": "NT11",
+      "name": "Chinese Remainder Theorem",
+      "statement": "If n₁, ..., nₖ are pairwise coprime, then the system of congruences has a unique solution modulo the product."
+    },
+    {
+      "id": "NT12",
+      "name": "Fermat’s Little Theorem",
+      "statement": "If p is prime and a is not divisible by p, then a^(p-1) ≡ 1 (mod p)."
+    },
+    {
+      "id": "NT13",
+      "name": "Euler's Theorem",
+      "statement": "If gcd(a, n) = 1, then a^ϕ(n) ≡ 1 (mod n), where ϕ(n) is Euler's totient function."
+    },
+    {
+      "id": "NT14",
+      "name": "Definition of Euler's Totient Function",
+      "statement": "ϕ(n) is the number of positive integers ≤ n that are coprime to n."
+    },
+    {
+      "id": "NT15",
+      "name": "Wilson’s Theorem",
+      "statement": "A number p > 1 is prime if and only if (p-1)! ≡ -1 (mod p)."
+    },
+    {
+      "id": "NT16",
+      "name": "Multiplicative Inverse Modulo n",
+      "statement": "An integer a has a multiplicative inverse modulo n if and only if gcd(a, n) = 1."
+    },
+    {
+      "id": "NT17",
+      "name": "Quadratic Residue Definition",
+      "statement": "An integer a is a quadratic residue modulo p if there exists an integer x such that x^2 ≡ a (mod p)."
+    },
+    {
+      "id": "NT18",
+      "name": "Legendre Symbol Definition",
+      "statement": "For prime p and integer a, (a/p) = 1 if a is a quadratic residue modulo p, -1 otherwise."
+    },
+    {
+      "id": "NT19",
+      "name": "Law of Quadratic Reciprocity",
+      "statement": "For distinct odd primes p and q, (p/q)(q/p) = (-1)^((p-1)(q-1)/4)."
+    },
+    {
+      "id": "NT20",
+      "name": "Primitive Root Definition",
+      "statement": "A number g is a primitive root modulo n if every number coprime to n is congruent to a power of g modulo n."
+    }
+  ]
+}

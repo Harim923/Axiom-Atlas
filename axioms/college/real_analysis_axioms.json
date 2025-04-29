@@ -1,0 +1,104 @@
+{
+  "axioms": [
+    {
+      "id": "RA1",
+      "name": "Definition of Limit (ε-δ)",
+      "statement": "A sequence {a_n} converges to a limit L if for every ε > 0 there exists N such that for all n ≥ N, |a_n - L| < ε."
+    },
+    {
+      "id": "RA2",
+      "name": "Uniqueness of Limits",
+      "statement": "A sequence can have at most one limit."
+    },
+    {
+      "id": "RA3",
+      "name": "Algebra of Limits",
+      "statement": "If {a_n} → A and {b_n} → B, then {a_n + b_n} → A + B and {a_n b_n} → AB."
+    },
+    {
+      "id": "RA4",
+      "name": "Order Preservation of Limits",
+      "statement": "If {a_n} → A and {b_n} → B and a_n ≤ b_n for all n, then A ≤ B."
+    },
+    {
+      "id": "RA5",
+      "name": "Squeeze Theorem",
+      "statement": "If a_n ≤ b_n ≤ c_n for all n, and {a_n} → L and {c_n} → L, then {b_n} → L."
+    },
+    {
+      "id": "RA6",
+      "name": "Definition of Continuity (ε-δ)",
+      "statement": "A function f is continuous at a point c if for every ε > 0 there exists δ > 0 such that for all x, if |x - c| < δ then |f(x) - f(c)| < ε."
+    },
+    {
+      "id": "RA7",
+      "name": "Composition of Continuous Functions",
+      "statement": "If f and g are continuous, then f ∘ g is continuous."
+    },
+    {
+      "id": "RA8",
+      "name": "Extreme Value Theorem",
+      "statement": "A continuous function on a closed interval [a, b] attains its maximum and minimum values."
+    },
+    {
+      "id": "RA9",
+      "name": "Intermediate Value Theorem",
+      "statement": "If f is continuous on [a, b] and k is between f(a) and f(b), then there exists c ∈ (a, b) such that f(c) = k."
+    },
+    {
+      "id": "RA10",
+      "name": "Monotone Convergence Theorem",
+      "statement": "Every bounded, monotone sequence converges."
+    },
+    {
+      "id": "RA11",
+      "name": "Bolzano–Weierstrass Theorem",
+      "statement": "Every bounded sequence has a convergent subsequence."
+    },
+    {
+      "id": "RA12",
+      "name": "Cauchy Criterion for Sequences",
+      "statement": "A sequence {a_n} converges if and only if it is a Cauchy sequence."
+    },
+    {
+      "id": "RA13",
+      "name": "Cauchy Criterion for Functions",
+      "statement": "A function is uniformly continuous on an interval if and only if every Cauchy sequence of points maps to a Cauchy sequence."
+    },
+    {
+      "id": "RA14",
+      "name": "Definition of Uniform Continuity",
+      "statement": "f is uniformly continuous on A if for every ε > 0 there exists δ > 0 such that for all x, y ∈ A, |x - y| < δ implies |f(x) - f(y)| < ε."
+    },
+    {
+      "id": "RA15",
+      "name": "Uniform Continuity on Closed Interval",
+      "statement": "Every continuous function on a closed interval [a, b] is uniformly continuous."
+    },
+    {
+      "id": "RA16",
+      "name": "Heine–Borel Theorem",
+      "statement": "A subset of ℝ is compact if and only if it is closed and bounded."
+    },
+    {
+      "id": "RA17",
+      "name": "Compactness and Sequential Compactness",
+      "statement": "A subset of ℝ^n is compact if and only if every sequence has a convergent subsequence."
+    },
+    {
+      "id": "RA18",
+      "name": "Definition of Derivative",
+      "statement": "The derivative of f at c is defined as f'(c) = lim_{h→0} (f(c+h) - f(c))/h, if the limit exists."
+    },
+    {
+      "id": "RA19",
+      "name": "Mean Value Theorem",
+      "statement": "If f is continuous on [a, b] and differentiable on (a, b), then there exists c in (a, b) such that f'(c) = (f(b) - f(a)) / (b - a)."
+    },
+    {
+      "id": "RA20",
+      "name": "Taylor's Theorem (First Order)",
+      "statement": "If f is differentiable, then f(x) ≈ f(a) + f'(a)(x - a) for x near a."
+    }
+  ]
+}

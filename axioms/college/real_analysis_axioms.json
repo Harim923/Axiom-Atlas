@@ -99,6 +99,87 @@
       "id": "RA20",
       "name": "Taylor's Theorem (First Order)",
       "statement": "If f is differentiable, then f(x) ≈ f(a) + f'(a)(x - a) for x near a."
+    },
+    ,
+    {
+      "id": "RA21",
+      "name": "Convergence of Series",
+      "statement": "A series ∑a_n converges if the sequence of partial sums s_n = a₁ + ... + aₙ converges."
+    },
+    {
+      "id": "RA22",
+      "name": "Comparison Test",
+      "statement": "If 0 ≤ a_n ≤ b_n and ∑b_n converges, then ∑a_n also converges."
+    },
+    {
+      "id": "RA23",
+      "name": "Ratio Test",
+      "statement": "If lim |aₙ₊₁/aₙ| = L < 1, then ∑aₙ converges."
+    },
+    {
+      "id": "RA24",
+      "name": "Alternating Series Test",
+      "statement": "If a_n is decreasing and lim a_n = 0, then ∑(-1)ⁿa_n converges."
+    },
+    {
+      "id": "RA25",
+      "name": "Absolute vs Conditional Convergence",
+      "statement": "Absolutely convergent series are convergent. The converse is not necessarily true."
+    },
+    {
+      "id": "RA26",
+      "name": "Definition of Uniform Convergence",
+      "statement": "fₙ → f uniformly if for every ε > 0 there exists N such that for all n ≥ N, sup_x |fₙ(x) - f(x)| < ε."
+    },
+    {
+      "id": "RA27",
+      "name": "Uniform Limit Theorem",
+      "statement": "If fₙ → f uniformly and each fₙ is continuous, then f is continuous."
+    },
+    {
+      "id": "RA28",
+      "name": "Term-by-Term Integration",
+      "statement": "If fₙ → f uniformly on [a, b], then ∫fₙ → ∫f as n → ∞."
+    },
+    {
+      "id": "RA29",
+      "name": "Term-by-Term Differentiation",
+      "statement": "If fₙ → f uniformly and fₙ′ → g uniformly, then f is differentiable and f′ = g."
+    },
+    {
+      "id": "RA30",
+      "name": "Partial Derivative Definition",
+      "statement": "The partial derivative ∂f/∂x at (x, y) is defined as lim_{h→0} (f(x+h, y) - f(x, y))/h, if the limit exists."
+    },
+    {
+      "id": "RA31",
+      "name": "Schwarz's Theorem (Clairaut's Theorem)",
+      "statement": "If f_x_y and f_y_x are continuous, then f_x_y = f_y_x."
+    },
+    {
+      "id": "RA32",
+      "name": "Multivariable Chain Rule",
+      "statement": "If f is differentiable and g is differentiable, then the derivative of the composition is the product of their Jacobians."
+    },
+    {
+      "id": "RA33",
+      "name": "Mean Value Theorem (Multivariable)",
+      "statement": "If f is differentiable on a convex open set, then there exists c on the line segment such that f(b) - f(a) = ∇f(c) ⋅ (b - a)."
+    },
+    {
+      "id": "RA34",
+      "name": "Definition of Measurable Set",
+      "statement": "A subset A ⊆ ℝ is Lebesgue measurable if for every ε > 0, there exists an open set O ⊇ A such that m*(O \\ A) < ε."
+    },
+    {
+      "id": "RA35",
+      "name": "Dominated Convergence Theorem",
+      "statement": "If fₙ → f a.e. and |fₙ| ≤ g where g is integrable, then ∫fₙ → ∫f."
+    },
+    {
+      "id": "RA36",
+      "name": "Monotone Convergence Theorem (Lebesgue)",
+      "statement": "If fₙ ↑ f and fₙ ≥ 0, then ∫fₙ → ∫f."
     }
   ]
 }

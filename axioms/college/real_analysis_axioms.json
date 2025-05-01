@@ -100,7 +100,6 @@
       "name": "Taylor's Theorem (First Order)",
       "statement": "If f is differentiable, then f(x) ≈ f(a) + f'(a)(x - a) for x near a."
     },
-    ,
     {
       "id": "RA21",
       "name": "Convergence of Series",

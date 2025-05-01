@@ -180,6 +180,51 @@
       "id": "RA36",
       "name": "Monotone Convergence Theorem (Lebesgue)",
       "statement": "If fₙ ↑ f and fₙ ≥ 0, then ∫fₙ → ∫f."
+    },
+    {
+      "id": "RA37",
+      "name": "Completeness of ℝ",
+      "statement": "Every non-empty subset of ℝ that is bounded above has a least upper bound (supremum) in ℝ."
+    },
+    {
+      "id": "RA38",
+      "name": "Definition of Supremum and Infimum",
+      "statement": "If S ⊆ ℝ is bounded above, then sup S is the least upper bound: ∀s ∈ S, s ≤ sup S, and for any ε > 0, ∃s ∈ S such that sup S - ε < s."
+    },
+    {
+      "id": "RA39",
+      "name": "Weierstrass Theorem",
+      "statement": "Every continuous function on a closed, bounded interval [a, b] attains its maximum and minimum."
+    },
+    {
+      "id": "RA40",
+      "name": "Definition of Riemann Integral",
+      "statement": "A function f is Riemann integrable on [a, b] if for every ε > 0, there exists a partition P such that the upper and lower Riemann sums satisfy U(f, P) - L(f, P) < ε."
+    },
+    {
+      "id": "RA41",
+      "name": "Riemann Integrability Criterion",
+      "statement": "A bounded function on [a, b] is Riemann integrable if and only if the set of its discontinuities has measure zero."
+    },
+    {
+      "id": "RA42",
+      "name": "Higher Order Taylor Theorem",
+      "statement": "If f is (n+1)-times differentiable on an open interval containing a, then for x near a, f(x) = f(a) + f'(a)(x - a) + ... + f⁽ⁿ⁾(a)(x - a)ⁿ/n! + Rₙ(x), where Rₙ(x) → 0 as x → a."
+    },
+    {
+      "id": "RA43",
+      "name": "Definition of Lebesgue Integral (Simple Functions)",
+      "statement": "For a nonnegative measurable function f, the Lebesgue integral ∫f is defined as the supremum of the integrals of simple functions φ ≤ f."
+    },
+    {
+      "id": "RA44",
+      "name": "Fatou's Lemma",
+      "statement": "If {fₙ} is a sequence of nonnegative measurable functions, then ∫lim inf fₙ ≤ lim inf ∫fₙ."
+    },
+    {
+      "id": "RA45",
+      "name": "Lebesgue's Bounded Convergence Theorem",
+      "statement": "If fₙ → f pointwise a.e. on a set of finite measure, and |fₙ| ≤ M for all n, then ∫fₙ → ∫f."
     }
   ]
 }

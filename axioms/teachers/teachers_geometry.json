@@ -1,0 +1,1249 @@
+[
+  {
+    "id": "GEO01.01",
+    "title": "Points, Lines, and Planes",
+    "type": "definition",
+    "content": [
+      { "term": "Point", "definition": "A point is a location with no dimension, represented by a dot and a capital letter." },
+      { "term": "Line", "definition": "A line is a straight path that extends infinitely in two directions and has one dimension." },
+      { "term": "Plane", "definition": "A plane is a flat surface that extends infinitely in two dimensions and contains at least three non-collinear points." }
+    ]
+  },
+  {
+    "id": "GEO01.02",
+    "title": "Line Segments and Rays",
+    "type": "definition",
+    "content": [
+      { "term": "Line Segment", "definition": "A line segment is part of a line with two endpoints." },
+      { "term": "Ray", "definition": "A ray starts at one point and extends infinitely in one direction." }
+    ]
+  },
+  {
+    "id": "GEO01.03",
+    "title": "Collinear and Coplanar",
+    "type": "definition",
+    "content": [
+      { "term": "Collinear", "definition": "Points that lie on the same line are collinear." },
+      { "term": "Coplanar", "definition": "Points that lie on the same plane are coplanar." }
+    ]
+  },
+  {
+    "id": "GEO01.04",
+    "title": "Intersection of Geometric Objects",
+    "type": "definition",
+    "content": [
+      { "term": "Intersection", "definition": "The set of points that two or more geometric figures have in common." }
+    ]
+  },
+  {
+    "id": "GEO01.05",
+    "title": "Postulates about Points, Lines, and Planes",
+    "type": "postulate",
+    "content": [
+      { "term": "Line Postulate", "definition": "Through any two points, there is exactly one line." },
+      { "term": "Plane Postulate", "definition": "Through any three non-collinear points, there is exactly one plane." },
+      { "term": "Line-Plane Postulate", "definition": "If two points lie in a plane, then the line containing them lies in the plane." },
+      { "term": "Intersection Postulate", "definition": "If two lines intersect, they intersect in exactly one point. If two planes intersect, they intersect in a line." }
+    ]
+  },
+  {
+    "id": "GEO01.06",
+    "title": "Measuring Segments",
+    "type": "definition",
+    "content": [
+      { "term": "Distance", "definition": "The distance between two points is the absolute value of the difference of their coordinates." },
+      { "term": "Congruent Segments", "definition": "Segments that have the same length are congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.07",
+    "title": "Segment Addition Postulate",
+    "type": "postulate",
+    "content": [
+      { "term": "Segment Addition Postulate", "definition": "If B is between A and C, then AB + BC = AC." }
+    ]
+  },
+  {
+    "id": "GEO01.08",
+    "title": "Midpoint of a Segment",
+    "type": "definition",
+    "content": [
+      { "term": "Midpoint", "definition": "The midpoint of a segment is the point that divides the segment into two congruent parts." }
+    ]
+  },
+  {
+    "id": "GEO01.09",
+    "title": "Bisector of a Segment",
+    "type": "definition",
+    "content": [
+      { "term": "Segment Bisector", "definition": "A segment bisector is a point, ray, line, line segment, or plane that intersects a segment at its midpoint." }
+    ]
+  },
+  {
+    "id": "GEO01.10",
+    "title": "Distance Formula",
+    "type": "formula",
+    "content": [
+      { "term": "Distance Formula", "definition": "The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ - x₁)² + (y₂ - y₁)²]." }
+    ]
+  },
+  {
+    "id": "GEO01.11",
+    "title": "Midpoint Formula",
+    "type": "formula",
+    "content": [
+      { "term": "Midpoint Formula", "definition": "The midpoint of a segment with endpoints (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2)." }
+    ]
+  },
+  {
+    "id": "GEO01.12",
+    "title": "Definition of Angle",
+    "type": "definition",
+    "content": [
+      { "term": "Angle", "definition": "An angle is formed by two rays with a common endpoint called the vertex." }
+    ]
+  },
+  {
+    "id": "GEO01.13",
+    "title": "Measuring Angles",
+    "type": "definition",
+    "content": [
+      { "term": "Degree", "definition": "The measure of an angle is typically expressed in degrees (°), with a full rotation equal to 360°." }
+    ]
+  },
+  {
+    "id": "GEO01.14",
+    "title": "Angle Addition Postulate",
+    "type": "postulate",
+    "content": [
+      { "term": "Angle Addition Postulate", "definition": "If point B lies in the interior of ∠AOC, then m∠AOB + m∠BOC = m∠AOC." }
+    ]
+  },
+  {
+    "id": "GEO01.15",
+    "title": "Types of Angles",
+    "type": "definition",
+    "content": [
+      { "term": "Acute Angle", "definition": "An angle that measures greater than 0° and less than 90°." },
+      { "term": "Right Angle", "definition": "An angle that measures exactly 90°." },
+      { "term": "Obtuse Angle", "definition": "An angle that measures greater than 90° and less than 180°." },
+      { "term": "Straight Angle", "definition": "An angle that measures exactly 180°." }
+    ]
+  },
+  {
+    "id": "GEO01.16",
+    "title": "Congruent Angles",
+    "type": "definition",
+    "content": [
+      { "term": "Congruent Angles", "definition": "Angles that have the same measure are congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.17",
+    "title": "Angle Bisector",
+    "type": "definition",
+    "content": [
+      { "term": "Angle Bisector", "definition": "An angle bisector is a ray that divides an angle into two congruent angles." }
+    ]
+  },
+  {
+    "id": "GEO01.18",
+    "title": "Adjacent, Vertical, and Linear Pair Angles",
+    "type": "definition",
+    "content": [
+      { "term": "Adjacent Angles", "definition": "Two angles that share a common vertex and side but have no common interior points." },
+      { "term": "Vertical Angles", "definition": "Angles opposite each other when two lines intersect. They are congruent." },
+      { "term": "Linear Pair", "definition": "A pair of adjacent angles whose non-common sides form a straight line. The angles are supplementary." }
+    ]
+  },
+  {
+    "id": "GEO01.19",
+    "title": "Complementary and Supplementary Angles",
+    "type": "definition",
+    "content": [
+      { "term": "Complementary Angles", "definition": "Two angles whose measures add up to 90°." },
+      { "term": "Supplementary Angles", "definition": "Two angles whose measures add up to 180°." }
+    ]
+  },
+  {
+    "id": "GEO01.20",
+    "title": "Angle Relationships in Geometry",
+    "type": "definition",
+    "content": [
+      { "term": "Perpendicular Lines", "definition": "Two lines that intersect to form right angles." },
+      { "term": "Angle Relationship Rule", "definition": "Vertical angles are congruent, linear pairs are supplementary." }
+    ]
+  },
+  {
+    "id": "GEO01.21",
+    "title": "Classifying Triangles by Sides",
+    "type": "definition",
+    "content": [
+      { "term": "Scalene Triangle", "definition": "A triangle with no congruent sides." },
+      { "term": "Isosceles Triangle", "definition": "A triangle with at least two congruent sides." },
+      { "term": "Equilateral Triangle", "definition": "A triangle with all three sides congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.22",
+    "title": "Classifying Triangles by Angles",
+    "type": "definition",
+    "content": [
+      { "term": "Acute Triangle", "definition": "A triangle where all angles are less than 90°." },
+      { "term": "Right Triangle", "definition": "A triangle with one angle measuring exactly 90°." },
+      { "term": "Obtuse Triangle", "definition": "A triangle with one angle greater than 90°." }
+    ]
+  },
+  {
+    "id": "GEO01.23",
+    "title": "Triangle Angle Sum Theorem",
+    "type": "theorem",
+    "content": [
+      { "term": "Triangle Angle Sum", "definition": "The sum of the interior angles of a triangle is always 180°." }
+    ]
+  },
+  {
+    "id": "GEO01.24",
+    "title": "Exterior Angle Theorem",
+    "type": "theorem",
+    "content": [
+      { "term": "Exterior Angle Theorem", "definition": "An exterior angle of a triangle is equal to the sum of the two remote interior angles." }
+    ]
+  },
+  {
+    "id": "GEO01.26",
+    "title": "Congruent Triangles",
+    "type": "definition",
+    "content": [
+      { "term": "Congruent Triangles", "definition": "Triangles that have the same size and shape, with corresponding sides and angles congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.27",
+    "title": "SSS Congruence Postulate",
+    "type": "postulate",
+    "content": [
+      { "term": "SSS Postulate", "definition": "If three sides of one triangle are congruent to three sides of another triangle, then the triangles are congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.28",
+    "title": "SAS Congruence Postulate",
+    "type": "postulate",
+    "content": [
+      { "term": "SAS Postulate", "definition": "If two sides and the included angle of one triangle are congruent to two sides and the included angle of another triangle, the triangles are congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.29",
+    "title": "ASA Congruence Postulate",
+    "type": "postulate",
+    "content": [
+      { "term": "ASA Postulate", "definition": "If two angles and the included side of one triangle are congruent to two angles and the included side of another triangle, the triangles are congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.30",
+    "title": "AAS Congruence Theorem",
+    "type": "theorem",
+    "content": [
+      { "term": "AAS Theorem", "definition": "If two angles and a non-included side of one triangle are congruent to the corresponding parts of another triangle, the triangles are congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.31",
+    "title": "CPCTC Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "CPCTC",
+        "definition": "If two triangles are proven congruent, then their corresponding parts (sides and angles) are also congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.32",
+    "title": "Right Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Right Triangle",
+        "definition": "A triangle that has one right angle (90 degrees)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.33",
+    "title": "Hypotenuse",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Hypotenuse",
+        "definition": "The side opposite the right angle in a right triangle; it is the longest side."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.34",
+    "title": "Legs of a Right Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Legs",
+        "definition": "The two sides that form the right angle in a right triangle."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.35",
+    "title": "Hypotenuse-Leg (HL) Congruence Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "HL Congruence",
+        "definition": "If the hypotenuse and a leg of one right triangle are congruent to the hypotenuse and a leg of another right triangle, then the triangles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.36",
+    "title": "Isosceles Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Isosceles Triangle",
+        "definition": "A triangle with at least two congruent sides."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.37",
+    "title": "Isosceles Triangle Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Isosceles Triangle Theorem",
+        "definition": "If two sides of a triangle are congruent, then the angles opposite those sides are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.38",
+    "title": "Converse of the Isosceles Triangle Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Converse Isosceles Triangle Theorem",
+        "definition": "If two angles of a triangle are congruent, then the sides opposite those angles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.39",
+    "title": "Equilateral Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Equilateral Triangle",
+        "definition": "A triangle with all three sides congruent and all three angles equal to 60 degrees."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.40",
+    "title": "Equilateral Triangle Properties",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Equilateral Triangle Properties",
+        "definition": "An equilateral triangle is also equiangular, and all interior angles are 60 degrees."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.50",
+    "title": "Centroid Theorem",
+    "type": "theorem",
+    "content": "The centroid of a triangle divides each median into two segments, where the segment from the vertex to the centroid is twice as long as the segment from the centroid to the midpoint of the side."
+  },
+  {
+    "id": "GEO01.51",
+    "title": "Perpendicular Bisector Theorem",
+    "type": "theorem",
+    "content": "Any point on the perpendicular bisector of a segment is equidistant from the endpoints of the segment."
+  },
+  {
+    "id": "GEO01.52",
+    "title": "Converse of the Perpendicular Bisector Theorem",
+    "type": "theorem",
+    "content": "If a point is equidistant from the endpoints of a segment, then it lies on the perpendicular bisector of the segment."
+  },
+  {
+    "id": "GEO01.53",
+    "title": "Altitude of a Triangle",
+    "type": "definition",
+    "content": "An altitude of a triangle is a perpendicular segment from a vertex to the line containing the opposite side."
+  },
+  {
+    "id": "GEO01.54",
+    "title": "Median of a Triangle",
+    "type": "definition",
+    "content": "A median of a triangle is a segment connecting a vertex to the midpoint of the opposite side."
+  },
+  {
+    "id": "GEO01.55",
+    "title": "Angle Bisector of a Triangle",
+    "type": "definition",
+    "content": "An angle bisector of a triangle is a ray or segment that divides one of the triangle's angles into two congruent angles and extends to the opposite side."
+  },
+  {
+    "id": "GEO01.56",
+    "title": "Concurrency of Altitudes Theorem",
+    "type": "theorem",
+    "content": "The three altitudes of a triangle intersect at a single point called the orthocenter."
+  },
+  {
+    "id": "GEO01.57",
+    "title": "Hinge Theorem (SAS Inequality Theorem)",
+    "type": "theorem",
+    "content": "If two sides of one triangle are congruent to two sides of another triangle, but the included angle of the first is larger, then the third side of the first triangle is longer than the third side of the second."
+  },
+  {
+    "id": "GEO01.58",
+    "title": "Converse of the Hinge Theorem",
+    "type": "theorem",
+    "content": "If two sides of one triangle are congruent to two sides of another triangle, and the third side of the first is longer than that of the second, then the included angle of the first is larger."
+  },
+  {
+    "id": "GEO01.59",
+    "title": "Concurrency of Medians Theorem",
+    "type": "theorem",
+    "content": "The medians of a triangle intersect at a single point called the centroid, which is located two-thirds of the distance from each vertex to the midpoint of the opposite side."
+  },
+  {
+    "id": "GEO01.60",
+    "title": "Circumcenter Theorem",
+    "type": "theorem",
+    "content": "The perpendicular bisectors of the sides of a triangle intersect at a point called the circumcenter, which is equidistant from the vertices of the triangle."
+  },
+  {
+    "id": "GEO01.61",
+    "title": "Incenter Theorem",
+    "type": "theorem",
+    "content": "The angle bisectors of a triangle intersect at a point called the incenter, which is equidistant from the sides of the triangle."
+  },
+  {
+    "id": "GEO01.62",
+    "title": "Triangle Midsegment Theorem",
+    "type": "theorem",
+    "content": "A midsegment of a triangle is parallel to one side of the triangle and its length is half the length of that side."
+  },
+  {
+    "id": "GEO01.63",
+    "title": "Quadrilateral",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Quadrilateral",
+        "definition": "A polygon with four sides and four angles."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.64",
+    "title": "Types of Quadrilaterals",
+    "type": "definition",
+    "content": [
+      { "term": "Parallelogram", "definition": "A quadrilateral with both pairs of opposite sides parallel." },
+      { "term": "Rectangle", "definition": "A parallelogram with four right angles." },
+      { "term": "Rhombus", "definition": "A parallelogram with four congruent sides." },
+      { "term": "Square", "definition": "A parallelogram with four right angles and four congruent sides." },
+      { "term": "Trapezoid", "definition": "A quadrilateral with exactly one pair of parallel sides." }
+    ]
+  },
+  {
+    "id": "GEO01.65",
+    "title": "Diagonals of Quadrilaterals",
+    "type": "definition",
+    "content": [
+      { "term": "Diagonal", "definition": "A line segment connecting non-consecutive vertices of a polygon." },
+      { "term": "Properties of Diagonals", "definition": "In special quadrilaterals, diagonals have unique properties such as bisecting each other or being perpendicular." }
+    ]
+  },
+  {
+    "id": "GEO01.66",
+    "title": "Parallel Lines",
+    "type": "definition",
+    "content": [
+      { "term": "Parallel Lines", "definition": "Lines in the same plane that never intersect and are always the same distance apart." }
+    ]
+  },
+  {
+    "id": "GEO01.67",
+    "title": "Transversal",
+    "type": "definition",
+    "content": [
+      { "term": "Transversal", "definition": "A line that intersects two or more lines in a plane at different points." }
+    ]
+  },
+  {
+    "id": "GEO01.68",
+    "title": "Angle Pairs Formed by Transversals",
+    "type": "definition",
+    "content": [
+      { "term": "Corresponding Angles", "definition": "Angles in matching corners when a transversal crosses two lines." },
+      { "term": "Alternate Interior Angles", "definition": "Angles on opposite sides of the transversal but inside the two lines." },
+      { "term": "Same-Side Interior Angles", "definition": "Angles on the same side of the transversal and inside the two lines." }
+    ]
+  },
+  {
+    "id": "GEO01.69",
+    "title": "Parallel Lines and Angle Relationships Theorem",
+    "type": "theorem",
+    "content": "If a transversal intersects two parallel lines, then corresponding angles are congruent, alternate interior angles are congruent, and same-side interior angles are supplementary."
+  },
+  {
+    "id": "GEO01.70",
+    "title": "Corresponding Angles Postulate",
+    "type": "postulate",
+    "content": "If two parallel lines are cut by a transversal, then each pair of corresponding angles is congruent."
+  },
+  {
+    "id": "GEO01.71",
+    "title": "Alternate Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two parallel lines are cut by a transversal, then each pair of alternate interior angles is congruent."
+  },
+  {
+    "id": "GEO01.72",
+    "title": "Consecutive Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two parallel lines are cut by a transversal, then each pair of consecutive interior angles is supplementary."
+  },
+  {
+    "id": "GEO01.73",
+    "title": "Alternate Exterior Angles Theorem",
+    "type": "theorem",
+    "content": "If two parallel lines are cut by a transversal, then each pair of alternate exterior angles is congruent."
+  },
+  {
+    "id": "GEO01.74",
+    "title": "Converse of the Corresponding Angles Postulate",
+    "type": "postulate",
+    "content": "If two lines are cut by a transversal and corresponding angles are congruent, then the lines are parallel."
+  },
+  {
+    "id": "GEO01.75",
+    "title": "Converse of the Alternate Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two lines are cut by a transversal and alternate interior angles are congruent, then the lines are parallel."
+  },
+  {
+    "id": "GEO01.76",
+    "title": "Converse of the Consecutive Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two lines are cut by a transversal and consecutive interior angles are supplementary, then the lines are parallel."
+  },
+  {
+    "id": "GEO01.77",
+    "title": "Parallel Postulate",
+    "type": "postulate",
+    "content": "Through a point not on a line, there is exactly one line parallel to the given line."
+  },
+  {
+    "id": "GEO01.78",
+    "title": "Slopes of Parallel Lines",
+    "type": "theorem",
+    "content": "In a coordinate plane, two non-vertical lines are parallel if and only if they have the same slope."
+  },
+  {
+    "id": "GEO01.79",
+    "title": "Slopes of Perpendicular Lines",
+    "type": "theorem",
+    "content": "In a coordinate plane, two non-vertical lines are perpendicular if and only if the product of their slopes is –1."
+  },
+  {
+    "id": "GEO01.81",
+    "title": "Parallelogram Properties",
+    "type": "definition",
+    "content": "A parallelogram is a quadrilateral with both pairs of opposite sides parallel. Opposite sides and angles are congruent, and diagonals bisect each other."
+  },
+  {
+    "id": "GEO01.82",
+    "title": "Conditions for Parallelograms",
+    "type": "theorem",
+    "content": "A quadrilateral is a parallelogram if one of the following is true: both pairs of opposite sides are congruent, both pairs of opposite angles are congruent, or the diagonals bisect each other."
+  },
+  {
+    "id": "GEO01.83",
+    "title": "Rectangle Definition and Properties",
+    "type": "definition",
+    "content": "A rectangle is a parallelogram with four right angles. Its diagonals are congruent."
+  },
+  {
+    "id": "GEO01.84",
+    "title": "Rhombus Definition and Properties",
+    "type": "definition",
+    "content": "A rhombus is a parallelogram with four congruent sides. Its diagonals are perpendicular and bisect opposite angles."
+  },
+  {
+    "id": "GEO01.85",
+    "title": "Square Definition and Properties",
+    "type": "definition",
+    "content": "A square is a parallelogram with four right angles and four congruent sides. It is both a rectangle and a rhombus."
+  },
+  {
+    "id": "GEO01.86",
+    "title": "Trapezoid and Isosceles Trapezoid",
+    "type": "definition",
+    "content": "A trapezoid is a quadrilateral with exactly one pair of parallel sides. An isosceles trapezoid has congruent legs and base angles."
+  },
+  {
+    "id": "GEO01.87",
+    "title": "Midsegment Theorem for Trapezoids",
+    "type": "theorem",
+    "content": "The midsegment of a trapezoid is parallel to the bases and its length is the average of the base lengths."
+  },
+  {
+    "id": "GEO01.88",
+    "title": "Kite Definition and Properties",
+    "type": "definition",
+    "content": "A kite is a quadrilateral with two distinct pairs of adjacent congruent sides. One diagonal is the perpendicular bisector of the other."
+  },
+  {
+    "id": "GEO01.89",
+    "title": "Diagonals of Parallelograms",
+    "type": "theorem",
+    "content": "In a parallelogram, the diagonals bisect each other."
+  },
+  {
+    "id": "GEO01.90",
+    "title": "Polygon Definition",
+    "type": "definition",
+    "content": "A polygon is a closed figure formed by a finite number of coplanar segments called sides that only intersect at their endpoints."
+  },
+  {
+    "id": "GEO01.91",
+    "title": "Types of Polygons",
+    "type": "definition",
+    "content": [
+      { "term": "Regular Polygon", "definition": "A polygon that is both equilateral (all sides congruent) and equiangular (all angles congruent)." },
+      { "term": "Irregular Polygon", "definition": "A polygon that is not regular." },
+      { "term": "Concave Polygon", "definition": "A polygon with at least one interior angle greater than 180°." },
+      { "term": "Convex Polygon", "definition": "A polygon where no interior angle is greater than 180°." }
+    ]
+  },
+  {
+    "id": "GEO01.92",
+    "title": "Interior Angle Sum Theorem",
+    "type": "theorem",
+    "content": "The sum of the interior angles of an n-gon is (n – 2) × 180°."
+  },
+  {
+    "id": "GEO01.93",
+    "title": "Exterior Angle Sum Theorem",
+    "type": "theorem",
+    "content": "The sum of the exterior angles of any polygon, one per vertex, is always 360°."
+  },
+  {
+    "id": "GEO01.94",
+    "title": "Each Interior Angle of a Regular Polygon",
+    "type": "formula",
+    "content": "Each interior angle of a regular n-gon is [(n – 2) × 180°] / n."
+  },
+  {
+    "id": "GEO01.95",
+    "title": "Each Exterior Angle of a Regular Polygon",
+    "type": "formula",
+    "content": "Each exterior angle of a regular n-gon is 360° / n."
+  },
+  {
+    "id": "GEO01.96",
+    "title": "Regular Hexagon Properties",
+    "type": "definition",
+    "content": [
+      { "term": "Interior Angle", "definition": "Each interior angle of a regular hexagon is 120°." },
+      { "term": "Equilateral Triangle Composition", "definition": "A regular hexagon can be divided into 6 equilateral triangles." },
+      { "term": "Rotational Symmetry", "definition": "A regular hexagon has rotational symmetry of order 6 and 6 lines of symmetry." }
+    ]
+  },
+  {
+    "id": "GEO01.97",
+    "title": "Regular Octagon Properties",
+    "type": "definition",
+    "content": [
+      { "term": "Interior Angle", "definition": "Each interior angle of a regular octagon is 135°." },
+      { "term": "Square and Isosceles Triangle Composition", "definition": "A regular octagon can be constructed using isosceles right triangles and squares." },
+      { "term": "Rotational Symmetry", "definition": "A regular octagon has rotational symmetry of order 8 and 8 lines of symmetry." }
+    ]
+  },
+  {
+    "id": "GEO01.98",
+    "title": "Diagonal Count in Polygon",
+    "type": "formula",
+    "content": "The number of diagonals in an n-gon is n(n – 3)/2."
+  },
+  {
+    "id": "GEO01.99",
+    "title": "Naming Polygons by Sides",
+    "type": "definition",
+    "content": [
+      { "term": "Triangle", "definition": "3 sides" },
+      { "term": "Quadrilateral", "definition": "4 sides" },
+      { "term": "Pentagon", "definition": "5 sides" },
+      { "term": "Hexagon", "definition": "6 sides" },
+      { "term": "Heptagon", "definition": "7 sides" },
+      { "term": "Octagon", "definition": "8 sides" },
+      { "term": "Nonagon", "definition": "9 sides" },
+      { "term": "Decagon", "definition": "10 sides" }
+      { "term": "Undecagon", "definition": "11 sides" }
+    ]
+  },
+  {
+    "id": "GEO01.100",
+    "title": "Apothem of a Regular Polygon",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Apothem",
+        "definition": "The apothem of a regular polygon is the perpendicular distance from the center of the polygon to a side. It is used to calculate the area of the polygon."
+      },
+      {
+        "term": "Area Formula Using Apothem",
+        "definition": "The area of a regular polygon can be found using the formula: (1/2) × Perimeter × Apothem."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.101",
+    "title": "Circle Definition and Parts",
+    "type": "definition",
+    "content": [
+      { "term": "Circle", "definition": "A circle is the set of all points in a plane that are equidistant from a given point called the center." },
+      { "term": "Radius", "definition": "A line segment from the center of the circle to any point on the circle." },
+      { "term": "Diameter", "definition": "A chord that passes through the center of the circle. It is twice the length of the radius." },
+      { "term": "Chord", "definition": "A line segment with both endpoints on the circle." },
+      { "term": "Arc", "definition": "A part of the circumference of a circle." },
+      { "term": "Central Angle", "definition": "An angle whose vertex is the center of the circle and whose sides are radii." }
+    ]
+  },
+  {
+    "id": "GEO01.102",
+    "title": "Circumference of a Circle",
+    "type": "formula",
+    "content": [
+      { "term": "Circumference Formula", "definition": "The circumference of a circle is given by C = 2πr or C = πd, where r is the radius and d is the diameter." }
+    ]
+  },
+  {
+    "id": "GEO01.103",
+    "title": "Area of a Circle",
+    "type": "formula",
+    "content": [
+      { "term": "Area Formula", "definition": "The area of a circle is given by A = πr², where r is the radius." }
+    ]
+  },
+  {
+    "id": "GEO01.104",
+    "title": "Arc Length and Sector Area",
+    "type": "formula",
+    "content": [
+      { "term": "Arc Length", "definition": "Arc Length = (θ / 360) × 2πr, where θ is the central angle in degrees." },
+      { "term": "Sector Area", "definition": "Sector Area = (θ / 360) × πr², where θ is the central angle in degrees." }
+    ]
+  },
+  {
+    "id": "GEO01.105",
+    "title": "Inscribed Angles and Arcs",
+    "type": "theorem",
+    "content": [
+      { "term": "Inscribed Angle Theorem", "definition": "An inscribed angle is half the measure of its intercepted arc." },
+      { "term": "Arc Intercept", "definition": "The arc that lies in the interior of an inscribed angle and has endpoints on the angle." }
+    ]
+  },
+  {
+    "id": "GEO01.106",
+    "title": "Tangent to a Circle",
+    "type": "definition",
+    "content": [
+      { "term": "Tangent", "definition": "A line that touches a circle at exactly one point." },
+      { "term": "Point of Tangency", "definition": "The point where a tangent line touches the circle." }
+    ]
+  },
+  {
+    "id": "GEO01.107",
+    "title": "Tangent-Radius Theorem",
+    "type": "theorem",
+    "content": "A tangent to a circle is perpendicular to the radius drawn to the point of tangency."
+  },
+  {
+    "id": "GEO01.108",
+    "title": "Two Tangent Theorem",
+    "type": "theorem",
+    "content": "If two segments are drawn from the same external point to a circle and both are tangent to the circle, then the segments are congruent."
+  },
+  {
+    "id": "GEO01.109",
+    "title": "Chord Properties in Circles",
+    "type": "theorem",
+    "content": [
+      { "term": "Equidistant Chords", "definition": "In the same circle or in congruent circles, chords equidistant from the center are congruent." },
+      { "term": "Chord Bisector Theorem", "definition": "A diameter or radius perpendicular to a chord bisects the chord and its arc." }
+    ]
+  },
+  {
+    "id": "GEO01.110",
+    "title": "Intersecting Chords Theorem",
+    "type": "theorem",
+    "content": "If two chords intersect inside a circle, then the products of the lengths of the segments of each chord are equal. That is, AE × EB = CE × ED."
+  },
+  {
+    "id": "GEO01.111",
+    "title": "Angle Formed by Two Intersecting Chords",
+    "type": "theorem",
+    "content": "The measure of an angle formed by two intersecting chords is equal to half the sum of the measures of the arcs intercepted by the angle and its vertical angle."
+  },
+  {
+    "id": "GEO01.112",
+    "title": "Angle Formed by a Tangent and a Chord",
+    "type": "theorem",
+    "content": "The measure of an angle formed by a tangent and a chord drawn to the point of tangency is half the measure of the intercepted arc."
+  },
+  {
+    "id": "GEO01.113",
+    "title": "Angles Formed Outside the Circle",
+    "type": "theorem",
+    "content": "If two secants, a secant and a tangent, or two tangents intersect outside a circle, the measure of the angle formed is half the difference of the measures of the intercepted arcs."
+  },
+  {
+    "id": "GEO01.114",
+    "title": "Power of a Point Theorem",
+    "type": "theorem",
+    "content": "If a secant and a tangent are drawn from an external point, then the square of the length of the tangent segment equals the product of the lengths of the secant segment and its external part."
+  },
+  {
+    "id": "GEO01.115",
+    "title": "Cyclic Quadrilateral Theorem",
+    "type": "theorem",
+    "content": "If a quadrilateral is inscribed in a circle, then its opposite angles are supplementary."
+  },
+  {
+    "id": "GEO01.116",
+    "title": "Central Angle Theorem",
+    "type": "theorem",
+    "content": "The measure of a central angle is equal to the measure of the arc it intercepts."
+  },
+  {
+    "id": "GEO01.117",
+    "title": "Major and Minor Arcs",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Minor Arc",
+        "definition": "An arc that measures less than 180° and is named with two letters."
+      },
+      {
+        "term": "Major Arc",
+        "definition": "An arc that measures more than 180° and is named with three letters."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.118",
+    "title": "Transformation",
+    "type": "definition",
+    "content": [
+      { "term": "Transformation", "definition": "A transformation is a function that moves or changes a geometric figure in some way to produce a new figure." }
+    ]
+  },
+  {
+    "id": "GEO01.119",
+    "title": "Translation",
+    "type": "definition",
+    "content": [
+      { "term": "Translation", "definition": "A translation slides every point of a figure the same distance in the same direction." },
+      { "term": "Coordinate Rule", "definition": "In the coordinate plane, a translation of (x, y) by (a, b) is given by (x + a, y + b)." }
+    ]
+  },
+  {
+    "id": "GEO01.120",
+    "title": "Reflection",
+    "type": "definition",
+    "content": [
+      { "term": "Reflection", "definition": "A reflection flips a figure over a line, creating a mirror image." },
+      { "term": "Coordinate Rules", "definition": "Over x-axis: (x, y) → (x, –y), over y-axis: (x, y) → (–x, y), over y = x: (x, y) → (y, x)" }
+    ]
+  },
+  {
+    "id": "GEO01.121",
+    "title": "Rotation",
+    "type": "definition",
+    "content": [
+      { "term": "Rotation", "definition": "A rotation turns a figure around a fixed point called the center of rotation." },
+      { "term": "Common Rules", "definition": "90° counterclockwise: (x, y) → (–y, x), 180°: (x, y) → (–x, –y), 270°: (x, y) → (y, –x)" }
+    ]
+  },
+  {
+    "id": "GEO01.122",
+    "title": "Dilation",
+    "type": "definition",
+    "content": [
+      { "term": "Dilation", "definition": "A dilation changes the size of a figure but not its shape, based on a scale factor from a center." },
+      { "term": "Coordinate Rule", "definition": "With center at origin and scale factor k: (x, y) → (kx, ky)" }
+    ]
+  },
+  {
+    "id": "GEO01.123",
+    "title": "Rigid Motions",
+    "type": "definition",
+    "content": [
+      { "term": "Rigid Motion", "definition": "A transformation that preserves distance and angle measure (e.g., translations, reflections, rotations)." }
+    ]
+  },
+  {
+    "id": "GEO01.124",
+    "title": "Similarity Transformation",
+    "type": "definition",
+    "content": [
+      { "term": "Similarity Transformation", "definition": "A transformation that changes the size but preserves shape and angle measures (e.g., dilation, or dilation + rigid motion)." }
+    ]
+  },
+  {
+    "id": "GEO01.125",
+    "title": "Congruence via Transformations",
+    "type": "theorem",
+    "content": "Two figures are congruent if one can be mapped to the other using a sequence of rigid motions."
+  },
+  {
+    "id": "GEO01.126",
+    "title": "Similarity via Transformations",
+    "type": "theorem",
+    "content": "Two figures are similar if one can be mapped to the other using a sequence of rigid motions followed by a dilation."
+  },
+  {
+    "id": "GEO01.127",
+    "title": "Composition of Transformations",
+    "type": "definition",
+    "content": [
+      { "term": "Composition", "definition": "The result of applying two or more transformations in succession." }
+    ]
+  },
+  {
+    "id": "GEO01.128",
+    "title": "Coordinate Plane Basics",
+    "type": "definition",
+    "content": [
+      { "term": "Coordinate Plane", "definition": "A two-dimensional plane formed by the intersection of a horizontal number line (x-axis) and a vertical number line (y-axis)." },
+      { "term": "Ordered Pair", "definition": "A pair of numbers (x, y) that indicate the position of a point on the coordinate plane." },
+      { "term": "Origin", "definition": "The point (0, 0) where the x-axis and y-axis intersect." }
+    ]
+  },
+  {
+    "id": "GEO01.129",
+    "title": "Distance Formula in Coordinate Plane",
+    "type": "formula",
+    "content": [
+      { "term": "Distance Formula", "definition": "The distance between points (x₁, y₁) and (x₂, y₂) is √[(x₂ - x₁)² + (y₂ - y₁)²]." }
+    ]
+  },
+  {
+    "id": "GEO01.130",
+    "title": "Midpoint Formula in Coordinate Plane",
+    "type": "formula",
+    "content": [
+      { "term": "Midpoint Formula", "definition": "The midpoint of a segment with endpoints (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2)." }
+    ]
+  },
+  {
+    "id": "GEO01.131",
+    "title": "Slope of a Line",
+    "type": "definition",
+    "content": [
+      { "term": "Slope", "definition": "The slope of a line through points (x₁, y₁) and (x₂, y₂) is (y₂ - y₁) / (x₂ - x₁)." }
+    ]
+  },
+  {
+    "id": "GEO01.132",
+    "title": "Slope-Intercept Form",
+    "type": "definition",
+    "content": [
+      { "term": "Slope-Intercept Form", "definition": "The equation of a line in the form y = mx + b, where m is the slope and b is the y-intercept." }
+    ]
+  },
+  {
+    "id": "GEO01.133",
+    "title": "Point-Slope Form",
+    "type": "definition",
+    "content": [
+      { "term": "Point-Slope Form", "definition": "The equation of a line through point (x₁, y₁) with slope m is y - y₁ = m(x - x₁)." }
+    ]
+  },
+  {
+    "id": "GEO01.134",
+    "title": "Standard Form of a Line",
+    "type": "definition",
+    "content": [
+      { "term": "Standard Form", "definition": "The equation of a line in the form Ax + By = C, where A, B, and C are real numbers and A and B are not both zero." }
+    ]
+  },
+  {
+    "id": "GEO01.135",
+    "title": "Parallel and Perpendicular Lines",
+    "type": "theorem",
+    "content": [
+      { "term": "Parallel Lines", "definition": "Two lines are parallel if they have the same slope and different y-intercepts." },
+      { "term": "Perpendicular Lines", "definition": "Two lines are perpendicular if the product of their slopes is –1." }
+    ]
+  },
+  {
+    "id": "GEO01.136",
+    "title": "Proving Triangles with Coordinate Geometry",
+    "type": "theorem",
+    "content": [
+      { "term": "Congruent Triangles", "definition": "Use distance formula to show all corresponding sides are equal." },
+      { "term": "Right Triangle", "definition": "Use slope to show two sides are perpendicular." },
+      { "term": "Isosceles Triangle", "definition": "Use distance formula to show two sides are congruent." }
+    ]
+  },
+  {
+    "id": "GEO01.137",
+    "title": "Proving Quadrilaterals with Coordinate Geometry",
+    "type": "theorem",
+    "content": [
+      { "term": "Parallelogram", "definition": "Opposite sides are parallel (same slope) and congruent (same length)." },
+      { "term": "Rectangle", "definition": "All angles are right angles (perpendicular sides) and opposite sides are congruent." },
+      { "term": "Rhombus", "definition": "All sides are congruent and diagonals are perpendicular." },
+      { "term": "Square", "definition": "All sides congruent, all angles right." }
+    ]
+  },
+  {
+    "id": "GEO01.138",
+    "title": "Using Slope to Show Collinearity",
+    "type": "theorem",
+    "content": "Three points are collinear if the slopes between each pair of points are equal."
+  },
+  {
+    "id": "GEO01.139",
+    "title": "Using Slope and Distance to Prove Figures",
+    "type": "theorem",
+    "content": "You can use slope to check parallelism or perpendicularity, and distance to verify congruence or lengths, in order to classify triangles and quadrilaterals."
+  },
+  {
+    "id": "GEO01.140",
+    "title": "Using Midpoint to Show Bisection",
+    "type": "theorem",
+    "content": "If the midpoint of a segment coincides with the midpoint of another, it shows that both segments bisect each other."
+  },
+  {
+    "id": "GEO01.141",
+    "title": "Verifying Diagonal Properties with Coordinates",
+    "type": "theorem",
+    "content": "To prove diagonals bisect each other, show they share the same midpoint. To prove perpendicular diagonals, show the slopes are negative reciprocals."
+  },
+  {
+    "id": "GEO01.142",
+    "title": "Equation of a Circle",
+    "type": "formula",
+    "content": "The standard form of a circle with center (h, k) and radius r is (x - h)² + (y - k)² = r²."
+  },
+  {
+    "id": "GEO01.143",
+    "title": "Locus Definition of a Circle",
+    "type": "definition",
+    "content": "A circle is the set of all points in a plane equidistant from a fixed point called the center."
+  },
+  {
+    "id": "GEO01.144",
+    "title": "Distance from a Point to a Line",
+    "type": "formula",
+    "content": "The distance from a point (x₀, y₀) to a line Ax + By + C = 0 is |Ax₀ + By₀ + C| / √(A² + B²)."
+  },
+  {
+    "id": "GEO01.138",
+    "title": "Polyhedron",
+    "type": "definition",
+    "content": [
+      { "term": "Polyhedron", "definition": "A solid with flat polygonal faces, straight edges, and vertices." },
+      { "term": "Face", "definition": "A flat surface of a polyhedron." },
+      { "term": "Edge", "definition": "A line segment where two faces meet." },
+      { "term": "Vertex", "definition": "A point where three or more edges meet." }
+    ]
+  },
+  {
+    "id": "GEO01.139",
+    "title": "Prism",
+    "type": "definition",
+    "content": [
+      { "term": "Prism", "definition": "A polyhedron with two parallel, congruent polygonal bases and rectangular lateral faces." }
+    ]
+  },
+  {
+    "id": "GEO01.140",
+    "title": "Surface Area of a Prism",
+    "type": "formula",
+    "content": [
+      { "term": "Surface Area", "definition": "SA = 2B + Ph, where B is the area of the base, P is the perimeter of the base, and h is the height." }
+    ]
+  },
+  {
+    "id": "GEO01.141",
+    "title": "Volume of a Prism",
+    "type": "formula",
+    "content": [
+      { "term": "Volume", "definition": "V = Bh, where B is the area of the base and h is the height." }
+    ]
+  },
+  {
+    "id": "GEO01.142",
+    "title": "Pyramid",
+    "type": "definition",
+    "content": [
+      { "term": "Pyramid", "definition": "A polyhedron with a polygonal base and triangular faces that meet at a common vertex." }
+    ]
+  },
+  {
+    "id": "GEO01.143",
+    "title": "Surface Area of a Pyramid",
+    "type": "formula",
+    "content": [
+      { "term": "Surface Area", "definition": "SA = B + 1/2 Pl, where B is the area of the base, P is the perimeter of the base, and l is the slant height." }
+    ]
+  },
+  {
+    "id": "GEO01.144",
+    "title": "Volume of a Pyramid",
+    "type": "formula",
+    "content": [
+      { "term": "Volume", "definition": "V = 1/3 Bh, where B is the area of the base and h is the height." }
+    ]
+  },
+  {
+    "id": "GEO01.145",
+    "title": "Cylinder",
+    "type": "definition",
+    "content": [
+      { "term": "Cylinder", "definition": "A solid with two congruent circular bases connected by a curved surface." }
+    ]
+  },
+  {
+    "id": "GEO01.146",
+    "title": "Surface Area and Volume of a Cylinder",
+    "type": "formula",
+    "content": [
+      { "term": "Surface Area", "definition": "SA = 2πr² + 2πrh, where r is the radius and h is the height." },
+      { "term": "Volume", "definition": "V = πr²h" }
+    ]
+  },
+  {
+    "id": "GEO01.147",
+    "title": "Cone",
+    "type": "definition",
+    "content": [
+      { "term": "Cone", "definition": "A solid with a circular base and a vertex not in the same plane as the base." }
+    ]
+  },
+  {
+    "id": "GEO01.148",
+    "title": "Surface Area and Volume of a Cone",
+    "type": "formula",
+    "content": [
+      { "term": "Surface Area", "definition": "SA = πr² + πrl, where r is the radius and l is the slant height." },
+      { "term": "Volume", "definition": "V = 1/3 πr²h, where h is the height of the cone." }
+    ]
+  },
+  {
+    "id": "GEO01.149",
+    "title": "Sphere",
+    "type": "definition",
+    "content": [
+      { "term": "Sphere", "definition": "A sphere is the set of all points in space that are a given distance (radius) from a given point (center)." }
+    ]
+  },
+  {
+    "id": "GEO01.150",
+    "title": "Surface Area and Volume of a Sphere",
+    "type": "formula",
+    "content": [
+      { "term": "Surface Area", "definition": "SA = 4πr², where r is the radius of the sphere." },
+      { "term": "Volume", "definition": "V = 4/3 πr³" }
+    ]
+  },
+  {
+    "id": "GEO01.151",
+    "title": "Great Circle and Hemisphere",
+    "type": "definition",
+    "content": [
+      { "term": "Great Circle", "definition": "A circle formed by the intersection of a sphere and a plane that contains the center of the sphere." },
+      { "term": "Hemisphere", "definition": "Half of a sphere, formed by cutting a sphere with a plane through its center." }
+    ]
+  },
+  {
+    "id": "GEO01.152",
+    "title": "Volume of a Hemisphere",
+    "type": "formula",
+    "content": [
+      { "term": "Volume", "definition": "V = 2/3 πr³" }
+    ]
+  },
+  {
+    "id": "GEO01.153",
+    "title": "Composite Solids",
+    "type": "definition",
+    "content": [
+      { "term": "Composite Solid", "definition": "A solid figure composed of two or more simple solid figures." }
+    ]
+  },
+  {
+    "id": "GEO01.154",
+    "title": "Surface Area of Composite Solids",
+    "type": "concept",
+    "content": "The surface area of a composite solid is found by adding the surface areas of its individual components, subtracting any hidden or shared faces."
+  },
+  {
+    "id": "GEO01.155",
+    "title": "Solids of Revolution",
+    "type": "definition",
+    "content": [
+      { "term": "Solid of Revolution", "definition": "A three-dimensional figure obtained by rotating a two-dimensional shape around an axis." },
+      { "term": "Example", "definition": "Rotating a rectangle around one side creates a cylinder; rotating a triangle creates a cone." }
+    ]
+  },
+  {
+  "id": "GEO01.156",
+  "title": "Trigonometric Ratios",
+  "type": "definition",
+  "content": [
+    { "term": "Sine (sin)", "definition": "In a right triangle, the sine of an angle is the ratio of the length of the opposite side to the hypotenuse." },
+    { "term": "Cosine (cos)", "definition": "In a right triangle, the cosine of an angle is the ratio of the length of the adjacent side to the hypotenuse." },
+    { "term": "Tangent (tan)", "definition": "In a right triangle, the tangent of an angle is the ratio of the length of the opposite side to the adjacent side." }
+  ]
+},
+{
+  "id": "GEO01.157",
+  "title": "Reciprocal Trigonometric Ratios",
+  "type": "definition",
+  "content": [
+    { "term": "Cosecant (csc)", "definition": "The reciprocal of sine: hypotenuse divided by opposite side." },
+    { "term": "Secant (sec)", "definition": "The reciprocal of cosine: hypotenuse divided by adjacent side." },
+    { "term": "Cotangent (cot)", "definition": "The reciprocal of tangent: adjacent side divided by opposite side." }
+  ]
+},
+{
+  "id": "GEO01.158",
+  "title": "SOH-CAH-TOA Mnemonic",
+  "type": "mnemonic",
+  "content": "SOH-CAH-TOA helps remember sine, cosine, and tangent: Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent."
+},
+{
+  "id": "GEO01.159",
+  "title": "Using Trigonometry to Find Side Lengths",
+  "type": "theorem",
+  "content": "Given an angle and one side of a right triangle, trigonometric ratios can be used to calculate the unknown side lengths."
+},
+{
+  "id": "GEO01.160",
+  "title": "Using Trigonometry to Find Angles",
+  "type": "theorem",
+  "content": "Given two side lengths of a right triangle, inverse trigonometric functions can be used to find the measures of the non-right angles."
+}
+]

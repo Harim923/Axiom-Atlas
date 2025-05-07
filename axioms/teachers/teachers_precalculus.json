@@ -1,0 +1,716 @@
+[
+  {
+    "id": "PRECAL01.001",
+    "title": "Definition of a Function",
+    "type": "definition",
+    "content": "A function is a relation in which each input has exactly one output. It can be represented using equations, graphs, or mappings."
+  },
+  {
+    "id": "PRECAL01.002",
+    "title": "Domain and Range of a Function",
+    "type": "definition",
+    "content": "The domain is the set of all possible input values, and the range is the set of all corresponding output values of a function."
+  },
+  {
+    "id": "PRECAL01.003",
+    "title": "Function Notation",
+    "type": "notation",
+    "content": "Function notation f(x) represents the output of function f for input x. The expression f(a) means the value of the function at a."
+  },
+  {
+    "id": "PRECAL01.004",
+    "title": "Vertical Line Test for Functions",
+    "type": "test",
+    "content": "A graph represents a function if and only if no vertical line intersects the graph at more than one point."
+  },
+  {
+    "id": "PRECAL01.005",
+    "title": "Piecewise-defined Function",
+    "type": "definition",
+    "content": "A piecewise-defined function is defined by different expressions over different parts of its domain."
+  },
+  {
+    "id": "PRECAL01.006",
+    "title": "Even and Odd Functions",
+    "type": "definition",
+    "content": "A function is even if f(−x) = f(x) for all x in its domain, and odd if f(−x) = −f(x)."
+  },
+  {
+    "id": "PRECAL01.007",
+    "title": "Increasing, Decreasing, Constant Intervals",
+    "type": "property",
+    "content": "A function is increasing on intervals where its graph rises, decreasing where it falls, and constant where it is flat."
+  },
+  {
+    "id": "PRECAL01.008",
+    "title": "Local and Absolute Extrema",
+    "type": "definition",
+    "content": "A function has a local maximum or minimum at a point if it is the highest or lowest value nearby. An absolute extremum is the highest or lowest value on the entire domain."
+  },
+  {
+    "id": "PRECAL01.009",
+    "title": "Function Composition",
+    "type": "procedure",
+    "content": "The composition of functions f and g is written as (f ∘ g)(x) = f(g(x)). Evaluate the inner function first."
+  },
+  {
+    "id": "PRECAL01.010",
+    "title": "Inverse of a Function",
+    "type": "definition",
+    "content": "The inverse of a function f is a function f⁻¹ such that f(f⁻¹(x)) = x and f⁻¹(f(x)) = x. A function has an inverse only if it is one-to-one."
+  },
+  {
+    "id": "PRECAL01.011",
+    "title": "Operations on Functions",
+    "type": "procedure",
+    "content": "Functions can be added, subtracted, multiplied, or divided: (f ± g)(x) = f(x) ± g(x), (f·g)(x) = f(x)g(x), (f / g)(x) = f(x)/g(x) where g(x) ≠ 0."
+  },
+  {
+    "id": "PRECAL01.012",
+    "title": "Domain of Combined Functions",
+    "type": "property",
+    "content": "The domain of f ± g or f·g is the intersection of domains of f and g. For f / g, also exclude points where g(x) = 0."
+  },
+  {
+    "id": "PRECAL01.013",
+    "title": "Verifying Inverse Functions",
+    "type": "procedure",
+    "content": "To verify f and g are inverses, check that f(g(x)) = x and g(f(x)) = x over their domains."
+  },
+  {
+    "id": "PRECAL01.014",
+    "title": "Finding Inverse Algebraically",
+    "type": "procedure",
+    "content": "To find the inverse of a function f(x), switch x and y in the equation y = f(x), then solve for y."
+  },
+  {
+    "id": "PRECAL01.015",
+    "title": "One-to-One Function",
+    "type": "definition",
+    "content": "A function is one-to-one if each output value corresponds to exactly one input value. It passes the horizontal line test."
+  },
+  {
+    "id": "PRECAL01.016",
+    "title": "Absolute Value as a Piecewise Function",
+    "type": "definition",
+    "content": "The function f(x) = |x| can be expressed as a piecewise function: f(x) = x if x ≥ 0, and f(x) = −x if x < 0."
+  },
+  {
+    "id": "PRECAL01.017",
+    "title": "Greatest Integer (Floor) Function",
+    "type": "definition",
+    "content": "The greatest integer function, denoted ⌊x⌋, gives the greatest integer less than or equal to x. Its graph is a step function."
+  },
+  {
+    "id": "PRECAL01.018",
+    "title": "Signum (Sign) Function",
+    "type": "definition",
+    "content": "The sign function sgn(x) returns 1 if x > 0, 0 if x = 0, and −1 if x < 0."
+  },
+  {
+    "id": "PRECAL01.019",
+    "title": "Increasing/Decreasing via Derivative-Free Analysis",
+    "type": "strategy",
+    "content": "In Precalculus, a function is increasing where its values get larger as x increases, based on table or graph, without formal derivatives."
+  },
+  {
+    "id": "PRECAL01.020",
+    "title": "Function Symmetry Types",
+    "type": "property",
+    "content": "A graph has y-axis symmetry if f(−x) = f(x), origin symmetry if f(−x) = −f(x), and x-axis symmetry if (x, y) and (x, −y) are both on the graph (not a function)."
+  },
+  {
+    "id": "PRECAL01.021",
+    "title": "Piecewise and Continuity at a Point",
+    "type": "definition",
+    "content": "A function is continuous at x = c if lim x→c⁻ f(x) = lim x→c⁺ f(x) = f(c). Discontinuities often occur at piecewise boundaries."
+  },
+  {
+    "id": "PRECAL01.022",
+    "title": "Removable vs. Jump Discontinuity",
+    "type": "definition",
+    "content": "A removable discontinuity occurs when a point can be redefined to make the function continuous. A jump discontinuity has a gap in the graph."
+  },
+  {
+    "id": "PRECAL01.023",
+    "title": "End Behavior Using Limits (Informal)",
+    "type": "strategy",
+    "content": "End behavior describes how f(x) behaves as x → ±∞. Analyze using algebraic structure or graph."
+  },
+  {
+    "id": "PRECAL01.024",
+    "title": "Nested Function Composition",
+    "type": "procedure",
+    "content": "When evaluating (f ∘ g)(x) for nested functions, start with the innermost expression and work outward step by step."
+  },
+  {
+    "id": "PRECAL01.025",
+    "title": "Modeling Real-World Contexts with Functions",
+    "type": "application",
+    "content": "Select appropriate functions to model linear, quadratic, exponential, or periodic real-world behavior."
+  },
+  {
+    "id": "PRECAL01.026",
+    "title": "Interval Notation and Set Builder Notation",
+    "type": "notation",
+    "content": "Use interval notation to represent continuous domains or ranges (e.g., (a, b], [0, ∞)). Use set-builder notation to specify constraints (e.g., {x | x > 2})."
+  },
+  {
+    "id": "PRECAL01.027",
+    "title": "Vertical and Horizontal Stretch/Compression",
+    "type": "transformation",
+    "content": "Multiplying a function by a constant a > 1 stretches it vertically; 0 < a < 1 compresses it. Replacing x with bx stretches/compresses horizontally."
+  },
+  {
+    "id": "PRECAL01.028",
+    "title": "Even-Odd Composition Rule",
+    "type": "property",
+    "content": "If f is even and g is odd, then (f ∘ g)(x) is even. If both are odd, (f ∘ g)(x) is odd. Composition can change symmetry."
+  },
+  {
+    "id": "PRECAL01.029",
+    "title": "Parametric Representation of Functions",
+    "type": "definition",
+    "content": "A parametric equation defines both x and y as functions of a third variable t, useful for describing motion and curves that aren’t functions in x."
+  },
+  {
+    "id": "PRECAL01.030",
+    "title": "Definition of Trigonometric Ratios",
+    "type": "definition",
+    "content": "In a right triangle, sine is opposite/hypotenuse, cosine is adjacent/hypotenuse, and tangent is opposite/adjacent."
+  },
+  {
+    "id": "PRECAL01.031",
+    "title": "Reciprocal Trigonometric Ratios",
+    "type": "definition",
+    "content": "Cosecant is the reciprocal of sine, secant is the reciprocal of cosine, and cotangent is the reciprocal of tangent."
+  },
+  {
+    "id": "PRECAL01.032",
+    "title": "Trigonometric Ratios on the Unit Circle",
+    "type": "definition",
+    "content": "On the unit circle, for an angle θ in standard position, cos(θ) is the x-coordinate and sin(θ) is the y-coordinate of the point on the circle."
+  },
+  {
+    "id": "PRECAL01.033",
+    "title": "Radian Measure",
+    "type": "definition",
+    "content": "A radian is the measure of a central angle that subtends an arc equal in length to the radius of the circle. 180° = π radians."
+  },
+  {
+    "id": "PRECAL01.034",
+    "title": "Converting Between Degrees and Radians",
+    "type": "procedure",
+    "content": "To convert degrees to radians, multiply by π/180. To convert radians to degrees, multiply by 180/π."
+  },
+  {
+    "id": "PRECAL01.035",
+    "title": "Coterminal Angles",
+    "type": "definition",
+    "content": "Coterminal angles have the same terminal side and differ by a multiple of 2π (or 360°)."
+  },
+  {
+    "id": "PRECAL01.036",
+    "title": "Reference Angle",
+    "type": "definition",
+    "content": "A reference angle is the acute angle formed between the terminal side of an angle and the x-axis. It helps evaluate trig functions in all quadrants."
+  },
+  {
+    "id": "PRECAL01.037",
+    "title": "Signs of Trigonometric Functions by Quadrant",
+    "type": "property",
+    "content": "In Quadrant I: all positive, II: sin positive, III: tan positive, IV: cos positive. Remember using 'All Students Take Calculus'."
+  },
+  {
+    "id": "PRECAL01.038",
+    "title": "Evaluating Trig Functions of Special Angles",
+    "type": "procedure",
+    "content": "Know exact values of sine, cosine, and tangent for 0°, 30°, 45°, 60°, and 90°, and corresponding radian measures."
+  },
+  {
+    "id": "PRECAL01.039",
+    "title": "Circular (Real Number) Definition of Trig Functions",
+    "type": "definition",
+    "content": "For any real number t, the coordinates of the point on the unit circle at arc length t define sin(t) = y and cos(t) = x. Other trig functions follow from ratios."
+  },
+  {
+    "id": "PRECAL01.040",
+    "title": "Graph of Sine Function",
+    "type": "property",
+    "content": "The graph of y = sin(x) is a smooth, periodic wave with amplitude 1, period 2π, and midline y = 0."
+  },
+  {
+    "id": "PRECAL01.041",
+    "title": "Graph of Cosine Function",
+    "type": "property",
+    "content": "The graph of y = cos(x) is a periodic wave identical in shape to sine, but starts at a maximum. It has amplitude 1 and period 2π."
+  },
+  {
+    "id": "PRECAL01.042",
+    "title": "Graph of Tangent Function",
+    "type": "property",
+    "content": "The graph of y = tan(x) has vertical asymptotes at x = ±π/2, ±3π/2, etc. It is periodic with period π and passes through the origin."
+  },
+  {
+    "id": "PRECAL01.043",
+    "title": "Amplitude of Trigonometric Functions",
+    "type": "property",
+    "content": "In y = a·sin(x) or y = a·cos(x), the amplitude is |a|, representing the vertical stretch from the midline."
+  },
+  {
+    "id": "PRECAL01.044",
+    "title": "Period of Sine and Cosine Functions",
+    "type": "formula",
+    "content": "In y = sin(bx) or y = cos(bx), the period is 2π / |b|. Larger b results in more cycles over the same interval."
+  },
+  {
+    "id": "PRECAL01.045",
+    "title": "Phase Shift and Vertical Shift",
+    "type": "transformation",
+    "content": "In y = a·sin(b(x − c)) + d, c represents horizontal (phase) shift and d represents vertical shift (midline y = d)."
+  },
+  {
+    "id": "PRECAL01.046",
+    "title": "Graphing a Transformed Sine or Cosine Function",
+    "type": "procedure",
+    "content": "To graph y = a·sin(b(x − c)) + d, determine amplitude, period, phase shift, and midline. Plot key points accordingly."
+  },
+  {
+    "id": "PRECAL01.047",
+    "title": "Graph of Secant and Cosecant Functions",
+    "type": "property",
+    "content": "Th graphs of y = sec(x) and y = csc(x) are based on reciprocals of cosine and sine. They have vertical asymptotes and form parabolic curves."
+  },
+  {
+    "id": "PRECAL01.048",
+    "title": "Graph of Cotangent Function",
+    "type": "property",
+    "content": "The graph of y = cot(x) has vertical asymptotes where sine is zero and period π. It decreases from left to right."
+  },
+  {
+    "id": "PRECAL01.049",
+    "title": "Modeling Periodic Behavior with Trig Functions",
+    "type": "application",
+    "content": "Trigonometric functions are used to model periodic phenomena such as sound waves, tides, or seasonal temperatures."
+  },
+  {
+    "id": "PRECAL01.050",
+    "title": "5-Point Summary for Sinusoidal Graphs",
+    "type": "strategy",
+    "content": "To graph a sine or cosine function of the form y = a·sin(b(x − c)) + d or y = a·cos(b(x − c)) + d, identify: (1) Amplitude = |a|, (2) Period = 2π / |b|, (3) Phase Shift = c, (4) Vertical Shift = d (midline y = d), (5) Key Points: Start, Max, Mid, Min, End of one cycle."
+  },
+  {
+    "id": "PRECAL01.051",
+    "title": "Definition of Inverse Trigonometric Functions",
+    "type": "definition",
+    "content": "The inverse trig functions undo sine, cosine, and tangent: arcsin, arccos, arctan. They return angles as outputs."
+  },
+  {
+    "id": "PRECAL01.052",
+    "title": "Domains and Ranges of Inverse Trig Functions",
+    "type": "property",
+    "content": "To be functions, inverse trig functions are defined on restricted domains: arcsin and arccos on [−1, 1], arctan on all real numbers."
+  },
+  {
+    "id": "PRECAL01.053",
+    "title": "Graphs of Inverse Trig Functions",
+    "type": "property",
+    "content": "The graph of arcsin(x) is a reflection of y = sin(x) over y = x on the restricted domain [−π/2, π/2]. Similar for arccos and arctan."
+  },
+  {
+    "id": "PRECAL01.054",
+    "title": "Solving Equations with Inverse Trig Functions",
+    "type": "procedure",
+    "content": "To solve equations like sin(θ) = x, use θ = arcsin(x). Consider general solutions or principal values based on context."
+  },
+  {
+    "id": "PRECAL01.055",
+    "title": "Compositions of Trig and Inverse Trig Functions",
+    "type": "property",
+    "content": "For example, sin(arcsin(x)) = x for x in [−1, 1], but arcsin(sin(x)) = x only when x is in [−π/2, π/2]."
+  },
+  {
+    "id": "PRECAL01.056",
+    "title": "All Six Trig Functions on the Unit Circle",
+    "type": "definition",
+    "content": "On the unit circle, define sin(θ) = y, cos(θ) = x, tan(θ) = y/x, csc(θ) = 1/y, sec(θ) = 1/x, and cot(θ) = x/y, where defined."
+  },
+  {
+    "id": "PRECAL01.057",
+    "title": "Inverse Secant, Cosecant, and Cotangent",
+    "type": "definition",
+    "content": "The inverse secant, cosecant, and cotangent functions are less commonly used but defined with restricted ranges to be functions."
+  },
+  {
+    "id": "PRECAL01.058",
+    "title": "Summary of Inverse Trig Domains and Ranges",
+    "type": "comparison",
+    "content": "Create a table comparing domain and range of arcsin, arccos, arctan, arcsec, arccsc, arccot for quick reference."
+  },
+  {
+    "id": "PRECAL01.059",
+    "title": "Evaluating Inverse Trig of Special Values",
+    "type": "procedure",
+    "content": "Know values such as arcsin(1/2) = π/6, arccos(0) = π/2, and arctan(1) = π/4 for solving equations without a calculator."
+  },
+  {
+    "id": "PRECAL01.060",
+    "title": "Angle of Elevation and Depression Problems",
+    "type": "application",
+    "content": "Use right triangle trig and inverse functions to solve problems involving height, distance, and angle of elevation/depression."
+  },
+  {
+    "id": "PRECAL01.061",
+    "title": "Reciprocal Identities",
+    "type": "identity",
+    "content": "csc(θ) = 1/sin(θ), sec(θ) = 1/cos(θ), cot(θ) = 1/tan(θ)"
+  },
+  {
+    "id": "PRECAL01.062",
+    "title": "Quotient Identities",
+    "type": "identity",
+    "content": "tan(θ) = sin(θ)/cos(θ), cot(θ) = cos(θ)/sin(θ)"
+  },
+  {
+    "id": "PRECAL01.063",
+    "title": "Pythagorean Identities",
+    "type": "identity",
+    "content": "sin²(θ) + cos²(θ) = 1, 1 + tan²(θ) = sec²(θ), 1 + cot²(θ) = csc²(θ)"
+  },
+  {
+    "id": "PRECAL01.064",
+    "title": "Even-Odd Identities",
+    "type": "identity",
+    "content": "sin(−θ) = −sin(θ), cos(−θ) = cos(θ), tan(−θ) = −tan(θ), etc. Used to simplify expressions involving negative angles."
+  },
+  {
+    "id": "PRECAL01.065",
+    "title": "Cofunction Identities",
+    "type": "identity",
+    "content": "sin(π/2 − θ) = cos(θ), tan(π/2 − θ) = cot(θ), sec(π/2 − θ) = csc(θ), etc."
+  },
+  {
+    "id": "PRECAL01.066",
+    "title": "Verifying Trigonometric Identities",
+    "type": "strategy",
+    "content": "To verify identities, manipulate one side using known identities until it matches the other side. Use algebraic techniques like factoring or multiplying by conjugates."
+  },
+  {
+    "id": "PRECAL01.067",
+    "title": "Sum and Difference Identities",
+    "type": "identity",
+    "content": "sin(A ± B) = sin A cos B ± cos A sin B, cos(A ± B) = cos A cos B ∓ sin A sin B, tan(A ± B) = (tan A ± tan B)/(1 ∓ tan A tan B)"
+  },
+  {
+    "id": "PRECAL01.068",
+    "title": "Double-Angle Identities",
+    "type": "identity",
+    "content": "sin(2θ) = 2 sin θ cos θ, cos(2θ) = cos²θ − sin²θ (or 2cos²θ − 1, 1 − 2sin²θ), tan(2θ) = 2tan θ / (1 − tan²θ)"
+  },
+  {
+    "id": "PRECAL01.069",
+    "title": "Half-Angle Identities",
+    "type": "identity",
+    "content": "sin²(θ/2) = (1 − cos θ)/2, cos²(θ/2) = (1 + cos θ)/2, tan(θ/2) = (1 − cos θ)/sin θ or sin θ / (1 + cos θ)"
+  },
+  {
+    "id": "PRECAL01.070",
+    "title": "Product-to-Sum and Sum-to-Product Formulas",
+    "type": "identity",
+    "content": "Convert products into sums and vice versa using identities such as sin A sin B = ½[cos(A−B) − cos(A+B)]."
+  },
+  {
+    "id": "PRECAL01.071",
+    "title": "Solving Basic Trigonometric Equations",
+    "type": "procedure",
+    "content": "To solve equations like sin x = 1/2, find all angles with that value in the given domain using reference angles and unit circle knowledge."
+  },
+  {
+    "id": "PRECAL01.072",
+    "title": "General Solutions for Trigonometric Equations",
+    "type": "procedure",
+    "content": "Express all solutions using angle + period·n form, e.g., x = π/6 + 2πn and x = 5π/6 + 2πn for sin x = 1/2."
+  },
+  {
+    "id": "PRECAL01.073",
+    "title": "Using Identities to Solve Trig Equations",
+    "type": "strategy",
+    "content": "Rewrite trig equations using identities (e.g., Pythagorean, double-angle) to reduce to a single function."
+  },
+  {
+    "id": "PRECAL01.074",
+    "title": "Quadratic Form Trig Equations",
+    "type": "procedure",
+    "content": "Solve equations like 2sin²x − sin x − 1 = 0 by factoring or using the quadratic formula, then solving each resulting basic trig equation."
+  },
+  {
+    "id": "PRECAL01.075",
+    "title": "Using Substitution in Trig Equations",
+    "type": "strategy",
+    "content": "Let u = sin x or cos x to reduce complex equations into algebraic ones. Solve and back-substitute to find x."
+  },
+  {
+    "id": "PRECAL01.076",
+    "title": "Solving Trig Equations with Multiple Angles",
+    "type": "procedure",
+    "content": "When solving sin(2x) = 0 or similar, treat 2x as the new angle, solve for it, then divide to get x and write all valid solutions."
+  },
+  {
+    "id": "PRECAL01.077",
+    "title": "Using Graphs to Solve Trig Equations",
+    "type": "strategy",
+    "content": "Graph both sides of the equation and identify points of intersection. Useful for equations with transformations or multiple terms."
+  },
+  {
+    "id": "PRECAL01.078",
+    "title": "Solving Inequalities Involving Trig Functions",
+    "type": "procedure",
+    "content": "To solve inequalities like sin x > 1/2, first solve the related equation, then use interval analysis on the unit circle."
+  },
+  {
+    "id": "PRECAL01.079",
+    "title": "Extraneous Solutions in Trig Equations",
+    "type": "warning",
+    "content": "Check all solutions in the original equation, especially after squaring or using identities. Some steps may introduce invalid results."
+  },
+  {
+    "id": "PRECAL01.080",
+    "title": "Law of Sines",
+    "type": "formula",
+    "content": "In any triangle, the ratio of the length of a side to the sine of its opposite angle is constant: a/sin A = b/sin B = c/sin C."
+  },
+  {
+    "id": "PRECAL01.081",
+    "title": "Ambiguous Case for Law of Sines (SSA)",
+    "type": "warning",
+    "content": "When given two sides and a non-included angle (SSA), there may be 0, 1, or 2 triangles depending on the height and angle configuration."
+  },
+  {
+    "id": "PRECAL01.082",
+    "title": "Law of Cosines",
+    "type": "formula",
+    "content": "For any triangle: c² = a² + b² − 2ab·cos C. Useful when two sides and included angle or all three sides are known."
+  },
+  {
+    "id": "PRECAL01.083",
+    "title": "Choosing Between Laws of Sines and Cosines",
+    "type": "strategy",
+    "content": "Use Law of Sines when an angle-side pair is known (ASA, AAS, SSA). Use Law of Cosines for SAS and SSS configurations."
+  },
+  {
+    "id": "PRECAL01.084",
+    "title": "Area of Triangle Using Trigonometry",
+    "type": "formula",
+    "content": "Area = (1/2)ab·sin C, where a and b are two sides and C is the included angle."
+  },
+  {
+    "id": "PRECAL01.085",
+    "title": "Heron’s Formula",
+    "type": "formula",
+    "content": "If a triangle has side lengths a, b, c, and semi-perimeter s = (a + b + c)/2, then Area = √[s(s−a)(s−b)(s−c)]."
+  },
+  {
+    "id": "PRECAL01.086",
+    "title": "Solving Triangles (Mixed Strategy)",
+    "type": "procedure",
+    "content": "To solve a triangle, choose Law of Sines or Cosines based on the given information. Compute unknown sides and angles step by step."
+  },
+  {
+    "id": "PRECAL01.087",
+    "title": "Trigonometric Form of Area and Ambiguity",
+    "type": "warning",
+    "content": "Using the sine formula for area requires an included angle. In SSA cases, ensure the triangle is valid before applying."
+  },
+  {
+    "id": "PRECAL01.088",
+    "title": "Triple-Angle Identity for Sine and Cosine",
+    "type": "identity",
+    "content": "sin(3θ) = 3sinθ − 4sin³θ, cos(3θ) = 4cos³θ − 3cosθ. These are used in advanced simplifications and triangle constructions."
+  },
+  {
+    "id": "PRECAL01.089",
+    "title": "Proof of Triple-Angle Identities",
+    "type": "proof",
+    "content": "Triple-angle identities can be derived by applying sum identities to sin(2θ + θ) and cos(2θ + θ) and simplifying."
+  },
+  {
+    "id": "PRECAL01.090",
+    "title": "Definition of Complex Numbers",
+    "type": "definition",
+    "content": "A complex number is of the form a + bi, where a and b are real numbers, and i is the imaginary unit defined by i² = −1."
+  },
+  {
+    "id": "PRECAL01.091",
+    "title": "Operations on Complex Numbers",
+    "type": "procedure",
+    "content": "To add or subtract, combine like terms. To multiply, use distributive property and simplify using i² = −1. To divide, multiply by the conjugate of the denominator."
+  },
+  {
+    "id": "PRECAL01.092",
+    "title": "Complex Conjugate",
+    "type": "definition",
+    "content": "The complex conjugate of a + bi is a − bi. Multiplying a complex number by its conjugate yields a real number: (a + bi)(a − bi) = a² + b²."
+  },
+  {
+    "id": "PRECAL01.093",
+    "title": "Absolute Value (Modulus) of a Complex Number",
+    "type": "definition",
+    "content": "The absolute value of a + bi is √(a² + b²). It represents the distance from the origin in the complex plane."
+  },
+  {
+    "id": "PRECAL01.094",
+    "title": "Complex Plane and Graphing",
+    "type": "definition",
+    "content": "The complex number a + bi can be graphed as the point (a, b) in the complex plane, with the x-axis as the real part and y-axis as the imaginary part."
+  },
+  {
+    "id": "PRECAL01.095",
+    "title": "Polar Form of Complex Numbers",
+    "type": "definition",
+    "content": "A complex number can be written in polar form as r(cos θ + i sin θ), where r = |z| and θ is the argument (angle) of the complex number."
+  },
+  {
+    "id": "PRECAL01.096",
+    "title": "Converting Between Rectangular and Polar Form",
+    "type": "procedure",
+    "content": "To convert a + bi to polar, find r = √(a² + b²) and θ = arctan(b/a). To convert polar to rectangular, compute x = r cos θ, y = r sin θ."
+  },
+  {
+    "id": "PRECAL01.097",
+    "title": "Multiplying and Dividing in Polar Form",
+    "type": "procedure",
+    "content": "To multiply: multiply moduli and add angles. To divide: divide moduli and subtract angles."
+  },
+  {
+    "id": "PRECAL01.098",
+    "title": "De Moivre’s Theorem",
+    "type": "theorem",
+    "content": "If z = r(cos θ + i sin θ), then zⁿ = rⁿ[cos(nθ) + i sin(nθ)]. This is used to raise complex numbers to powers."
+  },
+  {
+    "id": "PRECAL01.099",
+    "title": "Finding Roots of Complex Numbers",
+    "type": "procedure",
+    "content": "To find the nth roots of a complex number, use the formula: r^(1/n)[cos((θ + 2kπ)/n) + i sin((θ + 2kπ)/n)] for k = 0, 1, ..., n−1."
+  },
+  {
+    "id": "PRECAL01.100",
+    "title": "Definition of a Matrix",
+    "type": "definition",
+    "content": "A matrix is a rectangular array of numbers arranged in rows and columns. The size of a matrix is given as rows × columns (e.g., 3×3)."
+  },
+  {
+    "id": "PRECAL01.101",
+    "title": "Matrix Addition and Scalar Multiplication",
+    "type": "procedure",
+    "content": "To add matrices, add corresponding entries. Scalar multiplication multiplies each entry of a matrix by a constant."
+  },
+  {
+    "id": "PRECAL01.102",
+    "title": "Matrix Multiplication",
+    "type": "procedure",
+    "content": "The product of an m×n matrix and an n×p matrix is an m×p matrix. Each entry is the dot product of row and column vectors."
+  },
+  {
+    "id": "PRECAL01.103",
+    "title": "Identity Matrix and Multiplicative Identity",
+    "type": "definition",
+    "content": "The identity matrix I has 1s on the diagonal and 0s elsewhere. For a square matrix A, AI = IA = A."
+  },
+  {
+    "id": "PRECAL01.104",
+    "title": "Inverse of a 2×2 Matrix",
+    "type": "formula",
+    "content": "For A = [[a, b], [c, d]], the inverse is (1/det A)·[[d, −b], [−c, a]] if det A ≠ 0."
+  },
+  {
+    "id": "PRECAL01.105",
+    "title": "Determinant of a 2×2 and 3×3 Matrix",
+    "type": "procedure",
+    "content": "For 2×2: det = ad − bc. For 3×3, use cofactor expansion or Sarrus’s Rule: det = aei + bfg + cdh − afh − bdi − ceg."
+  },
+  {
+    "id": "PRECAL01.106",
+    "title": "Inverse of a 3×3 Matrix (Conceptual)",
+    "type": "procedure",
+    "content": "To find the inverse of a 3×3 matrix, use the adjugate and determinant: A⁻¹ = (1/det A)·adj(A), if det A ≠ 0."
+  },
+  {
+    "id": "PRECAL01.107",
+    "title": "Solving Systems with Matrices (2×2 or 3×3)",
+    "type": "procedure",
+    "content": "Write the system as AX = B, then solve using X = A⁻¹B if A is invertible."
+  },
+  {
+    "id": "PRECAL01.108",
+    "title": "Row Reduction and Echelon Form",
+    "type": "procedure",
+    "content": "Use Gaussian or Gauss-Jordan elimination to solve systems by converting the augmented matrix to row echelon or reduced row echelon form."
+  },
+  {
+    "id": "PRECAL01.109",
+    "title": "Applications of Matrices",
+    "type": "application",
+    "content": "Matrices can model systems in economics, networks, cryptography, and computer graphics transformations."
+  }
+  {
+    "id": "PRECAL01.110",
+    "title": "Intuitive Definition of a Limit",
+    "type": "definition",
+    "content": "The limit of f(x) as x approaches a is the value f(x) gets closer to as x gets closer to a. Notation: limₓ→ₐ f(x)."
+  },
+  {
+    "id": "PRECAL01.111",
+    "title": "One-Sided Limits",
+    "type": "definition",
+    "content": "The left-hand limit is limₓ→ₐ⁻ f(x), and the right-hand limit is limₓ→ₐ⁺ f(x). A limit exists at a if both one-sided limits are equal."
+  },
+  {
+    "id": "PRECAL01.112",
+    "title": "Limits from a Table or Graph",
+    "type": "strategy",
+    "content": "To estimate a limit numerically, observe the trend of values as x approaches a. Graphically, examine the y-values approaching a point."
+  },
+  {
+    "id": "PRECAL01.113",
+    "title": "Limits Involving Infinity",
+    "type": "definition",
+    "content": "If f(x) increases or decreases without bound as x approaches a value, write limₓ→ₐ f(x) = ∞ or −∞. The limit does not exist in the finite sense."
+  },
+  {
+    "id": "PRECAL01.114",
+    "title": "Limit Does Not Exist (DNE)",
+    "type": "definition",
+    "content": "A limit fails to exist when the left- and right-hand limits are unequal, the function oscillates, or it diverges to infinity."
+  },
+  {
+    "id": "PRECAL01.115",
+    "title": "Infinite Limits at Infinity",
+    "type": "definition",
+    "content": "As x → ∞ or x → −∞, examine the end behavior of f(x). Limits can approach a finite number or diverge to ∞."
+  },
+  {
+    "id": "PRECAL01.116",
+    "title": "Limits and Asymptotic Behavior",
+    "type": "property",
+    "content": "Vertical asymptotes occur where the function grows without bound. Horizontal asymptotes reflect the limit as x → ∞ or −∞."
+  },
+  {
+    "id": "PRECAL01.117",
+    "title": "Algebraic Limit Evaluation",
+    "type": "procedure",
+    "content": "Use substitution first. If undefined, try factoring, rationalizing, or using conjugates to simplify and then re-evaluate the limit."
+  },
+  {
+    "id": "PRECAL01.118",
+    "title": "Piecewise Function Limits",
+    "type": "strategy",
+    "content": "For piecewise-defined functions, evaluate left-hand and right-hand limits using appropriate pieces. Check for discontinuities at transition points."
+  },
+  {
+    "id": "PRECAL01.119",
+    "title": "Definition of Continuity at a Point",
+    "type": "definition",
+    "content": "A function is continuous at x = a if limₓ→ₐ f(x) exists, f(a) exists, and limₓ→ₐ f(x) = f(a)."
+  }
+]

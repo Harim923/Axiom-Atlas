@@ -1,0 +1,1080 @@
+[
+  {
+  "id": "ALG2.001",
+  "title": "Closure Property of Real Numbers",
+  "type": "property",
+  "content": "The set of real numbers is closed under addition and multiplication. If x and y are real, then x + y and xy are also real."
+},
+{
+  "id": "ALG2.002",
+  "title": "Commutative Property",
+  "type": "property",
+  "content": "Changing the order of the numbers does not change the result: x + y = y + x, and xy = yx."
+},
+{
+  "id": "ALG2.003",
+  "title": "Associative Property",
+  "type": "property",
+  "content": "Grouping does not affect the sum or product: (x + y) + z = x + (y + z), and (xy)z = x(yz)."
+},
+{
+  "id": "ALG2.004",
+  "title": "Distributive Property",
+  "type": "property",
+  "content": "Multiplying a number by a sum is the same as multiplying each term and adding: x(y + z) = xy + xz."
+},
+{
+  "id": "ALG2.005",
+  "title": "Additive Identity",
+  "type": "property",
+  "content": "Adding 0 to any number does not change its value: x + 0 = x."
+},
+{
+  "id": "ALG2.006",
+  "title": "Multiplicative Identity",
+  "type": "property",
+  "content": "Multiplying a number by 1 does not change its value: x × 1 = x."
+},
+{
+  "id": "ALG2.007",
+  "title": "Additive Inverse",
+  "type": "property",
+  "content": "Every real number has an additive inverse: x + (−x) = 0."
+},
+{
+  "id": "ALG2.008",
+  "title": "Multiplicative Inverse",
+  "type": "property",
+  "content": "Every nonzero real number has a multiplicative inverse: x × (1/x) = 1 for x ≠ 0."
+},
+{
+  "id": "ALG2.009",
+  "title": "Real Number Line",
+  "type": "definition",
+  "content": "The real number line is a continuous, infinite line representing all real numbers, where numbers to the left of 0 are negative and to the right are positive."
+},
+{
+  "id": "ALG2.010",
+  "title": "Absolute Value Definition",
+  "type": "definition",
+  "content": "The absolute value |x| is the distance of x from 0 on the number line. It is always non-negative."
+},
+{
+  "id": "ALG2.011",
+  "title": "Distance Between Two Points",
+  "type": "property",
+  "content": "The distance between two real numbers a and b is given by |a - b|."
+},
+{
+  "id": "ALG2.012",
+  "title": "Evaluating Algebraic Expressions",
+  "type": "procedure",
+  "content": "To evaluate an algebraic expression, substitute known values for the variables and simplify."
+},
+{
+  "id": "ALG2.013",
+  "title": "Simplifying Algebraic Expressions",
+  "type": "procedure",
+  "content": "Combine like terms and apply arithmetic operations to simplify algebraic expressions."
+},
+{
+  "id": "ALG2.014",
+  "title": "Solving Linear Equations",
+  "type": "procedure",
+  "content": "To solve a linear equation, isolate the variable by performing inverse operations and simplifying both sides."
+},
+{
+  "id": "ALG2.015",
+  "title": "Golden Rule of Inequalities",
+  "type": "property",
+  "content": "When solving inequalities, reverse the inequality sign if both sides are multiplied or divided by a negative number."
+},
+{
+  "id": "ALG2.016",
+  "title": "Compound Inequalities",
+  "type": "definition",
+  "content": "A compound inequality joins two inequalities with 'and' (conjunction) or 'or' (disjunction)."
+},
+{
+  "id": "ALG2.017",
+  "title": "Absolute Value Equation",
+  "type": "procedure",
+  "content": "To solve |x - a| = b, split into two cases: x - a = b or x - a = -b."
+},
+{
+  "id": "ALG2.018",
+  "title": "Absolute Value Inequality (Less Than)",
+  "type": "property",
+  "content": "The inequality |x - a| < b is equivalent to a - b < x < a + b."
+},
+{
+  "id": "ALG2.019",
+  "title": "Absolute Value Inequality (Greater Than)",
+  "type": "property",
+  "content": "The inequality |x - a| > b is equivalent to x < a - b or x > a + b."
+},
+{
+  "id": "ALG2.020",
+  "title": "Definition of Relation",
+  "type": "definition",
+  "content": "A relation is a set of ordered pairs (x, y) that shows how each input x is related to an output y."
+},
+{
+  "id": "ALG2.021",
+  "title": "Definition of Function",
+  "type": "definition",
+  "content": "A function is a relation in which each input has exactly one output."
+},
+{
+  "id": "ALG2.022",
+  "title": "Vertical Line Test",
+  "type": "test",
+  "content": "If a vertical line intersects a graph more than once, the relation is not a function."
+},
+{
+  "id": "ALG2.023",
+  "title": "Domain and Range",
+  "type": "definition",
+  "content": "The domain is the set of all possible inputs (x-values), and the range is the set of all possible outputs (y-values) of a function."
+},
+{
+  "id": "ALG2.024",
+  "title": "Direct Variation",
+  "type": "definition",
+  "content": "If y varies directly with x, then y = kx for some constant k. The graph passes through the origin."
+},
+{
+  "id": "ALG2.025",
+  "title": "Slope-Intercept Form",
+  "type": "formula",
+  "content": "The equation of a line in slope-intercept form is y = mx + b, where m is the slope and b is the y-intercept."
+},
+{
+  "id": "ALG2.026",
+  "title": "Interpretation of Slope",
+  "type": "definition",
+  "content": "The slope of a line represents the rate of change of y with respect to x: m = (change in y) / (change in x)."
+},
+{
+  "id": "ALG2.027",
+  "title": "Parallel and Perpendicular Slopes",
+  "type": "property",
+  "content": "Parallel lines have equal slopes. Perpendicular lines have slopes that are negative reciprocals of each other."
+},
+{
+  "id": "ALG2.028",
+  "title": "Point-Slope Form",
+  "type": "formula",
+  "content": "The equation of a line with slope m passing through (x₁, y₁) is y - y₁ = m(x - x₁)."
+},
+{
+  "id": "ALG2.029",
+  "title": "Function Transformation: Vertical Shift",
+  "type": "transformation",
+  "content": "The graph of y = f(x) + k shifts the graph of y = f(x) up by k units if k > 0, or down if k < 0."
+},
+{
+  "id": "ALG2.030",
+  "title": "Function Transformation: Horizontal Shift",
+  "type": "transformation",
+  "content": "The graph of y = f(x - h) shifts the graph of y = f(x) to the right by h units if h > 0, or left if h < 0."
+},
+{
+  "id": "ALG2.031",
+  "title": "Function Transformation: Reflection",
+  "type": "transformation",
+  "content": "The graph of y = -f(x) reflects y = f(x) across the x-axis; y = f(-x) reflects across the y-axis."
+},
+{
+  "id": "ALG2.032",
+  "title": "Function Transformation: Dilation",
+  "type": "transformation",
+  "content": "The graph of y = a·f(x) stretches vertically if |a| > 1, compresses if 0 < |a| < 1, and reflects if a < 0."
+},
+{
+  "id": "ALG2.033",
+  "title": "Absolute Value Function",
+  "type": "definition",
+  "content": "The graph of y = |x| forms a 'V' shape with vertex at the origin. It is piecewise defined: y = x for x ≥ 0 and y = -x for x < 0."
+},
+{
+  "id": "ALG2.034",
+  "title": "Linear Inequality in Two Variables",
+  "type": "definition",
+  "content": "A linear inequality such as y < mx + b represents a region of the plane. The boundary is dashed if the inequality is strict."
+},
+{
+  "id": "ALG2.035",
+  "title": "Conjunctive Inequality",
+  "type": "definition",
+  "content": "A conjunctive inequality joins two conditions with 'and', meaning both must be true. It represents the intersection of the solution sets: a < x < b."
+},
+{
+  "id": "ALG2.036",
+  "title": "Disjunctive Inequality",
+  "type": "definition",
+  "content": "A disjunctive inequality joins two conditions with 'or', meaning either can be true. It represents the union of the solution sets: x < a or x > b."
+},
+{
+  "id": "ALG2.037",
+  "title": "Consistent and Inconsistent Systems",
+  "type": "definition",
+  "content": "A system of equations is consistent if it has at least one solution, and inconsistent if it has no solution."
+},
+{
+  "id": "ALG2.038",
+  "title": "Independent and Dependent Systems",
+  "type": "definition",
+  "content": "A system is independent if it has exactly one solution. It is dependent if the equations represent the same line and have infinitely many solutions."
+},
+{
+  "id": "ALG2.039",
+  "title": "Substitution Method",
+  "type": "procedure",
+  "content": "Solve one equation for a variable and substitute that expression into the other equation to find the solution."
+},
+{
+  "id": "ALG2.040",
+  "title": "Elimination Method",
+  "type": "procedure",
+  "content": "Add or subtract equations to eliminate one variable and solve the resulting equation."
+},
+{
+  "id": "ALG2.041",
+  "title": "Graphical Solution of a System",
+  "type": "definition",
+  "content": "The solution to a system of equations is the point(s) where their graphs intersect."
+},
+{
+  "id": "ALG2.042",
+  "title": "System of Linear Inequalities",
+  "type": "definition",
+  "content": "A system of linear inequalities represents a region where the solutions of all inequalities overlap (feasible region)."
+},
+{
+  "id": "ALG2.043",
+  "title": "Linear Programming",
+  "type": "definition",
+  "content": "A method to find the maximum or minimum value of a linear objective function, subject to a set of linear constraints (inequalities)."
+},
+{
+  "id": "ALG2.044",
+  "title": "Feasible Region",
+  "type": "definition",
+  "content": "The solution region that satisfies all the inequalities in a system, often bounded by straight lines."
+},
+{
+  "id": "ALG2.045",
+  "title": "Vertex Optimization Principle",
+  "type": "property",
+  "content": "For a linear programming problem, the maximum or minimum value of the objective function occurs at a vertex of the feasible region."
+},
+{
+  "id": "ALG2.046",
+  "title": "System of Three Variables",
+  "type": "definition",
+  "content": "A system of three equations with three unknowns can represent planes in 3D space and may intersect at a point, line, or not at all."
+},
+{
+  "id": "ALG2.047",
+  "title": "Standard Form of a Quadratic Function",
+  "type": "definition",
+  "content": "A quadratic function can be written in the form y = ax² + bx + c, where a, b, and c are constants and a ≠ 0."
+},
+{
+  "id": "ALG2.048",
+  "title": "Vertex of a Parabola (Formula)",
+  "type": "formula",
+  "content": "The vertex of the parabola y = ax² + bx + c is given by x = -b/(2a)."
+},
+{
+  "id": "ALG2.049",
+  "title": "Axis of Symmetry",
+  "type": "definition",
+  "content": "The axis of symmetry of a parabola y = ax² + bx + c is the vertical line x = -b/(2a)."
+},
+{
+  "id": "ALG2.050",
+  "title": "Factored Form of a Quadratic",
+  "type": "definition",
+  "content": "A quadratic can be factored as y = a(x - r₁)(x - r₂), where r₁ and r₂ are the roots (x-intercepts) of the function."
+},
+{
+  "id": "ALG2.051",
+  "title": "Vertex Form of a Quadratic",
+  "type": "definition",
+  "content": "The vertex form of a quadratic is y = a(x - h)² + k, where (h, k) is the vertex of the parabola."
+},
+{
+  "id": "ALG2.052",
+  "title": "Completing the Square",
+  "type": "procedure",
+  "content": "To complete the square, rewrite ax² + bx as a(x² + (b/a)x) and add/subtract (b/2a)² to form a perfect square trinomial."
+},
+{
+  "id": "ALG2.053",
+  "title": "Quadratic Formula",
+  "type": "formula",
+  "content": "The solutions to ax² + bx + c = 0 are x = [-b ± √(b² - 4ac)] / (2a)."
+},
+{
+  "id": "ALG2.054",
+  "title": "Discriminant and Nature of Roots",
+  "type": "property",
+  "content": "The discriminant Δ = b² - 4ac determines the nature of the roots: two real and distinct (Δ > 0), one real (Δ = 0), or complex (Δ < 0)."
+},
+{
+  "id": "ALG2.055",
+  "title": "Zero Product Property",
+  "type": "property",
+  "content": "If ab = 0, then either a = 0 or b = 0. Used to solve factored quadratic equations."
+},
+{
+  "id": "ALG2.056",
+  "title": "Solving Quadratic Equations by Factoring",
+  "type": "procedure",
+  "content": "To solve ax² + bx + c = 0, factor the expression and set each factor equal to zero using the Zero Product Property."
+},
+{
+  "id": "ALG2.057",
+  "title": "Complex Number Definition",
+  "type": "definition",
+  "content": "A complex number is a number in the form a + bi, where a and b are real numbers and i² = -1."
+},
+{
+  "id": "ALG2.058",
+  "title": "Conjugate of a Complex Number",
+  "type": "definition",
+  "content": "The conjugate of a + bi is a - bi. The product of a complex number and its conjugate is a² + b²."
+},
+{
+  "id": "ALG2.059",
+  "title": "Application of Quadratic Functions",
+  "type": "definition",
+  "content": "Quadratic functions are commonly used to model projectile motion, area problems, and optimization scenarios."
+},
+{
+  "id": "ALG2.060",
+  "title": "Maximum or Minimum of a Quadratic",
+  "type": "property",
+  "content": "For y = ax² + bx + c, if a > 0 the vertex is a minimum; if a < 0 the vertex is a maximum."
+},
+{
+  "id": "ALG2.061",
+  "title": "Word Problem Modeling with Quadratics",
+  "type": "procedure",
+  "content": "To solve word problems using quadratics, define variables, form an equation in standard or vertex form, and solve using factoring or the quadratic formula."
+},
+{
+  "id": "ALG2.062",
+  "title": "Solving Quadratic Inequalities",
+  "type": "procedure",
+  "content": "To solve ax² + bx + c < 0 or > 0, find roots, plot on number line, and test sign of expression in each interval."
+},
+{
+  "id": "ALG2.063",
+  "title": "Sign Chart for Quadratics",
+  "type": "tool",
+  "content": "A sign chart shows where a quadratic expression is positive or negative by dividing the number line at its roots."
+},
+{
+  "id": "ALG2.064",
+  "title": "Graphical Interpretation of Quadratic Inequality",
+  "type": "property",
+  "content": "The solution set of a quadratic inequality corresponds to the portion of the graph of y = ax² + bx + c that lies above or below the x-axis."
+},
+{
+  "id": "ALG2.065",
+  "title": "Set Notation for Inequality Solutions",
+  "type": "notation",
+  "content": "Solutions to inequalities can be written in set-builder or interval notation, depending on the required format."
+},
+{
+  "id": "ALG2.066",
+  "title": "Polynomial Definition",
+  "type": "definition",
+  "content": "A polynomial is an expression consisting of variables and coefficients, involving only non-negative integer exponents and addition, subtraction, or multiplication."
+},
+{
+  "id": "ALG2.067",
+  "title": "Degree of a Polynomial",
+  "type": "definition",
+  "content": "The degree of a polynomial is the highest power of the variable in the expression."
+},
+{
+  "id": "ALG2.068",
+  "title": "Leading Coefficient",
+  "type": "definition",
+  "content": "The leading coefficient is the coefficient of the term with the highest degree in a polynomial."
+},
+{
+  "id": "ALG2.069",
+  "title": "End Behavior of Polynomial Functions",
+  "type": "property",
+  "content": "The end behavior of a polynomial function depends on the sign of the leading coefficient and the degree (even or odd)."
+},
+{
+  "id": "ALG2.070",
+  "title": "Real Zeros of Polynomials",
+  "type": "definition",
+  "content": "The real zeros of a polynomial function are the x-values for which the function equals zero; these correspond to x-intercepts of the graph."
+},
+{
+  "id": "ALG2.071",
+  "title": "Multiplicity of a Zero",
+  "type": "definition",
+  "content": "If (x - r)^k is a factor of a polynomial, then r is a zero of multiplicity k. If k is even, the graph touches the axis; if odd, it crosses."
+},
+{
+  "id": "ALG2.072",
+  "title": "Polynomial Division: Long Division",
+  "type": "procedure",
+  "content": "Divide polynomials similarly to numbers by dividing leading terms, multiplying, subtracting, and repeating the process."
+},
+{
+  "id": "ALG2.073",
+  "title": "Synthetic Division",
+  "type": "procedure",
+  "content": "A shortcut method for dividing a polynomial by a linear factor of the form (x - c), using only coefficients."
+},
+{
+  "id": "ALG2.074",
+  "title": "Factor Theorem",
+  "type": "theorem",
+  "content": "If f(c) = 0, then (x - c) is a factor of the polynomial f(x)."
+},
+{
+  "id": "ALG2.075",
+  "title": "Remainder Theorem",
+  "type": "theorem",
+  "content": "When a polynomial f(x) is divided by (x - c), the remainder is f(c)."
+},
+{
+  "id": "ALG2.076",
+  "title": "Rational Root Theorem",
+  "type": "theorem",
+  "content": "If a rational root of a polynomial with integer coefficients exists, it must be a factor of the constant term over a factor of the leading coefficient."
+},
+{
+  "id": "ALG2.077",
+  "title": "Graph Behavior at Zeros",
+  "type": "property",
+  "content": "The shape of the graph near a zero depends on the zero's multiplicity: even multiplicities result in touching, odd in crossing."
+},
+{
+  "id": "ALG2.078",
+  "title": "Factoring Polynomials",
+  "type": "procedure",
+  "content": "To factor a polynomial, find a greatest common factor, then apply techniques such as grouping, special products, or division."
+},
+{
+  "id": "ALG2.079",
+  "title": "Special Factoring: Difference of Squares",
+  "type": "formula",
+  "content": "a² - b² = (a - b)(a + b)"
+},
+{
+  "id": "ALG2.080",
+  "title": "Special Factoring: Perfect Square Trinomial",
+  "type": "formula",
+  "content": "a² ± 2ab + b² = (a ± b)²"
+},
+{
+  "id": "ALG2.081",
+  "title": "Special Factoring: Sum and Difference of Cubes",
+  "type": "formula",
+  "content": "a³ ± b³ = (a ± b)(a² ∓ ab + b²)"
+},
+{
+  "id": "ALG2.082",
+  "title": "Guidelines for Finding Roots",
+  "type": "procedure",
+  "content": "Check rational roots using Rational Root Theorem, test values using synthetic division, then factor completely."
+},
+{
+  "id": "ALG2.083",
+  "title": "Using Graph to Estimate Zeros",
+  "type": "procedure",
+  "content": "Use a graph to visually locate approximate x-intercepts where the function crosses or touches the x-axis."
+},
+{
+  "id": "ALG2.084",
+  "title": "Polynomial Word Problem Setup",
+  "type": "procedure",
+  "content": "Define variables, construct a polynomial model for volume, area, or cost, then solve by factoring or substitution."
+},
+{
+  "id": "ALG2.085",
+  "title": "Polynomial Identity Verification",
+  "type": "procedure",
+  "content": "To verify an identity, expand both sides and simplify to check if they are equivalent."
+},
+{
+  "id": "ALG2.086",
+  "title": "Identifying Polynomial from Graph",
+  "type": "procedure",
+  "content": "Analyze a polynomial graph to determine its degree, leading coefficient sign, and possible multiplicity of real zeros."
+},
+{
+  "id": "ALG2.087",
+  "title": "Turning Points of a Polynomial",
+  "type": "property",
+  "content": "A polynomial of degree n has at most n - 1 turning points (local maxima or minima)."
+},
+{
+  "id": "ALG2.088",
+  "title": "Fundamental Theorem of Algebra (Intro)",
+  "type": "theorem",
+  "content": "Every non-zero polynomial of degree n has exactly n complex roots (real and/or nonreal), counted with multiplicity."
+},
+{
+  "id": "ALG2.089",
+  "title": "Descartes’ Rule of Signs",
+  "type": "tool",
+  "content": "The number of positive or negative real zeros of a polynomial can be estimated by counting sign changes in f(x) and f(-x)."
+},
+{
+  "id": "ALG2.090",
+  "title": "Definition of Radical Expression",
+  "type": "definition",
+  "content": "A radical expression is an expression that includes a root, such as a square root, cube root, or nth root."
+},
+{
+  "id": "ALG2.091",
+  "title": "Simplest Radical Form",
+  "type": "definition",
+  "content": "A radical expression is in simplest form when there are no perfect square factors under the radical and no radicals in the denominator."
+},
+{
+  "id": "ALG2.092",
+  "title": "Product Rule for Radicals",
+  "type": "property",
+  "content": "For nonnegative real numbers a and b: √(ab) = √a × √b."
+},
+{
+  "id": "ALG2.093",
+  "title": "Quotient Rule for Radicals",
+  "type": "property",
+  "content": "For nonnegative real numbers a and b (b ≠ 0): √(a/b) = √a ÷ √b."
+},
+{
+  "id": "ALG2.094",
+  "title": "Rational Exponents",
+  "type": "definition",
+  "content": "An expression like a^(m/n) means the nth root of a raised to the mth power: a^(m/n) = (ⁿ√a)^m."
+},
+{
+  "id": "ALG2.095",
+  "title": "Converting Between Radicals and Exponents",
+  "type": "procedure",
+  "content": "Use a^(m/n) = ⁿ√(a^m) or ⁿ√a = a^(1/n) to rewrite between forms."
+},
+{
+  "id": "ALG2.096",
+  "title": "Multiplying Radical Expressions",
+  "type": "procedure",
+  "content": "Multiply the coefficients and the radicands separately: √a × √b = √(ab), if both are nonnegative."
+},
+{
+  "id": "ALG2.097",
+  "title": "Rationalizing the Denominator",
+  "type": "procedure",
+  "content": "To eliminate radicals from the denominator, multiply numerator and denominator by a radical that removes the root from the bottom."
+},
+{
+  "id": "ALG2.098",
+  "title": "Solving Radical Equations",
+  "type": "procedure",
+  "content": "To solve radical equations, isolate the radical and square both sides. Always check for extraneous solutions."
+},
+{
+  "id": "ALG2.099",
+  "title": "Domain of Radical Functions",
+  "type": "property",
+  "content": "The domain of a radical function with even index includes only values where the radicand is nonnegative."
+},
+{
+  "id": "ALG2.100",
+  "title": "Definition of Radical Function",
+  "type": "definition",
+  "content": "A radica function is a function that contains a variable inside a root, such as f(x) = √x or f(x) = ∛(x − 2)."
+},
+{
+  "id": "ALG2.101",
+  "title": "Graph of a Square Root Function",
+  "type": "property",
+  "content": "The graph of f(x) = √x starts at (0, 0) and increases slowly to the right. Its domain is x ≥ 0, and range is y ≥ 0."
+},
+{
+  "id": "ALG2.102",
+  "title": "Transformation of Radical Functions",
+  "type": "transformation",
+  "content": "The function f(x) = a√(x − h) + k shifts the parent graph √x right h units, up k units, stretches by a if |a| > 1, and reflects if a < 0."
+},
+{
+  "id": "ALG2.103",
+  "title": "Even vs. Odd Index Radical Domains",
+  "type": "comparison",
+  "content": "Functions with even-index radicals (e.g., √x) require nonnegative radicands. Odd-index radicals (e.g., ∛x) have all real numbers as domain."
+},
+{
+  "id": "ALG2.104",
+  "title": "Definition of Rational Expression",
+  "type": "definition",
+  "content": "A rational expression is a ratio of two polynomials, such as (x + 1)/(x − 2), where the denominator is not zero."
+},
+{
+  "id": "ALG2.105",
+  "title": "Domain of a Rational Expression",
+  "type": "property",
+  "content": "The domain excludes all values that make the denominator zero."
+},
+{
+  "id": "ALG2.106",
+  "title": "Simplifying Rational Expressions",
+  "type": "procedure",
+  "content": "To simplify a rational expression, factor both numerator and denominator and cancel common factors."
+},
+{
+  "id": "ALG2.107",
+  "title": "Multiplying and Dividing Rational Expressions",
+  "type": "procedure",
+  "content": "Multiply numerators and denominators directly; for division, multiply by the reciprocal of the second expression."
+},
+{
+  "id": "ALG2.108",
+  "title": "Adding and Subtracting Rational Expressions",
+  "type": "procedure",
+  "content": "To add or subtract rational expressions, find a common denominator, rewrite each expression, then combine numerators."
+},
+{
+  "id": "ALG2.109",
+  "title": "Solving Rational Equations",
+  "type": "procedure",
+  "content": "To solve rational equations, multiply both sides by a common denominator to eliminate fractions. Check for extraneous solutions."
+},
+{
+  "id": "ALG2.110",
+  "title": "Definition of Rational Function",
+  "type": "definition",
+  "content": "A rational function is a function defined by a rational expression, such as f(x) = (x + 1)/(x − 3)."
+},
+{
+  "id": "ALG2.111",
+  "title": "Vertical Asymptote",
+  "type": "property",
+  "content": "A vertical asymptote occurs at values that make the denominator zero and are not canceled by the numerator."
+},
+{
+  "id": "ALG2.112",
+  "title": "Hole in the Graph",
+  "type": "property",
+  "content": "A hole occurs at a value that makes both the numerator and denominator zero, indicating a removable discontinuity."
+},
+{
+  "id": "ALG2.113",
+  "title": "Graphing Rational Functions",
+  "type": "procedure",
+  "content": "To graph a rational function, find intercepts, asymptotes, and analyze behavior near discontinuities."
+},
+{
+  "id": "ALG2.114",
+  "title": "Horizontal Asymptote",
+  "type": "property",
+  "content": "A horizontal asymptote shows the end behavior of a rational function. Compare degrees of numerator and denominator to determine it."
+},
+{
+  "id": "ALG2.115",
+  "title": "Slant (Oblique) Asymptote",
+  "type": "property",
+  "content": "If the degree of the numerator is one more than the degree of the denominator, use polynomial division to find a slant asymptote."
+},
+{
+  "id": "ALG2.116",
+  "title": "End Behavior of Rational Functions",
+  "type": "property",
+  "content": "The end behavior of a rational function depends on the degrees of the numerator and denominator and determines the horizontal or slant asymptote."
+},
+{
+  "id": "ALG2.117",
+  "title": "Definition of Exponential Function",
+  "type": "definition",
+  "content": "An exponential function is a function of the form f(x) = a·b^x where a ≠ 0 and b > 0, b ≠ 1."
+},
+{
+  "id": "ALG2.118",
+  "title": "Properties of Exponential Growth",
+  "type": "property",
+  "content": "If b > 1 in f(x) = ab^x, the function models exponential growth with rapid increase as x increases."
+},
+{
+  "id": "ALG2.119",
+  "title": "Properties of Exponential Decay",
+  "type": "property",
+  "content": "If 0 < b < 1 in f(x) = ab^x, the function models exponential decay with values decreasing toward zero."
+},
+{
+  "id": "ALG2.120",
+  "title": "Exponential Function Domain and Range",
+  "type": "property",
+  "content": "The domain is all real numbers, and the range is positive real numbers (y > 0) unless transformed."
+},
+{
+  "id": "ALG2.121",
+  "title": "Solving Exponential Equations (Same Base)",
+  "type": "procedure",
+  "content": "If both sides have the same base, set the exponents equal and solve: b^x = b^y → x = y."
+},
+{
+  "id": "ALG2.122",
+  "title": "Definition of Logarithm",
+  "type": "definition",
+  "content": "The logarithm log_b(x) is the inverse of the exponential function: if b^y = x, then log_b(x) = y."
+},
+{
+  "id": "ALG2.123",
+  "title": "Common Logarithms and Natural Logarithms",
+  "type": "definition",
+  "content": "log(x) is log base 10; ln(x) is log base e. These are standard on calculators."
+},
+{
+  "id": "ALG2.124",
+  "title": "Logarithmic Properties",
+  "type": "property",
+  "content": "Key properties include: log_b(xy) = log_b(x) + log_b(y), log_b(x/y) = log_b(x) − log_b(y), log_b(x^r) = r·log_b(x)."
+},
+{
+  "id": "ALG2.125",
+  "title": "Change of Base Formula",
+  "type": "formula",
+  "content": "log_b(x) = log_c(x) / log_c(b), typically used with base 10 or base e."
+},
+{
+  "id": "ALG2.126",
+  "title": "Solving Logarithmic Equations",
+  "type": "procedure",
+  "content": "Use properties of logarithms to combine terms, then convert to exponential form to solve."
+},
+{
+  "id": "ALG2.127",
+  "title": "Inverse Relationship of Exponential and Logarithmic Functions",
+  "type": "property",
+  "content": "f(x) = b^x and g(x) = log_b(x) are inverse functions: f(g(x)) = x and g(f(x)) = x."
+},
+{
+  "id": "ALG2.128",
+  "title": "Graph of Logarithmic Function",
+  "type": "property",
+  "content": "The graph of y = log_b(x) has a vertical asymptote at x = 0, domain x > 0, and passes through (1, 0)."
+},
+{
+  "id": "ALG2.129",
+  "title": "Exponential Growth and Decay Modeling",
+  "type": "application",
+  "content": "Use f(t) = a·b^t to model exponential growth (b > 1) or decay (0 < b < 1). Identify initial value a and growth/decay factor b from context."
+},
+{
+  "id": "ALG2.130",
+  "title": "Domain Restriction in Logarithmic Equations",
+  "type": "warning",
+  "content": "When solving log_b(x), the argument x must be positive. Always check solutions for domain validity."
+},
+{
+  "id": "ALG2.131",
+  "title": "Graph Interpretation of Exponential and Logarithmic Functions",
+  "type": "application",
+  "content": "Understand asymptotes, increasing/decreasing behavior, and key points like (0,1) for exponentials and (1,0) for logarithms."
+},
+{
+  "id": "ALG2.132",
+  "title": "Definition of Sequence",
+  "type": "definition",
+  "content": "A sequence is an ordered list of numbers defined by a pattern or rule."
+},
+{
+  "id": "ALG2.133",
+  "title": "Arithmetic Sequence Definition",
+  "type": "definition",
+  "content": "An arithmetic sequence has a common difference d between consecutive terms: a_n = a₁ + (n−1)d."
+},
+{
+  "id": "ALG2.134",
+  "title": "Geometric Sequence Definition",
+  "type": "definition",
+  "content": "A geometric sequence has a common ratio r between consecutive terms: a_n = a₁·rⁿ⁻¹."
+},
+{
+  "id": "ALG2.135",
+  "title": "Explicit Formula for Arithmetic Sequence",
+  "type": "formula",
+  "content": "a_n = a₁ + (n − 1)d, where a₁ is the first term and d is the common difference."
+},
+{
+  "id": "ALG2.136",
+  "title": "Explicit Formula for Geometric Sequence",
+  "type": "formula",
+  "content": "a_n = a₁·rⁿ⁻¹, where a₁ is the first term and r is the common ratio."
+},
+{
+  "id": "ALG2.137",
+  "title": "Recursive Formula for Sequences",
+  "type": "formula",
+  "content": "Defines each term based on the previous one: arithmetic → a_n = a_{n−1} + d, geometric → a_n = a_{n−1}·r."
+},
+{
+  "id": "ALG2.138",
+  "title": "Summation Notation (Sigma Notation)",
+  "type": "notation",
+  "content": "Σ notation is used to represent the sum of a sequence: Σ_{i=1}^n a_i."
+},
+{
+  "id": "ALG2.139",
+  "title": "Sum of Arithmetic Series",
+  "type": "formula",
+  "content": "S_n = (n/2)(a₁ + a_n) or S_n = (n/2)[2a₁ + (n − 1)d]."
+},
+{
+  "id": "ALG2.140",
+  "title": "Sum of Geometric Series",
+  "type": "formula",
+  "content": "S_n = a₁(1 − rⁿ) / (1 − r) for r ≠ 1."
+},
+{
+  "id": "ALG2.141",
+  "title": "Convergent Infinite Geometric Series",
+  "type": "property",
+  "content": "If |r| < 1, the sum of an infinite geometric series is S = a₁ / (1 − r)."
+},
+{
+  "id": "ALG2.142",
+  "title": "Determining Sequence Type",
+  "type": "procedure",
+  "content": "To determine whether a sequence is arithmetic, geometric, or neither, examine the differences and ratios between consecutive terms."
+},
+{
+  "id": "ALG2.143",
+  "title": "Term Number from Sequence Formula",
+  "type": "procedure",
+  "content": "To find which term of a sequence a given value is, solve the explicit formula for n."
+},
+{
+  "id": "ALG2.144",
+  "title": "Using Sigma Notation for Arithmetic Series",
+  "type": "procedure",
+  "content": "Convert an arithmetic series into sigma notation by identifying the general term and limits of summation."
+},
+{
+  "id": "ALG2.145",
+  "title": "Using Sigma Notation for Geometric Series",
+  "type": "procedure",
+  "content": "Convert a geometric series into sigma notation by identifying the general term and ratio."
+},
+{
+  "id": "ALG2.146",
+  "title": "Recursive vs. Explicit Form Comparison",
+  "type": "comparison",
+  "content": "Recursive formulas define each term based on previous terms, while explicit formulas directly calculate any term from its position."
+},
+{
+  "id": "ALG2.147",
+  "title": "Modeling Real Situations with Sequences",
+  "type": "application",
+  "content": "Use arithmetic sequences for repeated addition and geometric sequences for repeated multiplication in real-world contexts like payments or population."
+},
+{
+  "id": "ALG2.148",
+  "title": "Non-Convergent Infinite Series",
+  "type": "warning",
+  "content": "An infinite geometric series diverges if |r| ≥ 1 and has no finite sum."
+},
+{
+  "id": "ALG2.149",
+  "title": "Fundamental Counting Principle",
+  "type": "property",
+  "content": "If one event has m outcomes and another has n outcomes, then there are m × n total outcomes for both events."
+},
+{
+  "id": "ALG2.150",
+  "title": "Permutations Definition",
+  "type": "definition",
+  "content": "A permutation is an arrangement of items where order matters. The number of permutations of n items is n!."
+},
+{
+  "id": "ALG2.151",
+  "title": "Permutation Formula",
+  "type": "formula",
+  "content": "The number of permutations of n items taken r at a time is P(n, r) = n! / (n - r)!"
+},
+{
+  "id": "ALG2.152",
+  "title": "Combinations Definition",
+  "type": "definition",
+  "content": "A combination is a selection of items where order does not matter. The number of combinations is C(n, r) = n! / [r!(n - r)!]."
+},
+{
+  "id": "ALG2.153",
+  "title": "Distinguishing Permutations and Combinations",
+  "type": "comparison",
+  "content": "Use permutations when order matters and combinations when it doesn’t."
+},
+{
+  "id": "ALG2.154",
+  "title": "Probability of an Event",
+  "type": "definition",
+  "content": "Probability is the ratio of favorable outcomes to total outcomes: P(A) = (# favorable) / (# total)."
+},
+{
+  "id": "ALG2.155",
+  "title": "Complement Rule",
+  "type": "property",
+  "content": "P(not A) = 1 - P(A)."
+},
+{
+  "id": "ALG2.156",
+  "title": "Independent Events",
+  "type": "definition",
+  "content": "Events A and B are independent if P(A and B) = P(A) × P(B)."
+},
+{
+  "id": "ALG2.157",
+  "title": "Mutually Exclusive Events",
+  "type": "definition",
+  "content": "Events A and B are mutually exclusive if they cannot both occur. P(A or B) = P(A) + P(B)."
+},
+{
+  "id": "ALG2.158",
+  "title": "Conditional Probability",
+  "type": "definition",
+  "content": "The probability of event A given that B has occurred is P(A | B) = P(A and B) / P(B)."
+},
+{
+  "id": "ALG2.159",
+  "title": "Probability Tree Diagram",
+  "type": "tool",
+  "content": "A tree diagram visually organizes multiple stages of probability events."
+},
+{
+  "id": "ALG2.160",
+  "title": "Mean, Median, Mode",
+  "type": "definition",
+  "content": "Mean is the average; median is the middle value; mode is the most frequent value."
+},
+{
+  "id": "ALG2.161",
+  "title": "Range and Interquartile Range (IQR)",
+  "type": "definition",
+  "content": "Range = max − min. IQR = Q3 − Q1, representing the middle 50% spread."
+},
+{
+  "id": "ALG2.162",
+  "title": "Standard Deviation (Concept)",
+  "type": "definition",
+  "content": "Standard deviation measures how spread out the values in a data set are from the mean."
+},
+{
+  "id": "ALG2.163",
+  "title": "Outlier Definition",
+  "type": "definition",
+  "content": "An outlier is a value significantly higher or lower than the rest. Often defined as 1.5×IQR above Q3 or below Q1."
+},
+{
+  "id": "ALG2.164",
+  "title": "Box-and-Whisker Plot",
+  "type": "tool",
+  "content": "A graphical display that shows minimum, Q1, median, Q3, and maximum values of a data set."
+},
+{
+  "id": "ALG2.165",
+  "title": "Experimental vs. Theoretical Probability",
+  "type": "comparison",
+  "content": "Theoretical probability is based on known possible outcomes; experimental probability is based on observed outcomes from trials."
+},
+{
+  "id": "ALG2.166",
+  "title": "Probability of At Least One",
+  "type": "strategy",
+  "content": "Use the complement: P(at least one) = 1 − P(none)."
+},
+{
+  "id": "ALG2.167",
+  "title": "Combinations with Replacement",
+  "type": "definition",
+  "content": "When items are selected with replacement, they can be chosen again. The total combinations depend on whether order matters."
+},
+{
+  "id": "ALG2.168",
+  "title": "Venn Diagram for Probability",
+  "type": "tool",
+  "content": "A Venn diagram helps visualize overlapping sets, unions, intersections, and complements in probability."
+},
+{
+  "id": "ALG2.169",
+  "title": "Expected Value",
+  "type": "definition",
+  "content": "Expected value is the weighted average of all outcomes: E = Σ(probability × value)."
+},
+{
+  "id": "ALG2.170",
+  "title": "Z-score (Standard Score)",
+  "type": "definition",
+  "content": "A Z-score measures how many standard deviations a value is from the mean: z = (x − μ)/σ."
+},
+{
+  "id": "ALG2.171",
+  "title": "Definition of Binomial Experiment",
+  "type": "definition",
+  "content": "A binomial experiment consists of a fixed number of independent trials, each with two possible outcomes: success or failure."
+},
+{
+  "id": "ALG2.172",
+  "title": "Binomial Probability Formula",
+  "type": "formula",
+  "content": "P(k successes) = C(n, k) · p^k · (1 − p)^(n − k), where n is the number of trials and p is the probability of success."
+},
+{
+  "id": "ALG2.173",
+  "title": "Mean and Standard Deviation of Binomial Distribution",
+  "type": "formula",
+  "content": "Mean = μ = np; Standard deviation = σ = √(np(1 − p))."
+},
+{
+  "id": "ALG2.174",
+  "title": "Normal Distribution Definition",
+  "type": "definition",
+  "content": "A normal distribution is a symmetric, bell-shaped curve centered at the mean. Most values cluster around the center."
+},
+{
+  "id": "ALG2.175",
+  "title": "Empirical Rule (68-95-99.7 Rule)",
+  "type": "property",
+  "content": "In a normal distribution, ~68% of values lie within 1σ of the mean, 95% within 2σ, and 99.7% within 3σ."
+},
+{
+  "id": "ALG2.176",
+  "title": "Using Z-scores in Normal Distributions",
+  "type": "procedure",
+  "content": "Z-scores are used to find the relative position of a value in a normal distribution and to compute percentiles or probabilities."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

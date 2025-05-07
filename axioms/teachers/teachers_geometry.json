@@ -1245,5 +1245,47 @@
   "title": "Using Trigonometry to Find Angles",
   "type": "theorem",
   "content": "Given two side lengths of a right triangle, inverse trigonometric functions can be used to find the measures of the non-right angles."
-}
+},
+{
+    "id": "GEO01.161",
+    "title": "Translation Property by Addition",
+    "type": "postulate",
+    "content": "Adding the same quantity to both sides of an equation preserves equality."
+  },
+  {
+    "id": "GEO01.162",
+    "title": "Translation Property by Subtraction",
+    "type": "postulate",
+    "content": "Subtracting the same quantity from both sides of an equation preserves equality."
+  },
+  {
+    "id": "GEO01.163",
+    "title": "Substitution Property",
+    "type": "property",
+    "content": "If two quantities are equal, one may be substituted for the other in any expression or equation."
+  },
+  {
+    "id": "GEO01.164",
+    "title": "Transitive Property of Equality",
+    "type": "property",
+    "content": "If a = b and b = c, then a = c."
+  },
+  {
+    "id": "GEO01.165",
+    "title": "Reflexive Property of Equality",
+    "type": "property",
+    "content": "Any quantity is equal to itself: a = a."
+  },
+  {
+    "id": "GEO01.166",
+    "title": "Symmetric Property of Equality",
+    "type": "property",
+    "content": "If a = b, then b = a."
+  },
+  {
+    "id": "GEO01.167",
+    "title": "Distributive Property",
+    "type": "property",
+    "content": "Multiplying a number by a sum is the same as multiplying each addend individually and then adding the products: a(b + c) = ab + ac."
+  }
 ]

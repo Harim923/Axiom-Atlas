@@ -712,5 +712,11 @@
     "title": "Definition of Continuity at a Point",
     "type": "definition",
     "content": "A function is continuous at x = a if limₓ→ₐ f(x) exists, f(a) exists, and limₓ→ₐ f(x) = f(a)."
+  },
+  {
+    "id": "PRECAL01.120",
+    "title": "Algebraic Manipulation or Simplification",
+    "type": "procedure",
+    "content": "Algebraic expressions can be simplified or manipulated by applying arithmetic rules, exponent rules, or factoring techniques, as long as logical equivalence is maintained."
   }
 ]

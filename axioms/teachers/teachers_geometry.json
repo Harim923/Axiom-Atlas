@@ -1287,5 +1287,11 @@
     "title": "Distributive Property",
     "type": "property",
     "content": "Multiplying a number by a sum is the same as multiplying each addend individually and then adding the products: a(b + c) = ab + ac."
+  },
+  {
+  "id": "GEO01.168",
+  "title": "Pythagorean Theorem",
+  "type": "theorem",
+  "content": "In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the legs: a² + b² = c²."
   }
 ]

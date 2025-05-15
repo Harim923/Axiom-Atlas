@@ -1293,5 +1293,11 @@
   "title": "Pythagorean Theorem",
   "type": "theorem",
   "content": "In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the legs: a² + b² = c²."
+  },
+  {
+  "id": "GEO01.169",
+  "title": "Triangle Area Formula",
+  "type": "formula",
+  "content": "The area of a triangle is one-half the base times the height: A = 1/2 × base × height."
   }
 ]

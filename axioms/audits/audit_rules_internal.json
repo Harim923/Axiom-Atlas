@@ -214,6 +214,15 @@
         "distribute"
       ],
       "fail_message": "Algebraic manipulation step may contain expansion/factoring/simplification errors."
+    },
+    {
+      "id": "T10_SUM_ALL_VALUES_DIFFERENCE_OF_SQUARES",
+      "type": "regression_failure_case",
+      "failure_type": "incomplete_case_enumeration",
+      "expected_answer": 3120,
+      "model_answer": 2910,
+      "root_cause": "partial enumeration of factor pairs",
+      "audit_result": "✅ Correctly rejected as incomplete by ENUM_COVERAGE_CHECK and ENUM_EXHAUST"
     }
   ]
 }

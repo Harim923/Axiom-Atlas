@@ -114,6 +114,27 @@
       "fail_message": "Biconditional (↔) used without proving both implications."
     },
     {
+      "id": "AUDIT_ENUM_COVERAGE_CHECK",
+      "domain": "counting",
+      "type": "structure_check",
+      "description": "If the problem asks for a sum or count over all valid cases, verify that all possible cases (e.g., all divisors, all partitions, all configurations) have been covered.",
+      "triggers": [
+        "sum of all",
+        "find the total number of",
+        "for all integers",
+        "over all values",
+        "all possible values"
+      ],
+      "requires_structure": [
+        "case analysis",
+        "symmetric pairs",
+        "full divisor set",
+        "complete enumeration",
+        "no missing cases"
+      ],
+      "fail_message": "Result computed over a partial set. Enumerated cases do not cover all valid possibilities."
+    },
+    {
       "id": "AUDIT_LOGIC_PROOF_BY_CONTRADICTION",
       "domain": "logic",
       "type": "inference_rule_check",
@@ -155,14 +176,15 @@
       "id": "AUDIT_ENUM_EXHAUST",
       "domain": "counting",
       "type": "checklist",
-      "description": "Enumeration must be explicitly declared as exhaustive.",
+      "description": "Enumeration must be explicitly declared and logically exhaustive. Partial case lists without confirmation of completeness should trigger warnings.",
       "trigger_if_missing": [
         "all possible cases",
         "no other possibilities",
         "cases are mutually exclusive and complete",
-        "exhaustive"
+        "exhaustive",
+        "we now consider all divisors"
       ],
-      "fail_message": "Enumeration may be incomplete. No explicit coverage statement found."
+      "fail_message": "Enumeration may be incomplete. No explicit statement of completeness or full domain coverage found."
     },
     {
       "id": "AUDIT_GEO_TRIANGLE_EXISTENCE",

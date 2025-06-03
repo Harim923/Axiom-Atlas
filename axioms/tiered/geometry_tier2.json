@@ -902,7 +902,7 @@
   },
   {
   "id": "T2_GEO59",
-  "title": "Exact Value of cos(36°)",
+  "name": "Exact Value of cos(36°)",
   "tags": ["trig", "geometry", "cosine", "pentagon", "angle", "golden_ratio"],
   "statement": "The exact value of cos(36°) is (√5 + 1) / 4.",
   "formula": "cos(36^circ) = frac{sqrt{5} + 1}{4}",
@@ -912,8 +912,6 @@
     "Angle-chasing in regular pentagons",
     "Isosceles triangle problems involving 36°, 72°, 108°"
   ],
-  "strength_score": 4
+  "strength_score": 0.9
   }
-
-
 ]

@@ -899,6 +899,21 @@
   "philosophy": "Derived from the sine and cosine double angle formulas, this identity allows transformation of a tangent function of double angle into terms of the single angle.",
   "used_in_proofs": ["tan-to-angle-reduction", "inverse tangent problems"],
   "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO59",
+  "title": "Exact Value of cos(36°)",
+  "tags": ["trig", "geometry", "cosine", "pentagon", "angle", "golden_ratio"],
+  "statement": "The exact value of cos(36°) is (√5 + 1) / 4.",
+  "formula": "cos(36^circ) = frac{sqrt{5} + 1}{4}",
+  "philosophy": "This identity arises in regular pentagon geometry and golden ratio constructions. It allows reasoning involving classic angle values in Euclidean geometry.",
+  "used_in_proofs": [
+    "Trigonometric value derivations",
+    "Angle-chasing in regular pentagons",
+    "Isosceles triangle problems involving 36°, 72°, 108°"
+  ],
+  "strength_score": 4
   }
+
 
 ]

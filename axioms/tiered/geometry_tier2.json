@@ -854,5 +854,41 @@
   "used_in_proofs": ["ReflectionProblems", "SymmetryArguments"],
   "used_in_systems": ["Geometry"],
   "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO54",
+  "name": "Pythagorean Identity",
+  "statement": "sin²(θ) + cos²(θ) = 1 for all real θ.",
+  "tags": ["trigonometry", "identity"],
+  "used_in_proofs": ["double angle", "simplification"],
+  "philosophy": "This identity reflects the unit circle definition of sine and cosine.",
+  "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO55",
+  "name": "Cosine Double Angle",
+  "statement": "cos(2θ) = 2cos²(θ) − 1 = 1 − 2sin²(θ)",
+  "tags": ["trigonometry", "identity", "double angle"],
+  "used_in_proofs": ["trig transformations"],
+  "philosophy": "Relates angle doubling to squared trig functions.",
+  "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO56",
+  "name": "Sine Double Angle",
+  "statement": "sin(2θ) = 2sin(θ)cos(θ)",
+  "tags": ["trigonometry", "identity", "double angle"],
+  "used_in_proofs": ["area of triangle", "oscillations"],
+  "philosophy": "Expresses angle doubling in terms of base functions.",
+  "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO57",
+  "name": "Cosine Angle Sum",
+  "statement": "cos(A + B) = cos A cos B − sin A sin B",
+  "tags": ["trigonometry", "identity", "angle sum"],
+  "used_in_proofs": ["rotation", "vector angle calculations"],
+  "philosophy": "Foundation for general angle manipulations.",
+  "strength_score": 0.9
   }
 ]

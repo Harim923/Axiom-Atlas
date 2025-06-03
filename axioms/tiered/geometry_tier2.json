@@ -890,5 +890,15 @@
   "used_in_proofs": ["rotation", "vector angle calculations"],
   "philosophy": "Foundation for general angle manipulations.",
   "strength_score": 0.9
+  },
+  {
+  "id": "T2_GEO58",
+  "name": "Tangent Double Angle Formula",
+  "statement": "tan(2θ) = 2tan(θ) / (1 - tan²(θ))",
+  "tags": ["trigonometry", "double angle", "geometry", "GEO:TAN"],
+  "philosophy": "Derived from the sine and cosine double angle formulas, this identity allows transformation of a tangent function of double angle into terms of the single angle.",
+  "used_in_proofs": ["tan-to-angle-reduction", "inverse tangent problems"],
+  "strength_score": 0.9
   }
+
 ]

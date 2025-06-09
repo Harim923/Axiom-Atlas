@@ -1,0 +1,5108 @@
+[
+  {
+    "id": "TCH_ALG1_001",
+    "name": "Definition of Variable",
+    "statement": "A variable is a symbol that represents a quantity that can change or vary.",
+    "formal": "Variable: A symbol representing a changing quantity.",
+    "tags": [
+      "algebra",
+      "definition",
+      "variable"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_002",
+    "name": "Definition of Constant",
+    "statement": "A constant is a fixed value that does not change.",
+    "formal": "Constant: A value that remains unchanged.",
+    "tags": [
+      "algebra",
+      "definition",
+      "constant"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_003",
+    "name": "Definition of Term",
+    "statement": "A term is a number, a variable, or the product of numbers and variables.",
+    "formal": "Term: A number, variable, or a product of both.",
+    "tags": [
+      "algebra",
+      "definition",
+      "term"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_004",
+    "name": "Definition of Coefficient",
+    "statement": "A coefficient is the numerical factor of a term that contains a variable.",
+    "formal": "Coefficient: Numerical factor of a variable term.",
+    "tags": [
+      "algebra",
+      "definition",
+      "coefficient"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_005",
+    "name": "Definition of Expression",
+    "statement": "An expression is a mathematical phrase that can contain numbers, variables, and operation symbols.",
+    "formal": "Expression: A combination of numbers, variables, and operations.",
+    "tags": [
+      "algebra",
+      "definition",
+      "expression"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_006",
+    "name": "Evaluation of Expressions",
+    "statement": "Evaluating an expression means finding its value by substituting given numbers for variables.",
+    "formal": "Evaluation: Substitute values into variables and compute.",
+    "tags": [
+      "algebra",
+      "evaluation",
+      "calculation"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_007",
+    "name": "Definition of Like Terms",
+    "statement": "Like terms are terms that have exactly the same variable factors.",
+    "formal": "Like Terms: Terms with identical variable parts.",
+    "tags": [
+      "algebra",
+      "definition",
+      "like terms"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_008",
+    "name": "Combining Like Terms",
+    "statement": "Like terms can be combined by adding or subtracting their coefficients.",
+    "formal": "If terms are like, add or subtract coefficients.",
+    "tags": [
+      "algebra",
+      "operation",
+      "like terms"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_009",
+    "name": "Distributive Property",
+    "statement": "The distributive property states that a(b + c) = ab + ac for any numbers a, b, and c.",
+    "formal": "a(b + c) = ab + ac",
+    "tags": [
+      "algebra",
+      "property",
+      "distributive"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_010",
+    "name": "Simplification of Expressions",
+    "statement": "Simplifying an expression means writing it in the simplest form by applying operations and combining like terms.",
+    "formal": "Simplification: Apply operations and combine like terms.",
+    "tags": [
+      "algebra",
+      "simplification",
+      "expression"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_011",
+    "name": "Addition Property of Equality",
+    "statement": "Adding the same value to both sides of an equation preserves equality.",
+    "formal": "If a = b, then a + c = b + c.",
+    "tags": [
+      "algebra",
+      "property",
+      "equality"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_012",
+    "name": "Subtraction Property of Equality",
+    "statement": "Subtracting the same value from both sides of an equation preserves equality.",
+    "formal": "If a = b, then a - c = b - c.",
+    "tags": [
+      "algebra",
+      "property",
+      "equality"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_013",
+    "name": "Multiplication Property of Equality",
+    "statement": "Multiplying both sides of an equation by the same nonzero value preserves equality.",
+    "formal": "If a = b, then ac = bc, where c ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "equality"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_014",
+    "name": "Division Property of Equality",
+    "statement": "Dividing both sides of an equation by the same nonzero value preserves equality.",
+    "formal": "If a = b, then a/c = b/c, where c ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "equality"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_015",
+    "name": "Definition of Solution to an Equation",
+    "statement": "A solution to an equation makes both sides of the equation equal when substituted into the equation.",
+    "formal": "Substituting the solution into the equation yields a true statement.",
+    "tags": [
+      "algebra",
+      "definition",
+      "solution"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_016",
+    "name": "Solving a Linear Equation",
+    "statement": "To solve a linear equation, isolate the variable by performing inverse operations.",
+    "formal": "Use inverse operations to isolate the variable.",
+    "tags": [
+      "algebra",
+      "equation",
+      "solving"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_017",
+    "name": "Identity Equation",
+    "statement": "An identity is an equation that is true for all values of the variable.",
+    "formal": "An identity holds for all values in the domain.",
+    "tags": [
+      "algebra",
+      "definition",
+      "identity"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_018",
+    "name": "Contradiction Equation",
+    "statement": "A contradiction is an equation that is false for all values of the variable.",
+    "formal": "A contradiction has no solution.",
+    "tags": [
+      "algebra",
+      "definition",
+      "contradiction"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_019",
+    "name": "Transitive Property of Equality",
+    "statement": "If a = b and b = c, then a = c.",
+    "formal": "a = b and b = c ⇒ a = c",
+    "tags": [
+      "algebra",
+      "property",
+      "transitive"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_020",
+    "name": "Substitution Property of Equality",
+    "statement": "If two values are equal, one can be substituted for the other in any expression.",
+    "formal": "If a = b, then a can replace b in any expression.",
+    "tags": [
+      "algebra",
+      "property",
+      "substitution"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_021",
+    "name": "Definition of Opposite",
+    "statement": "The opposite of a number is the number with the same absolute value but opposite sign.",
+    "formal": "Opposite of a is -a.",
+    "tags": [
+      "algebra",
+      "definition",
+      "opposite"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_022",
+    "name": "Definition of Reciprocal",
+    "statement": "The reciprocal of a nonzero number a is 1 divided by a.",
+    "formal": "Reciprocal of a (a ≠ 0) is 1/a.",
+    "tags": [
+      "algebra",
+      "definition",
+      "reciprocal"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_023",
+    "name": "Multiplicative Inverse Property",
+    "statement": "The product of a number and its reciprocal is 1.",
+    "formal": "a × (1/a) = 1, for a ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "multiplicative inverse"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_024",
+    "name": "Additive Inverse Property",
+    "statement": "The sum of a number and its opposite is 0.",
+    "formal": "a + (-a) = 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "additive inverse"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_025",
+    "name": "Commutative Property of Addition",
+    "statement": "Changing the order of addends does not change the sum.",
+    "formal": "a + b = b + a",
+    "tags": [
+      "algebra",
+      "property",
+      "commutative"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_026",
+    "name": "Commutative Property of Multiplication",
+    "statement": "Changing the order of factors does not change the product.",
+    "formal": "ab = ba",
+    "tags": [
+      "algebra",
+      "property",
+      "commutative"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_027",
+    "name": "Associative Property of Addition",
+    "statement": "The grouping of addends does not change the sum.",
+    "formal": "(a + b) + c = a + (b + c)",
+    "tags": [
+      "algebra",
+      "property",
+      "associative"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_028",
+    "name": "Associative Property of Multiplication",
+    "statement": "The grouping of factors does not change the product.",
+    "formal": "(ab)c = a(bc)",
+    "tags": [
+      "algebra",
+      "property",
+      "associative"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_029",
+    "name": "Distributive Property over Addition",
+    "statement": "Multiplying a sum by a number gives the same result as multiplying each addend by the number and then adding.",
+    "formal": "a(b + c) = ab + ac",
+    "tags": [
+      "algebra",
+      "property",
+      "distributive"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_030",
+    "name": "Simplifying Expressions with Distributive Property",
+    "statement": "To simplify expressions with parentheses, apply the distributive property first, then combine like terms.",
+    "formal": "Expand parentheses using distributive law, then combine like terms.",
+    "tags": [
+      "algebra",
+      "simplification",
+      "distributive"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_031",
+    "name": "Multiplying Integers with Same Sign",
+    "statement": "The product of two integers with the same sign is positive.",
+    "formal": "If a and b have the same sign, then ab > 0.",
+    "tags": [
+      "algebra",
+      "integer",
+      "multiplication"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_032",
+    "name": "Multiplying Integers with Different Signs",
+    "statement": "The product of two integers with different signs is negative.",
+    "formal": "If a and b have different signs, then ab < 0.",
+    "tags": [
+      "algebra",
+      "integer",
+      "multiplication"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_033",
+    "name": "Dividing Integers with Same Sign",
+    "statement": "The quotient of two integers with the same sign is positive.",
+    "formal": "If a and b have the same sign, then a ÷ b > 0.",
+    "tags": [
+      "algebra",
+      "integer",
+      "division"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_034",
+    "name": "Dividing Integers with Different Signs",
+    "statement": "The quotient of two integers with different signs is negative.",
+    "formal": "If a and b have different signs, then a ÷ b < 0.",
+    "tags": [
+      "algebra",
+      "integer",
+      "division"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_035",
+    "name": "Order of Operations (PEMDAS)",
+    "statement": "When simplifying expressions, perform operations in the order: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).",
+    "formal": "Follow the order: Parentheses → Exponents → Multiplication/Division → Addition/Subtraction.",
+    "tags": [
+      "algebra",
+      "operation",
+      "order"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_036",
+    "name": "Exponent of 0",
+    "statement": "Any nonzero number raised to the power of 0 is 1.",
+    "formal": "For a ≠ 0, a^0 = 1.",
+    "tags": [
+      "algebra",
+      "exponent",
+      "property"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_037",
+    "name": "Exponent of 1",
+    "statement": "Any number raised to the power of 1 is the number itself.",
+    "formal": "a^1 = a.",
+    "tags": [
+      "algebra",
+      "exponent",
+      "property"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_038",
+    "name": "Product of Powers Property",
+    "statement": "When multiplying two powers with the same base, add the exponents.",
+    "formal": "a^m × a^n = a^{m+n}",
+    "tags": [
+      "algebra",
+      "exponent",
+      "property"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_039",
+    "name": "Power of a Power Property",
+    "statement": "When raising a power to another power, multiply the exponents.",
+    "formal": "(a^m)^n = a^{mn}",
+    "tags": [
+      "algebra",
+      "exponent",
+      "property"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_040",
+    "name": "Power of a Product Property",
+    "statement": "When raising a product to a power, raise each factor to the power.",
+    "formal": "(ab)^n = a^n × b^n",
+    "tags": [
+      "algebra",
+      "exponent",
+      "property"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_041",
+    "name": "Quotient of Powers Property",
+    "statement": "When dividing two powers with the same base, subtract the exponents.",
+    "formal": "a^m ÷ a^n = a^{m-n}, where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "exponent",
+      "property"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_042",
+    "name": "Negative Exponent Rule",
+    "statement": "A nonzero number raised to a negative exponent equals the reciprocal of the number raised to the opposite positive exponent.",
+    "formal": "a^{-n} = 1/a^n, where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "exponent",
+      "negative exponent"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_043",
+    "name": "Zero Rule for Multiplication",
+    "statement": "Any number multiplied by zero equals zero.",
+    "formal": "a × 0 = 0",
+    "tags": [
+      "algebra",
+      "property",
+      "multiplication"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_044",
+    "name": "Division by Zero Undefined",
+    "statement": "Division by zero is undefined.",
+    "formal": "a ÷ 0 is undefined.",
+    "tags": [
+      "algebra",
+      "definition",
+      "division"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_045",
+    "name": "Simplifying Complex Expressions",
+    "statement": "When simplifying complex expressions, apply order of operations, properties of exponents, and combine like terms where possible.",
+    "formal": "Apply PEMDAS, exponent laws, and like terms combination in order.",
+    "tags": [
+      "algebra",
+      "simplification",
+      "expression"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_046",
+    "name": "Definition of Absolute Value",
+    "statement": "The absolute value of a number is its distance from zero on the number line.",
+    "formal": "|a| = a if a ≥ 0, and |a| = -a if a < 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "absolute value"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_047",
+    "name": "Properties of Absolute Value",
+    "statement": "Absolute value properties: |ab| = |a||b|, |a/b| = |a|/|b| (b ≠ 0), and |a| ≥ 0.",
+    "formal": "|ab| = |a||b|, |a/b| = |a|/|b| (b ≠ 0), |a| ≥ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "absolute value"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_048",
+    "name": "Definition of Rational Numbers",
+    "statement": "Rational numbers are numbers that can be expressed as a fraction a/b where a and b are integers and b ≠ 0.",
+    "formal": "Rational Number: a/b, where a, b ∈ ℤ, b ≠ 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "rational numbers"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_049",
+    "name": "Definition of Irrational Numbers",
+    "statement": "Irrational numbers are real numbers that cannot be expressed as a fraction of two integers.",
+    "formal": "Irrational Number: Real number not expressible as a/b where a, b ∈ ℤ, b ≠ 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "irrational numbers"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_050",
+    "name": "Additive Identity Property",
+    "statement": "The additive identity property states that a number plus zero is the number itself.",
+    "formal": "a + 0 = a.",
+    "tags": [
+      "algebra",
+      "property",
+      "additive identity"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_051",
+    "name": "Multiplicative Identity Property",
+    "statement": "The multiplicative identity property states that a number multiplied by one is the number itself.",
+    "formal": "a × 1 = a.",
+    "tags": [
+      "algebra",
+      "property",
+      "multiplicative identity"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_052",
+    "name": "Closure Property of Addition",
+    "statement": "The sum of any two integers (or rational numbers) is an integer (or rational number).",
+    "formal": "If a, b ∈ ℤ (or ℚ), then a + b ∈ ℤ (or ℚ).",
+    "tags": [
+      "algebra",
+      "property",
+      "closure"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_053",
+    "name": "Closure Property of Multiplication",
+    "statement": "The product of any two integers (or rational numbers) is an integer (or rational number).",
+    "formal": "If a, b ∈ ℤ (or ℚ), then ab ∈ ℤ (or ℚ).",
+    "tags": [
+      "algebra",
+      "property",
+      "closure"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_054",
+    "name": "Substitution Principle",
+    "statement": "If two values are equal, one can be substituted for the other in any expression without changing the value.",
+    "formal": "If a = b, then a can replace b in any expression.",
+    "tags": [
+      "algebra",
+      "property",
+      "substitution"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_055",
+    "name": "Definition of Real Numbers",
+    "statement": "Real numbers consist of all rational and irrational numbers.",
+    "formal": "ℝ = ℚ ∪ (irrational numbers).",
+    "tags": [
+      "algebra",
+      "definition",
+      "real numbers"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_056",
+    "name": "Definition of Polynomial Expression",
+    "statement": "A polynomial expression is a sum of terms consisting of variables raised to non-negative integer exponents and multiplied by coefficients.",
+    "formal": "Polynomial: Sum of terms ax^n where a ∈ ℝ and n ∈ ℕ₀.",
+    "tags": [
+      "algebra",
+      "definition",
+      "polynomial"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_057",
+    "name": "Extended Definition of Like Terms",
+    "statement": "Like terms are terms that have exactly the same variable factors with the same exponents.",
+    "formal": "Like Terms: Identical variables with identical exponents.",
+    "tags": [
+      "algebra",
+      "definition",
+      "like terms"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_058",
+    "name": "Combining Like Terms Rule",
+    "statement": "Like terms can be combined by adding or subtracting their coefficients while keeping the variable part unchanged.",
+    "formal": "If terms are like, add or subtract coefficients; variable part remains the same.",
+    "tags": [
+      "algebra",
+      "operation",
+      "like terms"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_059",
+    "name": "Distributive Property over Subtraction",
+    "statement": "The distributive property applies to subtraction: a(b - c) = ab - ac.",
+    "formal": "a(b - c) = ab - ac",
+    "tags": [
+      "algebra",
+      "property",
+      "distributive"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_060",
+    "name": "Simplifying Nested Parentheses",
+    "statement": "When simplifying expressions with nested parentheses, expand from the innermost set outward, applying distributive property at each step.",
+    "formal": "Expand innermost parentheses first, then outward, using distributive law.",
+    "tags": [
+      "algebra",
+      "simplification",
+      "parentheses"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_061",
+    "name": "Coefficient Manipulation Rule",
+    "statement": "When combining terms, operate only on the coefficients, not on the variable parts.",
+    "formal": "Coefficients are added or subtracted; variables remain unchanged.",
+    "tags": [
+      "algebra",
+      "operation",
+      "coefficient"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_062",
+    "name": "Addition and Subtraction of Unlike Terms",
+    "statement": "Unlike terms cannot be combined; they must remain separate in the simplified expression.",
+    "formal": "Unlike terms cannot be combined through addition or subtraction.",
+    "tags": [
+      "algebra",
+      "operation",
+      "unlike terms"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_063",
+    "name": "General Simplification Strategy",
+    "statement": "When simplifying expressions, first remove parentheses, then combine like terms, and finally perform any remaining operations.",
+    "formal": "Simplification order: Expand parentheses → Combine like terms → Final operations.",
+    "tags": [
+      "algebra",
+      "simplification",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_064",
+    "name": "Definition of Two-Variable Equation",
+    "statement": "A two-variable linear equation is an equation that can be written in the form ax + by = c, where a, b, and c are real numbers and at least one of a or b is nonzero.",
+    "formal": "ax + by = c where a, b, c ∈ ℝ and (a, b) ≠ (0, 0).",
+    "tags": [
+      "algebra",
+      "definition",
+      "two-variable equation"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_065",
+    "name": "Solution of Two-Variable Equation",
+    "statement": "A solution of a two-variable equation is an ordered pair (x, y) that makes the equation true when substituted.",
+    "formal": "If ax + by = c after substituting (x, y), then (x, y) is a solution.",
+    "tags": [
+      "algebra",
+      "solution",
+      "two-variable equation"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_066",
+    "name": "Substitution Principle for Two Variables",
+    "statement": "If a variable is expressed in terms of another, it can be substituted into an equation to reduce the number of variables.",
+    "formal": "If y = f(x), then substitute f(x) for y.",
+    "tags": [
+      "algebra",
+      "substitution",
+      "two-variable"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_067",
+    "name": "Solving for a Variable in Two-Variable Equation",
+    "statement": "To solve for a variable in a two-variable equation, isolate the target variable using inverse operations.",
+    "formal": "Use inverse operations to express one variable in terms of the other.",
+    "tags": [
+      "algebra",
+      "solving",
+      "two-variable"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_068",
+    "name": "Rearrangement Property",
+    "statement": "Terms can be moved to the other side of an equation by applying the opposite operation to both sides.",
+    "formal": "a + b = c ⇨ a = c - b, and similar rearrangements.",
+    "tags": [
+      "algebra",
+      "property",
+      "rearrangement"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_069",
+    "name": "Symmetric Property of Equality",
+    "statement": "If a = b, then b = a.",
+    "formal": "a = b ⇨ b = a.",
+    "tags": [
+      "algebra",
+      "property",
+      "equality"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_070",
+    "name": "Definition of Ratio",
+    "statement": "A ratio is a comparison of two quantities by division.",
+    "formal": "Ratio of a to b is a/b, where b ≠ 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "ratio"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_071",
+    "name": "Definition of Proportion",
+    "statement": "A proportion is an equation that states two ratios are equal.",
+    "formal": "Proportion: a/b = c/d, where b ≠ 0 and d ≠ 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "proportion"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_072",
+    "name": "Cross Multiplication Property",
+    "statement": "If two ratios are equal, then the cross products are equal: a/b = c/d implies ad = bc.",
+    "formal": "If a/b = c/d, then ad = bc.",
+    "tags": [
+      "algebra",
+      "property",
+      "proportion"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_073",
+    "name": "Scaling Property of Ratios",
+    "statement": "Multiplying or dividing both terms of a ratio by the same nonzero number does not change the ratio.",
+    "formal": "a/b = (ka)/(kb), where k ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "ratio"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_074",
+    "name": "Solving Proportion Rule",
+    "statement": "To solve a proportion, cross-multiply and solve the resulting equation.",
+    "formal": "From a/b = c/d, deduce ad = bc and solve for the unknown.",
+    "tags": [
+      "algebra",
+      "solving",
+      "proportion"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_075",
+    "name": "Definition of Unit Rate",
+    "statement": "A unit rate compares a quantity to one unit of another quantity.",
+    "formal": "Unit rate: a quantity expressed per 1 unit.",
+    "tags": [
+      "algebra",
+      "definition",
+      "unit rate"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_076",
+    "name": "Definition of Slope",
+    "statement": "The slope of a line measures the steepness of the line and is the ratio of the vertical change to the horizontal change between two points on the line.",
+    "formal": "Slope m = (change in y)/(change in x) = (y₂ - y₁)/(x₂ - x₁), x₁ ≠ x₂.",
+    "tags": [
+      "algebra",
+      "definition",
+      "slope"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_077",
+    "name": "Definition of y-Intercept",
+    "statement": "The y-intercept of a line is the point where the line crosses the y-axis.",
+    "formal": "The y-coordinate when x = 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "y-intercept"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_078",
+    "name": "Slope Formula Between Two Points",
+    "statement": "The slope between two distinct points (x₁, y₁) and (x₂, y₂) is given by m = (y₂ - y₁)/(x₂ - x₁).",
+    "formal": "m = (y₂ - y₁)/(x₂ - x₁), x₁ ≠ x₂.",
+    "tags": [
+      "algebra",
+      "formula",
+      "slope"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_079",
+    "name": "Equation of Line (Slope and Intercept Form)",
+    "statement": "The equation of a line with slope m and y-intercept b is y = mx + b.",
+    "formal": "y = mx + b.",
+    "tags": [
+      "algebra",
+      "equation",
+      "line"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_080",
+    "name": "Equation of Line Given Two Points",
+    "statement": "To find the equation of a line given two points, first find the slope using the slope formula, then use point-slope form to derive the equation.",
+    "formal": "Use m = (y₂ - y₁)/(x₂ - x₁), then y - y₁ = m(x - x₁).",
+    "tags": [
+      "algebra",
+      "equation",
+      "two points"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_081",
+    "name": "Horizontal and Vertical Line Interpretation",
+    "statement": "A horizontal line has equation y = constant and slope 0. A vertical line has equation x = constant and undefined slope.",
+    "formal": "Horizontal: y = k (m = 0); Vertical: x = k (slope undefined).",
+    "tags": [
+      "algebra",
+      "special cases",
+      "lines"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_082",
+    "name": "Definition of Inequality Symbols",
+    "statement": "The inequality symbols <, ≤, >, and ≥ represent 'less than', 'less than or equal to', 'greater than', and 'greater than or equal to', respectively.",
+    "formal": "<: less than, ≤: less than or equal to, >: greater than, ≥: greater than or equal to.",
+    "tags": [
+      "algebra",
+      "definition",
+      "inequalities"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_083",
+    "name": "Addition and Subtraction Property of Inequalities",
+    "statement": "Adding or subtracting the same number on both sides of an inequality does not change the direction of the inequality.",
+    "formal": "If a < b, then a + c < b + c and a - c < b - c.",
+    "tags": [
+      "algebra",
+      "property",
+      "inequalities"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_084",
+    "name": "Multiplication and Division Property of Inequalities",
+    "statement": "When multiplying or dividing both sides of an inequality by a positive number, the inequality direction remains the same. When multiplying or dividing by a negative number, the inequality direction reverses.",
+    "formal": "If a < b and c > 0, then ac < bc. If c < 0, then ac > bc.",
+    "tags": [
+      "algebra",
+      "property",
+      "inequalities"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_085",
+    "name": "Solving Inequalities by Inverse Operations",
+    "statement": "To solve an inequality, isolate the variable using inverse operations, carefully adjusting the direction of the inequality if multiplying or dividing by a negative number.",
+    "formal": "Apply inverse operations; flip inequality if multiplying/dividing by negative.",
+    "tags": [
+      "algebra",
+      "solving",
+      "inequalities"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_086",
+    "name": "Compound Inequalities Rule",
+    "statement": "A compound inequality consists of two inequalities joined by 'and' or 'or' and can be solved by solving each part individually.",
+    "formal": "Solve each inequality separately, then find the intersection (and) or union (or) of solutions.",
+    "tags": [
+      "algebra",
+      "compound",
+      "inequalities"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_087",
+    "name": "Definition of Quadratic Expression",
+    "statement": "A quadratic expression is a polynomial expression of degree 2, typically written as ax² + bx + c, where a, b, and c are real numbers and a ≠ 0.",
+    "formal": "Quadratic Expression: ax² + bx + c where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "quadratic expression"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_088",
+    "name": "Definition of Quadratic Equation",
+    "statement": "A quadratic equation is an equation that can be written in the form ax² + bx + c = 0, where a, b, and c are real numbers and a ≠ 0.",
+    "formal": "Quadratic Equation: ax² + bx + c = 0 where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "quadratic equation"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_089",
+    "name": "Definition of Square Root",
+    "statement": "The square root of a non-negative number a is the non-negative number x such that x² = a.",
+    "formal": "If x ≥ 0 and x² = a, then x = √a.",
+    "tags": [
+      "algebra",
+      "definition",
+      "square root"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_090",
+    "name": "Solving Simple Quadratic Equations",
+    "statement": "To solve an equation of the form x² = a, take the positive and negative square roots: x = ±√a.",
+    "formal": "If x² = a, then x = ±√a.",
+    "tags": [
+      "algebra",
+      "solving",
+      "quadratic"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_091",
+    "name": "Principle of Two Solutions for Square Roots",
+    "statement": "An equation of the form x² = a (for a > 0) has exactly two real solutions: √a and -√a.",
+    "formal": "Solutions are x = √a and x = -√a.",
+    "tags": [
+      "algebra",
+      "principle",
+      "square root"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_092",
+    "name": "Definition of Factoring",
+    "statement": "Factoring is the process of writing a mathematical expression as a product of its factors.",
+    "formal": "Rewrite an expression as a product of simpler expressions.",
+    "tags": [
+      "algebra",
+      "definition",
+      "factoring"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_093",
+    "name": "GCF Factoring Rule",
+    "statement": "The greatest common factor (GCF) of all terms can be factored out from a polynomial.",
+    "formal": "Factor out GCF common to all terms.",
+    "tags": [
+      "algebra",
+      "factoring",
+      "gcf"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_094",
+    "name": "Factoring Quadratic Trinomials",
+    "statement": "A quadratic trinomial ax² + bx + c can often be factored into the product of two binomials.",
+    "formal": "ax² + bx + c = (dx + e)(fx + g), where d, e, f, g ∈ ℝ.",
+    "tags": [
+      "algebra",
+      "factoring",
+      "quadratic"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_095",
+    "name": "Factoring Perfect Square Trinomials",
+    "statement": "A trinomial of the form a² + 2ab + b² can be factored as (a + b)², and a² - 2ab + b² can be factored as (a - b)².",
+    "formal": "a² + 2ab + b² = (a+b)²; a² - 2ab + b² = (a-b)².",
+    "tags": [
+      "algebra",
+      "factoring",
+      "perfect square"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_096",
+    "name": "Factoring Difference of Squares",
+    "statement": "An expression of the form a² - b² can be factored as (a + b)(a - b).",
+    "formal": "a² - b² = (a+b)(a-b).",
+    "tags": [
+      "algebra",
+      "factoring",
+      "difference of squares"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_097",
+    "name": "Definition of Imaginary Unit",
+    "statement": "The imaginary unit i is defined as the number satisfying i² = -1.",
+    "formal": "i² = -1.",
+    "tags": [
+      "algebra",
+      "definition",
+      "imaginary unit"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_098",
+    "name": "Definition of Complex Number",
+    "statement": "A complex number is a number of the form a + bi, where a and b are real numbers and i is the imaginary unit.",
+    "formal": "Complex Number: a + bi where a, b ∈ ℝ.",
+    "tags": [
+      "algebra",
+      "definition",
+      "complex number"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_099",
+    "name": "Addition and Subtraction of Complex Numbers",
+    "statement": "To add or subtract complex numbers, add or subtract their real parts and their imaginary parts separately.",
+    "formal": "(a + bi) ± (c + di) = (a ± c) + (b ± d)i.",
+    "tags": [
+      "algebra",
+      "operation",
+      "complex numbers"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_100",
+    "name": "Multiplication of Complex Numbers",
+    "statement": "To multiply two complex numbers, apply the distributive property and use the fact that i² = -1.",
+    "formal": "(a + bi)(c + di) = (ac - bd) + (ad + bc)i.",
+    "tags": [
+      "algebra",
+      "operation",
+      "complex numbers"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_101",
+    "name": "Powers of i Rule",
+    "statement": "The powers of i cycle every 4: i¹ = i, i² = -1, i³ = -i, i⁴ = 1, and repeat.",
+    "formal": "i¹ = i, i² = -1, i³ = -i, i⁴ = 1, and cycle repeats.",
+    "tags": [
+      "algebra",
+      "property",
+      "imaginary unit"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_102",
+    "name": "Definition of Completing the Square",
+    "statement": "Completing the square is the process of rewriting a quadratic expression as a perfect square trinomial plus or minus a constant.",
+    "formal": "Rewrite ax² + bx + c as (x + d)² + e or a variant after adjustment.",
+    "tags": [
+      "algebra",
+      "definition",
+      "completing the square"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_103",
+    "name": "Completing the Square Formula (Monic Quadratic)",
+    "statement": "For a monic quadratic expression x² + bx, completing the square involves adding (b/2)² to form (x + b/2)².",
+    "formal": "x² + bx = (x + b/2)² - (b/2)² + bx.",
+    "tags": [
+      "algebra",
+      "formula",
+      "completing the square"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_104",
+    "name": "Completing the Square for Non-Monic Quadratics",
+    "statement": "For a quadratic with leading coefficient a ≠ 1, divide through by a before completing the square.",
+    "formal": "ax² + bx + c → (x + b/2a)² after dividing by a.",
+    "tags": [
+      "algebra",
+      "technique",
+      "completing the square"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_105",
+    "name": "Solving Quadratic Equations by Completing the Square",
+    "statement": "To solve a quadratic by completing the square, complete the square, isolate the squared term, and take the square root of both sides.",
+    "formal": "Complete square → isolate square term → apply ±√.",
+    "tags": [
+      "algebra",
+      "solving",
+      "quadratic"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_106",
+    "name": "Perfect Square Recognition Rule",
+    "statement": "An expression of the form (x + d)² or (x - d)² is a perfect square trinomial.",
+    "formal": "(x + d)² = x² + 2dx + d².",
+    "tags": [
+      "algebra",
+      "recognition",
+      "perfect square"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_107",
+    "name": "Definition of Parabola",
+    "statement": "The graph of a quadratic function y = ax² + bx + c is called a parabola.",
+    "formal": "A parabola is the graph of a function y = ax² + bx + c where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "definition",
+      "parabola"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_108",
+    "name": "Direction of Parabola",
+    "statement": "If a > 0, the parabola opens upward. If a < 0, the parabola opens downward.",
+    "formal": "a > 0 → opens upward; a < 0 → opens downward.",
+    "tags": [
+      "algebra",
+      "property",
+      "parabola"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_109",
+    "name": "Vertex Formula",
+    "statement": "The vertex of the parabola y = ax² + bx + c occurs at x = -b/(2a).",
+    "formal": "Vertex x-coordinate: x = -b/(2a).",
+    "tags": [
+      "algebra",
+      "formula",
+      "vertex"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_110",
+    "name": "Axis of Symmetry",
+    "statement": "The axis of symmetry of a parabola is the vertical line that passes through its vertex.",
+    "formal": "Axis of symmetry: x = -b/(2a).",
+    "tags": [
+      "algebra",
+      "definition",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_111",
+    "name": "Maximum and Minimum Value of Parabola",
+    "statement": "If the parabola opens upward, the vertex represents the minimum value. If it opens downward, the vertex represents the maximum value.",
+    "formal": "a > 0 → vertex is minimum; a < 0 → vertex is maximum.",
+    "tags": [
+      "algebra",
+      "property",
+      "extrema"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_112",
+    "name": "Definition of Function",
+    "statement": "A function is a relation that assigns exactly one output value to each input value.",
+    "formal": "For each input x, there is exactly one output y.",
+    "tags": [
+      "algebra",
+      "definition",
+      "function"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_113",
+    "name": "Definition of Function Notation",
+    "statement": "Function notation f(x) represents the output value of function f corresponding to input x.",
+    "formal": "f(x) denotes the output when the input is x.",
+    "tags": [
+      "algebra",
+      "notation",
+      "function"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_114",
+    "name": "Finding Function Values",
+    "statement": "To find the value of a function at a given input, substitute the input value into the function expression.",
+    "formal": "Evaluate f(a) by substituting a for x in f(x).",
+    "tags": [
+      "algebra",
+      "evaluation",
+      "function"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_115",
+    "name": "Definition of Domain and Range",
+    "statement": "The domain of a function is the set of all possible input values, and the range is the set of all possible output values.",
+    "formal": "Domain: all possible x-values; Range: all possible f(x)-values.",
+    "tags": [
+      "algebra",
+      "definition",
+      "domain and range"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_116",
+    "name": "Distinguishing Functions from Relations",
+    "statement": "A relation is a function if and only if no input value maps to more than one output value.",
+    "formal": "Each x corresponds to exactly one y for a relation to be a function.",
+    "tags": [
+      "algebra",
+      "definition",
+      "relation vs function"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_117",
+    "name": "Translation of Graphs",
+    "statement": "Translating a graph horizontally by h units and vertically by k units shifts the graph of y = f(x) to y = f(x-h) + k.",
+    "formal": "Translation: y = f(x-h) + k shifts graph right h units and up k units.",
+    "tags": [
+      "algebra",
+      "transformation",
+      "translation"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_118",
+    "name": "Reflection Across Axes",
+    "statement": "Reflecting a graph across the x-axis transforms y = f(x) to y = -f(x). Reflecting across the y-axis transforms y = f(x) to y = f(-x).",
+    "formal": "Reflection: x-axis → y = -f(x); y-axis → y = f(-x).",
+    "tags": [
+      "algebra",
+      "transformation",
+      "reflection"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_119",
+    "name": "Vertical Stretch and Compression",
+    "statement": "Multiplying the output of a function by a factor a stretches or compresses the graph vertically: y = af(x).",
+    "formal": "Vertical Stretch: a > 1; Vertical Compression: 0 < a < 1.",
+    "tags": [
+      "algebra",
+      "transformation",
+      "vertical stretch compression"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_120",
+    "name": "Horizontal Stretch and Compression",
+    "statement": "Multiplying the input of a function by a factor b stretches or compresses the graph horizontally: y = f(bx).",
+    "formal": "Horizontal Compression: b > 1; Horizontal Stretch: 0 < b < 1.",
+    "tags": [
+      "algebra",
+      "transformation",
+      "horizontal stretch compression"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_121",
+    "name": "Combined Transformations",
+    "statement": "When multiple transformations are applied, perform horizontal transformations first, then reflections, stretches/compressions, and finally vertical translations.",
+    "formal": "Order: Horizontal shift → Reflection/stretch/compression → Vertical shift.",
+    "tags": [
+      "algebra",
+      "transformation",
+      "combined"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_122",
+    "name": "Addition and Subtraction of Polynomials",
+    "statement": "To add or subtract polynomials, combine like terms by adding or subtracting their coefficients.",
+    "formal": "Group like terms and perform addition or subtraction of coefficients.",
+    "tags": [
+      "algebra",
+      "operation",
+      "polynomials"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_123",
+    "name": "Multiplication of a Monomial and a Polynomial",
+    "statement": "To multiply a monomial by a polynomial, apply the distributive property to each term of the polynomial.",
+    "formal": "Distribute the monomial to each term inside the parentheses.",
+    "tags": [
+      "algebra",
+      "operation",
+      "polynomials"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_124",
+    "name": "Multiplication of Two Polynomials",
+    "statement": "To multiply two polynomials, apply the distributive property across all terms: each term in the first polynomial multiplies every term in the second polynomial.",
+    "formal": "Apply distributive property fully: (a+b)(c+d) = ac + ad + bc + bd.",
+    "tags": [
+      "algebra",
+      "operation",
+      "polynomials"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_125",
+    "name": "Recognition of Special Products",
+    "statement": "Recognize and simplify common special products like perfect square trinomials and difference of squares when expanding polynomials.",
+    "formal": "Identify patterns such as (a+b)² and (a+b)(a-b).",
+    "tags": [
+      "algebra",
+      "recognition",
+      "special products"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_126",
+    "name": "Definition of Mean",
+    "statement": "The mean of a data set is the sum of all data values divided by the number of values.",
+    "formal": "Mean = (sum of data values) / (number of data values).",
+    "tags": [
+      "statistics",
+      "definition",
+      "mean"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_127",
+    "name": "Definition of Median",
+    "statement": "The median of a data set is the middle value when the data are arranged in order. If there are an even number of values, the median is the mean of the two middle values.",
+    "formal": "Median = middle value or average of two middle values after ordering.",
+    "tags": [
+      "statistics",
+      "definition",
+      "median"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_128",
+    "name": "Definition of Mode",
+    "statement": "The mode of a data set is the value or values that occur most frequently.",
+    "formal": "Mode = value(s) occurring with highest frequency.",
+    "tags": [
+      "statistics",
+      "definition",
+      "mode"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_129",
+    "name": "Definition of Range",
+    "statement": "The range of a data set is the difference between the greatest and least data values.",
+    "formal": "Range = maximum value - minimum value.",
+    "tags": [
+      "statistics",
+      "definition",
+      "range"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_130",
+    "name": "Interpretation of Data Sets",
+    "statement": "Interpretation of a data set involves analyzing measures such as mean, median, mode, and range to describe the distribution.",
+    "formal": "Use measures of center and spread to describe data distribution.",
+    "tags": [
+      "statistics",
+      "interpretation",
+      "data analysis"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_131",
+    "name": "Product of Powers Property",
+    "statement": "When multiplying two expressions with the same base, add the exponents.",
+    "formal": "a^m × a^n = a^{m+n}, where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "exponents"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_132",
+    "name": "Power of a Power Property",
+    "statement": "When raising a power to another power, multiply the exponents.",
+    "formal": "(a^m)^n = a^{mn}, where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "exponents"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_133",
+    "name": "Negative Exponent Property",
+    "statement": "A negative exponent represents the reciprocal of the base raised to the positive exponent.",
+    "formal": "a^{-n} = 1/a^n, where a ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "exponents"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_134",
+    "name": "Definition of Rational Exponent",
+    "statement": "A rational exponent represents a root: a^{1/n} is the nth root of a.",
+    "formal": "a^{1/n} = √[n]{a}, where a ≥ 0 for real numbers.",
+    "tags": [
+      "algebra",
+      "definition",
+      "rational exponents"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_135",
+    "name": "Radical Multiplication and Division Rules",
+    "statement": "The product or quotient of radicals can be written as the radical of the product or quotient.",
+    "formal": "√a × √b = √(ab), √(a/b) = √a/√b, where a, b ≥ 0 and b ≠ 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "radicals"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_136",
+    "name": "Definition of Arithmetic Sequence",
+    "statement": "An arithmetic sequence is a sequence of numbers in which the difference between consecutive terms is constant.",
+    "formal": "Arithmetic Sequence: a_n = a_1 + (n-1)d where d is the common difference.",
+    "tags": [
+      "algebra",
+      "definition",
+      "arithmetic sequence"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_137",
+    "name": "Definition of Geometric Sequence",
+    "statement": "A geometric sequence is a sequence of numbers in which each term after the first is found by multiplying the previous term by a constant called the common ratio.",
+    "formal": "Geometric Sequence: a_n = a_1 × r^(n-1) where r is the common ratio.",
+    "tags": [
+      "algebra",
+      "definition",
+      "geometric sequence"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_138",
+    "name": "Formula for nth Term of Arithmetic Sequence",
+    "statement": "The nth term of an arithmetic sequence can be found using the formula a_n = a_1 + (n-1)d, where a_1 is the first term and d is the common difference.",
+    "formal": "a_n = a_1 + (n-1)d.",
+    "tags": [
+      "algebra",
+      "formula",
+      "arithmetic sequence"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_139",
+    "name": "Formula for nth Term of Geometric Sequence",
+    "statement": "The nth term of a geometric sequence can be found using the formula a_n = a_1 × r^(n-1), where a_1 is the first term and r is the common ratio.",
+    "formal": "a_n = a_1 × r^(n-1).",
+    "tags": [
+      "algebra",
+      "formula",
+      "geometric sequence"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_140",
+    "name": "Sum Formula for Arithmetic Sequence",
+    "statement": "The sum of the first n terms of an arithmetic sequence can be calculated using the formula S_n = n/2 × (a_1 + a_n), where a_1 is the first term and a_n is the nth term.",
+    "formal": "S_n = n/2 × (a_1 + a_n).",
+    "tags": [
+      "algebra",
+      "sum",
+      "arithmetic sequence"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_141",
+    "name": "Definition of Probability",
+    "statement": "Probability is the measure of the likelihood of an event, calculated as the ratio of favorable outcomes to the total number of possible outcomes.",
+    "formal": "P(A) = favorable outcomes / total outcomes.",
+    "tags": [
+      "algebra",
+      "definition",
+      "probability"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_142",
+    "name": "Simple Probability Formula",
+    "statement": "The probability of a simple event is the ratio of the number of favorable outcomes to the total number of possible outcomes.",
+    "formal": "P(A) = number of favorable outcomes / total number of outcomes.",
+    "tags": [
+      "algebra",
+      "probability",
+      "simple"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_143",
+    "name": "Combination Formula (nCr)",
+    "statement": "The number of ways to choose r objects from n distinct objects without regard to order is given by the combination formula: nCr = n! / (r!(n-r)!)",
+    "formal": "nCr = n! / (r!(n-r)!)",
+    "tags": [
+      "algebra",
+      "combinatorics",
+      "probability"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_144",
+    "name": "Probability of Simple Events",
+    "statement": "The probability of simple events can be calculated using the simple probability formula.",
+    "formal": "P(simple event) = favorable outcomes / total outcomes.",
+    "tags": [
+      "algebra",
+      "probability",
+      "simple events"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_145",
+    "name": "Complementary Events Rule",
+    "statement": "The probability of the complement of an event A is given by P(A') = 1 - P(A).",
+    "formal": "P(A') = 1 - P(A).",
+    "tags": [
+      "algebra",
+      "probability",
+      "complementary events"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_146",
+    "name": "Types of Graphs",
+    "statement": "Graphs can be categorized into bar graphs, line graphs, pie charts, and histograms, each serving different purposes for data representation.",
+    "formal": "Bar graphs, line graphs, pie charts, and histograms are different ways to represent data visually.",
+    "tags": [
+      "algebra",
+      "graphing",
+      "types"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_147",
+    "name": "Graphing Data",
+    "statement": "Graphing data involves plotting data points on a coordinate plane and connecting them using appropriate graph types based on the data.",
+    "formal": "Plot data points and connect them using a bar, line, or pie chart depending on the context of the data.",
+    "tags": [
+      "algebra",
+      "graphing",
+      "data"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_148",
+    "name": "Graph Interpretation",
+    "statement": "Interpreting graphs involves analyzing the relationships between variables, trends, and patterns in the data.",
+    "formal": "Examine the graph to interpret relationships between data points and identify trends.",
+    "tags": [
+      "algebra",
+      "graphing",
+      "interpretation"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_149",
+    "name": "Relationship Between Variables in Graphs",
+    "statement": "The relationship between variables in graphs can be observed through the slope, direction, and shape of the graph.",
+    "formal": "Analyze the slope, direction, and shape of the graph to understand the relationship between the variables.",
+    "tags": [
+      "algebra",
+      "graphing",
+      "variables"
+    ]
+  },
+  {
+    "id": "TCH_ALG1_150",
+    "name": "Zero-Product Property",
+    "statement": "If the product of two expressions is zero, then at least one of the expressions is zero.",
+    "formal": "If A·B = 0, then A = 0 or B = 0.",
+    "tags": [
+      "algebra",
+      "property",
+      "equation"
+    ]
+  },
+  {
+    "id": "ALG2.001",
+    "title": "Closure Property of Real Numbers",
+    "type": "property",
+    "content": "The set of real numbers is closed under addition and multiplication. If x and y are real, then x + y and xy are also real."
+  },
+  {
+    "id": "ALG2.002",
+    "title": "Commutative Property",
+    "type": "property",
+    "content": "Changing the order of the numbers does not change the result: x + y = y + x, and xy = yx."
+  },
+  {
+    "id": "ALG2.003",
+    "title": "Associative Property",
+    "type": "property",
+    "content": "Grouping does not affect the sum or product: (x + y) + z = x + (y + z), and (xy)z = x(yz)."
+  },
+  {
+    "id": "ALG2.004",
+    "title": "Distributive Property",
+    "type": "property",
+    "content": "Multiplying a number by a sum is the same as multiplying each term and adding: x(y + z) = xy + xz."
+  },
+  {
+    "id": "ALG2.005",
+    "title": "Additive Identity",
+    "type": "property",
+    "content": "Adding 0 to any number does not change its value: x + 0 = x."
+  },
+  {
+    "id": "ALG2.006",
+    "title": "Multiplicative Identity",
+    "type": "property",
+    "content": "Multiplying a number by 1 does not change its value: x × 1 = x."
+  },
+  {
+    "id": "ALG2.007",
+    "title": "Additive Inverse",
+    "type": "property",
+    "content": "Every real number has an additive inverse: x + (−x) = 0."
+  },
+  {
+    "id": "ALG2.008",
+    "title": "Multiplicative Inverse",
+    "type": "property",
+    "content": "Every nonzero real number has a multiplicative inverse: x × (1/x) = 1 for x ≠ 0."
+  },
+  {
+    "id": "ALG2.009",
+    "title": "Real Number Line",
+    "type": "definition",
+    "content": "The real number line is a continuous, infinite line representing all real numbers, where numbers to the left of 0 are negative and to the right are positive."
+  },
+  {
+    "id": "ALG2.010",
+    "title": "Absolute Value Definition",
+    "type": "definition",
+    "content": "The absolute value |x| is the distance of x from 0 on the number line. It is always non-negative."
+  },
+  {
+    "id": "ALG2.011",
+    "title": "Distance Between Two Points",
+    "type": "property",
+    "content": "The distance between two real numbers a and b is given by |a - b|."
+  },
+  {
+    "id": "ALG2.012",
+    "title": "Evaluating Algebraic Expressions",
+    "type": "procedure",
+    "content": "To evaluate an algebraic expression, substitute known values for the variables and simplify."
+  },
+  {
+    "id": "ALG2.013",
+    "title": "Simplifying Algebraic Expressions",
+    "type": "procedure",
+    "content": "Combine like terms and apply arithmetic operations to simplify algebraic expressions."
+  },
+  {
+    "id": "ALG2.014",
+    "title": "Solving Linear Equations",
+    "type": "procedure",
+    "content": "To solve a linear equation, isolate the variable by performing inverse operations and simplifying both sides."
+  },
+  {
+    "id": "ALG2.015",
+    "title": "Golden Rule of Inequalities",
+    "type": "property",
+    "content": "When solving inequalities, reverse the inequality sign if both sides are multiplied or divided by a negative number."
+  },
+  {
+    "id": "ALG2.016",
+    "title": "Compound Inequalities",
+    "type": "definition",
+    "content": "A compound inequality joins two inequalities with 'and' (conjunction) or 'or' (disjunction)."
+  },
+  {
+    "id": "ALG2.017",
+    "title": "Absolute Value Equation",
+    "type": "procedure",
+    "content": "To solve |x - a| = b, split into two cases: x - a = b or x - a = -b."
+  },
+  {
+    "id": "ALG2.018",
+    "title": "Absolute Value Inequality (Less Than)",
+    "type": "property",
+    "content": "The inequality |x - a| < b is equivalent to a - b < x < a + b."
+  },
+  {
+    "id": "ALG2.019",
+    "title": "Absolute Value Inequality (Greater Than)",
+    "type": "property",
+    "content": "The inequality |x - a| > b is equivalent to x < a - b or x > a + b."
+  },
+  {
+    "id": "ALG2.020",
+    "title": "Definition of Relation",
+    "type": "definition",
+    "content": "A relation is a set of ordered pairs (x, y) that shows how each input x is related to an output y."
+  },
+  {
+    "id": "ALG2.021",
+    "title": "Definition of Function",
+    "type": "definition",
+    "content": "A function is a relation in which each input has exactly one output."
+  },
+  {
+    "id": "ALG2.022",
+    "title": "Vertical Line Test",
+    "type": "test",
+    "content": "If a vertical line intersects a graph more than once, the relation is not a function."
+  },
+  {
+    "id": "ALG2.023",
+    "title": "Domain and Range",
+    "type": "definition",
+    "content": "The domain is the set of all possible inputs (x-values), and the range is the set of all possible outputs (y-values) of a function."
+  },
+  {
+    "id": "ALG2.024",
+    "title": "Direct Variation",
+    "type": "definition",
+    "content": "If y varies directly with x, then y = kx for some constant k. The graph passes through the origin."
+  },
+  {
+    "id": "ALG2.025",
+    "title": "Slope-Intercept Form",
+    "type": "formula",
+    "content": "The equation of a line in slope-intercept form is y = mx + b, where m is the slope and b is the y-intercept."
+  },
+  {
+    "id": "ALG2.026",
+    "title": "Interpretation of Slope",
+    "type": "definition",
+    "content": "The slope of a line represents the rate of change of y with respect to x: m = (change in y) / (change in x)."
+  },
+  {
+    "id": "ALG2.027",
+    "title": "Parallel and Perpendicular Slopes",
+    "type": "property",
+    "content": "Parallel lines have equal slopes. Perpendicular lines have slopes that are negative reciprocals of each other."
+  },
+  {
+    "id": "ALG2.028",
+    "title": "Point-Slope Form",
+    "type": "formula",
+    "content": "The equation of a line with slope m passing through (x₁, y₁) is y - y₁ = m(x - x₁)."
+  },
+  {
+    "id": "ALG2.029",
+    "title": "Function Transformation: Vertical Shift",
+    "type": "transformation",
+    "content": "The graph of y = f(x) + k shifts the graph of y = f(x) up by k units if k > 0, or down if k < 0."
+  },
+  {
+    "id": "ALG2.030",
+    "title": "Function Transformation: Horizontal Shift",
+    "type": "transformation",
+    "content": "The graph of y = f(x - h) shifts the graph of y = f(x) to the right by h units if h > 0, or left if h < 0."
+  },
+  {
+    "id": "ALG2.031",
+    "title": "Function Transformation: Reflection",
+    "type": "transformation",
+    "content": "The graph of y = -f(x) reflects y = f(x) across the x-axis; y = f(-x) reflects across the y-axis."
+  },
+  {
+    "id": "ALG2.032",
+    "title": "Function Transformation: Dilation",
+    "type": "transformation",
+    "content": "The graph of y = a·f(x) stretches vertically if |a| > 1, compresses if 0 < |a| < 1, and reflects if a < 0."
+  },
+  {
+    "id": "ALG2.033",
+    "title": "Absolute Value Function",
+    "type": "definition",
+    "content": "The graph of y = |x| forms a 'V' shape with vertex at the origin. It is piecewise defined: y = x for x ≥ 0 and y = -x for x < 0."
+  },
+  {
+    "id": "ALG2.034",
+    "title": "Linear Inequality in Two Variables",
+    "type": "definition",
+    "content": "A linear inequality such as y < mx + b represents a region of the plane. The boundary is dashed if the inequality is strict."
+  },
+  {
+    "id": "ALG2.035",
+    "title": "Conjunctive Inequality",
+    "type": "definition",
+    "content": "A conjunctive inequality joins two conditions with 'and', meaning both must be true. It represents the intersection of the solution sets: a < x < b."
+  },
+  {
+    "id": "ALG2.036",
+    "title": "Disjunctive Inequality",
+    "type": "definition",
+    "content": "A disjunctive inequality joins two conditions with 'or', meaning either can be true. It represents the union of the solution sets: x < a or x > b."
+  },
+  {
+    "id": "ALG2.037",
+    "title": "Consistent and Inconsistent Systems",
+    "type": "definition",
+    "content": "A system of equations is consistent if it has at least one solution, and inconsistent if it has no solution."
+  },
+  {
+    "id": "ALG2.038",
+    "title": "Independent and Dependent Systems",
+    "type": "definition",
+    "content": "A system is independent if it has exactly one solution. It is dependent if the equations represent the same line and have infinitely many solutions."
+  },
+  {
+    "id": "ALG2.039",
+    "title": "Substitution Method",
+    "type": "procedure",
+    "content": "Solve one equation for a variable and substitute that expression into the other equation to find the solution."
+  },
+  {
+    "id": "ALG2.040",
+    "title": "Elimination Method",
+    "type": "procedure",
+    "content": "Add or subtract equations to eliminate one variable and solve the resulting equation."
+  },
+  {
+    "id": "ALG2.041",
+    "title": "Graphical Solution of a System",
+    "type": "definition",
+    "content": "The solution to a system of equations is the point(s) where their graphs intersect."
+  },
+  {
+    "id": "ALG2.042",
+    "title": "System of Linear Inequalities",
+    "type": "definition",
+    "content": "A system of linear inequalities represents a region where the solutions of all inequalities overlap (feasible region)."
+  },
+  {
+    "id": "ALG2.043",
+    "title": "Linear Programming",
+    "type": "definition",
+    "content": "A method to find the maximum or minimum value of a linear objective function, subject to a set of linear constraints (inequalities)."
+  },
+  {
+    "id": "ALG2.044",
+    "title": "Feasible Region",
+    "type": "definition",
+    "content": "The solution region that satisfies all the inequalities in a system, often bounded by straight lines."
+  },
+  {
+    "id": "ALG2.045",
+    "title": "Vertex Optimization Principle",
+    "type": "property",
+    "content": "For a linear programming problem, the maximum or minimum value of the objective function occurs at a vertex of the feasible region."
+  },
+  {
+    "id": "ALG2.046",
+    "title": "System of Three Variables",
+    "type": "definition",
+    "content": "A system of three equations with three unknowns can represent planes in 3D space and may intersect at a point, line, or not at all."
+  },
+  {
+    "id": "ALG2.047",
+    "title": "Standard Form of a Quadratic Function",
+    "type": "definition",
+    "content": "A quadratic function can be written in the form y = ax² + bx + c, where a, b, and c are constants and a ≠ 0."
+  },
+  {
+    "id": "ALG2.048",
+    "title": "Vertex of a Parabola (Formula)",
+    "type": "formula",
+    "content": "The vertex of the parabola y = ax² + bx + c is given by x = -b/(2a)."
+  },
+  {
+    "id": "ALG2.049",
+    "title": "Axis of Symmetry",
+    "type": "definition",
+    "content": "The axis of symmetry of a parabola y = ax² + bx + c is the vertical line x = -b/(2a)."
+  },
+  {
+    "id": "ALG2.050",
+    "title": "Factored Form of a Quadratic",
+    "type": "definition",
+    "content": "A quadratic can be factored as y = a(x - r₁)(x - r₂), where r₁ and r₂ are the roots (x-intercepts) of the function."
+  },
+  {
+    "id": "ALG2.051",
+    "title": "Vertex Form of a Quadratic",
+    "type": "definition",
+    "content": "The vertex form of a quadratic is y = a(x - h)² + k, where (h, k) is the vertex of the parabola."
+  },
+  {
+    "id": "ALG2.052",
+    "title": "Completing the Square",
+    "type": "procedure",
+    "content": "To complete the square, rewrite ax² + bx as a(x² + (b/a)x) and add/subtract (b/2a)² to form a perfect square trinomial."
+  },
+  {
+    "id": "ALG2.053",
+    "title": "Quadratic Formula",
+    "type": "formula",
+    "content": "The solutions to ax² + bx + c = 0 are x = [-b ± √(b² - 4ac)] / (2a)."
+  },
+  {
+    "id": "ALG2.054",
+    "title": "Discriminant and Nature of Roots",
+    "type": "property",
+    "content": "The discriminant Δ = b² - 4ac determines the nature of the roots: two real and distinct (Δ > 0), one real (Δ = 0), or complex (Δ < 0)."
+  },
+  {
+    "id": "ALG2.055",
+    "title": "Zero Product Property",
+    "type": "property",
+    "content": "If ab = 0, then either a = 0 or b = 0. Used to solve factored quadratic equations."
+  },
+  {
+    "id": "ALG2.056",
+    "title": "Solving Quadratic Equations by Factoring",
+    "type": "procedure",
+    "content": "To solve ax² + bx + c = 0, factor the expression and set each factor equal to zero using the Zero Product Property."
+  },
+  {
+    "id": "ALG2.057",
+    "title": "Complex Number Definition",
+    "type": "definition",
+    "content": "A complex number is a number in the form a + bi, where a and b are real numbers and i² = -1."
+  },
+  {
+    "id": "ALG2.058",
+    "title": "Conjugate of a Complex Number",
+    "type": "definition",
+    "content": "The conjugate of a + bi is a - bi. The product of a complex number and its conjugate is a² + b²."
+  },
+  {
+    "id": "ALG2.059",
+    "title": "Application of Quadratic Functions",
+    "type": "definition",
+    "content": "Quadratic functions are commonly used to model projectile motion, area problems, and optimization scenarios."
+  },
+  {
+    "id": "ALG2.060",
+    "title": "Maximum or Minimum of a Quadratic",
+    "type": "property",
+    "content": "For y = ax² + bx + c, if a > 0 the vertex is a minimum; if a < 0 the vertex is a maximum."
+  },
+  {
+    "id": "ALG2.061",
+    "title": "Word Problem Modeling with Quadratics",
+    "type": "procedure",
+    "content": "To solve word problems using quadratics, define variables, form an equation in standard or vertex form, and solve using factoring or the quadratic formula."
+  },
+  {
+    "id": "ALG2.062",
+    "title": "Solving Quadratic Inequalities",
+    "type": "procedure",
+    "content": "To solve ax² + bx + c < 0 or > 0, find roots, plot on number line, and test sign of expression in each interval."
+  },
+  {
+    "id": "ALG2.063",
+    "title": "Sign Chart for Quadratics",
+    "type": "tool",
+    "content": "A sign chart shows where a quadratic expression is positive or negative by dividing the number line at its roots."
+  },
+  {
+    "id": "ALG2.064",
+    "title": "Graphical Interpretation of Quadratic Inequality",
+    "type": "property",
+    "content": "The solution set of a quadratic inequality corresponds to the portion of the graph of y = ax² + bx + c that lies above or below the x-axis."
+  },
+  {
+    "id": "ALG2.065",
+    "title": "Set Notation for Inequality Solutions",
+    "type": "notation",
+    "content": "Solutions to inequalities can be written in set-builder or interval notation, depending on the required format."
+  },
+  {
+    "id": "ALG2.066",
+    "title": "Polynomial Definition",
+    "type": "definition",
+    "content": "A polynomial is an expression consisting of variables and coefficients, involving only non-negative integer exponents and addition, subtraction, or multiplication."
+  },
+  {
+    "id": "ALG2.067",
+    "title": "Degree of a Polynomial",
+    "type": "definition",
+    "content": "The degree of a polynomial is the highest power of the variable in the expression."
+  },
+  {
+    "id": "ALG2.068",
+    "title": "Leading Coefficient",
+    "type": "definition",
+    "content": "The leading coefficient is the coefficient of the term with the highest degree in a polynomial."
+  },
+  {
+    "id": "ALG2.069",
+    "title": "End Behavior of Polynomial Functions",
+    "type": "property",
+    "content": "The end behavior of a polynomial function depends on the sign of the leading coefficient and the degree (even or odd)."
+  },
+  {
+    "id": "ALG2.070",
+    "title": "Real Zeros of Polynomials",
+    "type": "definition",
+    "content": "The real zeros of a polynomial function are the x-values for which the function equals zero; these correspond to x-intercepts of the graph."
+  },
+  {
+    "id": "ALG2.071",
+    "title": "Multiplicity of a Zero",
+    "type": "definition",
+    "content": "If (x - r)^k is a factor of a polynomial, then r is a zero of multiplicity k. If k is even, the graph touches the axis; if odd, it crosses."
+  },
+  {
+    "id": "ALG2.072",
+    "title": "Polynomial Division: Long Division",
+    "type": "procedure",
+    "content": "Divide polynomials similarly to numbers by dividing leading terms, multiplying, subtracting, and repeating the process."
+  },
+  {
+    "id": "ALG2.073",
+    "title": "Synthetic Division",
+    "type": "procedure",
+    "content": "A shortcut method for dividing a polynomial by a linear factor of the form (x - c), using only coefficients."
+  },
+  {
+    "id": "ALG2.074",
+    "title": "Factor Theorem",
+    "type": "theorem",
+    "content": "If f(c) = 0, then (x - c) is a factor of the polynomial f(x)."
+  },
+  {
+    "id": "ALG2.075",
+    "title": "Remainder Theorem",
+    "type": "theorem",
+    "content": "When a polynomial f(x) is divided by (x - c), the remainder is f(c)."
+  },
+  {
+    "id": "ALG2.076",
+    "title": "Rational Root Theorem",
+    "type": "theorem",
+    "content": "If a rational root of a polynomial with integer coefficients exists, it must be a factor of the constant term over a factor of the leading coefficient."
+  },
+  {
+    "id": "ALG2.077",
+    "title": "Graph Behavior at Zeros",
+    "type": "property",
+    "content": "The shape of the graph near a zero depends on the zero's multiplicity: even multiplicities result in touching, odd in crossing."
+  },
+  {
+    "id": "ALG2.078",
+    "title": "Factoring Polynomials",
+    "type": "procedure",
+    "content": "To factor a polynomial, find a greatest common factor, then apply techniques such as grouping, special products, or division."
+  },
+  {
+    "id": "ALG2.079",
+    "title": "Special Factoring: Difference of Squares",
+    "type": "formula",
+    "content": "a² - b² = (a - b)(a + b)"
+  },
+  {
+    "id": "ALG2.080",
+    "title": "Special Factoring: Perfect Square Trinomial",
+    "type": "formula",
+    "content": "a² ± 2ab + b² = (a ± b)²"
+  },
+  {
+    "id": "ALG2.081",
+    "title": "Special Factoring: Sum and Difference of Cubes",
+    "type": "formula",
+    "content": "a³ ± b³ = (a ± b)(a² ∓ ab + b²)"
+  },
+  {
+    "id": "ALG2.082",
+    "title": "Guidelines for Finding Roots",
+    "type": "procedure",
+    "content": "Check rational roots using Rational Root Theorem, test values using synthetic division, then factor completely."
+  },
+  {
+    "id": "ALG2.083",
+    "title": "Using Graph to Estimate Zeros",
+    "type": "procedure",
+    "content": "Use a graph to visually locate approximate x-intercepts where the function crosses or touches the x-axis."
+  },
+  {
+    "id": "ALG2.084",
+    "title": "Polynomial Word Problem Setup",
+    "type": "procedure",
+    "content": "Define variables, construct a polynomial model for volume, area, or cost, then solve by factoring or substitution."
+  },
+  {
+    "id": "ALG2.085",
+    "title": "Polynomial Identity Verification",
+    "type": "procedure",
+    "content": "To verify an identity, expand both sides and simplify to check if they are equivalent."
+  },
+  {
+    "id": "ALG2.086",
+    "title": "Identifying Polynomial from Graph",
+    "type": "procedure",
+    "content": "Analyze a polynomial graph to determine its degree, leading coefficient sign, and possible multiplicity of real zeros."
+  },
+  {
+    "id": "ALG2.087",
+    "title": "Turning Points of a Polynomial",
+    "type": "property",
+    "content": "A polynomial of degree n has at most n - 1 turning points (local maxima or minima)."
+  },
+  {
+    "id": "ALG2.088",
+    "title": "Fundamental Theorem of Algebra (Intro)",
+    "type": "theorem",
+    "content": "Every non-zero polynomial of degree n has exactly n complex roots (real and/or nonreal), counted with multiplicity."
+  },
+  {
+    "id": "ALG2.089",
+    "title": "Descartes’ Rule of Signs",
+    "type": "tool",
+    "content": "The number of positive or negative real zeros of a polynomial can be estimated by counting sign changes in f(x) and f(-x)."
+  },
+  {
+    "id": "ALG2.090",
+    "title": "Definition of Radical Expression",
+    "type": "definition",
+    "content": "A radical expression is an expression that includes a root, such as a square root, cube root, or nth root."
+  },
+  {
+    "id": "ALG2.091",
+    "title": "Simplest Radical Form",
+    "type": "definition",
+    "content": "A radical expression is in simplest form when there are no perfect square factors under the radical and no radicals in the denominator."
+  },
+  {
+    "id": "ALG2.092",
+    "title": "Product Rule for Radicals",
+    "type": "property",
+    "content": "For nonnegative real numbers a and b: √(ab) = √a × √b."
+  },
+  {
+    "id": "ALG2.093",
+    "title": "Quotient Rule for Radicals",
+    "type": "property",
+    "content": "For nonnegative real numbers a and b (b ≠ 0): √(a/b) = √a ÷ √b."
+  },
+  {
+    "id": "ALG2.094",
+    "title": "Rational Exponents",
+    "type": "definition",
+    "content": "An expression like a^(m/n) means the nth root of a raised to the mth power: a^(m/n) = (ⁿ√a)^m."
+  },
+  {
+    "id": "ALG2.095",
+    "title": "Converting Between Radicals and Exponents",
+    "type": "procedure",
+    "content": "Use a^(m/n) = ⁿ√(a^m) or ⁿ√a = a^(1/n) to rewrite between forms."
+  },
+  {
+    "id": "ALG2.096",
+    "title": "Multiplying Radical Expressions",
+    "type": "procedure",
+    "content": "Multiply the coefficients and the radicands separately: √a × √b = √(ab), if both are nonnegative."
+  },
+  {
+    "id": "ALG2.097",
+    "title": "Rationalizing the Denominator",
+    "type": "procedure",
+    "content": "To eliminate radicals from the denominator, multiply numerator and denominator by a radical that removes the root from the bottom."
+  },
+  {
+    "id": "ALG2.098",
+    "title": "Solving Radical Equations",
+    "type": "procedure",
+    "content": "To solve radical equations, isolate the radical and square both sides. Always check for extraneous solutions."
+  },
+  {
+    "id": "ALG2.099",
+    "title": "Domain of Radical Functions",
+    "type": "property",
+    "content": "The domain of a radical function with even index includes only values where the radicand is nonnegative."
+  },
+  {
+    "id": "ALG2.100",
+    "title": "Definition of Radical Function",
+    "type": "definition",
+    "content": "A radica function is a function that contains a variable inside a root, such as f(x) = √x or f(x) = ∛(x − 2)."
+  },
+  {
+    "id": "ALG2.101",
+    "title": "Graph of a Square Root Function",
+    "type": "property",
+    "content": "The graph of f(x) = √x starts at (0, 0) and increases slowly to the right. Its domain is x ≥ 0, and range is y ≥ 0."
+  },
+  {
+    "id": "ALG2.102",
+    "title": "Transformation of Radical Functions",
+    "type": "transformation",
+    "content": "The function f(x) = a√(x − h) + k shifts the parent graph √x right h units, up k units, stretches by a if |a| > 1, and reflects if a < 0."
+  },
+  {
+    "id": "ALG2.103",
+    "title": "Even vs. Odd Index Radical Domains",
+    "type": "comparison",
+    "content": "Functions with even-index radicals (e.g., √x) require nonnegative radicands. Odd-index radicals (e.g., ∛x) have all real numbers as domain."
+  },
+  {
+    "id": "ALG2.104",
+    "title": "Definition of Rational Expression",
+    "type": "definition",
+    "content": "A rational expression is a ratio of two polynomials, such as (x + 1)/(x − 2), where the denominator is not zero."
+  },
+  {
+    "id": "ALG2.105",
+    "title": "Domain of a Rational Expression",
+    "type": "property",
+    "content": "The domain excludes all values that make the denominator zero."
+  },
+  {
+    "id": "ALG2.106",
+    "title": "Simplifying Rational Expressions",
+    "type": "procedure",
+    "content": "To simplify a rational expression, factor both numerator and denominator and cancel common factors."
+  },
+  {
+    "id": "ALG2.107",
+    "title": "Multiplying and Dividing Rational Expressions",
+    "type": "procedure",
+    "content": "Multiply numerators and denominators directly; for division, multiply by the reciprocal of the second expression."
+  },
+  {
+    "id": "ALG2.108",
+    "title": "Adding and Subtracting Rational Expressions",
+    "type": "procedure",
+    "content": "To add or subtract rational expressions, find a common denominator, rewrite each expression, then combine numerators."
+  },
+  {
+    "id": "ALG2.109",
+    "title": "Solving Rational Equations",
+    "type": "procedure",
+    "content": "To solve rational equations, multiply both sides by a common denominator to eliminate fractions. Check for extraneous solutions."
+  },
+  {
+    "id": "ALG2.110",
+    "title": "Definition of Rational Function",
+    "type": "definition",
+    "content": "A rational function is a function defined by a rational expression, such as f(x) = (x + 1)/(x − 3)."
+  },
+  {
+    "id": "ALG2.111",
+    "title": "Vertical Asymptote",
+    "type": "property",
+    "content": "A vertical asymptote occurs at values that make the denominator zero and are not canceled by the numerator."
+  },
+  {
+    "id": "ALG2.112",
+    "title": "Hole in the Graph",
+    "type": "property",
+    "content": "A hole occurs at a value that makes both the numerator and denominator zero, indicating a removable discontinuity."
+  },
+  {
+    "id": "ALG2.113",
+    "title": "Graphing Rational Functions",
+    "type": "procedure",
+    "content": "To graph a rational function, find intercepts, asymptotes, and analyze behavior near discontinuities."
+  },
+  {
+    "id": "ALG2.114",
+    "title": "Horizontal Asymptote",
+    "type": "property",
+    "content": "A horizontal asymptote shows the end behavior of a rational function. Compare degrees of numerator and denominator to determine it."
+  },
+  {
+    "id": "ALG2.115",
+    "title": "Slant (Oblique) Asymptote",
+    "type": "property",
+    "content": "If the degree of the numerator is one more than the degree of the denominator, use polynomial division to find a slant asymptote."
+  },
+  {
+    "id": "ALG2.116",
+    "title": "End Behavior of Rational Functions",
+    "type": "property",
+    "content": "The end behavior of a rational function depends on the degrees of the numerator and denominator and determines the horizontal or slant asymptote."
+  },
+  {
+    "id": "ALG2.117",
+    "title": "Definition of Exponential Function",
+    "type": "definition",
+    "content": "An exponential function is a function of the form f(x) = a·b^x where a ≠ 0 and b > 0, b ≠ 1."
+  },
+  {
+    "id": "ALG2.118",
+    "title": "Properties of Exponential Growth",
+    "type": "property",
+    "content": "If b > 1 in f(x) = ab^x, the function models exponential growth with rapid increase as x increases."
+  },
+  {
+    "id": "ALG2.119",
+    "title": "Properties of Exponential Decay",
+    "type": "property",
+    "content": "If 0 < b < 1 in f(x) = ab^x, the function models exponential decay with values decreasing toward zero."
+  },
+  {
+    "id": "ALG2.120",
+    "title": "Exponential Function Domain and Range",
+    "type": "property",
+    "content": "The domain is all real numbers, and the range is positive real numbers (y > 0) unless transformed."
+  },
+  {
+    "id": "ALG2.121",
+    "title": "Solving Exponential Equations (Same Base)",
+    "type": "procedure",
+    "content": "If both sides have the same base, set the exponents equal and solve: b^x = b^y → x = y."
+  },
+  {
+    "id": "ALG2.122",
+    "title": "Definition of Logarithm",
+    "type": "definition",
+    "content": "The logarithm log_b(x) is the inverse of the exponential function: if b^y = x, then log_b(x) = y."
+  },
+  {
+    "id": "ALG2.123",
+    "title": "Common Logarithms and Natural Logarithms",
+    "type": "definition",
+    "content": "log(x) is log base 10; ln(x) is log base e. These are standard on calculators."
+  },
+  {
+    "id": "ALG2.124",
+    "title": "Logarithmic Properties",
+    "type": "property",
+    "content": "Key properties include: log_b(xy) = log_b(x) + log_b(y), log_b(x/y) = log_b(x) − log_b(y), log_b(x^r) = r·log_b(x)."
+  },
+  {
+    "id": "ALG2.125",
+    "title": "Change of Base Formula",
+    "type": "formula",
+    "content": "log_b(x) = log_c(x) / log_c(b), typically used with base 10 or base e."
+  },
+  {
+    "id": "ALG2.126",
+    "title": "Solving Logarithmic Equations",
+    "type": "procedure",
+    "content": "Use properties of logarithms to combine terms, then convert to exponential form to solve."
+  },
+  {
+    "id": "ALG2.127",
+    "title": "Inverse Relationship of Exponential and Logarithmic Functions",
+    "type": "property",
+    "content": "f(x) = b^x and g(x) = log_b(x) are inverse functions: f(g(x)) = x and g(f(x)) = x."
+  },
+  {
+    "id": "ALG2.128",
+    "title": "Graph of Logarithmic Function",
+    "type": "property",
+    "content": "The graph of y = log_b(x) has a vertical asymptote at x = 0, domain x > 0, and passes through (1, 0)."
+  },
+  {
+    "id": "ALG2.129",
+    "title": "Exponential Growth and Decay Modeling",
+    "type": "application",
+    "content": "Use f(t) = a·b^t to model exponential growth (b > 1) or decay (0 < b < 1). Identify initial value a and growth/decay factor b from context."
+  },
+  {
+    "id": "ALG2.130",
+    "title": "Domain Restriction in Logarithmic Equations",
+    "type": "warning",
+    "content": "When solving log_b(x), the argument x must be positive. Always check solutions for domain validity."
+  },
+  {
+    "id": "ALG2.131",
+    "title": "Graph Interpretation of Exponential and Logarithmic Functions",
+    "type": "application",
+    "content": "Understand asymptotes, increasing/decreasing behavior, and key points like (0,1) for exponentials and (1,0) for logarithms."
+  },
+  {
+    "id": "ALG2.132",
+    "title": "Definition of Sequence",
+    "type": "definition",
+    "content": "A sequence is an ordered list of numbers defined by a pattern or rule."
+  },
+  {
+    "id": "ALG2.133",
+    "title": "Arithmetic Sequence Definition",
+    "type": "definition",
+    "content": "An arithmetic sequence has a common difference d between consecutive terms: a_n = a₁ + (n−1)d."
+  },
+  {
+    "id": "ALG2.134",
+    "title": "Geometric Sequence Definition",
+    "type": "definition",
+    "content": "A geometric sequence has a common ratio r between consecutive terms: a_n = a₁·rⁿ⁻¹."
+  },
+  {
+    "id": "ALG2.135",
+    "title": "Explicit Formula for Arithmetic Sequence",
+    "type": "formula",
+    "content": "a_n = a₁ + (n − 1)d, where a₁ is the first term and d is the common difference."
+  },
+  {
+    "id": "ALG2.136",
+    "title": "Explicit Formula for Geometric Sequence",
+    "type": "formula",
+    "content": "a_n = a₁·rⁿ⁻¹, where a₁ is the first term and r is the common ratio."
+  },
+  {
+    "id": "ALG2.137",
+    "title": "Recursive Formula for Sequences",
+    "type": "formula",
+    "content": "Defines each term based on the previous one: arithmetic → a_n = a_{n−1} + d, geometric → a_n = a_{n−1}·r."
+  },
+  {
+    "id": "ALG2.138",
+    "title": "Summation Notation (Sigma Notation)",
+    "type": "notation",
+    "content": "Σ notation is used to represent the sum of a sequence: Σ_{i=1}^n a_i."
+  },
+  {
+    "id": "ALG2.139",
+    "title": "Sum of Arithmetic Series",
+    "type": "formula",
+    "content": "S_n = (n/2)(a₁ + a_n) or S_n = (n/2)[2a₁ + (n − 1)d]."
+  },
+  {
+    "id": "ALG2.140",
+    "title": "Sum of Geometric Series",
+    "type": "formula",
+    "content": "S_n = a₁(1 − rⁿ) / (1 − r) for r ≠ 1."
+  },
+  {
+    "id": "ALG2.141",
+    "title": "Convergent Infinite Geometric Series",
+    "type": "property",
+    "content": "If |r| < 1, the sum of an infinite geometric series is S = a₁ / (1 − r)."
+  },
+  {
+    "id": "ALG2.142",
+    "title": "Determining Sequence Type",
+    "type": "procedure",
+    "content": "To determine whether a sequence is arithmetic, geometric, or neither, examine the differences and ratios between consecutive terms."
+  },
+  {
+    "id": "ALG2.143",
+    "title": "Term Number from Sequence Formula",
+    "type": "procedure",
+    "content": "To find which term of a sequence a given value is, solve the explicit formula for n."
+  },
+  {
+    "id": "ALG2.144",
+    "title": "Using Sigma Notation for Arithmetic Series",
+    "type": "procedure",
+    "content": "Convert an arithmetic series into sigma notation by identifying the general term and limits of summation."
+  },
+  {
+    "id": "ALG2.145",
+    "title": "Using Sigma Notation for Geometric Series",
+    "type": "procedure",
+    "content": "Convert a geometric series into sigma notation by identifying the general term and ratio."
+  },
+  {
+    "id": "ALG2.146",
+    "title": "Recursive vs. Explicit Form Comparison",
+    "type": "comparison",
+    "content": "Recursive formulas define each term based on previous terms, while explicit formulas directly calculate any term from its position."
+  },
+  {
+    "id": "ALG2.147",
+    "title": "Modeling Real Situations with Sequences",
+    "type": "application",
+    "content": "Use arithmetic sequences for repeated addition and geometric sequences for repeated multiplication in real-world contexts like payments or population."
+  },
+  {
+    "id": "ALG2.148",
+    "title": "Non-Convergent Infinite Series",
+    "type": "warning",
+    "content": "An infinite geometric series diverges if |r| ≥ 1 and has no finite sum."
+  },
+  {
+    "id": "ALG2.149",
+    "title": "Fundamental Counting Principle",
+    "type": "property",
+    "content": "If one event has m outcomes and another has n outcomes, then there are m × n total outcomes for both events."
+  },
+  {
+    "id": "ALG2.150",
+    "title": "Permutations Definition",
+    "type": "definition",
+    "content": "A permutation is an arrangement of items where order matters. The number of permutations of n items is n!."
+  },
+  {
+    "id": "ALG2.151",
+    "title": "Permutation Formula",
+    "type": "formula",
+    "content": "The number of permutations of n items taken r at a time is P(n, r) = n! / (n - r)!"
+  },
+  {
+    "id": "ALG2.152",
+    "title": "Combinations Definition",
+    "type": "definition",
+    "content": "A combination is a selection of items where order does not matter. The number of combinations is C(n, r) = n! / [r!(n - r)!]."
+  },
+  {
+    "id": "ALG2.153",
+    "title": "Distinguishing Permutations and Combinations",
+    "type": "comparison",
+    "content": "Use permutations when order matters and combinations when it doesn’t."
+  },
+  {
+    "id": "ALG2.154",
+    "title": "Probability of an Event",
+    "type": "definition",
+    "content": "Probability is the ratio of favorable outcomes to total outcomes: P(A) = (# favorable) / (# total)."
+  },
+  {
+    "id": "ALG2.155",
+    "title": "Complement Rule",
+    "type": "property",
+    "content": "P(not A) = 1 - P(A)."
+  },
+  {
+    "id": "ALG2.156",
+    "title": "Independent Events",
+    "type": "definition",
+    "content": "Events A and B are independent if P(A and B) = P(A) × P(B)."
+  },
+  {
+    "id": "ALG2.157",
+    "title": "Mutually Exclusive Events",
+    "type": "definition",
+    "content": "Events A and B are mutually exclusive if they cannot both occur. P(A or B) = P(A) + P(B)."
+  },
+  {
+    "id": "ALG2.158",
+    "title": "Conditional Probability",
+    "type": "definition",
+    "content": "The probability of event A given that B has occurred is P(A | B) = P(A and B) / P(B)."
+  },
+  {
+    "id": "ALG2.159",
+    "title": "Probability Tree Diagram",
+    "type": "tool",
+    "content": "A tree diagram visually organizes multiple stages of probability events."
+  },
+  {
+    "id": "ALG2.160",
+    "title": "Mean, Median, Mode",
+    "type": "definition",
+    "content": "Mean is the average; median is the middle value; mode is the most frequent value."
+  },
+  {
+    "id": "ALG2.161",
+    "title": "Range and Interquartile Range (IQR)",
+    "type": "definition",
+    "content": "Range = max − min. IQR = Q3 − Q1, representing the middle 50% spread."
+  },
+  {
+    "id": "ALG2.162",
+    "title": "Standard Deviation (Concept)",
+    "type": "definition",
+    "content": "Standard deviation measures how spread out the values in a data set are from the mean."
+  },
+  {
+    "id": "ALG2.163",
+    "title": "Outlier Definition",
+    "type": "definition",
+    "content": "An outlier is a value significantly higher or lower than the rest. Often defined as 1.5×IQR above Q3 or below Q1."
+  },
+  {
+    "id": "ALG2.164",
+    "title": "Box-and-Whisker Plot",
+    "type": "tool",
+    "content": "A graphical display that shows minimum, Q1, median, Q3, and maximum values of a data set."
+  },
+  {
+    "id": "ALG2.165",
+    "title": "Experimental vs. Theoretical Probability",
+    "type": "comparison",
+    "content": "Theoretical probability is based on known possible outcomes; experimental probability is based on observed outcomes from trials."
+  },
+  {
+    "id": "ALG2.166",
+    "title": "Probability of At Least One",
+    "type": "strategy",
+    "content": "Use the complement: P(at least one) = 1 − P(none)."
+  },
+  {
+    "id": "ALG2.167",
+    "title": "Combinations with Replacement",
+    "type": "definition",
+    "content": "When items are selected with replacement, they can be chosen again. The total combinations depend on whether order matters."
+  },
+  {
+    "id": "ALG2.168",
+    "title": "Venn Diagram for Probability",
+    "type": "tool",
+    "content": "A Venn diagram helps visualize overlapping sets, unions, intersections, and complements in probability."
+  },
+  {
+    "id": "ALG2.169",
+    "title": "Expected Value",
+    "type": "definition",
+    "content": "Expected value is the weighted average of all outcomes: E = Σ(probability × value)."
+  },
+  {
+    "id": "ALG2.170",
+    "title": "Z-score (Standard Score)",
+    "type": "definition",
+    "content": "A Z-score measures how many standard deviations a value is from the mean: z = (x − μ)/σ."
+  },
+  {
+    "id": "ALG2.171",
+    "title": "Definition of Binomial Experiment",
+    "type": "definition",
+    "content": "A binomial experiment consists of a fixed number of independent trials, each with two possible outcomes: success or failure."
+  },
+  {
+    "id": "ALG2.172",
+    "title": "Binomial Probability Formula",
+    "type": "formula",
+    "content": "P(k successes) = C(n, k) · p^k · (1 − p)^(n − k), where n is the number of trials and p is the probability of success."
+  },
+  {
+    "id": "ALG2.173",
+    "title": "Mean and Standard Deviation of Binomial Distribution",
+    "type": "formula",
+    "content": "Mean = μ = np; Standard deviation = σ = √(np(1 − p))."
+  },
+  {
+    "id": "ALG2.174",
+    "title": "Normal Distribution Definition",
+    "type": "definition",
+    "content": "A normal distribution is a symmetric, bell-shaped curve centered at the mean. Most values cluster around the center."
+  },
+  {
+    "id": "ALG2.175",
+    "title": "Empirical Rule (68-95-99.7 Rule)",
+    "type": "property",
+    "content": "In a normal distribution, ~68% of values lie within 1σ of the mean, 95% within 2σ, and 99.7% within 3σ."
+  },
+  {
+    "id": "ALG2.176",
+    "title": "Using Z-scores in Normal Distributions",
+    "type": "procedure",
+    "content": "Z-scores are used to find the relative position of a value in a normal distribution and to compute percentiles or probabilities."
+  },
+  {
+    "id": "GEO01.01",
+    "title": "Points, Lines, and Planes",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Point",
+        "definition": "A point is a location with no dimension, represented by a dot and a capital letter."
+      },
+      {
+        "term": "Line",
+        "definition": "A line is a straight path that extends infinitely in two directions and has one dimension."
+      },
+      {
+        "term": "Plane",
+        "definition": "A plane is a flat surface that extends infinitely in two dimensions and contains at least three non-collinear points."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.02",
+    "title": "Line Segments and Rays",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Line Segment",
+        "definition": "A line segment is part of a line with two endpoints."
+      },
+      {
+        "term": "Ray",
+        "definition": "A ray starts at one point and extends infinitely in one direction."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.03",
+    "title": "Collinear and Coplanar",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Collinear",
+        "definition": "Points that lie on the same line are collinear."
+      },
+      {
+        "term": "Coplanar",
+        "definition": "Points that lie on the same plane are coplanar."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.04",
+    "title": "Intersection of Geometric Objects",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Intersection",
+        "definition": "The set of points that two or more geometric figures have in common."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.05",
+    "title": "Postulates about Points, Lines, and Planes",
+    "type": "postulate",
+    "content": [
+      {
+        "term": "Line Postulate",
+        "definition": "Through any two points, there is exactly one line."
+      },
+      {
+        "term": "Plane Postulate",
+        "definition": "Through any three non-collinear points, there is exactly one plane."
+      },
+      {
+        "term": "Line-Plane Postulate",
+        "definition": "If two points lie in a plane, then the line containing them lies in the plane."
+      },
+      {
+        "term": "Intersection Postulate",
+        "definition": "If two lines intersect, they intersect in exactly one point. If two planes intersect, they intersect in a line."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.06",
+    "title": "Measuring Segments",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Distance",
+        "definition": "The distance between two points is the absolute value of the difference of their coordinates."
+      },
+      {
+        "term": "Congruent Segments",
+        "definition": "Segments that have the same length are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.07",
+    "title": "Segment Addition Postulate",
+    "type": "postulate",
+    "content": [
+      {
+        "term": "Segment Addition Postulate",
+        "definition": "If B is between A and C, then AB + BC = AC."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.08",
+    "title": "Midpoint of a Segment",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Midpoint",
+        "definition": "The midpoint of a segment is the point that divides the segment into two congruent parts."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.09",
+    "title": "Bisector of a Segment",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Segment Bisector",
+        "definition": "A segment bisector is a point, ray, line, line segment, or plane that intersects a segment at its midpoint."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.10",
+    "title": "Distance Formula",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Distance Formula",
+        "definition": "The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ - x₁)² + (y₂ - y₁)²]."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.11",
+    "title": "Midpoint Formula",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Midpoint Formula",
+        "definition": "The midpoint of a segment with endpoints (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.12",
+    "title": "Definition of Angle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Angle",
+        "definition": "An angle is formed by two rays with a common endpoint called the vertex."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.13",
+    "title": "Measuring Angles",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Degree",
+        "definition": "The measure of an angle is typically expressed in degrees (°), with a full rotation equal to 360°."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.14",
+    "title": "Angle Addition Postulate",
+    "type": "postulate",
+    "content": [
+      {
+        "term": "Angle Addition Postulate",
+        "definition": "If point B lies in the interior of ∠AOC, then m∠AOB + m∠BOC = m∠AOC."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.15",
+    "title": "Types of Angles",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Acute Angle",
+        "definition": "An angle that measures greater than 0° and less than 90°."
+      },
+      {
+        "term": "Right Angle",
+        "definition": "An angle that measures exactly 90°."
+      },
+      {
+        "term": "Obtuse Angle",
+        "definition": "An angle that measures greater than 90° and less than 180°."
+      },
+      {
+        "term": "Straight Angle",
+        "definition": "An angle that measures exactly 180°."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.16",
+    "title": "Congruent Angles",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Congruent Angles",
+        "definition": "Angles that have the same measure are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.17",
+    "title": "Angle Bisector",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Angle Bisector",
+        "definition": "An angle bisector is a ray that divides an angle into two congruent angles."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.18",
+    "title": "Adjacent, Vertical, and Linear Pair Angles",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Adjacent Angles",
+        "definition": "Two angles that share a common vertex and side but have no common interior points."
+      },
+      {
+        "term": "Vertical Angles",
+        "definition": "Angles opposite each other when two lines intersect. They are congruent."
+      },
+      {
+        "term": "Linear Pair",
+        "definition": "A pair of adjacent angles whose non-common sides form a straight line. The angles are supplementary."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.19",
+    "title": "Complementary and Supplementary Angles",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Complementary Angles",
+        "definition": "Two angles whose measures add up to 90°."
+      },
+      {
+        "term": "Supplementary Angles",
+        "definition": "Two angles whose measures add up to 180°."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.20",
+    "title": "Angle Relationships in Geometry",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Perpendicular Lines",
+        "definition": "Two lines that intersect to form right angles."
+      },
+      {
+        "term": "Angle Relationship Rule",
+        "definition": "Vertical angles are congruent, linear pairs are supplementary."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.21",
+    "title": "Classifying Triangles by Sides",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Scalene Triangle",
+        "definition": "A triangle with no congruent sides."
+      },
+      {
+        "term": "Isosceles Triangle",
+        "definition": "A triangle with at least two congruent sides."
+      },
+      {
+        "term": "Equilateral Triangle",
+        "definition": "A triangle with all three sides congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.22",
+    "title": "Classifying Triangles by Angles",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Acute Triangle",
+        "definition": "A triangle where all angles are less than 90°."
+      },
+      {
+        "term": "Right Triangle",
+        "definition": "A triangle with one angle measuring exactly 90°."
+      },
+      {
+        "term": "Obtuse Triangle",
+        "definition": "A triangle with one angle greater than 90°."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.23",
+    "title": "Triangle Angle Sum Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Triangle Angle Sum",
+        "definition": "The sum of the interior angles of a triangle is always 180°."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.24",
+    "title": "Exterior Angle Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Exterior Angle Theorem",
+        "definition": "An exterior angle of a triangle is equal to the sum of the two remote interior angles."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.26",
+    "title": "Congruent Triangles",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Congruent Triangles",
+        "definition": "Triangles that have the same size and shape, with corresponding sides and angles congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.27",
+    "title": "SSS Congruence Postulate",
+    "type": "postulate",
+    "content": [
+      {
+        "term": "SSS Postulate",
+        "definition": "If three sides of one triangle are congruent to three sides of another triangle, then the triangles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.28",
+    "title": "SAS Congruence Postulate",
+    "type": "postulate",
+    "content": [
+      {
+        "term": "SAS Postulate",
+        "definition": "If two sides and the included angle of one triangle are congruent to two sides and the included angle of another triangle, the triangles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.29",
+    "title": "ASA Congruence Postulate",
+    "type": "postulate",
+    "content": [
+      {
+        "term": "ASA Postulate",
+        "definition": "If two angles and the included side of one triangle are congruent to two angles and the included side of another triangle, the triangles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.30",
+    "title": "AAS Congruence Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "AAS Theorem",
+        "definition": "If two angles and a non-included side of one triangle are congruent to the corresponding parts of another triangle, the triangles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.31",
+    "title": "CPCTC Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "CPCTC",
+        "definition": "If two triangles are proven congruent, then their corresponding parts (sides and angles) are also congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.32",
+    "title": "Right Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Right Triangle",
+        "definition": "A triangle that has one right angle (90 degrees)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.33",
+    "title": "Hypotenuse",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Hypotenuse",
+        "definition": "The side opposite the right angle in a right triangle; it is the longest side."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.34",
+    "title": "Legs of a Right Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Legs",
+        "definition": "The two sides that form the right angle in a right triangle."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.35",
+    "title": "Hypotenuse-Leg (HL) Congruence Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "HL Congruence",
+        "definition": "If the hypotenuse and a leg of one right triangle are congruent to the hypotenuse and a leg of another right triangle, then the triangles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.36",
+    "title": "Isosceles Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Isosceles Triangle",
+        "definition": "A triangle with at least two congruent sides."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.37",
+    "title": "Isosceles Triangle Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Isosceles Triangle Theorem",
+        "definition": "If two sides of a triangle are congruent, then the angles opposite those sides are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.38",
+    "title": "Converse of the Isosceles Triangle Theorem",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Converse Isosceles Triangle Theorem",
+        "definition": "If two angles of a triangle are congruent, then the sides opposite those angles are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.39",
+    "title": "Equilateral Triangle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Equilateral Triangle",
+        "definition": "A triangle with all three sides congruent and all three angles equal to 60 degrees."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.40",
+    "title": "Equilateral Triangle Properties",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Equilateral Triangle Properties",
+        "definition": "An equilateral triangle is also equiangular, and all interior angles are 60 degrees."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.50",
+    "title": "Centroid Theorem",
+    "type": "theorem",
+    "content": "The centroid of a triangle divides each median into two segments, where the segment from the vertex to the centroid is twice as long as the segment from the centroid to the midpoint of the side."
+  },
+  {
+    "id": "GEO01.51",
+    "title": "Perpendicular Bisector Theorem",
+    "type": "theorem",
+    "content": "Any point on the perpendicular bisector of a segment is equidistant from the endpoints of the segment."
+  },
+  {
+    "id": "GEO01.52",
+    "title": "Converse of the Perpendicular Bisector Theorem",
+    "type": "theorem",
+    "content": "If a point is equidistant from the endpoints of a segment, then it lies on the perpendicular bisector of the segment."
+  },
+  {
+    "id": "GEO01.53",
+    "title": "Altitude of a Triangle",
+    "type": "definition",
+    "content": "An altitude of a triangle is a perpendicular segment from a vertex to the line containing the opposite side."
+  },
+  {
+    "id": "GEO01.54",
+    "title": "Median of a Triangle",
+    "type": "definition",
+    "content": "A median of a triangle is a segment connecting a vertex to the midpoint of the opposite side."
+  },
+  {
+    "id": "GEO01.55",
+    "title": "Angle Bisector of a Triangle",
+    "type": "definition",
+    "content": "An angle bisector of a triangle is a ray or segment that divides one of the triangle's angles into two congruent angles and extends to the opposite side."
+  },
+  {
+    "id": "GEO01.56",
+    "title": "Concurrency of Altitudes Theorem",
+    "type": "theorem",
+    "content": "The three altitudes of a triangle intersect at a single point called the orthocenter."
+  },
+  {
+    "id": "GEO01.57",
+    "title": "Hinge Theorem (SAS Inequality Theorem)",
+    "type": "theorem",
+    "content": "If two sides of one triangle are congruent to two sides of another triangle, but the included angle of the first is larger, then the third side of the first triangle is longer than the third side of the second."
+  },
+  {
+    "id": "GEO01.58",
+    "title": "Converse of the Hinge Theorem",
+    "type": "theorem",
+    "content": "If two sides of one triangle are congruent to two sides of another triangle, and the third side of the first is longer than that of the second, then the included angle of the first is larger."
+  },
+  {
+    "id": "GEO01.59",
+    "title": "Concurrency of Medians Theorem",
+    "type": "theorem",
+    "content": "The medians of a triangle intersect at a single point called the centroid, which is located two-thirds of the distance from each vertex to the midpoint of the opposite side."
+  },
+  {
+    "id": "GEO01.60",
+    "title": "Circumcenter Theorem",
+    "type": "theorem",
+    "content": "The perpendicular bisectors of the sides of a triangle intersect at a point called the circumcenter, which is equidistant from the vertices of the triangle."
+  },
+  {
+    "id": "GEO01.61",
+    "title": "Incenter Theorem",
+    "type": "theorem",
+    "content": "The angle bisectors of a triangle intersect at a point called the incenter, which is equidistant from the sides of the triangle."
+  },
+  {
+    "id": "GEO01.62",
+    "title": "Triangle Midsegment Theorem",
+    "type": "theorem",
+    "content": "A midsegment of a triangle is parallel to one side of the triangle and its length is half the length of that side."
+  },
+  {
+    "id": "GEO01.63",
+    "title": "Quadrilateral",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Quadrilateral",
+        "definition": "A polygon with four sides and four angles."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.64",
+    "title": "Types of Quadrilaterals",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Parallelogram",
+        "definition": "A quadrilateral with both pairs of opposite sides parallel."
+      },
+      {
+        "term": "Rectangle",
+        "definition": "A parallelogram with four right angles."
+      },
+      {
+        "term": "Rhombus",
+        "definition": "A parallelogram with four congruent sides."
+      },
+      {
+        "term": "Square",
+        "definition": "A parallelogram with four right angles and four congruent sides."
+      },
+      {
+        "term": "Trapezoid",
+        "definition": "A quadrilateral with exactly one pair of parallel sides."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.65",
+    "title": "Diagonals of Quadrilaterals",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Diagonal",
+        "definition": "A line segment connecting non-consecutive vertices of a polygon."
+      },
+      {
+        "term": "Properties of Diagonals",
+        "definition": "In special quadrilaterals, diagonals have unique properties such as bisecting each other or being perpendicular."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.66",
+    "title": "Parallel Lines",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Parallel Lines",
+        "definition": "Lines in the same plane that never intersect and are always the same distance apart."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.67",
+    "title": "Transversal",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Transversal",
+        "definition": "A line that intersects two or more lines in a plane at different points."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.68",
+    "title": "Angle Pairs Formed by Transversals",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Corresponding Angles",
+        "definition": "Angles in matching corners when a transversal crosses two lines."
+      },
+      {
+        "term": "Alternate Interior Angles",
+        "definition": "Angles on opposite sides of the transversal but inside the two lines."
+      },
+      {
+        "term": "Same-Side Interior Angles",
+        "definition": "Angles on the same side of the transversal and inside the two lines."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.69",
+    "title": "Parallel Lines and Angle Relationships Theorem",
+    "type": "theorem",
+    "content": "If a transversal intersects two parallel lines, then corresponding angles are congruent, alternate interior angles are congruent, and same-side interior angles are supplementary."
+  },
+  {
+    "id": "GEO01.70",
+    "title": "Corresponding Angles Postulate",
+    "type": "postulate",
+    "content": "If two parallel lines are cut by a transversal, then each pair of corresponding angles is congruent."
+  },
+  {
+    "id": "GEO01.71",
+    "title": "Alternate Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two parallel lines are cut by a transversal, then each pair of alternate interior angles is congruent."
+  },
+  {
+    "id": "GEO01.72",
+    "title": "Consecutive Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two parallel lines are cut by a transversal, then each pair of consecutive interior angles is supplementary."
+  },
+  {
+    "id": "GEO01.73",
+    "title": "Alternate Exterior Angles Theorem",
+    "type": "theorem",
+    "content": "If two parallel lines are cut by a transversal, then each pair of alternate exterior angles is congruent."
+  },
+  {
+    "id": "GEO01.74",
+    "title": "Converse of the Corresponding Angles Postulate",
+    "type": "postulate",
+    "content": "If two lines are cut by a transversal and corresponding angles are congruent, then the lines are parallel."
+  },
+  {
+    "id": "GEO01.75",
+    "title": "Converse of the Alternate Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two lines are cut by a transversal and alternate interior angles are congruent, then the lines are parallel."
+  },
+  {
+    "id": "GEO01.76",
+    "title": "Converse of the Consecutive Interior Angles Theorem",
+    "type": "theorem",
+    "content": "If two lines are cut by a transversal and consecutive interior angles are supplementary, then the lines are parallel."
+  },
+  {
+    "id": "GEO01.77",
+    "title": "Parallel Postulate",
+    "type": "postulate",
+    "content": "Through a point not on a line, there is exactly one line parallel to the given line."
+  },
+  {
+    "id": "GEO01.78",
+    "title": "Slopes of Parallel Lines",
+    "type": "theorem",
+    "content": "In a coordinate plane, two non-vertical lines are parallel if and only if they have the same slope."
+  },
+  {
+    "id": "GEO01.79",
+    "title": "Slopes of Perpendicular Lines",
+    "type": "theorem",
+    "content": "In a coordinate plane, two non-vertical lines are perpendicular if and only if the product of their slopes is –1."
+  },
+  {
+    "id": "GEO01.81",
+    "title": "Parallelogram Properties",
+    "type": "definition",
+    "content": "A parallelogram is a quadrilateral with both pairs of opposite sides parallel. Opposite sides and angles are congruent, and diagonals bisect each other."
+  },
+  {
+    "id": "GEO01.82",
+    "title": "Conditions for Parallelograms",
+    "type": "theorem",
+    "content": "A quadrilateral is a parallelogram if one of the following is true: both pairs of opposite sides are congruent, both pairs of opposite angles are congruent, or the diagonals bisect each other."
+  },
+  {
+    "id": "GEO01.83",
+    "title": "Rectangle Definition and Properties",
+    "type": "definition",
+    "content": "A rectangle is a parallelogram with four right angles. Its diagonals are congruent."
+  },
+  {
+    "id": "GEO01.84",
+    "title": "Rhombus Definition and Properties",
+    "type": "definition",
+    "content": "A rhombus is a parallelogram with four congruent sides. Its diagonals are perpendicular and bisect opposite angles."
+  },
+  {
+    "id": "GEO01.85",
+    "title": "Square Definition and Properties",
+    "type": "definition",
+    "content": "A square is a parallelogram with four right angles and four congruent sides. It is both a rectangle and a rhombus."
+  },
+  {
+    "id": "GEO01.86",
+    "title": "Trapezoid and Isosceles Trapezoid",
+    "type": "definition",
+    "content": "A trapezoid is a quadrilateral with exactly one pair of parallel sides. An isosceles trapezoid has congruent legs and base angles."
+  },
+  {
+    "id": "GEO01.87",
+    "title": "Midsegment Theorem for Trapezoids",
+    "type": "theorem",
+    "content": "The midsegment of a trapezoid is parallel to the bases and its length is the average of the base lengths."
+  },
+  {
+    "id": "GEO01.88",
+    "title": "Kite Definition and Properties",
+    "type": "definition",
+    "content": "A kite is a quadrilateral with two distinct pairs of adjacent congruent sides. One diagonal is the perpendicular bisector of the other."
+  },
+  {
+    "id": "GEO01.89",
+    "title": "Diagonals of Parallelograms",
+    "type": "theorem",
+    "content": "In a parallelogram, the diagonals bisect each other."
+  },
+  {
+    "id": "GEO01.90",
+    "title": "Polygon Definition",
+    "type": "definition",
+    "content": "A polygon is a closed figure formed by a finite number of coplanar segments called sides that only intersect at their endpoints."
+  },
+  {
+    "id": "GEO01.91",
+    "title": "Types of Polygons",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Regular Polygon",
+        "definition": "A polygon that is both equilateral (all sides congruent) and equiangular (all angles congruent)."
+      },
+      {
+        "term": "Irregular Polygon",
+        "definition": "A polygon that is not regular."
+      },
+      {
+        "term": "Concave Polygon",
+        "definition": "A polygon with at least one interior angle greater than 180°."
+      },
+      {
+        "term": "Convex Polygon",
+        "definition": "A polygon where no interior angle is greater than 180°."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.92",
+    "title": "Interior Angle Sum Theorem",
+    "type": "theorem",
+    "content": "The sum of the interior angles of an n-gon is (n – 2) × 180°."
+  },
+  {
+    "id": "GEO01.93",
+    "title": "Exterior Angle Sum Theorem",
+    "type": "theorem",
+    "content": "The sum of the exterior angles of any polygon, one per vertex, is always 360°."
+  },
+  {
+    "id": "GEO01.94",
+    "title": "Each Interior Angle of a Regular Polygon",
+    "type": "formula",
+    "content": "Each interior angle of a regular n-gon is [(n – 2) × 180°] / n."
+  },
+  {
+    "id": "GEO01.95",
+    "title": "Each Exterior Angle of a Regular Polygon",
+    "type": "formula",
+    "content": "Each exterior angle of a regular n-gon is 360° / n."
+  },
+  {
+    "id": "GEO01.96",
+    "title": "Regular Hexagon Properties",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Interior Angle",
+        "definition": "Each interior angle of a regular hexagon is 120°."
+      },
+      {
+        "term": "Equilateral Triangle Composition",
+        "definition": "A regular hexagon can be divided into 6 equilateral triangles."
+      },
+      {
+        "term": "Rotational Symmetry",
+        "definition": "A regular hexagon has rotational symmetry of order 6 and 6 lines of symmetry."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.97",
+    "title": "Regular Octagon Properties",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Interior Angle",
+        "definition": "Each interior angle of a regular octagon is 135°."
+      },
+      {
+        "term": "Square and Isosceles Triangle Composition",
+        "definition": "A regular octagon can be constructed using isosceles right triangles and squares."
+      },
+      {
+        "term": "Rotational Symmetry",
+        "definition": "A regular octagon has rotational symmetry of order 8 and 8 lines of symmetry."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.98",
+    "title": "Diagonal Count in Polygon",
+    "type": "formula",
+    "content": "The number of diagonals in an n-gon is n(n – 3)/2."
+  },
+  {
+    "id": "GEO01.99",
+    "title": "Naming Polygons by Sides",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Triangle",
+        "definition": "3 sides"
+      },
+      {
+        "term": "Quadrilateral",
+        "definition": "4 sides"
+      },
+      {
+        "term": "Pentagon",
+        "definition": "5 sides"
+      },
+      {
+        "term": "Hexagon",
+        "definition": "6 sides"
+      },
+      {
+        "term": "Heptagon",
+        "definition": "7 sides"
+      },
+      {
+        "term": "Octagon",
+        "definition": "8 sides"
+      },
+      {
+        "term": "Nonagon",
+        "definition": "9 sides"
+      },
+      {
+        "term": "Decagon",
+        "definition": "10 sides"
+      },
+      {
+        "term": "Undecagon",
+        "definition": "11 sides"
+      }
+    ]
+  },
+  {
+    "id": "GEO01.100",
+    "title": "Apothem of a Regular Polygon",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Apothem",
+        "definition": "The apothem of a regular polygon is the perpendicular distance from the center of the polygon to a side. It is used to calculate the area of the polygon."
+      },
+      {
+        "term": "Area Formula Using Apothem",
+        "definition": "The area of a regular polygon can be found using the formula: (1/2) × Perimeter × Apothem."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.101",
+    "title": "Circle Definition and Parts",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Circle",
+        "definition": "A circle is the set of all points in a plane that are equidistant from a given point called the center."
+      },
+      {
+        "term": "Radius",
+        "definition": "A line segment from the center of the circle to any point on the circle."
+      },
+      {
+        "term": "Diameter",
+        "definition": "A chord that passes through the center of the circle. It is twice the length of the radius."
+      },
+      {
+        "term": "Chord",
+        "definition": "A line segment with both endpoints on the circle."
+      },
+      {
+        "term": "Arc",
+        "definition": "A part of the circumference of a circle."
+      },
+      {
+        "term": "Central Angle",
+        "definition": "An angle whose vertex is the center of the circle and whose sides are radii."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.102",
+    "title": "Circumference of a Circle",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Circumference Formula",
+        "definition": "The circumference of a circle is given by C = 2πr or C = πd, where r is the radius and d is the diameter."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.103",
+    "title": "Area of a Circle",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Area Formula",
+        "definition": "The area of a circle is given by A = πr², where r is the radius."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.104",
+    "title": "Arc Length and Sector Area",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Arc Length",
+        "definition": "Arc Length = (θ / 360) × 2πr, where θ is the central angle in degrees."
+      },
+      {
+        "term": "Sector Area",
+        "definition": "Sector Area = (θ / 360) × πr², where θ is the central angle in degrees."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.105",
+    "title": "Inscribed Angles and Arcs",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Inscribed Angle Theorem",
+        "definition": "An inscribed angle is half the measure of its intercepted arc."
+      },
+      {
+        "term": "Arc Intercept",
+        "definition": "The arc that lies in the interior of an inscribed angle and has endpoints on the angle."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.106",
+    "title": "Tangent to a Circle",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Tangent",
+        "definition": "A line that touches a circle at exactly one point."
+      },
+      {
+        "term": "Point of Tangency",
+        "definition": "The point where a tangent line touches the circle."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.107",
+    "title": "Tangent-Radius Theorem",
+    "type": "theorem",
+    "content": "A tangent to a circle is perpendicular to the radius drawn to the point of tangency."
+  },
+  {
+    "id": "GEO01.108",
+    "title": "Two Tangent Theorem",
+    "type": "theorem",
+    "content": "If two segments are drawn from the same external point to a circle and both are tangent to the circle, then the segments are congruent."
+  },
+  {
+    "id": "GEO01.109",
+    "title": "Chord Properties in Circles",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Equidistant Chords",
+        "definition": "In the same circle or in congruent circles, chords equidistant from the center are congruent."
+      },
+      {
+        "term": "Chord Bisector Theorem",
+        "definition": "A diameter or radius perpendicular to a chord bisects the chord and its arc."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.110",
+    "title": "Intersecting Chords Theorem",
+    "type": "theorem",
+    "content": "If two chords intersect inside a circle, then the products of the lengths of the segments of each chord are equal. That is, AE × EB = CE × ED."
+  },
+  {
+    "id": "GEO01.111",
+    "title": "Angle Formed by Two Intersecting Chords",
+    "type": "theorem",
+    "content": "The measure of an angle formed by two intersecting chords is equal to half the sum of the measures of the arcs intercepted by the angle and its vertical angle."
+  },
+  {
+    "id": "GEO01.112",
+    "title": "Angle Formed by a Tangent and a Chord",
+    "type": "theorem",
+    "content": "The measure of an angle formed by a tangent and a chord drawn to the point of tangency is half the measure of the intercepted arc."
+  },
+  {
+    "id": "GEO01.113",
+    "title": "Angles Formed Outside the Circle",
+    "type": "theorem",
+    "content": "If two secants, a secant and a tangent, or two tangents intersect outside a circle, the measure of the angle formed is half the difference of the measures of the intercepted arcs."
+  },
+  {
+    "id": "GEO01.114",
+    "title": "Power of a Point Theorem",
+    "type": "theorem",
+    "content": "If a secant and a tangent are drawn from an external point, then the square of the length of the tangent segment equals the product of the lengths of the secant segment and its external part."
+  },
+  {
+    "id": "GEO01.115",
+    "title": "Cyclic Quadrilateral Theorem",
+    "type": "theorem",
+    "content": "If a quadrilateral is inscribed in a circle, then its opposite angles are supplementary."
+  },
+  {
+    "id": "GEO01.116",
+    "title": "Central Angle Theorem",
+    "type": "theorem",
+    "content": "The measure of a central angle is equal to the measure of the arc it intercepts."
+  },
+  {
+    "id": "GEO01.117",
+    "title": "Major and Minor Arcs",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Minor Arc",
+        "definition": "An arc that measures less than 180° and is named with two letters."
+      },
+      {
+        "term": "Major Arc",
+        "definition": "An arc that measures more than 180° and is named with three letters."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.118",
+    "title": "Transformation",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Transformation",
+        "definition": "A transformation is a function that moves or changes a geometric figure in some way to produce a new figure."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.119",
+    "title": "Translation",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Translation",
+        "definition": "A translation slides every point of a figure the same distance in the same direction."
+      },
+      {
+        "term": "Coordinate Rule",
+        "definition": "In the coordinate plane, a translation of (x, y) by (a, b) is given by (x + a, y + b)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.120",
+    "title": "Reflection",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Reflection",
+        "definition": "A reflection flips a figure over a line, creating a mirror image."
+      },
+      {
+        "term": "Coordinate Rules",
+        "definition": "Over x-axis: (x, y) → (x, –y), over y-axis: (x, y) → (–x, y), over y = x: (x, y) → (y, x)"
+      }
+    ]
+  },
+  {
+    "id": "GEO01.121",
+    "title": "Rotation",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Rotation",
+        "definition": "A rotation turns a figure around a fixed point called the center of rotation."
+      },
+      {
+        "term": "Common Rules",
+        "definition": "90° counterclockwise: (x, y) → (–y, x), 180°: (x, y) → (–x, –y), 270°: (x, y) → (y, –x)"
+      }
+    ]
+  },
+  {
+    "id": "GEO01.122",
+    "title": "Dilation",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Dilation",
+        "definition": "A dilation changes the size of a figure but not its shape, based on a scale factor from a center."
+      },
+      {
+        "term": "Coordinate Rule",
+        "definition": "With center at origin and scale factor k: (x, y) → (kx, ky)"
+      }
+    ]
+  },
+  {
+    "id": "GEO01.123",
+    "title": "Rigid Motions",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Rigid Motion",
+        "definition": "A transformation that preserves distance and angle measure (e.g., translations, reflections, rotations)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.124",
+    "title": "Similarity Transformation",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Similarity Transformation",
+        "definition": "A transformation that changes the size but preserves shape and angle measures (e.g., dilation, or dilation + rigid motion)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.125",
+    "title": "Congruence via Transformations",
+    "type": "theorem",
+    "content": "Two figures are congruent if one can be mapped to the other using a sequence of rigid motions."
+  },
+  {
+    "id": "GEO01.126",
+    "title": "Similarity via Transformations",
+    "type": "theorem",
+    "content": "Two figures are similar if one can be mapped to the other using a sequence of rigid motions followed by a dilation."
+  },
+  {
+    "id": "GEO01.127",
+    "title": "Composition of Transformations",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Composition",
+        "definition": "The result of applying two or more transformations in succession."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.128",
+    "title": "Coordinate Plane Basics",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Coordinate Plane",
+        "definition": "A two-dimensional plane formed by the intersection of a horizontal number line (x-axis) and a vertical number line (y-axis)."
+      },
+      {
+        "term": "Ordered Pair",
+        "definition": "A pair of numbers (x, y) that indicate the position of a point on the coordinate plane."
+      },
+      {
+        "term": "Origin",
+        "definition": "The point (0, 0) where the x-axis and y-axis intersect."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.129",
+    "title": "Distance Formula in Coordinate Plane",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Distance Formula",
+        "definition": "The distance between points (x₁, y₁) and (x₂, y₂) is √[(x₂ - x₁)² + (y₂ - y₁)²]."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.130",
+    "title": "Midpoint Formula in Coordinate Plane",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Midpoint Formula",
+        "definition": "The midpoint of a segment with endpoints (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.131",
+    "title": "Slope of a Line",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Slope",
+        "definition": "The slope of a line through points (x₁, y₁) and (x₂, y₂) is (y₂ - y₁) / (x₂ - x₁)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.132",
+    "title": "Slope-Intercept Form",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Slope-Intercept Form",
+        "definition": "The equation of a line in the form y = mx + b, where m is the slope and b is the y-intercept."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.133",
+    "title": "Point-Slope Form",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Point-Slope Form",
+        "definition": "The equation of a line through point (x₁, y₁) with slope m is y - y₁ = m(x - x₁)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.134",
+    "title": "Standard Form of a Line",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Standard Form",
+        "definition": "The equation of a line in the form Ax + By = C, where A, B, and C are real numbers and A and B are not both zero."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.135",
+    "title": "Parallel and Perpendicular Lines",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Parallel Lines",
+        "definition": "Two lines are parallel if they have the same slope and different y-intercepts."
+      },
+      {
+        "term": "Perpendicular Lines",
+        "definition": "Two lines are perpendicular if the product of their slopes is –1."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.136",
+    "title": "Proving Triangles with Coordinate Geometry",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Congruent Triangles",
+        "definition": "Use distance formula to show all corresponding sides are equal."
+      },
+      {
+        "term": "Right Triangle",
+        "definition": "Use slope to show two sides are perpendicular."
+      },
+      {
+        "term": "Isosceles Triangle",
+        "definition": "Use distance formula to show two sides are congruent."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.137",
+    "title": "Proving Quadrilaterals with Coordinate Geometry",
+    "type": "theorem",
+    "content": [
+      {
+        "term": "Parallelogram",
+        "definition": "Opposite sides are parallel (same slope) and congruent (same length)."
+      },
+      {
+        "term": "Rectangle",
+        "definition": "All angles are right angles (perpendicular sides) and opposite sides are congruent."
+      },
+      {
+        "term": "Rhombus",
+        "definition": "All sides are congruent and diagonals are perpendicular."
+      },
+      {
+        "term": "Square",
+        "definition": "All sides congruent, all angles right."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.138",
+    "title": "Using Slope to Show Collinearity",
+    "type": "theorem",
+    "content": "Three points are collinear if the slopes between each pair of points are equal."
+  },
+  {
+    "id": "GEO01.139",
+    "title": "Using Slope and Distance to Prove Figures",
+    "type": "theorem",
+    "content": "You can use slope to check parallelism or perpendicularity, and distance to verify congruence or lengths, in order to classify triangles and quadrilaterals."
+  },
+  {
+    "id": "GEO01.140",
+    "title": "Using Midpoint to Show Bisection",
+    "type": "theorem",
+    "content": "If the midpoint of a segment coincides with the midpoint of another, it shows that both segments bisect each other."
+  },
+  {
+    "id": "GEO01.141",
+    "title": "Verifying Diagonal Properties with Coordinates",
+    "type": "theorem",
+    "content": "To prove diagonals bisect each other, show they share the same midpoint. To prove perpendicular diagonals, show the slopes are negative reciprocals."
+  },
+  {
+    "id": "GEO01.142",
+    "title": "Equation of a Circle",
+    "type": "formula",
+    "content": "The standard form of a circle with center (h, k) and radius r is (x - h)² + (y - k)² = r²."
+  },
+  {
+    "id": "GEO01.143",
+    "title": "Locus Definition of a Circle",
+    "type": "definition",
+    "content": "A circle is the set of all points in a plane equidistant from a fixed point called the center."
+  },
+  {
+    "id": "GEO01.144",
+    "title": "Distance from a Point to a Line",
+    "type": "formula",
+    "content": "The distance from a point (x₀, y₀) to a line Ax + By + C = 0 is |Ax₀ + By₀ + C| / √(A² + B²)."
+  },
+  {
+    "id": "GEO01.145",
+    "title": "Cylinder",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Cylinder",
+        "definition": "A solid with two congruent circular bases connected by a curved surface."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.146",
+    "title": "Surface Area and Volume of a Cylinder",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Surface Area",
+        "definition": "SA = 2πr² + 2πrh, where r is the radius and h is the height."
+      },
+      {
+        "term": "Volume",
+        "definition": "V = πr²h"
+      }
+    ]
+  },
+  {
+    "id": "GEO01.147",
+    "title": "Cone",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Cone",
+        "definition": "A solid with a circular base and a vertex not in the same plane as the base."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.148",
+    "title": "Surface Area and Volume of a Cone",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Surface Area",
+        "definition": "SA = πr² + πrl, where r is the radius and l is the slant height."
+      },
+      {
+        "term": "Volume",
+        "definition": "V = 1/3 πr²h, where h is the height of the cone."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.149",
+    "title": "Sphere",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Sphere",
+        "definition": "A sphere is the set of all points in space that are a given distance (radius) from a given point (center)."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.150",
+    "title": "Surface Area and Volume of a Sphere",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Surface Area",
+        "definition": "SA = 4πr², where r is the radius of the sphere."
+      },
+      {
+        "term": "Volume",
+        "definition": "V = 4/3 πr³"
+      }
+    ]
+  },
+  {
+    "id": "GEO01.151",
+    "title": "Great Circle and Hemisphere",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Great Circle",
+        "definition": "A circle formed by the intersection of a sphere and a plane that contains the center of the sphere."
+      },
+      {
+        "term": "Hemisphere",
+        "definition": "Half of a sphere, formed by cutting a sphere with a plane through its center."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.152",
+    "title": "Volume of a Hemisphere",
+    "type": "formula",
+    "content": [
+      {
+        "term": "Volume",
+        "definition": "V = 2/3 πr³"
+      }
+    ]
+  },
+  {
+    "id": "GEO01.153",
+    "title": "Composite Solids",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Composite Solid",
+        "definition": "A solid figure composed of two or more simple solid figures."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.154",
+    "title": "Surface Area of Composite Solids",
+    "type": "concept",
+    "content": "The surface area of a composite solid is found by adding the surface areas of its individual components, subtracting any hidden or shared faces."
+  },
+  {
+    "id": "GEO01.155",
+    "title": "Solids of Revolution",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Solid of Revolution",
+        "definition": "A three-dimensional figure obtained by rotating a two-dimensional shape around an axis."
+      },
+      {
+        "term": "Example",
+        "definition": "Rotating a rectangle around one side creates a cylinder; rotating a triangle creates a cone."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.156",
+    "title": "Trigonometric Ratios",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Sine (sin)",
+        "definition": "In a right triangle, the sine of an angle is the ratio of the length of the opposite side to the hypotenuse."
+      },
+      {
+        "term": "Cosine (cos)",
+        "definition": "In a right triangle, the cosine of an angle is the ratio of the length of the adjacent side to the hypotenuse."
+      },
+      {
+        "term": "Tangent (tan)",
+        "definition": "In a right triangle, the tangent of an angle is the ratio of the length of the opposite side to the adjacent side."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.157",
+    "title": "Reciprocal Trigonometric Ratios",
+    "type": "definition",
+    "content": [
+      {
+        "term": "Cosecant (csc)",
+        "definition": "The reciprocal of sine: hypotenuse divided by opposite side."
+      },
+      {
+        "term": "Secant (sec)",
+        "definition": "The reciprocal of cosine: hypotenuse divided by adjacent side."
+      },
+      {
+        "term": "Cotangent (cot)",
+        "definition": "The reciprocal of tangent: adjacent side divided by opposite side."
+      }
+    ]
+  },
+  {
+    "id": "GEO01.158",
+    "title": "SOH-CAH-TOA Mnemonic",
+    "type": "mnemonic",
+    "content": "SOH-CAH-TOA helps remember sine, cosine, and tangent: Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent."
+  },
+  {
+    "id": "GEO01.159",
+    "title": "Using Trigonometry to Find Side Lengths",
+    "type": "theorem",
+    "content": "Given an angle and one side of a right triangle, trigonometric ratios can be used to calculate the unknown side lengths."
+  },
+  {
+    "id": "GEO01.160",
+    "title": "Using Trigonometry to Find Angles",
+    "type": "theorem",
+    "content": "Given two side lengths of a right triangle, inverse trigonometric functions can be used to find the measures of the non-right angles."
+  },
+  {
+    "id": "GEO01.161",
+    "title": "Translation Property by Addition",
+    "type": "postulate",
+    "content": "Adding the same quantity to both sides of an equation preserves equality."
+  },
+  {
+    "id": "GEO01.162",
+    "title": "Translation Property by Subtraction",
+    "type": "postulate",
+    "content": "Subtracting the same quantity from both sides of an equation preserves equality."
+  },
+  {
+    "id": "GEO01.163",
+    "title": "Substitution Property",
+    "type": "property",
+    "content": "If two quantities are equal, one may be substituted for the other in any expression or equation."
+  },
+  {
+    "id": "GEO01.164",
+    "title": "Transitive Property of Equality",
+    "type": "property",
+    "content": "If a = b and b = c, then a = c."
+  },
+  {
+    "id": "GEO01.165",
+    "title": "Reflexive Property of Equality",
+    "type": "property",
+    "content": "Any quantity is equal to itself: a = a."
+  },
+  {
+    "id": "GEO01.166",
+    "title": "Symmetric Property of Equality",
+    "type": "property",
+    "content": "If a = b, then b = a."
+  },
+  {
+    "id": "GEO01.167",
+    "title": "Distributive Property",
+    "type": "property",
+    "content": "Multiplying a number by a sum is the same as multiplying each addend individually and then adding the products: a(b + c) = ab + ac."
+  },
+  {
+    "id": "GEO01.168",
+    "title": "Pythagorean Theorem",
+    "type": "theorem",
+    "content": "In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the legs: a² + b² = c²."
+  },
+  {
+    "id": "GEO01.169",
+    "title": "Triangle Area Formula",
+    "type": "formula",
+    "content": "The area of a triangle is one-half the base times the height: A = 1/2 × base × height."
+  },
+  {
+    "id": "PRECAL01.001",
+    "title": "Definition of a Function",
+    "type": "definition",
+    "content": "A function is a relation in which each input has exactly one output. It can be represented using equations, graphs, or mappings."
+  },
+  {
+    "id": "PRECAL01.002",
+    "title": "Domain and Range of a Function",
+    "type": "definition",
+    "content": "The domain is the set of all possible input values, and the range is the set of all corresponding output values of a function."
+  },
+  {
+    "id": "PRECAL01.003",
+    "title": "Function Notation",
+    "type": "notation",
+    "content": "Function notation f(x) represents the output of function f for input x. The expression f(a) means the value of the function at a."
+  },
+  {
+    "id": "PRECAL01.004",
+    "title": "Vertical Line Test for Functions",
+    "type": "test",
+    "content": "A graph represents a function if and only if no vertical line intersects the graph at more than one point."
+  },
+  {
+    "id": "PRECAL01.005",
+    "title": "Piecewise-defined Function",
+    "type": "definition",
+    "content": "A piecewise-defined function is defined by different expressions over different parts of its domain."
+  },
+  {
+    "id": "PRECAL01.006",
+    "title": "Even and Odd Functions",
+    "type": "definition",
+    "content": "A function is even if f(−x) = f(x) for all x in its domain, and odd if f(−x) = −f(x)."
+  },
+  {
+    "id": "PRECAL01.007",
+    "title": "Increasing, Decreasing, Constant Intervals",
+    "type": "property",
+    "content": "A function is increasing on intervals where its graph rises, decreasing where it falls, and constant where it is flat."
+  },
+  {
+    "id": "PRECAL01.008",
+    "title": "Local and Absolute Extrema",
+    "type": "definition",
+    "content": "A function has a local maximum or minimum at a point if it is the highest or lowest value nearby. An absolute extremum is the highest or lowest value on the entire domain."
+  },
+  {
+    "id": "PRECAL01.009",
+    "title": "Function Composition",
+    "type": "procedure",
+    "content": "The composition of functions f and g is written as (f ∘ g)(x) = f(g(x)). Evaluate the inner function first."
+  },
+  {
+    "id": "PRECAL01.010",
+    "title": "Inverse of a Function",
+    "type": "definition",
+    "content": "The inverse of a function f is a function f⁻¹ such that f(f⁻¹(x)) = x and f⁻¹(f(x)) = x. A function has an inverse only if it is one-to-one."
+  },
+  {
+    "id": "PRECAL01.011",
+    "title": "Operations on Functions",
+    "type": "procedure",
+    "content": "Functions can be added, subtracted, multiplied, or divided: (f ± g)(x) = f(x) ± g(x), (f·g)(x) = f(x)g(x), (f / g)(x) = f(x)/g(x) where g(x) ≠ 0."
+  },
+  {
+    "id": "PRECAL01.012",
+    "title": "Domain of Combined Functions",
+    "type": "property",
+    "content": "The domain of f ± g or f·g is the intersection of domains of f and g. For f / g, also exclude points where g(x) = 0."
+  },
+  {
+    "id": "PRECAL01.013",
+    "title": "Verifying Inverse Functions",
+    "type": "procedure",
+    "content": "To verify f and g are inverses, check that f(g(x)) = x and g(f(x)) = x over their domains."
+  },
+  {
+    "id": "PRECAL01.014",
+    "title": "Finding Inverse Algebraically",
+    "type": "procedure",
+    "content": "To find the inverse of a function f(x), switch x and y in the equation y = f(x), then solve for y."
+  },
+  {
+    "id": "PRECAL01.015",
+    "title": "One-to-One Function",
+    "type": "definition",
+    "content": "A function is one-to-one if each output value corresponds to exactly one input value. It passes the horizontal line test."
+  },
+  {
+    "id": "PRECAL01.016",
+    "title": "Absolute Value as a Piecewise Function",
+    "type": "definition",
+    "content": "The function f(x) = |x| can be expressed as a piecewise function: f(x) = x if x ≥ 0, and f(x) = −x if x < 0."
+  },
+  {
+    "id": "PRECAL01.017",
+    "title": "Greatest Integer (Floor) Function",
+    "type": "definition",
+    "content": "The greatest integer function, denoted ⌊x⌋, gives the greatest integer less than or equal to x. Its graph is a step function."
+  },
+  {
+    "id": "PRECAL01.018",
+    "title": "Signum (Sign) Function",
+    "type": "definition",
+    "content": "The sign function sgn(x) returns 1 if x > 0, 0 if x = 0, and −1 if x < 0."
+  },
+  {
+    "id": "PRECAL01.019",
+    "title": "Increasing/Decreasing via Derivative-Free Analysis",
+    "type": "strategy",
+    "content": "In Precalculus, a function is increasing where its values get larger as x increases, based on table or graph, without formal derivatives."
+  },
+  {
+    "id": "PRECAL01.020",
+    "title": "Function Symmetry Types",
+    "type": "property",
+    "content": "A graph has y-axis symmetry if f(−x) = f(x), origin symmetry if f(−x) = −f(x), and x-axis symmetry if (x, y) and (x, −y) are both on the graph (not a function)."
+  },
+  {
+    "id": "PRECAL01.021",
+    "title": "Piecewise and Continuity at a Point",
+    "type": "definition",
+    "content": "A function is continuous at x = c if lim x→c⁻ f(x) = lim x→c⁺ f(x) = f(c). Discontinuities often occur at piecewise boundaries."
+  },
+  {
+    "id": "PRECAL01.022",
+    "title": "Removable vs. Jump Discontinuity",
+    "type": "definition",
+    "content": "A removable discontinuity occurs when a point can be redefined to make the function continuous. A jump discontinuity has a gap in the graph."
+  },
+  {
+    "id": "PRECAL01.023",
+    "title": "End Behavior Using Limits (Informal)",
+    "type": "strategy",
+    "content": "End behavior describes how f(x) behaves as x → ±∞. Analyze using algebraic structure or graph."
+  },
+  {
+    "id": "PRECAL01.024",
+    "title": "Nested Function Composition",
+    "type": "procedure",
+    "content": "When evaluating (f ∘ g)(x) for nested functions, start with the innermost expression and work outward step by step."
+  },
+  {
+    "id": "PRECAL01.025",
+    "title": "Modeling Real-World Contexts with Functions",
+    "type": "application",
+    "content": "Select appropriate functions to model linear, quadratic, exponential, or periodic real-world behavior."
+  },
+  {
+    "id": "PRECAL01.026",
+    "title": "Interval Notation and Set Builder Notation",
+    "type": "notation",
+    "content": "Use interval notation to represent continuous domains or ranges (e.g., (a, b], [0, ∞)). Use set-builder notation to specify constraints (e.g., {x | x > 2})."
+  },
+  {
+    "id": "PRECAL01.027",
+    "title": "Vertical and Horizontal Stretch/Compression",
+    "type": "transformation",
+    "content": "Multiplying a function by a constant a > 1 stretches it vertically; 0 < a < 1 compresses it. Replacing x with bx stretches/compresses horizontally."
+  },
+  {
+    "id": "PRECAL01.028",
+    "title": "Even-Odd Composition Rule",
+    "type": "property",
+    "content": "If f is even and g is odd, then (f ∘ g)(x) is even. If both are odd, (f ∘ g)(x) is odd. Composition can change symmetry."
+  },
+  {
+    "id": "PRECAL01.029",
+    "title": "Parametric Representation of Functions",
+    "type": "definition",
+    "content": "A parametric equation defines both x and y as functions of a third variable t, useful for describing motion and curves that aren’t functions in x."
+  },
+  {
+    "id": "PRECAL01.030",
+    "title": "Definition of Trigonometric Ratios",
+    "type": "definition",
+    "content": "In a right triangle, sine is opposite/hypotenuse, cosine is adjacent/hypotenuse, and tangent is opposite/adjacent."
+  },
+  {
+    "id": "PRECAL01.031",
+    "title": "Reciprocal Trigonometric Ratios",
+    "type": "definition",
+    "content": "Cosecant is the reciprocal of sine, secant is the reciprocal of cosine, and cotangent is the reciprocal of tangent."
+  },
+  {
+    "id": "PRECAL01.032",
+    "title": "Trigonometric Ratios on the Unit Circle",
+    "type": "definition",
+    "content": "On the unit circle, for an angle θ in standard position, cos(θ) is the x-coordinate and sin(θ) is the y-coordinate of the point on the circle."
+  },
+  {
+    "id": "PRECAL01.033",
+    "title": "Radian Measure",
+    "type": "definition",
+    "content": "A radian is the measure of a central angle that subtends an arc equal in length to the radius of the circle. 180° = π radians."
+  },
+  {
+    "id": "PRECAL01.034",
+    "title": "Converting Between Degrees and Radians",
+    "type": "procedure",
+    "content": "To convert degrees to radians, multiply by π/180. To convert radians to degrees, multiply by 180/π."
+  },
+  {
+    "id": "PRECAL01.035",
+    "title": "Coterminal Angles",
+    "type": "definition",
+    "content": "Coterminal angles have the same terminal side and differ by a multiple of 2π (or 360°)."
+  },
+  {
+    "id": "PRECAL01.036",
+    "title": "Reference Angle",
+    "type": "definition",
+    "content": "A reference angle is the acute angle formed between the terminal side of an angle and the x-axis. It helps evaluate trig functions in all quadrants."
+  },
+  {
+    "id": "PRECAL01.037",
+    "title": "Signs of Trigonometric Functions by Quadrant",
+    "type": "property",
+    "content": "In Quadrant I: all positive, II: sin positive, III: tan positive, IV: cos positive. Remember using 'All Students Take Calculus'."
+  },
+  {
+    "id": "PRECAL01.038",
+    "title": "Evaluating Trig Functions of Special Angles",
+    "type": "procedure",
+    "content": "Know exact values of sine, cosine, and tangent for 0°, 30°, 45°, 60°, and 90°, and corresponding radian measures."
+  },
+  {
+    "id": "PRECAL01.039",
+    "title": "Circular (Real Number) Definition of Trig Functions",
+    "type": "definition",
+    "content": "For any real number t, the coordinates of the point on the unit circle at arc length t define sin(t) = y and cos(t) = x. Other trig functions follow from ratios."
+  },
+  {
+    "id": "PRECAL01.040",
+    "title": "Graph of Sine Function",
+    "type": "property",
+    "content": "The graph of y = sin(x) is a smooth, periodic wave with amplitude 1, period 2π, and midline y = 0."
+  },
+  {
+    "id": "PRECAL01.041",
+    "title": "Graph of Cosine Function",
+    "type": "property",
+    "content": "The graph of y = cos(x) is a periodic wave identical in shape to sine, but starts at a maximum. It has amplitude 1 and period 2π."
+  },
+  {
+    "id": "PRECAL01.042",
+    "title": "Graph of Tangent Function",
+    "type": "property",
+    "content": "The graph of y = tan(x) has vertical asymptotes at x = ±π/2, ±3π/2, etc. It is periodic with period π and passes through the origin."
+  },
+  {
+    "id": "PRECAL01.043",
+    "title": "Amplitude of Trigonometric Functions",
+    "type": "property",
+    "content": "In y = a·sin(x) or y = a·cos(x), the amplitude is |a|, representing the vertical stretch from the midline."
+  },
+  {
+    "id": "PRECAL01.044",
+    "title": "Period of Sine and Cosine Functions",
+    "type": "formula",
+    "content": "In y = sin(bx) or y = cos(bx), the period is 2π / |b|. Larger b results in more cycles over the same interval."
+  },
+  {
+    "id": "PRECAL01.045",
+    "title": "Phase Shift and Vertical Shift",
+    "type": "transformation",
+    "content": "In y = a·sin(b(x − c)) + d, c represents horizontal (phase) shift and d represents vertical shift (midline y = d)."
+  },
+  {
+    "id": "PRECAL01.046",
+    "title": "Graphing a Transformed Sine or Cosine Function",
+    "type": "procedure",
+    "content": "To graph y = a·sin(b(x − c)) + d, determine amplitude, period, phase shift, and midline. Plot key points accordingly."
+  },
+  {
+    "id": "PRECAL01.047",
+    "title": "Graph of Secant and Cosecant Functions",
+    "type": "property",
+    "content": "Th graphs of y = sec(x) and y = csc(x) are based on reciprocals of cosine and sine. They have vertical asymptotes and form parabolic curves."
+  },
+  {
+    "id": "PRECAL01.048",
+    "title": "Graph of Cotangent Function",
+    "type": "property",
+    "content": "The graph of y = cot(x) has vertical asymptotes where sine is zero and period π. It decreases from left to right."
+  },
+  {
+    "id": "PRECAL01.049",
+    "title": "Modeling Periodic Behavior with Trig Functions",
+    "type": "application",
+    "content": "Trigonometric functions are used to model periodic phenomena such as sound waves, tides, or seasonal temperatures."
+  },
+  {
+    "id": "PRECAL01.050",
+    "title": "5-Point Summary for Sinusoidal Graphs",
+    "type": "strategy",
+    "content": "To graph a sine or cosine function of the form y = a·sin(b(x − c)) + d or y = a·cos(b(x − c)) + d, identify: (1) Amplitude = |a|, (2) Period = 2π / |b|, (3) Phase Shift = c, (4) Vertical Shift = d (midline y = d), (5) Key Points: Start, Max, Mid, Min, End of one cycle."
+  },
+  {
+    "id": "PRECAL01.051",
+    "title": "Definition of Inverse Trigonometric Functions",
+    "type": "definition",
+    "content": "The inverse trig functions undo sine, cosine, and tangent: arcsin, arccos, arctan. They return angles as outputs."
+  },
+  {
+    "id": "PRECAL01.052",
+    "title": "Domains and Ranges of Inverse Trig Functions",
+    "type": "property",
+    "content": "To be functions, inverse trig functions are defined on restricted domains: arcsin and arccos on [−1, 1], arctan on all real numbers."
+  },
+  {
+    "id": "PRECAL01.053",
+    "title": "Graphs of Inverse Trig Functions",
+    "type": "property",
+    "content": "The graph of arcsin(x) is a reflection of y = sin(x) over y = x on the restricted domain [−π/2, π/2]. Similar for arccos and arctan."
+  },
+  {
+    "id": "PRECAL01.054",
+    "title": "Solving Equations with Inverse Trig Functions",
+    "type": "procedure",
+    "content": "To solve equations like sin(θ) = x, use θ = arcsin(x). Consider general solutions or principal values based on context."
+  },
+  {
+    "id": "PRECAL01.055",
+    "title": "Compositions of Trig and Inverse Trig Functions",
+    "type": "property",
+    "content": "For example, sin(arcsin(x)) = x for x in [−1, 1], but arcsin(sin(x)) = x only when x is in [−π/2, π/2]."
+  },
+  {
+    "id": "PRECAL01.056",
+    "title": "All Six Trig Functions on the Unit Circle",
+    "type": "definition",
+    "content": "On the unit circle, define sin(θ) = y, cos(θ) = x, tan(θ) = y/x, csc(θ) = 1/y, sec(θ) = 1/x, and cot(θ) = x/y, where defined."
+  },
+  {
+    "id": "PRECAL01.057",
+    "title": "Inverse Secant, Cosecant, and Cotangent",
+    "type": "definition",
+    "content": "The inverse secant, cosecant, and cotangent functions are less commonly used but defined with restricted ranges to be functions."
+  },
+  {
+    "id": "PRECAL01.058",
+    "title": "Summary of Inverse Trig Domains and Ranges",
+    "type": "comparison",
+    "content": "Create a table comparing domain and range of arcsin, arccos, arctan, arcsec, arccsc, arccot for quick reference."
+  },
+  {
+    "id": "PRECAL01.059",
+    "title": "Evaluating Inverse Trig of Special Values",
+    "type": "procedure",
+    "content": "Know values such as arcsin(1/2) = π/6, arccos(0) = π/2, and arctan(1) = π/4 for solving equations without a calculator."
+  },
+  {
+    "id": "PRECAL01.060",
+    "title": "Angle of Elevation and Depression Problems",
+    "type": "application",
+    "content": "Use right triangle trig and inverse functions to solve problems involving height, distance, and angle of elevation/depression."
+  },
+  {
+    "id": "PRECAL01.061",
+    "title": "Reciprocal Identities",
+    "type": "identity",
+    "content": "csc(θ) = 1/sin(θ), sec(θ) = 1/cos(θ), cot(θ) = 1/tan(θ)"
+  },
+  {
+    "id": "PRECAL01.062",
+    "title": "Quotient Identities",
+    "type": "identity",
+    "content": "tan(θ) = sin(θ)/cos(θ), cot(θ) = cos(θ)/sin(θ)"
+  },
+  {
+    "id": "PRECAL01.063",
+    "title": "Pythagorean Identities",
+    "type": "identity",
+    "content": "sin²(θ) + cos²(θ) = 1, 1 + tan²(θ) = sec²(θ), 1 + cot²(θ) = csc²(θ)"
+  },
+  {
+    "id": "PRECAL01.064",
+    "title": "Even-Odd Identities",
+    "type": "identity",
+    "content": "sin(−θ) = −sin(θ), cos(−θ) = cos(θ), tan(−θ) = −tan(θ), etc. Used to simplify expressions involving negative angles."
+  },
+  {
+    "id": "PRECAL01.065",
+    "title": "Cofunction Identities",
+    "type": "identity",
+    "content": "sin(π/2 − θ) = cos(θ), tan(π/2 − θ) = cot(θ), sec(π/2 − θ) = csc(θ), etc."
+  },
+  {
+    "id": "PRECAL01.066",
+    "title": "Verifying Trigonometric Identities",
+    "type": "strategy",
+    "content": "To verify identities, manipulate one side using known identities until it matches the other side. Use algebraic techniques like factoring or multiplying by conjugates."
+  },
+  {
+    "id": "PRECAL01.067",
+    "title": "Sum and Difference Identities",
+    "type": "identity",
+    "content": "sin(A ± B) = sin A cos B ± cos A sin B, cos(A ± B) = cos A cos B ∓ sin A sin B, tan(A ± B) = (tan A ± tan B)/(1 ∓ tan A tan B)"
+  },
+  {
+    "id": "PRECAL01.068",
+    "title": "Double-Angle Identities",
+    "type": "identity",
+    "content": "sin(2θ) = 2 sin θ cos θ, cos(2θ) = cos²θ − sin²θ (or 2cos²θ − 1, 1 − 2sin²θ), tan(2θ) = 2tan θ / (1 − tan²θ)"
+  },
+  {
+    "id": "PRECAL01.069",
+    "title": "Half-Angle Identities",
+    "type": "identity",
+    "content": "sin²(θ/2) = (1 − cos θ)/2, cos²(θ/2) = (1 + cos θ)/2, tan(θ/2) = (1 − cos θ)/sin θ or sin θ / (1 + cos θ)"
+  },
+  {
+    "id": "PRECAL01.070",
+    "title": "Product-to-Sum and Sum-to-Product Formulas",
+    "type": "identity",
+    "content": "Convert products into sums and vice versa using identities such as sin A sin B = ½[cos(A−B) − cos(A+B)]."
+  },
+  {
+    "id": "PRECAL01.071",
+    "title": "Solving Basic Trigonometric Equations",
+    "type": "procedure",
+    "content": "To solve equations like sin x = 1/2, find all angles with that value in the given domain using reference angles and unit circle knowledge."
+  },
+  {
+    "id": "PRECAL01.072",
+    "title": "General Solutions for Trigonometric Equations",
+    "type": "procedure",
+    "content": "Express all solutions using angle + period·n form, e.g., x = π/6 + 2πn and x = 5π/6 + 2πn for sin x = 1/2."
+  },
+  {
+    "id": "PRECAL01.073",
+    "title": "Using Identities to Solve Trig Equations",
+    "type": "strategy",
+    "content": "Rewrite trig equations using identities (e.g., Pythagorean, double-angle) to reduce to a single function."
+  },
+  {
+    "id": "PRECAL01.074",
+    "title": "Quadratic Form Trig Equations",
+    "type": "procedure",
+    "content": "Solve equations like 2sin²x − sin x − 1 = 0 by factoring or using the quadratic formula, then solving each resulting basic trig equation."
+  },
+  {
+    "id": "PRECAL01.075",
+    "title": "Using Substitution in Trig Equations",
+    "type": "strategy",
+    "content": "Let u = sin x or cos x to reduce complex equations into algebraic ones. Solve and back-substitute to find x."
+  },
+  {
+    "id": "PRECAL01.076",
+    "title": "Solving Trig Equations with Multiple Angles",
+    "type": "procedure",
+    "content": "When solving sin(2x) = 0 or similar, treat 2x as the new angle, solve for it, then divide to get x and write all valid solutions."
+  },
+  {
+    "id": "PRECAL01.077",
+    "title": "Using Graphs to Solve Trig Equations",
+    "type": "strategy",
+    "content": "Graph both sides of the equation and identify points of intersection. Useful for equations with transformations or multiple terms."
+  },
+  {
+    "id": "PRECAL01.078",
+    "title": "Solving Inequalities Involving Trig Functions",
+    "type": "procedure",
+    "content": "To solve inequalities like sin x > 1/2, first solve the related equation, then use interval analysis on the unit circle."
+  },
+  {
+    "id": "PRECAL01.079",
+    "title": "Extraneous Solutions in Trig Equations",
+    "type": "warning",
+    "content": "Check all solutions in the original equation, especially after squaring or using identities. Some steps may introduce invalid results."
+  },
+  {
+    "id": "PRECAL01.080",
+    "title": "Law of Sines",
+    "type": "formula",
+    "content": "In any triangle, the ratio of the length of a side to the sine of its opposite angle is constant: a/sin A = b/sin B = c/sin C."
+  },
+  {
+    "id": "PRECAL01.081",
+    "title": "Ambiguous Case for Law of Sines (SSA)",
+    "type": "warning",
+    "content": "When given two sides and a non-included angle (SSA), there may be 0, 1, or 2 triangles depending on the height and angle configuration."
+  },
+  {
+    "id": "PRECAL01.082",
+    "title": "Law of Cosines",
+    "type": "formula",
+    "content": "For any triangle: c² = a² + b² − 2ab·cos C. Useful when two sides and included angle or all three sides are known."
+  },
+  {
+    "id": "PRECAL01.083",
+    "title": "Choosing Between Laws of Sines and Cosines",
+    "type": "strategy",
+    "content": "Use Law of Sines when an angle-side pair is known (ASA, AAS, SSA). Use Law of Cosines for SAS and SSS configurations."
+  },
+  {
+    "id": "PRECAL01.084",
+    "title": "Area of Triangle Using Trigonometry",
+    "type": "formula",
+    "content": "Area = (1/2)ab·sin C, where a and b are two sides and C is the included angle."
+  },
+  {
+    "id": "PRECAL01.085",
+    "title": "Heron’s Formula",
+    "type": "formula",
+    "content": "If a triangle has side lengths a, b, c, and semi-perimeter s = (a + b + c)/2, then Area = √[s(s−a)(s−b)(s−c)]."
+  },
+  {
+    "id": "PRECAL01.086",
+    "title": "Solving Triangles (Mixed Strategy)",
+    "type": "procedure",
+    "content": "To solve a triangle, choose Law of Sines or Cosines based on the given information. Compute unknown sides and angles step by step."
+  },
+  {
+    "id": "PRECAL01.087",
+    "title": "Trigonometric Form of Area and Ambiguity",
+    "type": "warning",
+    "content": "Using the sine formula for area requires an included angle. In SSA cases, ensure the triangle is valid before applying."
+  },
+  {
+    "id": "PRECAL01.088",
+    "title": "Triple-Angle Identity for Sine and Cosine",
+    "type": "identity",
+    "content": "sin(3θ) = 3sinθ − 4sin³θ, cos(3θ) = 4cos³θ − 3cosθ. These are used in advanced simplifications and triangle constructions."
+  },
+  {
+    "id": "PRECAL01.089",
+    "title": "Proof of Triple-Angle Identities",
+    "type": "proof",
+    "content": "Triple-angle identities can be derived by applying sum identities to sin(2θ + θ) and cos(2θ + θ) and simplifying."
+  },
+  {
+    "id": "PRECAL01.090",
+    "title": "Definition of Complex Numbers",
+    "type": "definition",
+    "content": "A complex number is of the form a + bi, where a and b are real numbers, and i is the imaginary unit defined by i² = −1."
+  },
+  {
+    "id": "PRECAL01.091",
+    "title": "Operations on Complex Numbers",
+    "type": "procedure",
+    "content": "To add or subtract, combine like terms. To multiply, use distributive property and simplify using i² = −1. To divide, multiply by the conjugate of the denominator."
+  },
+  {
+    "id": "PRECAL01.092",
+    "title": "Complex Conjugate",
+    "type": "definition",
+    "content": "The complex conjugate of a + bi is a − bi. Multiplying a complex number by its conjugate yields a real number: (a + bi)(a − bi) = a² + b²."
+  },
+  {
+    "id": "PRECAL01.093",
+    "title": "Absolute Value (Modulus) of a Complex Number",
+    "type": "definition",
+    "content": "The absolute value of a + bi is √(a² + b²). It represents the distance from the origin in the complex plane."
+  },
+  {
+    "id": "PRECAL01.094",
+    "title": "Complex Plane and Graphing",
+    "type": "definition",
+    "content": "The complex number a + bi can be graphed as the point (a, b) in the complex plane, with the x-axis as the real part and y-axis as the imaginary part."
+  },
+  {
+    "id": "PRECAL01.095",
+    "title": "Polar Form of Complex Numbers",
+    "type": "definition",
+    "content": "A complex number can be written in polar form as r(cos θ + i sin θ), where r = |z| and θ is the argument (angle) of the complex number."
+  },
+  {
+    "id": "PRECAL01.096",
+    "title": "Converting Between Rectangular and Polar Form",
+    "type": "procedure",
+    "content": "To convert a + bi to polar, find r = √(a² + b²) and θ = arctan(b/a). To convert polar to rectangular, compute x = r cos θ, y = r sin θ."
+  },
+  {
+    "id": "PRECAL01.097",
+    "title": "Multiplying and Dividing in Polar Form",
+    "type": "procedure",
+    "content": "To multiply: multiply moduli and add angles. To divide: divide moduli and subtract angles."
+  },
+  {
+    "id": "PRECAL01.098",
+    "title": "De Moivre’s Theorem",
+    "type": "theorem",
+    "content": "If z = r(cos θ + i sin θ), then zⁿ = rⁿ[cos(nθ) + i sin(nθ)]. This is used to raise complex numbers to powers."
+  },
+  {
+    "id": "PRECAL01.099",
+    "title": "Finding Roots of Complex Numbers",
+    "type": "procedure",
+    "content": "To find the nth roots of a complex number, use the formula: r^(1/n)[cos((θ + 2kπ)/n) + i sin((θ + 2kπ)/n)] for k = 0, 1, ..., n−1."
+  },
+  {
+    "id": "PRECAL01.100",
+    "title": "Definition of a Matrix",
+    "type": "definition",
+    "content": "A matrix is a rectangular array of numbers arranged in rows and columns. The size of a matrix is given as rows × columns (e.g., 3×3)."
+  },
+  {
+    "id": "PRECAL01.101",
+    "title": "Matrix Addition and Scalar Multiplication",
+    "type": "procedure",
+    "content": "To add matrices, add corresponding entries. Scalar multiplication multiplies each entry of a matrix by a constant."
+  },
+  {
+    "id": "PRECAL01.102",
+    "title": "Matrix Multiplication",
+    "type": "procedure",
+    "content": "The product of an m×n matrix and an n×p matrix is an m×p matrix. Each entry is the dot product of row and column vectors."
+  },
+  {
+    "id": "PRECAL01.103",
+    "title": "Identity Matrix and Multiplicative Identity",
+    "type": "definition",
+    "content": "The identity matrix I has 1s on the diagonal and 0s elsewhere. For a square matrix A, AI = IA = A."
+  },
+  {
+    "id": "PRECAL01.104",
+    "title": "Inverse of a 2×2 Matrix",
+    "type": "formula",
+    "content": "For A = [[a, b], [c, d]], the inverse is (1/det A)·[[d, −b], [−c, a]] if det A ≠ 0."
+  },
+  {
+    "id": "PRECAL01.105",
+    "title": "Determinant of a 2×2 and 3×3 Matrix",
+    "type": "procedure",
+    "content": "For 2×2: det = ad − bc. For 3×3, use cofactor expansion or Sarrus’s Rule: det = aei + bfg + cdh − afh − bdi − ceg."
+  },
+  {
+    "id": "PRECAL01.106",
+    "title": "Inverse of a 3×3 Matrix (Conceptual)",
+    "type": "procedure",
+    "content": "To find the inverse of a 3×3 matrix, use the adjugate and determinant: A⁻¹ = (1/det A)·adj(A), if det A ≠ 0."
+  },
+  {
+    "id": "PRECAL01.107",
+    "title": "Solving Systems with Matrices (2×2 or 3×3)",
+    "type": "procedure",
+    "content": "Write the system as AX = B, then solve using X = A⁻¹B if A is invertible."
+  },
+  {
+    "id": "PRECAL01.108",
+    "title": "Row Reduction and Echelon Form",
+    "type": "procedure",
+    "content": "Use Gaussian or Gauss-Jordan elimination to solve systems by converting the augmented matrix to row echelon or reduced row echelon form."
+  },
+  {
+    "id": "PRECAL01.109",
+    "title": "Applications of Matrices",
+    "type": "application",
+    "content": "Matrices can model systems in economics, networks, cryptography, and computer graphics transformations."
+  },
+  {
+    "id": "PRECAL01.110",
+    "title": "Intuitive Definition of a Limit",
+    "type": "definition",
+    "content": "The limit of f(x) as x approaches a is the value f(x) gets closer to as x gets closer to a. Notation: limₓ→ₐ f(x)."
+  },
+  {
+    "id": "PRECAL01.111",
+    "title": "One-Sided Limits",
+    "type": "definition",
+    "content": "The left-hand limit is limₓ→ₐ⁻ f(x), and the right-hand limit is limₓ→ₐ⁺ f(x). A limit exists at a if both one-sided limits are equal."
+  },
+  {
+    "id": "PRECAL01.112",
+    "title": "Limits from a Table or Graph",
+    "type": "strategy",
+    "content": "To estimate a limit numerically, observe the trend of values as x approaches a. Graphically, examine the y-values approaching a point."
+  },
+  {
+    "id": "PRECAL01.113",
+    "title": "Limits Involving Infinity",
+    "type": "definition",
+    "content": "If f(x) increases or decreases without bound as x approaches a value, write limₓ→ₐ f(x) = ∞ or −∞. The limit does not exist in the finite sense."
+  },
+  {
+    "id": "PRECAL01.114",
+    "title": "Limit Does Not Exist (DNE)",
+    "type": "definition",
+    "content": "A limit fails to exist when the left- and right-hand limits are unequal, the function oscillates, or it diverges to infinity."
+  },
+  {
+    "id": "PRECAL01.115",
+    "title": "Infinite Limits at Infinity",
+    "type": "definition",
+    "content": "As x → ∞ or x → −∞, examine the end behavior of f(x). Limits can approach a finite number or diverge to ∞."
+  },
+  {
+    "id": "PRECAL01.116",
+    "title": "Limits and Asymptotic Behavior",
+    "type": "property",
+    "content": "Vertical asymptotes occur where the function grows without bound. Horizontal asymptotes reflect the limit as x → ∞ or −∞."
+  },
+  {
+    "id": "PRECAL01.117",
+    "title": "Algebraic Limit Evaluation",
+    "type": "procedure",
+    "content": "Use substitution first. If undefined, try factoring, rationalizing, or using conjugates to simplify and then re-evaluate the limit."
+  },
+  {
+    "id": "PRECAL01.118",
+    "title": "Piecewise Function Limits",
+    "type": "strategy",
+    "content": "For piecewise-defined functions, evaluate left-hand and right-hand limits using appropriate pieces. Check for discontinuities at transition points."
+  },
+  {
+    "id": "PRECAL01.119",
+    "title": "Definition of Continuity at a Point",
+    "type": "definition",
+    "content": "A function is continuous at x = a if limₓ→ₐ f(x) exists, f(a) exists, and limₓ→ₐ f(x) = f(a)."
+  },
+  {
+    "id": "PRECAL01.120",
+    "title": "Algebraic Manipulation or Simplification",
+    "type": "procedure",
+    "content": "Algebraic expressions can be simplified or manipulated by applying arithmetic rules, exponent rules, or factoring techniques, as long as logical equivalence is maintained."
+  }
+]

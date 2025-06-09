@@ -551,5 +551,27 @@
       "Algebra"
     ],
     "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG31",
+    "name": "Vieta’s Formula (Cubic)",
+    "statement": "For ax³ + bx² + cx + d = 0 with roots r, s, and t:\n- r + s + t = -b/a\n- rs + rt + st = c/a\n- rst = -d/a",
+    "formal": "∑rᵢ = -b/a, ∑rᵢrⱼ = c/a, rst = -d/a",
+    "tags": ["algebra", "vieta", "roots", "cubic"],
+    "philosophy": "Relates cubic roots to coefficients via symmetric sums.",
+    "used_in_proofs": ["CubicRootLink"],
+    "used_in_systems": ["Algebra"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_ALG32",
+    "name": "Vieta’s Formula (General Form)",
+    "statement": "For P(x) = a₀xⁿ + a₁xⁿ⁻¹ + ⋯ + aₙ = 0 with roots r₁, ..., rₙ:\nThe k-th elementary symmetric sum of the roots equals (-1)^k · a_k / a₀",
+    "formal": "∀k ∈ [1, n], eₖ(r₁,...,rₙ) = (-1)^k · a_k / a₀",
+    "tags": ["algebra", "vieta", "roots", "general", "symmetric"],
+    "philosophy": "Generalized version of Vieta’s formula connecting root sums with coefficients.",
+    "used_in_proofs": ["SymmetricPolynomialReasoning"],
+    "used_in_systems": ["Algebra"],
+    "strength_score": 0.9
   }
 ]

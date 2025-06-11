@@ -1300,5 +1300,35 @@
   "title": "Triangle Area Formula",
   "type": "formula",
   "content": "The area of a triangle is one-half the base times the height: A = 1/2 × base × height."
+  },
+  {
+    "id": "GEO01.170",
+    "title": "Definition of Polyhedron",
+    "type": "definition",
+    "content": "A polyhedron is a solid figure bounded by flat polygonal faces."
+  },
+  {
+    "id": "GEO01.171",
+    "title": "Definition of Tetrahedron",
+    "type": "definition",
+    "content": "A tetrahedron is a polyhedron composed of four triangular faces, four vertices, and six edges."
+  },
+  {
+    "id": "GEO01.172",
+    "title": "Definition of Cube (Hexahedron)",
+    "type": "definition",
+    "content": "A cube is a polyhedron with six square faces, eight vertices, and twelve edges. It is a regular hexahedron."
+  },
+  {
+    "id": "GEO01.173",
+    "title": "Definition of Octahedron",
+    "type": "definition",
+    "content": "An octahedron is a polyhedron with eight triangular faces, six vertices, and twelve edges."
+  },
+  {
+    "id": "GEO01.174",
+    "title": "Euler’s Polyhedron Formula",
+    "type": "theorem",
+    "content": "For any convex polyhedron, the number of vertices (V), edges (E), and faces (F) satisfies V - E + F = 2."
   }
 ]

@@ -1,50 +1,51 @@
 [
   {
     "id": "GEO01.01",
-    "title": "Points, Lines, and Planes",
+    "title": "Undefined Terms",
     "type": "definition",
-    "content": [
-      { "term": "Point", "definition": "A point is a location with no dimension, represented by a dot and a capital letter." },
-      { "term": "Line", "definition": "A line is a straight path that extends infinitely in two directions and has one dimension." },
-      { "term": "Plane", "definition": "A plane is a flat surface that extends infinitely in two dimensions and contains at least three non-collinear points." }
-    ]
+    "content": "In geometry, the most basic figures are undefined terms: point, line, and plane."
   },
   {
     "id": "GEO01.02",
-    "title": "Line Segments and Rays",
+    "title": "Point Definition",
     "type": "definition",
-    "content": [
-      { "term": "Line Segment", "definition": "A line segment is part of a line with two endpoints." },
-      { "term": "Ray", "definition": "A ray starts at one point and extends infinitely in one direction." }
-    ]
+    "content": "A point has no dimension. It is represented by a dot and named by a capital letter."
   },
   {
     "id": "GEO01.03",
-    "title": "Collinear and Coplanar",
+    "title": "Line Definition",
     "type": "definition",
-    "content": [
-      { "term": "Collinear", "definition": "Points that lie on the same line are collinear." },
-      { "term": "Coplanar", "definition": "Points that lie on the same plane are coplanar." }
-    ]
+    "content": "A line has one dimension and extends without end in both directions. It is represented by a line with two arrowheads and named by any two points on the line."
   },
   {
     "id": "GEO01.04",
-    "title": "Intersection of Geometric Objects",
+    "title": "Plane Definition",
     "type": "definition",
-    "content": [
-      { "term": "Intersection", "definition": "The set of points that two or more geometric figures have in common." }
-    ]
+    "content": "A plane has two dimensions and extends without end. It is represented by a shape that looks like a floor or wall and is named by any three non-collinear points."
   },
   {
-    "id": "GEO01.05",
-    "title": "Postulates about Points, Lines, and Planes",
+    "id": "GEO01.05.A",
+    "title": "Line Postulate",
     "type": "postulate",
-    "content": [
-      { "term": "Line Postulate", "definition": "Through any two points, there is exactly one line." },
-      { "term": "Plane Postulate", "definition": "Through any three non-collinear points, there is exactly one plane." },
-      { "term": "Line-Plane Postulate", "definition": "If two points lie in a plane, then the line containing them lies in the plane." },
-      { "term": "Intersection Postulate", "definition": "If two lines intersect, they intersect in exactly one point. If two planes intersect, they intersect in a line." }
-    ]
+    "content": "Through any two points, there is exactly one line."
+  },
+  {
+    "id": "GEO01.05.B",
+    "title": "Plane Postulate",
+    "type": "postulate",
+    "content": "Through any three non-collinear points, there is exactly one plane."
+  },
+  {
+    "id": "GEO01.05.C",
+    "title": "Line-Plane Postulate",
+    "type": "postulate",
+    "content": "If two points lie in a plane, then the line containing them lies in the plane."
+  },
+  {
+    "id": "GEO01.05.D",
+    "title": "Intersection Postulate",
+    "type": "postulate",
+    "content": "If two lines intersect, they intersect in exactly one point. If two planes intersect, they intersect in a line."
   },
   {
     "id": "GEO01.06",

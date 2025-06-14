@@ -58,97 +58,139 @@
       "example": "Total = Case A + Case B + Case C, where A, B, C are disjoint."
     },
     {
-    "id": "LR_SORT1",
+      "id": "LR_SORT1",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If an element is stated to be the last in a sorted list, then all other elements must come before it in the sort order.",
+      "example": "If GL is the last pair in alphabetical order, then all other pairs like AB, CJ, or EK must precede GL alphabetically."
+    },
+    {
+      "id": "LR_SORT2",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If elements are grouped and then sorted, the relative position of any element depends on the lexical comparison of all groupings.",
+      "example": "In a list of word pairs, the position of GH depends on the alphabetical order of GH compared to all other pairs."
+    },
+    {
+      "id": "LR_SORT3",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If a particular item must appear at the end of a sorted list, then no other item may be lexicographically greater than it.",
+      "example": "If 'GI' is the last word, then pairs like 'GJ', 'GL', or 'JK' must not be present since they would sort after 'GI'."
+    },
+    {
+      "id": "LR_SORT4",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If a specific letter must appear in the last word of a sorted list, it must be paired such that the resulting pair is greater than all other pairs.",
+      "example": "To ensure G appears in the last word, it must be paired with a letter like L, not with H, unless all other words are smaller than GH."
+    },
+    {
+      "id": "LR_SORT5",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "When combinations are alphabetically sorted, the lexicographical dominance of a pair depends not only on its letters but also on the absence of higher-ranked pairs.",
+      "example": "Even if GH is a valid pair, it is not the last unless all other pairs sort before it. GK or GL could push GH earlier in order."
+    },
+    {
+    "id": "LR_SORT6",
     "type": "logic_rule",
     "level": "tier2",
-    "statement": "If an element is stated to be the last in a sorted list, then all other elements must come before it in the sort order.",
-    "example": "If GL is the last pair in alphabetical order, then all other pairs like AB, CJ, or EK must precede GL alphabetically."
-  },
-  {
-    "id": "LR_SORT2",
+    "statement": "If a specific pair must be the last in a lexicographically sorted list, all other pairs must be lexicographically smaller than it.",
+    "example": "To count the number of pairings where GL is the last word, one must ensure that no other pair in the list alphabetically follows GL."
+    },
+    {
+    "id": "LR_EXPECTED_INTERSECTIONS_GIVEN_CONSTRAINTS",
     "type": "logic_rule",
     "level": "tier2",
-    "statement": "If elements are grouped and then sorted, the relative position of any element depends on the lexical comparison of all groupings.",
-    "example": "In a list of word pairs, the position of GH depends on the alphabetical order of GH compared to all other pairs."
-  },
-  {
-    "id": "LR_SORT3",
+    "statement": "When segments are drawn with geometric constraints (e.g., between specific sectors or quadrants), the expected number of intersections must reflect those constraints, not use uniform random approximation blindly.",
+    "tags": ["expected value", "geometric probability", "intersection"]
+    },
+    {
+    "id": "LR_VALUATION_EXP",
     "type": "logic_rule",
     "level": "tier2",
-    "statement": "If a particular item must appear at the end of a sorted list, then no other item may be lexicographically greater than it.",
-    "example": "If 'GI' is the last word, then pairs like 'GJ', 'GL', or 'JK' must not be present since they would sort after 'GI'."
-  },
-  {
-    "id": "LR_SORT4",
+    "statement": "The p-adic valuation of x^n is n times the valuation of x.",
+    "example": "If v₃(x) = 2, then v₃(x^3) = 6."
+    },
+    {
+    "id": "LR_LTE_ODD_CASE",
     "type": "logic_rule",
     "level": "tier2",
-    "statement": "If a specific letter must appear in the last word of a sorted list, it must be paired such that the resulting pair is greater than all other pairs.",
-    "example": "To ensure G appears in the last word, it must be paired with a letter like L, not with H, unless all other words are smaller than GH."
-  },
-  {
-    "id": "LR_SORT5",
+    "statement": "If p is an odd prime, p divides (x + y), and p does not divide x or y, then v_p(x^n + y^n) = v_p(x + y) + v_p(n), provided n is odd.",
+    "example": "If x + y ≡ 0 mod 3 and 3 ∤ x, y, then v₃(x^3 + y^3) = v₃(x + y) + v₃(3) = v₃(x + y) + 1."
+    },
+    {
+    "id": "LR_VALUATION_ADD_REDUCTION",
     "type": "logic_rule",
     "level": "tier2",
-    "statement": "When combinations are alphabetically sorted, the lexicographical dominance of a pair depends not only on its letters but also on the absence of higher-ranked pairs.",
-    "example": "Even if GH is a valid pair, it is not the last unless all other pairs sort before it. GK or GL could push GH earlier in order."
-  },
-  {
-  "id": "LR_SORT6",
-  "type": "logic_rule",
-  "level": "tier2",
-  "statement": "If a specific pair must be the last in a lexicographically sorted list, all other pairs must be lexicographically smaller than it.",
-  "example": "To count the number of pairings where GL is the last word, one must ensure that no other pair in the list alphabetically follows GL."
-  },
-  {
-  "id": "LR_EXPECTED_INTERSECTIONS_GIVEN_CONSTRAINTS",
-  "type": "logic_rule",
-  "level": "tier2",
-  "statement": "When segments are drawn with geometric constraints (e.g., between specific sectors or quadrants), the expected number of intersections must reflect those constraints, not use uniform random approximation blindly.",
-  "tags": ["expected value", "geometric probability", "intersection"]
-  },
-  {
-  "id": "LR_VALUATION_EXP",
-  "type": "logic_rule",
-  "level": "tier2",
-  "statement": "The p-adic valuation of x^n is n times the valuation of x.",
-  "example": "If v₃(x) = 2, then v₃(x^3) = 6."
-  },
-  {
-  "id": "LR_LTE_ODD_CASE",
-  "type": "logic_rule",
-  "level": "tier2",
-  "statement": "If p is an odd prime, p divides (x + y), and p does not divide x or y, then v_p(x^n + y^n) = v_p(x + y) + v_p(n), provided n is odd.",
-  "example": "If x + y ≡ 0 mod 3 and 3 ∤ x, y, then v₃(x^3 + y^3) = v₃(x + y) + v₃(3) = v₃(x + y) + 1."
-  },
-  {
-  "id": "LR_VALUATION_ADD_REDUCTION",
-  "type": "logic_rule",
-  "level": "tier2",
-  "statement": "If all terms a^3, b^3, c^3 are divisible by p^k, then a^3 + b^3 + c^3 ≡ 0 mod p^k if and only if the sum of the reduced terms is zero modulo p^{k - m}, where m = min(v_p(a^3), v_p(b^3), v_p(c^3)).",
-  "example": "If v₃(a) = v₃(b) = v₃(c) = 2, then a^3 + b^3 + c^3 ≡ 0 mod 3^7 ⇔ a'^3 + b'^3 + c'^3 ≡ 0 mod 3."
-  },
-  {
-  "id": "LR_TQS",
-  "name": "Targeted Quantity Simplification",
-  "statement": "When solving a problem where the target quantity can be computed directly using the given relationships, solve for the target quantity itself without solving for individual variables unless necessary.",
-  "formal": "If the desired quantity is an explicit expression of variables, and the given conditions yield it directly, prioritize expressing and computing the target expression rather than solving for variables separately.",
-  "tags": [
-    "algebra",
-    "efficient reasoning",
-    "competition math",
-    "logical optimization"
-  ],
-  "philosophy": "Focus reasoning effort on the target structure rather than full variable resolution, minimizing unnecessary complexity.",
-  "used_in_proofs": [
-    "difference of cubes problems",
-    "symmetric sums",
-    "geometric relation problems"
-  ],
-  "used_in_systems": [
-    "Formalizer v1.5+",
-    "competition AI solvers"
-  ],
-  "strength_score": 0.9
-  }  
-]
+    "statement": "If all terms a^3, b^3, c^3 are divisible by p^k, then a^3 + b^3 + c^3 ≡ 0 mod p^k if and only if the sum of the reduced terms is zero modulo p^{k - m}, where m = min(v_p(a^3), v_p(b^3), v_p(c^3)).",
+    "example": "If v₃(a) = v₃(b) = v₃(c) = 2, then a^3 + b^3 + c^3 ≡ 0 mod 3^7 ⇔ a'^3 + b'^3 + c'^3 ≡ 0 mod 3."
+    },
+    {
+    "id": "LR_TQS",
+    "name": "Targeted Quantity Simplification",
+    "statement": "When solving a problem where the target quantity can be computed directly using the given relationships, solve for the target quantity itself without solving for individual variables unless necessary.",
+    "formal": "If the desired quantity is an explicit expression of variables, and the given conditions yield it directly, prioritize expressing and computing the target expression rather than solving for variables separately.",
+    "tags": [
+      "algebra",
+      "efficient reasoning",
+      "competition math",
+      "logical optimization"
+    ],
+    "philosophy": "Focus reasoning effort on the target structure rather than full variable resolution, minimizing unnecessary complexity.",
+    "used_in_proofs": [
+      "difference of cubes problems",
+      "symmetric sums",
+      "geometric relation problems"
+    ],
+    "used_in_systems": [
+      "Formalizer v1.5+",
+      "competition AI solvers"
+    ],
+    "strength_score": 0.9
+    },
+    {
+      "id": "LR_CONDITIONAL_BRANCH",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "When solving a problem with conditional constraints, the reasoning must divide into branches based on each possible condition and synthesize results accordingly.",
+      "example": "If a variable x is even or odd, analyze both branches separately and then combine or compare their results."
+    },
+    {
+      "id": "LR_REVERSE_CHAINING",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If a final expression or condition is known or desired, work backward from that target using known identities and constraints to identify necessary subconditions.",
+      "example": "To achieve f(n) = 0, explore under what conditions each term in f(n) cancels or contributes to zero."
+    },
+    {
+      "id": "LR_INVARIANT_TRACKING",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "When a process involves multiple steps or transformations, track quantities that remain unchanged (invariants) to constrain or determine possible outcomes.",
+      "example": "If a sum of numbers is preserved through swaps or moves, use that invariant to eliminate impossible end states."
+    },
+    {
+      "id": "LR_PARITY_BRANCHING",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "When an expression depends on whether a variable is even or odd, separate the reasoning into parity-based cases.",
+      "example": "To solve x² ≡ 1 mod 4, consider separately x ≡ 1 mod 2 and x ≡ 0 mod 2."
+    },
+    {
+      "id": "LR_MODULAR_FILTER",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Use modular congruences to restrict possible values of a variable or eliminate invalid options.",
+      "example": "If x ≡ 2 mod 3 and x must be even, then x ≡ 2 mod 6."
+    },
+    {
+      "id": "LR_ALGEBRAIC_SUBSTITUTION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Substitute known expressions to eliminate variables and reduce the problem to a solvable form.",
+      "example": "If a + b = 7 and ab = 10, substitute into the quadratic x² - 7x + 10 = 0."
+    }
+  ]
 }

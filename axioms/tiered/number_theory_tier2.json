@@ -570,38 +570,149 @@
     "strength_score": 0.9
   },
   {
-  "id": "T2_NT31",
-  "name": "Lifting The Exponent Lemma for a^3 + b^3 + c^3 mod 3^k",
-  "statement": "If a, b, and c are divisible by 3 and a = 3^k x, b = 3^k y, c = 3^k z for integers x, y, z not divisible by 3 such that x + y + z ≡ 0 mod 3, then v₃(a^3 + b^3 + c^3) = 3k + 1.",
-  "formal": "If 3 | a, b, c and a = 3^k x, b = 3^k y, c = 3^k z with 3 ∤ x, y, z and x + y + z ≡ 0 mod 3, then v_3(a^3 + b^3 + c^3) = 3k + 1.",
-  "tags": [
-    "number theory",
-    "valuation",
-    "padic",
-    "LTE",
-    "L:TE",
-    "modular"
-  ],
-  "philosophy": "An extension of Lifting The Exponent to cubic expressions modulo powers of 3. Key to understanding p-adic behavior of symmetric sums.",
-  "used_in_proofs": [
-    "LiftingExponents"
-  ],
-  "used_in_systems": [
-    "NumberTheory",
-    "ValuationEngine"
-  ],
-  "strength_score": 0.92
-},
+    "id": "T2_NT31",
+    "name": "Lifting The Exponent Lemma for a^3 + b^3 + c^3 mod 3^k",
+    "statement": "If a, b, and c are divisible by 3 and a = 3^k x, b = 3^k y, c = 3^k z for integers x, y, z not divisible by 3 such that x + y + z ≡ 0 mod 3, then v₃(a^3 + b^3 + c^3) = 3k + 1.",
+    "formal": "If 3 | a, b, c and a = 3^k x, b = 3^k y, c = 3^k z with 3 ∤ x, y, z and x + y + z ≡ 0 mod 3, then v_3(a^3 + b^3 + c^3) = 3k + 1.",
+    "tags": [
+      "number theory",
+      "valuation",
+      "padic",
+      "LTE",
+      "L:TE",
+      "modular"
+    ],
+    "philosophy": "An extension of Lifting The Exponent to cubic expressions modulo powers of 3. Key to understanding p-adic behavior of symmetric sums.",
+    "used_in_proofs": [
+      "LiftingExponents"
+    ],
+    "used_in_systems": [
+      "NumberTheory",
+      "ValuationEngine"
+    ],
+    "strength_score": 0.92
+  },
   {
-  "id": "T2_NT32",
-  "name": "Unique Integer in Interval (Existence-Uniqueness)",
-  "statement": "Given inequalities defining an integer interval [L, R), if exactly one integer satisfies it, then the integer is uniquely determined.",
-  "formal": "If |{n ∈ ℤ : L ≤ n < R}| = 1, then n is uniquely determined.",
-  "tags": ["number_theory", "floor_function", "integer_interval", "existence", "uniqueness"],
-  "philosophy": "Formalizes the enumeration and uniqueness of integers in bounded intervals, fundamental for floor and modular arguments.",
-  "used_in_proofs": ["FloorUniqueRecovery", "ModularUniqueSolutions"],
-  "used_in_systems": ["NumberTheory"],
-  "strength_score": 0.95
-}
-
+    "id": "T2_NT32",
+    "name": "Unique Integer in Interval (Existence-Uniqueness)",
+    "statement": "Given inequalities defining an integer interval [L, R), if exactly one integer satisfies it, then the integer is uniquely determined.",
+    "formal": "If |{n ∈ ℤ : L ≤ n < R}| = 1, then n is uniquely determined.",
+    "tags": ["number_theory", "floor_function", "integer_interval", "existence", "uniqueness"],
+    "philosophy": "Formalizes the enumeration and uniqueness of integers in bounded intervals, fundamental for floor and modular arguments.",
+    "used_in_proofs": ["FloorUniqueRecovery", "ModularUniqueSolutions"],
+    "used_in_systems": ["NumberTheory"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_NT33",
+    "name": "Multiplicative Order Modulo n",
+    "tags": ["number theory", "modular arithmetic", "order", "primitive root"],
+    "statement": "The multiplicative order of an integer a modulo n is the smallest positive integer k such that a^k ≡ 1 mod n, provided that gcd(a, n) = 1.",
+    "formula": "a^k \\equiv 1 \\mod n\\quad\\text{where}\\ k = \\min \\{k > 0 : a^k \\equiv 1 \\mod n\\}",
+    "philosophy": "This concept captures the cycle length of modular exponentiation and is essential in problems involving periodicity modulo n.",
+    "used_in_proofs": [
+      "Identifying repeating powers",
+      "Finding cycle length of modular sequences",
+      "Solving least exponent problems"
+    ],
+    "strength_score": 0.92
+  },
+  {
+    "id": "T2_NT34",
+    "name": "Fermat's Little Theorem",
+    "tags": ["number theory", "modular arithmetic", "prime", "exponentiation"],
+    "statement": "If p is a prime and a is an integer not divisible by p, then a^{p−1} ≡ 1 mod p.",
+    "formula": "a^{p-1} \\equiv 1 \\mod p\\quad\\text{if}\\ p\\nmid a",
+    "philosophy": "Used to simplify powers modulo a prime and forms the basis for many modular exponentiation shortcuts.",
+    "used_in_proofs": [
+      "Reducing large exponents mod p",
+      "Finding modular inverses",
+      "Detecting cyclic structure"
+    ],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_NT35",
+    "name": "Euler's Theorem",
+    "tags": ["number theory", "modular arithmetic", "euler totient"],
+    "statement": "If a and n are coprime positive integers, then a^{φ(n)} ≡ 1 mod n, where φ(n) is Euler's totient function.",
+    "formula": "a^{\\phi(n)} \\equiv 1 \\mod n\\quad\\text{if}\\ gcd(a, n) = 1",
+    "philosophy": "A generalization of Fermat’s Little Theorem that allows working modulo composite numbers.",
+    "used_in_proofs": [
+      "Reducing exponent mod φ(n)",
+      "Solving modular equations",
+      "Determining multiplicative order"
+    ],
+    "strength_score": 0.92
+  },
+  {
+    "id": "T2_NT36",
+    "name": "Primitive Root Modulo p (Definition)",
+    "tags": ["number theory", "primitive root", "modular arithmetic", "order"],
+    "statement": "An integer g is a primitive root modulo p if p is a prime and the powers of g generate all integers modulo p.",
+    "formula": "\\text{g is primitive root mod p} \\iff \\{g^1, g^2, \\dots, g^{p-1}\\} \\equiv \\{1, 2, \\dots, p-1\\} \\mod p",
+    "philosophy": "This concept explains the full-cycle behavior in modular exponentiation and is useful in order-based enumeration.",
+    "used_in_proofs": [
+      "Permutations of mod p residues",
+      "Solving modular root problems",
+      "Cyclic group structure identification"
+    ],
+    "strength_score": 0.88
+  },
+  {
+    "id": "T2_NT37",
+    "name": "Quadratic Residue (Definition)",
+    "tags": ["number theory", "quadratic residue", "modular arithmetic"],
+    "statement": "An integer a is a quadratic residue modulo p (a prime) if there exists an integer x such that x^2 ≡ a mod p.",
+    "formula": "\\exists x \\in \\mathbb{Z} \\text{ such that } x^2 \\equiv a \\mod p",
+    "philosophy": "Understanding quadratic residues helps solve modular equations involving squares and analyze solvability.",
+    "used_in_proofs": [
+      "Solving x^2 ≡ a mod p",
+      "Identifying existence of square roots mod p",
+      "Classifying modulo behavior"
+    ],
+    "strength_score": 0.87
+  },
+  {
+    "id": "T2_NT38",
+    "name": "Euler's Criterion",
+    "tags": ["number theory", "quadratic residue", "modular exponentiation", "legendre"],
+    "statement": "Let p be an odd prime and a an integer not divisible by p. Then a is a quadratic residue modulo p if and only if a^{(p−1)/2} ≡ 1 mod p, and a non-residue if the result is −1.",
+    "formula": "a^{(p-1)/2} \\equiv \\begin{cases}1 & \\text{if } a \\text{ is a QR mod } p \\\\ -1 & \\text{if } a \\text{ is a QNR mod } p\\end{cases}",
+    "philosophy": "A powerful test for quadratic residues without solving for square roots directly. Common in AIME-level problems.",
+    "used_in_proofs": [
+      "Classifying residues/non-residues",
+      "Fast residue testing",
+      "Binary solvability mod p"
+    ],
+    "strength_score": 0.89
+  },
+  {
+    "id": "T2_NT39",
+    "name": "Legendre Symbol Properties",
+    "tags": ["number theory", "legendre symbol", "quadratic residue", "modular arithmetic"],
+    "statement": "For an odd prime p and integer a, the Legendre symbol (a/p) is 0 if p divides a, 1 if a is a quadratic residue modulo p, and −1 otherwise.",
+    "formula": "\\left(\\frac{a}{p}\\right) = \\begin{cases}0 & \\text{if } p \\mid a \\\\ 1 & \\text{if } a \\text{ is QR mod } p \\\\ -1 & \\text{if } a \\text{ is QNR mod } p\\end{cases}",
+    "philosophy": "This compact notation and its properties help efficiently handle residue classification and modular structure.",
+    "used_in_proofs": [
+      "Residue checking",
+      "Euler criterion expression",
+      "Quadratic character analysis"
+    ],
+    "strength_score": 0.86
+  },
+  {
+    "id": "T2_NT40",
+    "name": "Legendre's Formula for v_p(n!)",
+    "tags": ["number theory", "valuation", "factorial", "divisibility"],
+    "statement": "The exponent of a prime p in the prime factorization of n! is given by the sum of floor divisions of n by powers of p.",
+    "formula": "v_p(n!) = \\sum_{i=1}^{\\infty} \\left\\lfloor \\frac{n}{p^i} \\right\\rfloor",
+    "philosophy": "This formula determines how many times a prime p divides n! and is fundamental in problems involving binomial coefficients or divisibility by factorials.",
+    "used_in_proofs": [
+      "Divisibility of factorials",
+      "Power of p in binomial coefficients",
+      "Estimating trailing zeros"
+    ],
+    "strength_score": 0.91
+  }
 ]

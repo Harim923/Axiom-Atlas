@@ -913,5 +913,93 @@
     "Isosceles triangle problems involving 36°, 72°, 108°"
   ],
   "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO60",
+    "name": "Complex Point Representation",
+    "statement": "A point in the plane can be represented as a complex number z = x + yi.",
+    "formal": "z = x + yi, where x and y are real",
+    "tags": ["geometry", "complex", "coordinate", "representation"],
+    "philosophy": "Encodes planar geometry using complex numbers for algebraic manipulation.",
+    "used_in_proofs": ["ComplexGeometrySetup", "RotationProblems"],
+    "used_in_systems": ["Geometry", "ComplexPlane"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO61",
+    "name": "Distance via Complex Modulus",
+    "statement": "The distance between two points z₁ and z₂ is |z₁ − z₂|.",
+    "formal": "d = |z₁ − z₂|",
+    "tags": ["geometry", "complex", "distance", "modulus"],
+    "philosophy": "Uses modulus to compute Euclidean distance between complex points.",
+    "used_in_proofs": ["DistanceCheck", "TriangleInequality"],
+    "used_in_systems": ["Geometry", "ComplexPlane"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO62",
+    "name": "Rotation via Complex Multiplication",
+    "statement": "Rotating point z about the origin by angle θ counterclockwise is z ↦ z·e^{iθ}.",
+    "formal": "z ↦ z·e^{iθ}",
+    "tags": ["geometry", "complex", "rotation"],
+    "philosophy": "Encodes rotations as complex multiplication; simplifies angular movement.",
+    "used_in_proofs": ["RotationMapping", "RegularPolygonArguments"],
+    "used_in_systems": ["Geometry", "ComplexPlane"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO63",
+    "name": "Reflection via Conjugation",
+    "statement": "Reflecting a point z across the real axis gives its complex conjugate z̄.",
+    "formal": "z ↦ z̄",
+    "tags": ["geometry", "complex", "reflection"],
+    "philosophy": "Models geometric reflection using complex conjugation.",
+    "used_in_proofs": ["ReflectionAcrossAxis", "SymmetryWithConjugates"],
+    "used_in_systems": ["Geometry", "ComplexPlane"],
+    "strength_score": 0.9
+  },
+  {
+    "id": "T2_GEO64",
+    "name": "Collinearity Condition (Complex)",
+    "statement": "Points A, B, C are collinear if (A−B)/(B−C) is real.",
+    "formal": "A, B, C collinear ⇔ (A−B)/(B−C) ∈ ℝ",
+    "tags": ["geometry", "complex", "collinearity", "ratio"],
+    "philosophy": "Determines collinearity through complex ratio; key tool in algebraic geometry proofs.",
+    "used_in_proofs": ["CollinearityCheck", "InversionAlignment"],
+    "used_in_systems": ["Geometry", "ComplexPlane"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO65",
+    "name": "Radical Axis Theorem",
+    "statement": "Given two circles, the set of points with equal power to both is a straight line called the radical axis.",
+    "formal": "Power(P, ω₁) = Power(P, ω₂) ⇒ P lies on the radical axis",
+    "tags": ["geometry", "circle", "power", "radical_axis"],
+    "philosophy": "Defines the locus of points equidistant in power from two circles. Fundamental for intersection geometry.",
+    "used_in_proofs": ["CircleIntersection", "CommonChords", "RadicalCenterProof"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO66",
+    "name": "Euler Line Collinearity",
+    "statement": "In any non-equilateral triangle, the orthocenter (H), centroid (G), and circumcenter (O) are collinear, with GH = 2·GO.",
+    "formal": "O, G, H collinear with GH = 2·GO",
+    "tags": ["geometry", "triangle", "euler_line", "centroid", "orthocenter", "circumcenter"],
+    "philosophy": "Describes the alignment of classical triangle centers; foundational in triangle center geometry.",
+    "used_in_proofs": ["EulerLineConfiguration", "CenterAlignment"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO67",
+    "name": "Homothety and Dilation",
+    "statement": "A homothety centered at point O with ratio k maps each point P to P' such that OP' = k·OP and P, O, P' are collinear.",
+    "formal": "Homothety_O^k(P) = P' with OP'/OP = k, P, O, P' collinear",
+    "tags": ["geometry", "homothety", "similarity", "circle_mapping"],
+    "philosophy": "Models similarity transformations from a fixed center; powerful for tangent and circle problems.",
+    "used_in_proofs": ["TangentsToCircles", "CircleScaling", "CommonExternalTangents"],
+    "used_in_systems": ["Geometry"],
+    "strength_score": 0.95
   }
 ]

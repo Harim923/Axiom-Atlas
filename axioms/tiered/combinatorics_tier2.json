@@ -611,5 +611,84 @@
     "RecurrenceRelations"
   ],
   "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB33",
+    "name": "Burnside's Lemma",
+    "statement": "The number of distinct configurations under a group of symmetries is the average number of configurations fixed by each group element.",
+    "formal": "|X/G| = (1/|G|) ∑_{g∈G} Fix(g)",
+    "tags": ["combinatorics", "grouping", "symmetry"],
+    "philosophy": "Core to counting distinct configurations under symmetries.",
+    "used_in_proofs": ["SymmetryReduction"],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB34",
+    "name": "Möbius Inversion Formula",
+    "statement": "If g(n) = ∑_{d|n} f(d), then f(n) = ∑_{d|n} μ(d) g(n/d)",
+    "formal": "f(n) = ∑_{d|n} μ(d) g(n/d)",
+    "tags": ["combinatorics", "number theory", "inversion", "mobius"],
+    "philosophy": "Inverts cumulative divisor sums; generalizes inclusion-exclusion and supports recursive number-theoretic inversion.",
+    "used_in_proofs": [
+      "DivisorFunctionInversion",
+      "ArithmeticFunctionDecomposition"
+    ],
+    "used_in_systems": [
+      "Combinatorics",
+      "NumberTheory"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB35",
+    "name": "Linearity of Expectation",
+    "statement": "The expected value of the sum of random variables is the sum of their expected values, regardless of independence.",
+    "formal": "E[X + Y] = E[X] + E[Y]",
+    "tags": ["combinatorics", "expectation", "probability"],
+    "philosophy": "Allows decomposition of expectation across variables without requiring independence; a powerful tool for counting expected values in complex settings.",
+    "used_in_proofs": [
+      "ExpectedValueCounting",
+      "CoinFlipExpectation",
+      "ExpectedFixedPoints"
+    ],
+    "used_in_systems": [
+      "Combinatorics",
+      "Probability"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB36",
+    "name": "Multinomial Coefficient",
+    "statement": "The number of ways to divide n items into k groups of sizes n1, n2, ..., nk (where n1 + ... + nk = n) is given by n! / (n1! n2! ... nk!)",
+    "formal": "C(n; n1, n2, ..., nk) = n! / (n1! n2! ... nk!)",
+    "tags": ["combinatorics", "multiset", "partition"],
+    "philosophy": "Generalizes the binomial coefficient to multiple groups; essential in problems involving labeled distributions and multinomial expansions.",
+    "used_in_proofs": [
+      "WordArrangements",
+      "MulticolorDistributions",
+      "GeneralizedBinomialExpansion"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB37",
+    "name": "Inversion Count in Permutations",
+    "statement": "The number of inversions in a permutation is the number of pairs (i, j) such that i < j and a_i > a_j.",
+    "formal": "inv(π) = |{(i, j) : i < j, π(i) > π(j)}|",
+    "tags": ["combinatorics", "permutation", "parity"],
+    "philosophy": "Connects permutation structure with sorting complexity and parity arguments. Key to reasoning about swaps and ordering.",
+    "used_in_proofs": [
+      "ParityOfPermutations",
+      "SortOperations",
+      "CombinatorialGames"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
   }
 ]

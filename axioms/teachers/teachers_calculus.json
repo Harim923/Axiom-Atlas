@@ -3,6 +3,8 @@
     "id": "CAL01.001",
     "title": "Definition of Derivative",
     "type": "definition",
-    "content": "f'(x)=lim_{h\rightarrow 0}{\frac{f(x+h)-f(x)}{h}}."
+    "content": "The derivative of a function at a point is defined as the limit of the average rate of change as the interval approaches zero.",
+    "formal": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
+    "tags": ["calculus", "derivative", "definition", "limit", "rate of change"]
   }
 ]

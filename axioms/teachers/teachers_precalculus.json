@@ -401,7 +401,7 @@
     "type": "identity",
     "statement": "The sine of a sum is given by: sin(a + b) = sin(a)cos(b) + cos(a)sin(b).",
     "formal": "\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)",
-    "tags": ["trig", "identity", "sum", "expansion"]
+    "tags": ["trig", "identity", "sum", "derivative"]
   },
   {
     "id": "PRECAL01.068",

@@ -1,10 +1,26 @@
 [
   {
     "id": "CAL01.001",
-    "title": "Definition of Derivative",
     "type": "definition",
-    "content": "The derivative of a function at a point is defined as the limit of the average rate of change as the interval approaches zero.",
+    "title": "Definition of Derivative",
+    "statement": "The derivative of f at x is defined as the limit: f'(x) = lim_{h→0} [f(x+h) - f(x)] / h.",
     "formal": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
-    "tags": ["calculus", "derivative", "definition", "limit", "rate of change"]
+    "tags": ["calculus", "definition"]
+  },
+  {
+    "id": "CAL01.002",
+    "type": "lemma",
+    "title": "Limit of sin(h)/h",
+    "statement": "lim_{h→0} sin(h)/h = 1",
+    "formal": "\\lim_{h \\to 0} \\frac{\\sin h}{h} = 1",
+    "tags": ["limit", "trig", "calculus"]
+  },
+  {
+    "id": "CAL01.003",
+    "type": "logic_rule",
+    "title": "Derivative of sin(x)",
+    "statement": "Using the definition of derivative and limit of sin(h)/h, we can derive that d/dx[sin(x)] = cos(x).",
+    "formal": "f(x) = \\sin(x) \\Rightarrow f'(x) = \\cos(x)",
+    "tags": ["logic", "chaining", "trig", "derivative"]
   }
 ]

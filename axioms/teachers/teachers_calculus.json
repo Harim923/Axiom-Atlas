@@ -1,0 +1,8 @@
+[
+  {
+    "id": "CAL01.001",
+    "title": "Definition of Derivative",
+    "type": "definition",
+    "content": "f'(x)=\lim_{h\rightarrow 0}{\frac{f(x+h)-f(x)}{h}}."
+  }
+]

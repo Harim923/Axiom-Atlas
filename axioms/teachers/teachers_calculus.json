@@ -22,5 +22,13 @@
     "statement": "Using the definition of derivative and limit of sin(h)/h, we can derive that d/dx[sin(x)] = cos(x).",
     "formal": "f(x) = \\sin(x) \\Rightarrow f'(x) = \\cos(x)",
     "tags": ["logic", "chaining", "trig", "derivative"]
+  },
+  {
+    "id": "CAL01.004",
+    "type": "lemma",
+    "title": "Limit of (cos(h) - 1)/h",
+    "statement": "The limit of (cos(h) - 1)/h as h approaches 0 is 0.",
+    "formal": "\\lim_{h \\to 0} \\frac{\\cos(h) - 1}{h} = 0",
+    "tags": ["limit", "trig", "derivative", "teachers"]
   }
 ]

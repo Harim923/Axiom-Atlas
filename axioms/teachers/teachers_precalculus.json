@@ -396,10 +396,12 @@
     "content": "To verify identities, manipulate one side using known identities until it matches the other side. Use algebraic techniques like factoring or multiplying by conjugates."
   },
   {
-    "id": "PRECAL01.067",
-    "title": "Sum and Difference Identities",
+    "id": "PRECAL_TRIG07",
+    "title": "Sine Addition Identity",
     "type": "identity",
-    "content": "sin(A ± B) = sin A cos B ± cos A sin B, cos(A ± B) = cos A cos B ∓ sin A sin B, tan(A ± B) = (tan A ± tan B)/(1 ∓ tan A tan B)"
+    "statement": "The sine of a sum is given by: sin(a + b) = sin(a)cos(b) + cos(a)sin(b).",
+    "formal": "\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)",
+    "tags": ["trig", "identity", "sum", "expansion"]
   },
   {
     "id": "PRECAL01.068",

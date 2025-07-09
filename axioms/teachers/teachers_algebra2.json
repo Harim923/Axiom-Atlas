@@ -1054,27 +1054,12 @@
   "title": "Using Z-scores in Normal Distributions",
   "type": "procedure",
   "content": "Z-scores are used to find the relative position of a value in a normal distribution and to compute percentiles or probabilities."
+},
+{
+  "id": "ALG2.177",
+  "title": "Natural Logarithmic Property",
+  "type": "property",
+  "content": "Given a and b, ln(a)+ln(b)=ln(ab)."
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ]

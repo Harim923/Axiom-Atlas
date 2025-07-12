@@ -1001,5 +1001,17 @@
     "used_in_proofs": ["TangentsToCircles", "CircleScaling", "CommonExternalTangents"],
     "used_in_systems": ["Geometry"],
     "strength_score": 0.95
+  },
+  {
+    "id": "T2_GEO68",
+    "name": "Trigonometric Identity: sin²θ + cos²θ = 1 and Symmetry",
+    "statement": "For any angle θ in degrees, sin²(θ) + cos²(θ) = 1. Also, for any θ, sin²(θ) + sin²(90° − θ) = 1.",
+    "formal": "∀θ ∈ [0°, 90°], sin²(θ) + cos²(θ) = 1 ∧ sin²(θ) + sin²(90° − θ) = 1",
+    "tags": ["geometry", "trigonometry", "identity", "Pythagorean", "cofunction"],
+    "philosophy": "Unifies Pythagorean identity and cofunction symmetry; used for averaging symmetric sine square terms.",
+    "used_in_proofs": ["SineSquareSymmetry", "TrigonometricAverages", "CircleSymmetricPoints"],
+    "used_in_systems": ["Geometry", "Trigonometry"],
+    "strength_score": 0.92
   }
+
 ]

@@ -1034,7 +1034,7 @@
     "strength_score": 0.93
   },
   {
-    "id": "GEO_LR72",
+    "id": "T2_GEO71",
     "name": "Conjugate of Complex Power",
     "statement": "For any complex number z, conjugate(zⁿ) = (conjugate(z))ⁿ.",
     "tags": ["complex", "algebra", "conjugate"],
@@ -1042,7 +1042,18 @@
     "used_in_proofs": ["ShoelaceComplex", "RootsConjugateBehavior"],
     "used_in_systems": ["ComplexPlane", "Geometry"],
     "strength_score": 0.88
+  },
+  {
+    "id": "T2_GEO72",
+    "name": "Apollonius's Theorem",
+    "type": "theorem",
+    "level": "tier2",
+    "statement": "In triangle ABC, if M is the midpoint of BC, then AB² + AC² = 2AM² + (1/2)BC².",
+    "formal": "If triangle ABC with M as the midpoint of BC, then AB² + AC² = 2·AM² + (1/2)·BC².",
+    "tags": ["geometry", "triangle", "median", "length", "quadratic", "optimization"],
+    "used_in_proofs": ["TriangleMedianOptimization", "MaximizeAreaGivenMedian"],
+    "used_in_systems": ["SyntheticGeometry", "Euclidean"],
+    "philosophy": "Apollonius’s Theorem relates the sides of a triangle to the median, essential for expressing unknowns using fixed quantities.",
+    "strength_score": 0.88
   }
-
-
 ]

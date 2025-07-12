@@ -720,5 +720,401 @@
     "title": "Algebraic Manipulation or Simplification",
     "type": "procedure",
     "content": "Algebraic expressions can be simplified or manipulated by applying arithmetic rules, exponent rules, or factoring techniques, as long as logical equivalence is maintained."
+  },
+  {
+    "id": "PRECAL01.121",
+    "title": "Definition of Conic Sections",
+    "type": "definition",
+    "content": "Conic sections are curves formed by the intersection of a plane and a double-napped cone. They include circles, ellipses, parabolas, and hyperbolas."
+  },
+  {
+    "id": "PRECAL01.122",
+    "title": "Standard Equation of a Circle",
+    "type": "formula",
+    "content": "The equation of a circle with center (h, k) and radius r is (x − h)² + (y − k)² = r²."
+  },
+  {
+    "id": "PRECAL01.123",
+    "title": "Standard Equation of a Parabola",
+    "type": "formula",
+    "content": "A parabola with vertex (h, k) has the form (x − h)² = 4p(y − k) or (y − k)² = 4p(x − h), where p is the distance from the vertex to the focus."
+  },
+  {
+    "id": "PRECAL01.124",
+    "title": "Standard Equation of an Ellipse",
+    "type": "formula",
+    "content": "An ellipse centered at (h, k) has the equation (x − h)²/a² + (y − k)²/b² = 1. If a > b, the major axis is horizontal; if b > a, it is vertical."
+  },
+  {
+    "id": "PRECAL01.125",
+    "title": "Standard Equation of a Hyperbola",
+    "type": "formula",
+    "content": "A hyperbola centered at (h, k) has the equation (x − h)²/a² − (y − k)²/b² = 1 or (y − k)²/a² − (x − h)²/b² = 1, depending on orientation."
+  },
+  {
+    "id": "PRECAL01.126",
+    "title": "Focus-Directrix Definition of a Parabola",
+    "type": "definition",
+    "content": "A parabola is the set of points equidistant from a fixed point (focus) and a line (directrix)."
+  },
+  {
+    "id": "PRECAL01.127",
+    "title": "Eccentricity of Conic Sections",
+    "type": "definition",
+    "content": "Eccentricity (e) measures the 'flatness' of a conic section: e = 0 (circle), 0 < e < 1 (ellipse), e = 1 (parabola), e > 1 (hyperbola)."
+  },
+  {
+    "id": "PRECAL01.128",
+    "title": "Identifying Conics from General Form",
+    "type": "procedure",
+    "content": "The general form Ax² + Bxy + Cy² + Dx + Ey + F = 0 can be classified based on A, B, C: if A = C, it's a circle; if AC > 0, ellipse; AC = 0, parabola; AC < 0, hyperbola."
+  },
+  {
+    "id": "PRECAL01.129",
+    "title": "Definition of a Sequence",
+    "type": "definition",
+    "content": "A sequence is an ordered list of numbers written as a₁, a₂, a₃, .... It may be finite or infinite."
+  },
+  {
+    "id": "PRECAL01.130",
+    "title": "Recursive and Explicit Formulas",
+    "type": "definition",
+    "content": "A sequence can be defined recursively (using previous terms) or explicitly (in terms of n)."
+  },
+  {
+    "id": "PRECAL01.131",
+    "title": "Arithmetic Sequence and Formula",
+    "type": "formula",
+    "content": "In an arithmetic sequence, the difference between terms is constant. The nth term is aₙ = a₁ + (n−1)d."
+  },
+  {
+    "id": "PRECAL01.132",
+    "title": "Sum of an Arithmetic Series",
+    "type": "formula",
+    "content": "The sum of the first n terms is Sₙ = n(a₁ + aₙ)/2 or Sₙ = n/2 [2a₁ + (n−1)d]."
+  },
+  {
+    "id": "PRECAL01.133",
+    "title": "Geometric Sequence and Formula",
+    "type": "formula",
+    "content": "In a geometric sequence, each term is multiplied by a constant ratio. The nth term is aₙ = a₁·rⁿ⁻¹."
+  },
+  {
+    "id": "PRECAL01.134",
+    "title": "Sum of a Geometric Series",
+    "type": "formula",
+    "content": "For a geometric series with common ratio r ≠ 1, the sum of the first n terms is Sₙ = a₁(1 − rⁿ)/(1 − r)."
+  },
+  {
+    "id": "PRECAL01.135",
+    "title": "Infinite Geometric Series",
+    "type": "definition",
+    "content": "If |r| < 1, the infinite geometric series a + ar + ar² + ... converges to S = a / (1 − r)."
+  },
+  {
+    "id": "PRECAL01.136",
+    "title": "Sigma Notation for Series",
+    "type": "notation",
+    "content": "The summation symbol ∑ is used to represent the sum of terms in a sequence: ∑ₖ₌₁ⁿ aₖ."
+  },
+  {
+    "id": "PRECAL01.137",
+    "title": "Mathematical Induction",
+    "type": "proof",
+    "content": "Mathematical induction is a method to prove statements about integers. It involves proving a base case, then showing that if the statement holds for n, it also holds for n + 1."
+  },
+  {
+    "id": "PRECAL01.138",
+    "title": "Divergence of a Sequence",
+    "type": "definition",
+    "content": "A sequence diverges if its terms do not approach a finite limit as n → ∞. For example, aₙ = n diverges to infinity."
+  },
+  {
+    "id": "PRECAL01.139",
+    "title": "Convergence of a Sequence",
+    "type": "definition",
+    "content": "A sequence converges if its terms approach a single finite value as n → ∞. For example, aₙ = 1/n converges to 0."
+  },
+  {
+    "id": "PRECAL01.140",
+    "title": "Convergence of an Infinite Series",
+    "type": "definition",
+    "content": "An infinite series converges if the sequence of its partial sums approaches a finite limit. Otherwise, it diverges."
+  },
+  {
+    "id": "PRECAL01.141",
+    "title": "Summation of First n Natural Numbers",
+    "type": "formula",
+    "content": "The sum of the first n natural numbers is given by: ∑ₖ₌₁ⁿ k = n(n + 1)/2."
+  },
+  {
+    "id": "PRECAL01.142",
+    "title": "Summation of Squares",
+    "type": "formula",
+    "content": "The sum of the squares of the first n natural numbers is: ∑ₖ₌₁ⁿ k² = n(n + 1)(2n + 1)/6."
+  },
+  {
+    "id": "PRECAL01.143",
+    "title": "Summation of Cubes",
+    "type": "formula",
+    "content": "The sum of the cubes of the first n natural numbers is: ∑ₖ₌₁ⁿ k³ = [n(n + 1)/2]²."
+  },
+  {
+    "id": "PRECAL01.144",
+    "title": "Linearity of Sigma Notation",
+    "type": "property",
+    "content": "The sigma operator is linear: ∑(aₖ ± bₖ) = ∑aₖ ± ∑bₖ and ∑(c·aₖ) = c·∑aₖ, where c is a constant."
+  },
+  {
+    "id": "PRECAL01.145",
+    "title": "Using Sigma Formulas in Series Expansion",
+    "type": "strategy",
+    "content": "To evaluate summations, expand the expression algebraically, then apply known sigma formulas to each term."
+  },
+  {
+    "id": "PRECAL01.146",
+    "title": "Definition of Polar Coordinates",
+    "type": "definition",
+    "content": "In polar coordinates, a point is represented by (r, θ), where r is the distance from the origin and θ is the angle from the positive x-axis."
+  },
+  {
+    "id": "PRECAL01.147",
+    "title": "Conversion Between Polar and Rectangular Coordinates",
+    "type": "procedure",
+    "content": "To convert from rectangular to polar: r = √(x² + y²), θ = arctan(y/x). To convert from polar to rectangular: x = r cos θ, y = r sin θ."
+  },
+  {
+    "id": "PRECAL01.148",
+    "title": "Graphing Polar Equations",
+    "type": "procedure",
+    "content": "To graph r = f(θ), plot points by calculating r for various values of θ, and plot using polar coordinates. Common graphs include circles, roses, and spirals."
+  },
+  {
+    "id": "PRECAL01.149",
+    "title": "Symmetry in Polar Graphs",
+    "type": "property",
+    "content": "A polar graph has symmetry if it is unchanged when reflected across the polar axis (x-axis), line θ = π/2 (y-axis), or the origin."
+  },
+  {
+    "id": "PRECAL01.150",
+    "title": "Real-World Applications of Polar Coordinates",
+    "type": "application",
+    "content": "Polar coordinates are useful in modeling circular motion, radar systems, navigation, and periodic patterns in nature."
+  },
+  {
+    "id": "PRECAL01.151",
+    "title": "Definition of a Vector in the Plane",
+    "type": "definition",
+    "content": "A vector in the plane is a quantity with both magnitude and direction, often represented as an ordered pair ⟨v₁, v₂⟩ or as a directed line segment."
+  },
+  {
+    "id": "PRECAL01.152",
+    "title": "Vector Addition and Scalar Multiplication",
+    "type": "procedure",
+    "content": "To add vectors, add corresponding components. To multiply by a scalar, multiply each component by the scalar: c⟨a, b⟩ = ⟨ca, cb⟩."
+  },
+  {
+    "id": "PRECAL01.153",
+    "title": "Magnitude and Direction of a Vector",
+    "type": "formula",
+    "content": "The magnitude of a vector ⟨a, b⟩ is |v| = √(a² + b²). The direction angle θ is given by θ = arctan(b/a), adjusted for quadrant."
+  },
+  {
+    "id": "PRECAL01.154",
+    "title": "Unit Vector and Direction Vector",
+    "type": "definition",
+    "content": "A unit vector has magnitude 1 and points in the same direction as the original vector: u = v / |v|. It describes direction without changing scale."
+  },
+  {
+    "id": "PRECAL01.155",
+    "title": "Dot Product of Two Vectors",
+    "type": "formula",
+    "content": "The dot product of vectors u = ⟨a, b⟩ and v = ⟨c, d⟩ is u·v = ac + bd. It equals |u||v|cos(θ) and is used to find angles between vectors."
+  },
+  {
+    "id": "PRECAL01.156",
+    "title": "Angle Between Two Vectors",
+    "type": "formula",
+    "content": "The angle θ between vectors u and v is given by cos(θ) = (u·v) / (|u||v|), assuming neither vector is the zero vector."
+  },
+  {
+    "id": "PRECAL01.157",
+    "title": "Component Form of a Vector from Two Points",
+    "type": "procedure",
+    "content": "Given points A(x₁, y₁) and B(x₂, y₂), the vector from A to B is ⟨x₂ − x₁, y₂ − y₁⟩."
+  },
+  {
+    "id": "PRECAL01.158",
+    "title": "Vector Projection onto Another Vector",
+    "type": "formula",
+    "content": "The projection of vector u onto v is projᵥ(u) = [(u·v)/|v|²] · v. It gives the component of u in the direction of v."
+  },
+  {
+    "id": "PRECAL01.159",
+    "title": "Decomposing a Vector",
+    "type": "procedure",
+    "content": "A vector can be expressed as the sum of two orthogonal components: one parallel and one perpendicular to a given direction."
+  },
+  {
+    "id": "PRECAL01.160",
+    "title": "Applications of Vectors in Physics",
+    "type": "application",
+    "content": "Vectors are used to represent force, velocity, and acceleration. Vector addition models combined forces or movements."
+  },
+  {
+    "id": "PRECAL01.161",
+    "title": "Vectors in Navigation and Displacement",
+    "type": "application",
+    "content": "In navigation, displacement vectors are used to track movement in terms of direction and magnitude. Bearings can be converted to angles."
+  },
+  {
+    "id": "PRECAL01.162",
+    "title": "Introduction to 3D Vectors",
+    "type": "definition",
+    "content": "A 3D vector is represented as ⟨a, b, c⟩ in space. The magnitude is |v| = √(a² + b² + c²). Operations extend naturally from 2D vectors."
+  },
+  {
+    "id": "PRECAL01.163",
+    "title": "Definition of Exponential Function",
+    "type": "definition",
+    "content": "An exponential function is of the form f(x) = a·b^x, where a ≠ 0 and b > 0, b ≠ 1. The base b determines the rate of growth or decay."
+  },
+  {
+    "id": "PRECAL01.164",
+    "title": "Graph of Exponential Functions",
+    "type": "property",
+    "content": "The graph of f(x) = b^x is increasing if b > 1 and decreasing if 0 < b < 1. It has a horizontal asymptote at y = 0 and passes through (0, 1)."
+  },
+  {
+    "id": "PRECAL01.165",
+    "title": "Definition of Logarithmic Function",
+    "type": "definition",
+    "content": "The logarithmic function is the inverse of the exponential function: if b^y = x, then log_b(x) = y. The domain is x > 0."
+  },
+  {
+    "id": "PRECAL01.166",
+    "title": "Graph of Logarithmic Functions",
+    "type": "property",
+    "content": "The graph of f(x) = log_b(x) passes through (1, 0), has a vertical asymptote at x = 0, and increases if b > 1, decreases if 0 < b < 1."
+  },
+  {
+    "id": "PRECAL01.167",
+    "title": "Logarithmic Properties and Rules",
+    "type": "identity",
+    "content": "log_b(xy) = log_b(x) + log_b(y), log_b(x/y) = log_b(x) − log_b(y), log_b(x^n) = n·log_b(x)."
+  },
+  {
+    "id": "PRECAL01.168",
+    "title": "Solving Exponential Equations",
+    "type": "procedure",
+    "content": "To solve equations like a·b^x = c, isolate the exponential term and take logarithms of both sides. Use log or ln based on context."
+  },
+  {
+    "id": "PRECAL01.169",
+    "title": "Solving Logarithmic Equations",
+    "type": "procedure",
+    "content": "To solve equations like log_b(x) = c, rewrite in exponential form: x = b^c. Check for extraneous solutions caused by domain restrictions."
+  },
+  {
+    "id": "PRECAL01.170",
+    "title": "Applications of Exponential and Logarithmic Functions",
+    "type": "application",
+    "content": "Exponential and logarithmic models are used for population growth, radioactive decay, pH levels, and financial interest calculations."
+  },
+  {
+    "id": "PRECAL01.171",
+    "title": "The Number e and the Natural Exponential Function",
+    "type": "definition",
+    "content": "The number e ≈ 2.718 is the base of the natural exponential function f(x) = e^x, which models continuous growth and decay."
+  },
+  {
+    "id": "PRECAL01.172",
+    "title": "Natural Logarithm Function",
+    "type": "definition",
+    "content": "The natural logarithm, denoted ln(x), is the inverse of e^x. ln(x) = y means e^y = x. It is defined for x > 0."
+  },
+  {
+    "id": "PRECAL01.173",
+    "title": "Change of Base Formula",
+    "type": "formula",
+    "content": "To evaluate log_b(x) using common or natural logs: log_b(x) = log(x)/log(b) or ln(x)/ln(b)."
+  },
+  {
+    "id": "PRECAL01.174",
+    "title": "Compound Interest Formula",
+    "type": "application",
+    "content": "For n compounding periods per year: A = P(1 + r/n)^(nt). For continuous compounding: A = Pe^(rt)."
+  },
+  {
+    "id": "PRECAL01.175",
+    "title": "Solving Continuous Growth and Decay Problems",
+    "type": "application",
+    "content": "Use exponential models A = Ae^(kt), where k > 0 for growth and k < 0 for decay. Use logarithms to solve for time or rate."
+  },
+  {
+    "id": "PRECAL01.176",
+    "title": "Identifying Key Features of a Graph",
+    "type": "strategy",
+    "content": "Key features include intercepts, domain, range, asymptotes, intervals of increase/decrease, extrema, and end behavior. Analyzing these helps understand function behavior."
+  },
+  {
+    "id": "PRECAL01.177",
+    "title": "Sketching Functions from Descriptions",
+    "type": "procedure",
+    "content": "Given information like intervals of increase, extrema, and asymptotes, sketch a graph that satisfies all conditions. Use critical points and smooth transitions."
+  },
+  {
+    "id": "PRECAL01.178",
+    "title": "Effect of Transformations on Graphs",
+    "type": "transformation",
+    "content": "Horizontal/vertical shifts, reflections, stretches/compressions affect the graph's shape. Understand how each transformation modifies key points."
+  },
+  {
+    "id": "PRECAL01.179",
+    "title": "Comparing Graphs of Different Functions",
+    "type": "strategy",
+    "content": "Compare graphs of polynomial, rational, exponential, logarithmic, and trigonometric functions by analyzing shape, asymptotes, periodicity, and curvature."
+  },
+  {
+    "id": "PRECAL01.180",
+    "title": "Using Graphs to Solve Equations and Inequalities",
+    "type": "application",
+    "content": "To solve f(x) = g(x) or f(x) > g(x), find intersections and regions of dominance on a graph. Visual interpretation can reveal the number and location of solutions."
+  },
+  {
+    "id": "PRECAL01.181",
+    "title": "Graph of a Piecewise Function",
+    "type": "procedure",
+    "content": "To graph a piecewise function, graph each piece on its defined interval and check for continuity or jumps at boundaries."
+  },
+  {
+    "id": "PRECAL01.182",
+    "title": "Graph of a Composite Function",
+    "type": "strategy",
+    "content": "To graph f(g(x)), evaluate inner function g(x) first, then apply f. Use key input-output points of g(x) to trace the transformed shape under f."
+  },
+  {
+    "id": "PRECAL01.183",
+    "title": "Relationship Between a Function and Its Inverse",
+    "type": "property",
+    "content": "The graph of an inverse function is the reflection of the original graph over the line y = x. Their domain and range are swapped."
+  },
+  {
+    "id": "PRECAL01.184",
+    "title": "Graph of Absolute Value Functions",
+    "type": "property",
+    "content": "Graphs involving |x| or |f(x)| reflect portions below the x-axis upward. Critical points often form corners or V-shapes."
+  },
+  {
+    "id": "PRECAL01.185",
+    "title": "Average Rate of Change from a Graph",
+    "type": "definition",
+    "content": "The average rate of change of f(x) between x = a and x = b is [f(b) − f(a)] / (b − a), corresponding to the slope of the secant line."
+  },
+  {
+    "id": "PRECAL01.186",
+    "title": "Interpreting Graphs in Context (e.g. Motion)",
+    "type": "application",
+    "content": "When a graph represents distance, velocity, or other real-world quantities, slopes represent rates of change and curvature shows acceleration or deceleration."
   }
 ]

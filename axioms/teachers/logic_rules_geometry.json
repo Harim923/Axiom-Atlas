@@ -1,0 +1,350 @@
+[
+  {
+    "id": "GEO_LR01",
+    "statement": "If two angles form a linear pair, then they are supplementary.",
+    "type": "angle_reasoning",
+    "tags": ["angle", "supplementary"]
+  },
+  {
+    "id": "GEO_LR02",
+    "statement": "If two lines are cut by a transversal and corresponding angles are congruent, then the lines are parallel.",
+    "type": "line_reasoning",
+    "tags": ["parallel", "transversal"]
+  },
+  {
+    "id": "GEO_LR03",
+    "statement": "If two angles are vertical angles, then they are congruent.",
+    "type": "angle_reasoning",
+    "tags": ["angle", "congruence"]
+  },
+  {
+    "id": "GEO_LR04",
+    "statement": "If a transversal intersects two parallel lines, then alternate interior angles are congruent.",
+    "type": "angle_reasoning",
+    "tags": ["parallel", "transversal"]
+  },
+  {
+    "id": "GEO_LR05",
+    "statement": "If two triangles have three pairs of congruent sides, then the triangles are congruent. (SSS)",
+    "type": "triangle_congruence",
+    "tags": ["congruence", "SSS"]
+  },
+  {
+    "id": "GEO_LR06",
+    "statement": "If two triangles have two pairs of congruent sides and the included angle is congruent, then the triangles are congruent. (SAS)",
+    "type": "triangle_congruence",
+    "tags": ["congruence", "SAS"]
+  },
+  {
+    "id": "GEO_LR07",
+    "statement": "If two triangles have two angles and the included side congruent, then the triangles are congruent. (ASA)",
+    "type": "triangle_congruence",
+    "tags": ["congruence", "ASA"]
+  },
+  {
+    "id": "GEO_LR08",
+    "statement": "In a triangle, the sum of the interior angles is 180 degrees.",
+    "type": "triangle_property",
+    "tags": ["angle", "triangle"]
+  },
+  {
+    "id": "GEO_LR09",
+    "statement": "Base angles of an isosceles triangle are congruent.",
+    "type": "triangle_property",
+    "tags": ["isosceles", "angle"]
+  },
+  {
+    "id": "GEO_LR10",
+    "statement": "The diagonals of a rectangle are congruent.",
+    "type": "quadrilateral_property",
+    "tags": ["rectangle", "diagonal"]
+  },
+  {
+    "id": "GEO_LR11",
+    "statement": "The diagonals of a rhombus are perpendicular.",
+    "type": "quadrilateral_property",
+    "tags": ["rhombus", "diagonal"]
+  },
+  {
+    "id": "GEO_LR12",
+    "statement": "The opposite angles of a parallelogram are congruent.",
+    "type": "quadrilateral_property",
+    "tags": ["parallelogram", "angle"]
+  },
+  {
+    "id": "GEO_LR13",
+    "statement": "If a radius is perpendicular to a chord, then it bisects the chord.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "chord"]
+  },
+  {
+    "id": "GEO_LR14",
+    "statement": "The measure of an inscribed angle is half the measure of its intercepted arc.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "angle"]
+  },
+  {
+    "id": "GEO_LR15",
+    "statement": "If two segments are both perpendicular to the same line, then they are parallel to each other.",
+    "type": "line_reasoning",
+    "tags": ["perpendicular", "parallel"]
+  },
+  {
+    "id": "GEO_LR16",
+    "statement": "If two triangles have all corresponding angles congruent, then the triangles are similar. (AAA Similarity)",
+    "type": "triangle_similarity",
+    "tags": ["similarity", "triangle"]
+  },
+  {
+    "id": "GEO_LR17",
+    "statement": "If two triangles have two pairs of sides in proportion and the included angles congruent, then the triangles are similar. (SAS Similarity)",
+    "type": "triangle_similarity",
+    "tags": ["similarity", "triangle"]
+  },
+  {
+    "id": "GEO_LR18",
+    "statement": "If two triangles have three pairs of sides in proportion, then the triangles are similar. (SSS Similarity)",
+    "type": "triangle_similarity",
+    "tags": ["similarity", "triangle"]
+  },
+  {
+    "id": "GEO_LR19",
+    "statement": "If a line parallel to one side of a triangle intersects the other two sides, it divides them proportionally.",
+    "type": "triangle_property",
+    "tags": ["proportionality", "parallel"]
+  },
+  {
+    "id": "GEO_LR20",
+    "statement": "The Pythagorean Theorem states that in a right triangle, a² + b² = c².",
+    "type": "triangle_property",
+    "tags": ["right triangle", "pythagorean"]
+  },
+  {
+    "id": "GEO_LR21",
+    "statement": "In coordinate geometry, the distance between two points (x₁, y₁) and (x₂, y₂) is √[(x₂−x₁)² + (y₂−y₁)²].",
+    "type": "coordinate_geometry",
+    "tags": ["distance", "coordinate"]
+  },
+  {
+    "id": "GEO_LR22",
+    "statement": "The midpoint between two points (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+    "type": "coordinate_geometry",
+    "tags": ["midpoint", "coordinate"]
+  },
+  {
+    "id": "GEO_LR23",
+    "statement": "The slope of the line through two points is (y₂ - y₁)/(x₂ - x₁), if x₁ ≠ x₂.",
+    "type": "coordinate_geometry",
+    "tags": ["slope", "line"]
+  },
+  {
+    "id": "GEO_LR24",
+    "statement": "The area of a triangle is (1/2) × base × height.",
+    "type": "area_formula",
+    "tags": ["area", "triangle"]
+  },
+  {
+    "id": "GEO_LR25",
+    "statement": "The area of a circle is πr² and the circumference is 2πr.",
+    "type": "area_formula",
+    "tags": ["area", "circle"]
+  },
+  {
+    "id": "GEO_LR26",
+    "statement": "In a circle, congruent chords are equidistant from the center.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "chord"]
+  },
+  {
+    "id": "GEO_LR27",
+    "statement": "The perpendicular bisector of a chord passes through the center of the circle.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "perpendicular"]
+  },
+  {
+    "id": "GEO_LR28",
+    "statement": "In a triangle, the angle opposite the longer side is larger.",
+    "type": "triangle_inequality",
+    "tags": ["triangle", "inequality"]
+  },
+  {
+    "id": "GEO_LR29",
+    "statement": "The sum of the lengths of any two sides of a triangle is greater than the length of the third side.",
+    "type": "triangle_inequality",
+    "tags": ["triangle", "inequality"]
+  },
+  {
+    "id": "GEO_LR30",
+    "statement": "If two segments are both perpendicular to the same segment and lie on the same plane, then they are parallel.",
+    "type": "line_reasoning",
+    "tags": ["parallel", "perpendicular"]
+  },
+  {
+    "id": "GEO_LR31",
+    "statement": "Corresponding Parts of Congruent Triangles are Congruent (CPCTC).",
+    "type": "proof_logic",
+    "tags": ["cpctc", "triangle", "congruence"]
+  },
+  {
+    "id": "GEO_LR32",
+    "statement": "If two angles are supplements of the same angle, then they are congruent.",
+    "type": "proof_logic",
+    "tags": ["angle", "congruence", "supplementary"]
+  },
+  {
+    "id": "GEO_LR33",
+    "statement": "If two segments (or angles) are both congruent to a third one, they are congruent to each other (transitive property).",
+    "type": "proof_logic",
+    "tags": ["transitivity", "segment", "angle"]
+  },
+  {
+    "id": "GEO_LR34",
+    "statement": "Vertical angles are always congruent.",
+    "type": "proof_logic",
+    "tags": ["angle", "vertical", "congruence"]
+  },
+  {
+    "id": "GEO_LR35",
+    "statement": "If two lines are cut by a transversal and corresponding angles are congruent, the lines are parallel.",
+    "type": "parallel_lines",
+    "tags": ["angle", "transversal", "parallel"]
+  },
+  {
+    "id": "GEO_LR36",
+    "statement": "A reflection over a line produces a mirror image with equal distance from the line of reflection.",
+    "type": "transformation",
+    "tags": ["reflection", "symmetry"]
+  },
+  {
+    "id": "GEO_LR37",
+    "statement": "A rotation of a figure about a point preserves distances and angle measures.",
+    "type": "transformation",
+    "tags": ["rotation", "rigid"]
+  },
+  {
+    "id": "GEO_LR38",
+    "statement": "A dilation centered at a point with scale factor k multiplies all distances from the center by k.",
+    "type": "transformation",
+    "tags": ["dilation", "similarity"]
+  },
+  {
+    "id": "GEO_LR39",
+    "statement": "Translations shift all points of a figure the same distance in the same direction.",
+    "type": "transformation",
+    "tags": ["translation", "rigid"]
+  },
+  {
+    "id": "GEO_LR40",
+    "statement": "Rigid motions preserve angle measures and side lengths; thus, they preserve congruence.",
+    "type": "transformation",
+    "tags": ["rigid", "congruence"]
+  },
+  {
+    "id": "GEO_LR41",
+    "statement": "The volume of a rectangular prism is length × width × height.",
+    "type": "solid_geometry",
+    "tags": ["volume", "prism"]
+  },
+  {
+    "id": "GEO_LR42",
+    "statement": "The volume of a cylinder is πr²h.",
+    "type": "solid_geometry",
+    "tags": ["volume", "cylinder"]
+  },
+  {
+    "id": "GEO_LR43",
+    "statement": "The volume of a cone is (1/3)πr²h.",
+    "type": "solid_geometry",
+    "tags": ["volume", "cone"]
+  },
+  {
+    "id": "GEO_LR44",
+    "statement": "The volume of a sphere is (4/3)πr³.",
+    "type": "solid_geometry",
+    "tags": ["volume", "sphere"]
+  },
+  {
+    "id": "GEO_LR45",
+    "statement": "The surface area of a sphere is 4πr².",
+    "type": "solid_geometry",
+    "tags": ["surface area", "sphere"]
+  },
+  {
+    "id": "GEO_LR46",
+    "statement": "The centroid of a triangle with vertices (x₁, y₁), (x₂, y₂), and (x₃, y₃) is at ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3).",
+    "type": "coordinate_geometry",
+    "tags": ["centroid", "triangle", "coordinate"]
+  },
+  {
+    "id": "GEO_LR47",
+    "statement": "The equation of the perpendicular bisector of a segment can be found using the negative reciprocal of the slope and the midpoint.",
+    "type": "coordinate_geometry",
+    "tags": ["perpendicular", "bisector", "coordinate"]
+  },
+  {
+    "id": "GEO_LR48",
+    "statement": "The general form of a circle centered at (h, k) with radius r is (x−h)² + (y−k)² = r².",
+    "type": "circle_equation",
+    "tags": ["circle", "equation", "coordinate"]
+  },
+  {
+    "id": "GEO_LR49",
+    "statement": "A line is tangent to a circle if it intersects the circle at exactly one point and is perpendicular to the radius at the point of contact.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "tangent", "perpendicular"]
+  },
+  {
+    "id": "GEO_LR50",
+    "statement": "The length of a tangent segment from a point outside a circle to the point of tangency is equal on both sides.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "tangent", "segment"]
+  },
+  {
+    "id": "GEO_LR51",
+    "statement": "If two chords intersect inside a circle, then the products of the segments of each chord are equal.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "chord", "power of a point"]
+  },
+  {
+    "id": "GEO_LR52",
+    "statement": "If a secant and a tangent intersect outside a circle, then the product of the secant's entire length and its external part equals the square of the tangent segment.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "secant", "tangent", "power of a point"]
+  },
+  {
+    "id": "GEO_LR53",
+    "statement": "If two secants intersect outside a circle, then the product of one secant's entire length and its external part equals that of the other.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "secant", "power of a point"]
+  },
+  {
+    "id": "GEO_LR54",
+    "statement": "The composition of two reflections over intersecting lines results in a rotation.",
+    "type": "transformation",
+    "tags": ["reflection", "rotation", "composition"]
+  },
+  {
+    "id": "GEO_LR55",
+    "statement": "The composition of two reflections over parallel lines results in a translation.",
+    "type": "transformation",
+    "tags": ["reflection", "translation", "composition"]
+  },
+  {
+    "id": "GEO_LR56",
+    "statement": "An indirect proof assumes the opposite of the desired conclusion and derives a contradiction.",
+    "type": "proof_logic",
+    "tags": ["indirect proof", "contradiction"]
+  },
+  {
+    "id": "GEO_LR57",
+    "statement": "To prove a biconditional statement, both the conditional and its converse must be proven true.",
+    "type": "proof_logic",
+    "tags": ["biconditional", "if and only if", "proof"]
+  },
+  {
+    "id": "GEO_LR58",
+    "statement": "In a circle, the product of the lengths of the segments of intersecting chords is invariant.",
+    "type": "circle_reasoning",
+    "tags": ["circle", "intersecting chords", "power of a point"]
+  }
+]

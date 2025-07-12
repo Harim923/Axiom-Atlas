@@ -1012,6 +1012,16 @@
     "used_in_proofs": ["SineSquareSymmetry", "TrigonometricAverages", "CircleSymmetricPoints"],
     "used_in_systems": ["Geometry", "Trigonometry"],
     "strength_score": 0.92
+  },
+  {
+    "id": "T2_GEO69",
+    "name": "Complex Multiplication as Rotation and Dilation",
+    "statement": "In the complex plane, multiplication by a complex number z = re^{iθ} rotates a point about the origin by angle θ and scales it by a factor r.",
+    "tags": ["complex", "geometry", "rotation", "scaling"],
+    "philosophy": "Complex multiplication has geometric meaning: rotation and dilation centered at the origin. This enables reasoning about z, z², z³ as progressively rotated points.",
+    "used_in_proofs": ["ComplexPolygonArea", "ZPowerRotation", "RootsOfUnityShapes"],
+    "used_in_systems": ["Geometry", "ComplexPlane"],
+    "strength_score": 0.92
   }
 
 ]

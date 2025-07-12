@@ -510,7 +510,6 @@
     "content": "For parametric curves x(t), y(t), the arc length is ∫ₐᵇ √[(dx/dt)² + (dy/dt)²] dt. Area is ∫ₐᵇ y(t)·x'(t) dt.",
     "tags": ["parametric", "bc", "arc length", "area"]
   },
-  [
   {
     "id": "CALC01.073",
     "title": "Area Between Two Curves",

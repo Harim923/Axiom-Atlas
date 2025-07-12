@@ -46,5 +46,75 @@
     "statement": "Trivial arithmetic (e.g., 2 + 3 = 5 or 12 ÷ 4 = 3) may be performed without explicit steps.",
     "type": "arithmetic",
     "tags": ["arithmetic", "simplification"]
+  },
+  {
+    "id": "LR_ZERO_PRODUCT_PROPERTY",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "If the product of two expressions is zero, then at least one of them must be zero.",
+    "example": "If (x - 3)(x + 2) = 0, then x = 3 or x = -2."
+  },
+  {
+    "id": "LR_MOVE_TERMS_TO_ONE_SIDE",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "To solve equations, move all terms to one side to set the equation equal to zero before factoring.",
+    "example": "To solve x² = 5x + 6, rewrite as x² - 5x - 6 = 0."
+  },
+  {
+    "id": "LR_EXPAND_BINOMIAL_SQUARE",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "The square of a binomial follows the identity (a ± b)² = a² ± 2ab + b².",
+    "example": "(x + 4)² = x² + 8x + 16"
+  },
+  {
+    "id": "LR_RECOGNIZE_DIFFERENCE_OF_SQUARES",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "An expression of the form a² - b² can be factored as (a - b)(a + b).",
+    "example": "x² - 9 = (x - 3)(x + 3)"
+  },
+  {
+    "id": "LR_FACTOR_QUADRATIC_BASIC",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "A trinomial of the form x² + bx + c can be factored into (x + m)(x + n) where m + n = b and mn = c.",
+    "example": "x² + 5x + 6 = (x + 2)(x + 3)"
+  },
+  {
+    "id": "LR_COMPLETE_THE_SQUARE",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "To complete the square, add and subtract (b/2)² to convert x² + bx into a perfect square trinomial.",
+    "example": "x² + 6x → x² + 6x + 9 - 9 = (x + 3)² - 9"
+  },
+  {
+    "id": "LR_QUADRATIC_FORMULA_USAGE",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "To solve ax² + bx + c = 0, use the quadratic formula: x = [-b ± √(b² - 4ac)] / 2a.",
+    "example": "2x² - 4x - 6 = 0 → x = [4 ± √(16 + 48)] / 4 = [4 ± √64]/4"
+  },
+  {
+    "id": "LR_ISOLATE_VARIABLE",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "To solve linear equations, isolate the variable by performing inverse operations.",
+    "example": "3x - 5 = 10 → 3x = 15 → x = 5"
+  },
+  {
+    "id": "LR_COMBINE_LIKE_TERMS",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "Terms with the same variable and exponent can be combined by adding or subtracting coefficients.",
+    "example": "2x + 5x = 7x"
+  },
+  {
+    "id": "LR_CHECK_FOR_RESTRICTIONS",
+    "type": "logic_rule",
+    "level": "algebra1",
+    "statement": "In rational expressions, identify values that make any denominator zero and exclude them.",
+    "example": "In 1/(x - 3), x ≠ 3"
   }
 ]

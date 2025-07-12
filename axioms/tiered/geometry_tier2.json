@@ -1032,6 +1032,17 @@
     "used_in_proofs": ["ComplexQuadrilateralArea", "RootsOfUnityPolygon"],
     "used_in_systems": ["Geometry", "ComplexPlane"],
     "strength_score": 0.93
+  },
+  {
+    "id": "GEO_LR72",
+    "name": "Conjugate of Complex Power",
+    "statement": "For any complex number z, conjugate(zⁿ) = (conjugate(z))ⁿ.",
+    "tags": ["complex", "algebra", "conjugate"],
+    "philosophy": "Enables simplification of expressions involving conjugates of powers, critical for geometry in the complex plane.",
+    "used_in_proofs": ["ShoelaceComplex", "RootsConjugateBehavior"],
+    "used_in_systems": ["ComplexPlane", "Geometry"],
+    "strength_score": 0.88
   }
+
 
 ]

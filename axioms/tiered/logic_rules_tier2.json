@@ -674,6 +674,14 @@
       "level": "tier2",
       "statement": "Möbius transformations preserve the cross ratio of four points.",
       "example": "Used to analyze invariants under geometric transformations."
+    },
+    {
+      "id": "ALG_LR_CUBIC_ROOT_ENUM_WITH_COEFF",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "For any cubic polynomial with integer coefficients, the set of distinct integer root triples (r, s, t) such that a_3·r·s·t = constant term can be enumerated and used to reverse-engineer possible coefficients using Vieta’s formulas.",
+      "example": "Used to compute valid (a_2, a_1) pairs from integer roots when the constant term and leading coefficient are known."
     }
+
   ]
 }

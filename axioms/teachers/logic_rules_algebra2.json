@@ -1,0 +1,462 @@
+[
+  {
+    "id": "ALG2_LR1",
+    "statement": "If ax^2 + bx + c = 0 and b^2 - 4ac > 0, then the equation has two distinct real roots.",
+    "tags": ["quadratic", "discriminant", "reasoning"]
+  },
+  {
+    "id": "ALG2_LR2",
+    "statement": "If b^2 - 4ac = 0, then the quadratic equation has one real repeated root.",
+    "tags": ["quadratic", "discriminant", "reasoning"]
+  },
+  {
+    "id": "ALG2_LR3",
+    "statement": "If b^2 - 4ac < 0, then the quadratic equation has two complex conjugate roots.",
+    "tags": ["quadratic", "complex", "discriminant"]
+  },
+  {
+    "id": "ALG2_LR4",
+    "statement": "To solve a quadratic equation by completing the square, isolate the quadratic and linear terms, add the square of half the coefficient of x, and factor.",
+    "tags": ["quadratic", "completing_square", "strategy"]
+  },
+  {
+    "id": "ALG2_LR5",
+    "statement": "If x^n = x^m, and x ≠ 0, then n = m.",
+    "tags": ["exponents", "reasoning", "equation"]
+  },
+  {
+    "id": "ALG2_LR6",
+    "statement": "The logarithmic identity log_b(xy) = log_b(x) + log_b(y) can be used to simplify or expand expressions.",
+    "tags": ["logarithm", "identity", "algebra"]
+  },
+  {
+    "id": "ALG2_LR7",
+    "statement": "The inverse of a function swaps the input and output: if f(x) = y, then f⁻¹(y) = x.",
+    "tags": ["functions", "inverses", "mapping"]
+  },
+  {
+    "id": "ALG2_LR8",
+    "statement": "To find the inverse of a function, solve the equation y = f(x) for x, then interchange x and y.",
+    "tags": ["functions", "inverses", "strategy"]
+  },
+  {
+    "id": "ALG2_LR9",
+    "statement": "A rational expression is undefined when the denominator equals zero.",
+    "tags": ["rational", "undefined", "domain"]
+  },
+  {
+    "id": "ALG2_LR10",
+    "statement": "The sum of a geometric series with ratio r ≠ 1 is a(1 - r^n)/(1 - r).",
+    "tags": ["series", "geometric", "formula"]
+  },
+  {
+    "id": "ALG2_LR11",
+    "statement": "The complex conjugate of a + bi is a - bi.",
+    "tags": ["complex", "conjugate", "imaginary"]
+  },
+  {
+    "id": "ALG2_LR12",
+    "statement": "To multiply two complex numbers, use distributive property and simplify using i^2 = -1.",
+    "tags": ["complex", "multiplication", "reasoning"]
+  },
+  {
+    "id": "ALG2_LR13",
+    "statement": "The inverse of a 2×2 matrix A = [[a, b], [c, d]] exists if ad - bc ≠ 0 and is given by (1/(ad-bc))·[[d, -b], [-c, a]].",
+    "tags": ["matrices", "inverse", "determinant"]
+  },
+  {
+    "id": "ALG2_LR14",
+    "statement": "If f(x) is a polynomial and f(c) = 0, then (x - c) is a factor of f(x).",
+    "tags": ["polynomials", "factor_theorem", "roots"]
+  },
+  {
+    "id": "ALG2_LR15",
+    "statement": "The Remainder Theorem states that the remainder of f(x) divided by (x - c) is f(c).",
+    "tags": ["polynomials", "remainder_theorem", "evaluation"]
+  },
+  {
+    "id": "ALG2_LR16",
+    "statement": "To determine whether a function is even, check whether f(-x) = f(x) for all x in the domain.",
+    "tags": ["functions", "symmetry", "even"]
+  },
+  {
+    "id": "ALG2_LR17",
+    "statement": "To determine whether a function is odd, check whether f(-x) = -f(x) for all x in the domain.",
+    "tags": ["functions", "symmetry", "odd"]
+  },
+  {
+    "id": "ALG2_LR18",
+    "statement": "If a > b and b > c, then a > c. (Transitive Property of Inequality)",
+    "tags": ["inequality", "transitivity", "logic"]
+  },
+  {
+    "id": "ALG2_LR19",
+    "statement": "Absolute value equations |x| = a split into two cases: x = a or x = -a.",
+    "tags": ["absolute_value", "case_analysis", "reasoning"]
+  },
+  {
+    "id": "ALG2_LR20",
+    "statement": "Exponential functions have the form f(x) = a·b^x, where a ≠ 0 and b > 0, b ≠ 1.",
+    "tags": ["exponential", "functions", "growth"]
+  },
+  {
+    "id": "ALG2_LR21",
+    "statement": "To solve an exponential equation a^x = a^y, equate the exponents: x = y.",
+    "tags": ["exponential", "equating_exponents", "reasoning"]
+  },
+  {
+    "id": "ALG2_LR22",
+    "statement": "log_b(xy) = log_b(x) + log_b(y) for all x, y > 0 and b > 0, b ≠ 1.",
+    "tags": ["logarithms", "properties", "addition"]
+  },
+  {
+    "id": "ALG2_LR23",
+    "statement": "log_b(x/y) = log_b(x) - log_b(y) for all x, y > 0 and b > 0, b ≠ 1.",
+    "tags": ["logarithms", "properties", "subtraction"]
+  },
+  {
+    "id": "ALG2_LR24",
+    "statement": "log_b(x^r) = r·log_b(x) for all x > 0 and b > 0, b ≠ 1.",
+    "tags": ["logarithms", "properties", "exponent_rule"]
+  },
+  {
+    "id": "ALG2_LR25",
+    "statement": "The composition of functions f(g(x)) applies g first, then f.",
+    "tags": ["functions", "composition", "order_of_operations"]
+  },
+  {
+    "id": "ALG2_LR26",
+    "statement": "Two functions f and g are inverses if f(g(x)) = x and g(f(x)) = x for all x in the domain.",
+    "tags": ["functions", "inverse", "logic"]
+  },
+  {
+    "id": "ALG2_LR27",
+    "statement": "Vertical asymptotes of rational functions occur where the denominator is zero and the numerator is non-zero.",
+    "tags": ["rational_functions", "asymptotes", "denominator"]
+  },
+  {
+    "id": "ALG2_LR28",
+    "statement": "The absolute value of a complex number a + bi is √(a² + b²).",
+    "tags": ["complex", "magnitude", "distance"]
+  },
+  {
+    "id": "ALG2_LR29",
+    "statement": "To shift a graph horizontally, replace x with x - h inside the function.",
+    "tags": ["graph_transformation", "horizontal_shift", "functions"]
+  },
+  {
+    "id": "ALG2_LR30",
+    "statement": "To shift a graph vertically, add or subtract a constant outside the function.",
+    "tags": ["graph_transformation", "vertical_shift", "functions"]
+  },
+  {
+    "id": "ALG2_LR31",
+    "statement": "The nth term of an arithmetic sequence is given by a_n = a_1 + (n - 1)d.",
+    "tags": ["sequences", "arithmetic", "nth_term"]
+  },
+  {
+    "id": "ALG2_LR32",
+    "statement": "The sum of the first n terms of an arithmetic sequence is S_n = n(a_1 + a_n)/2.",
+    "tags": ["sequences", "arithmetic", "sum"]
+  },
+  {
+    "id": "ALG2_LR33",
+    "statement": "The nth term of a geometric sequence is a_n = a_1 · r^(n - 1).",
+    "tags": ["sequences", "geometric", "nth_term"]
+  },
+  {
+    "id": "ALG2_LR34",
+    "statement": "The sum of the first n terms of a geometric sequence is S_n = a_1(1 - r^n)/(1 - r) for r ≠ 1.",
+    "tags": ["sequences", "geometric", "sum"]
+  },
+  {
+    "id": "ALG2_LR35",
+    "statement": "The sum of an infinite geometric series is S = a_1 / (1 - r) for |r| < 1.",
+    "tags": ["series", "geometric", "infinite_sum"]
+  },
+  {
+    "id": "ALG2_LR36",
+    "statement": "The Binomial Theorem expands (a + b)^n using binomial coefficients: Σ[k=0 to n] C(n, k) · a^{n-k} · b^k.",
+    "tags": ["binomial_theorem", "expansion", "combinatorics"]
+  },
+  {
+    "id": "ALG2_LR37",
+    "statement": "The matrix product AB is defined when the number of columns of A equals the number of rows of B.",
+    "tags": ["matrices", "multiplication", "dimension"]
+  },
+  {
+    "id": "ALG2_LR38",
+    "statement": "The identity matrix I satisfies AI = IA = A for any matrix A.",
+    "tags": ["matrices", "identity", "linear_algebra"]
+  },
+  {
+    "id": "ALG2_LR39",
+    "statement": "A matrix A has an inverse A⁻¹ if and only if det(A) ≠ 0.",
+    "tags": ["matrices", "inverse", "determinant"]
+  },
+  {
+    "id": "ALG2_LR40",
+    "statement": "The determinant of a 2x2 matrix [[a, b], [c, d]] is ad - bc.",
+    "tags": ["matrices", "determinant", "2x2"]
+  },
+  {
+    "id": "ALG2_LR41",
+    "statement": "To solve a system using matrices, write as AX = B and compute X = A⁻¹B, if A is invertible.",
+    "tags": ["matrices", "systems", "inversion"]
+  },
+  {
+    "id": "ALG2_LR42",
+    "statement": "Matrix multiplication corresponds to linear transformation composition.",
+    "tags": ["matrices", "transformation", "linear"]
+  },
+  {
+    "id": "ALG2_LR43",
+    "statement": "A complex number can be written as a + bi where a and b are real, and i² = -1.",
+    "tags": ["complex", "standard_form"]
+  },
+  {
+    "id": "ALG2_LR44",
+    "statement": "To multiply complex numbers, apply distributive property and simplify using i² = -1.",
+    "tags": ["complex", "multiplication"]
+  },
+  {
+    "id": "ALG2_LR45",
+    "statement": "To rationalize a denominator with a complex number, multiply numerator and denominator by the conjugate.",
+    "tags": ["complex", "rationalization", "conjugate"]
+  },
+  {
+    "id": "ALG2_LR46",
+    "statement": "The domain of a function excludes values that cause division by zero or even roots of negative numbers.",
+    "tags": ["functions", "domain", "undefined"]
+  },
+  {
+    "id": "ALG2_LR47",
+    "statement": "The inverse of a function f(x) satisfies f(f⁻¹(x)) = x and f⁻¹(f(x)) = x.",
+    "tags": ["functions", "inverse", "definition"]
+  },
+  {
+    "id": "ALG2_LR48",
+    "statement": "A function has an inverse if and only if it is one-to-one.",
+    "tags": ["functions", "inverse", "injective"]
+  },
+  {
+    "id": "ALG2_LR49",
+    "statement": "Logarithms are the inverses of exponential functions: if y = log_b(x), then b^y = x.",
+    "tags": ["logarithms", "exponents", "inverse"]
+  },
+  {
+    "id": "ALG2_LR50",
+    "statement": "Logarithm product rule: log_b(xy) = log_b(x) + log_b(y).",
+    "tags": ["logarithms", "rules", "product"]
+  },
+  {
+    "id": "ALG2_LR51",
+    "statement": "Logarithm quotient rule: log_b(x/y) = log_b(x) - log_b(y).",
+    "tags": ["logarithms", "rules", "quotient"]
+  },
+  {
+    "id": "ALG2_LR52",
+    "statement": "Logarithm power rule: log_b(x^r) = r·log_b(x).",
+    "tags": ["logarithms", "rules", "power"]
+  },
+  {
+    "id": "ALG2_LR53",
+    "statement": "To solve exponential equations, rewrite both sides with the same base or apply logarithms.",
+    "tags": ["exponents", "logarithms", "equation"]
+  },
+  {
+    "id": "ALG2_LR54",
+    "statement": "The domain of a square root function f(x) = √(g(x)) includes only values of x such that g(x) ≥ 0.",
+    "tags": ["root functions", "domain", "inequality"]
+  },
+  {
+    "id": "ALG2_LR55",
+    "statement": "To solve equations involving square roots, isolate the root term and square both sides.",
+    "tags": ["root functions", "equation solving", "isolation"]
+  },
+  {
+    "id": "ALG2_LR56",
+    "statement": "Squaring both sides of an equation may introduce extraneous solutions, so all solutions must be checked in the original equation.",
+    "tags": ["root functions", "extraneous", "verification"]
+  },
+  {
+    "id": "ALG2_LR57",
+    "statement": "The graph of y = √(x - h) + k is the graph of y = √x shifted h units right and k units up.",
+    "tags": ["root functions", "graphing", "transformation"]
+  },
+  {
+    "id": "ALG2_LR58",
+    "statement": "The domain of a rational function f(x) = p(x)/q(x) excludes values of x where q(x) = 0.",
+    "tags": ["rational functions", "domain", "undefined"]
+  },
+  {
+    "id": "ALG2_LR59",
+    "statement": "Vertical asymptotes occur at values of x where the denominator of a rational function equals zero and the numerator is nonzero.",
+    "tags": ["rational functions", "asymptote", "vertical"]
+  },
+  {
+    "id": "ALG2_LR60",
+    "statement": "A hole in the graph of a rational function occurs where both numerator and denominator have a common factor that cancels out.",
+    "tags": ["rational functions", "hole", "removable discontinuity"]
+  },
+  {
+    "id": "ALG2_LR61",
+    "statement": "Horizontal asymptotes are determined by comparing the degrees of the numerator and denominator polynomials.",
+    "tags": ["rational functions", "asymptote", "horizontal"]
+  },
+  {
+    "id": "ALG2_LR62",
+    "statement": "To add or subtract rational expressions, find a common denominator and combine numerators.",
+    "tags": ["rational functions", "addition", "common denominator"]
+  },
+  {
+    "id": "ALG2_LR63",
+    "statement": "To solve rational equations, multiply both sides by the least common denominator and check for extraneous solutions.",
+    "tags": ["rational functions", "equation solving", "lcd"]
+  },
+  {
+    "id": "ALG2_LR64",
+    "statement": "The expression |x| is defined as x if x ≥ 0 and –x if x < 0.",
+    "tags": ["absolute value", "definition", "piecewise"]
+  },
+  {
+    "id": "ALG2_LR65",
+    "statement": "To solve an equation of the form |A(x)| = B, consider both cases: A(x) = B and A(x) = –B.",
+    "tags": ["absolute value", "equation solving", "cases"]
+  },
+  {
+    "id": "ALG2_LR66",
+    "statement": "The graph of y = |x – h| + k is a V-shape shifted h units right and k units up.",
+    "tags": ["absolute value", "graphing", "transformation"]
+  },
+  {
+    "id": "ALG2_LR67",
+    "statement": "A piecewise function is defined by different expressions on different intervals of its domain.",
+    "tags": ["piecewise", "definition", "domain"]
+  },
+  {
+    "id": "ALG2_LR68",
+    "statement": "To evaluate a piecewise function at a specific input, determine which interval the input falls into.",
+    "tags": ["piecewise", "evaluation", "input logic"]
+  },
+  {
+    "id": "ALG2_LR69",
+    "statement": "To graph a piecewise function, graph each piece only on its defined interval.",
+    "tags": ["piecewise", "graphing", "interval"]
+  },
+  {
+    "id": "ALG2_LR70",
+    "statement": "A system involving nonlinear equations can have zero, one, or multiple solutions depending on the points of intersection.",
+    "tags": ["nonlinear systems", "solution", "graphing"]
+  },
+  {
+    "id": "ALG2_LR71",
+    "statement": "To solve a system with a linear and a nonlinear equation algebraically, substitute the expression for one variable into the other equation.",
+    "tags": ["nonlinear systems", "substitution", "algebraic"]
+  },
+  {
+    "id": "ALG2_LR72",
+    "statement": "A function is discontinuous at x = a if the limit from the left does not equal the limit from the right, or the value of the function does not match the limit.",
+    "tags": ["discontinuity", "limit", "graph analysis"]
+  },
+  {
+    "id": "ALG2_LR73",
+    "statement": "A jump discontinuity occurs in a graph when the left- and right-hand limits exist but are not equal.",
+    "tags": ["discontinuity", "jump", "graph behavior"]
+  },
+  {
+    "id": "ALG2_LR74",
+    "statement": "An exponential function has the form f(x) = a·b^x where a ≠ 0 and b > 0, b ≠ 1.",
+    "tags": ["exponential", "function definition", "growth", "decay"]
+  },
+  {
+    "id": "ALG2_LR75",
+    "statement": "If 0 < b < 1, then f(x) = a·b^x is a decreasing exponential function.",
+    "tags": ["exponential", "decay", "graph behavior"]
+  },
+  {
+    "id": "ALG2_LR76",
+    "statement": "If b > 1, then f(x) = a·b^x is an increasing exponential function.",
+    "tags": ["exponential", "growth", "graph behavior"]
+  },
+  {
+    "id": "ALG2_LR77",
+    "statement": "To solve an exponential equation b^x = b^y, equate the exponents: x = y.",
+    "tags": ["exponential", "equation solving", "base comparison"]
+  },
+  {
+    "id": "ALG2_LR78",
+    "statement": "The logarithmic function log_b(x) is the inverse of the exponential function b^x.",
+    "tags": ["logarithm", "inverse", "function"]
+  },
+  {
+    "id": "ALG2_LR79",
+    "statement": "log_b(x) = y is equivalent to b^y = x.",
+    "tags": ["logarithm", "definition", "conversion"]
+  },
+  {
+    "id": "ALG2_LR80",
+    "statement": "The domain of log_b(x) is x > 0.",
+    "tags": ["logarithm", "domain", "restriction"]
+  },
+  {
+    "id": "ALG2_LR81",
+    "statement": "The graph of y = log_b(x) passes through (1, 0) and has a vertical asymptote at x = 0.",
+    "tags": ["logarithm", "graphing", "asymptote"]
+  },
+  {
+    "id": "ALG2_LR82",
+    "statement": "The logarithmic properties include: log_b(M·N) = log_b(M) + log_b(N), log_b(M/N) = log_b(M) – log_b(N), and log_b(M^k) = k·log_b(M).",
+    "tags": ["logarithm", "properties", "simplification"]
+  },
+  {
+    "id": "ALG2_LR83",
+    "statement": "To solve logarithmic equations, isolate the log expression and convert to exponential form.",
+    "tags": ["logarithm", "equation solving", "conversion"]
+  },
+  {
+    "id": "ALG2_LR84",
+    "statement": "A radical function is a function that includes a variable inside a root expression, such as f(x) = √(x – a) or f(x) = ∛(x + b).",
+    "tags": ["radical", "function", "definition"]
+  },
+  {
+    "id": "ALG2_LR85",
+    "statement": "The domain of a square root function f(x) = √(expression) consists of all x-values that make the expression under the square root greater than or equal to zero.",
+    "tags": ["radical", "domain", "inequality"]
+  },
+  {
+    "id": "ALG2_LR86",
+    "statement": "When solving radical equations, isolate the radical and square both sides carefully, then check for extraneous solutions.",
+    "tags": ["radical", "equation", "extraneous"]
+  },
+  {
+    "id": "ALG2_LR87",
+    "statement": "A rational function is any function that can be written as the ratio of two polynomials.",
+    "tags": ["rational", "function", "definition"]
+  },
+  {
+    "id": "ALG2_LR88",
+    "statement": "The domain of a rational function excludes values that make the denominator zero.",
+    "tags": ["rational", "domain", "undefined"]
+  },
+  {
+    "id": "ALG2_LR89",
+    "statement": "Vertical asymptotes of a rational function occur at values of x that make the denominator zero but not the numerator.",
+    "tags": ["rational", "asymptote", "graph"]
+  },
+  {
+    "id": "ALG2_LR90",
+    "statement": "Holes in the graph of a rational function occur when both the numerator and denominator share a common factor that becomes zero at a particular x-value.",
+    "tags": ["rational", "hole", "graph"]
+  },
+  {
+    "id": "ALG2_LR91",
+    "statement": "To simplify a rational expression, factor both the numerator and denominator and cancel any common factors.",
+    "tags": ["rational", "simplify", "algebra"]
+  },
+  {
+    "id": "ALG2_LR92",
+    "statement": "To solve rational equations, find a common denominator or use cross-multiplication, then solve and check for extraneous solutions.",
+    "tags": ["rational", "equation", "extraneous"]
+  }
+]

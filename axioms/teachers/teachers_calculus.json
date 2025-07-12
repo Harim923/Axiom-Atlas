@@ -1,34 +1,801 @@
 [
   {
-    "id": "CAL01.001",
+    "id": "CALC01.001",
+    "title": "Definition of a Limit",
     "type": "definition",
-    "title": "Definition of Derivative",
-    "statement": "The derivative of f at x is defined as the limit: f'(x) = lim_{h→0} [f(x+h) - f(x)] / h.",
-    "formal": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
-    "tags": ["calculus", "definition"]
+    "content": "The limit of a function f(x) as x approaches a is the value that f(x) approaches as x gets closer to a from both sides. Notation: limₓ→ₐ f(x).",
+    "tags": ["limit", "notation", "core", "AB"]
   },
   {
-    "id": "CAL01.002",
-    "type": "lemma",
-    "title": "Limit of sin(h)/h",
-    "statement": "lim_{h→0} sin(h)/h = 1",
-    "formal": "\\lim_{h \\to 0} \\frac{\\sin h}{h} = 1",
-    "tags": ["limit", "trig", "calculus"]
+    "id": "CALC01.002",
+    "title": "One-Sided Limits",
+    "type": "definition",
+    "content": "The left-hand limit is limₓ→ₐ⁻ f(x), and the right-hand limit is limₓ→ₐ⁺ f(x). The limit exists only if both one-sided limits exist and are equal.",
+    "tags": ["limit", "left-right", "graphical", "AB"]
   },
   {
-    "id": "CAL01.003",
-    "type": "logic_rule",
-    "title": "Derivative of sin(x)",
-    "statement": "Using the definition of derivative and limit of sin(h)/h, we can derive that d/dx[sin(x)] = cos(x).",
-    "formal": "f(x) = \\sin(x) \\Rightarrow f'(x) = \\cos(x)",
-    "tags": ["logic", "chaining", "trig", "derivative"]
+    "id": "CALC01.003",
+    "title": "Limits from Graphs and Tables",
+    "type": "strategy",
+    "content": "Use values approaching x = a from both sides to estimate limₓ→ₐ f(x). The function value at x = a does not affect the limit.",
+    "tags": ["limit", "graphical", "table", "estimation", "AB"]
   },
   {
-    "id": "CAL01.004",
-    "type": "lemma",
-    "title": "Limit of (cos(h) - 1)/h",
-    "statement": "The limit of (cos(h) - 1)/h as h approaches 0 is 0.",
-    "formal": "\\lim_{h \\to 0} \\frac{\\cos(h) - 1}{h} = 0",
-    "tags": ["limit", "trig", "derivative", "teachers"]
+    "id": "CALC01.004",
+    "title": "Algebraic Techniques for Evaluating Limits",
+    "type": "procedure",
+    "content": "If direct substitution results in an indeterminate form, simplify the expression by factoring, rationalizing, or combining terms before re-evaluating.",
+    "tags": ["limit", "algebra", "indeterminate", "AB"]
+  },
+  {
+    "id": "CALC01.005",
+    "title": "Limits Involving Infinity",
+    "type": "definition",
+    "content": "If f(x) increases or decreases without bound as x approaches a, write limₓ→ₐ f(x) = ∞ or −∞. These indicate vertical asymptotes.",
+    "tags": ["limit", "asymptote", "infinity", "AB"]
+  },
+  {
+    "id": "CALC01.006",
+    "title": "End Behavior and Horizontal Asymptotes",
+    "type": "definition",
+    "content": "The limit of f(x) as x approaches ±∞ describes the end behavior. If limₓ→∞ f(x) = L, then y = L is a horizontal asymptote.",
+    "tags": ["limit", "end behavior", "horizontal asymptote", "AB"]
+  },
+  {
+    "id": "CALC01.007",
+    "title": "Continuity at a Point",
+    "type": "definition",
+    "content": "A function f is continuous at x = a if limₓ→ₐ f(x) exists, f(a) is defined, and limₓ→ₐ f(x) = f(a).",
+    "tags": ["continuity", "limit", "graph", "AB"]
+  },
+  {
+    "id": "CALC01.008",
+    "title": "Types of Discontinuity",
+    "type": "definition",
+    "content": "Discontinuities can be removable (hole), jump (step), or infinite (asymptote). Identify based on the graph or algebraic form.",
+    "tags": ["discontinuity", "graphical", "removable", "jump", "infinite", "AB"]
+  },
+  {
+    "id": "CALC01.009",
+    "title": "Intermediate Value Theorem (IVT)",
+    "type": "theorem",
+    "content": "If f is continuous on [a, b] and N is between f(a) and f(b), then there exists at least one c in (a, b) such that f(c) = N.",
+    "tags": ["continuity", "existence", "IVT", "AB"]
+  },
+  {
+    "id": "CALC01.010",
+    "title": "Formal Definition of Limit (ε-δ, optional)",
+    "type": "definition",
+    "content": "For every ε > 0 there exists δ > 0 such that if 0 < |x − a| < δ then |f(x) − L| < ε. (Not required for AP, but foundational for theory.)",
+    "tags": ["limit", "theoretical", "epsilon-delta", "BC", "honors"]
+  },
+  {
+    "id": "CALC01.011",
+    "title": "Limit of sin(h)/h as h approaches 0",
+    "type": "limit",
+    "content": "limₕ→0 sin(h)/h = 1. This is a fundamental limit used in the derivative of sine and must be memorized.",
+    "tags": ["trig limit", "fundamental limit", "AB", "derivative"]
+  },
+  {
+    "id": "CALC01.012",
+    "title": "Limit of (1 − cos(h))/h as h approaches 0",
+    "type": "limit",
+    "content": "limₕ→0 (1 − cos(h))/h = 0. This limit is also used when deriving the derivative of cosine.",
+    "tags": ["trig limit", "fundamental limit", "AB", "derivative"]
+  },
+  {
+    "id": "CALC01.013",
+    "title": "Common Trigonometric Limits Summary",
+    "type": "summary",
+    "content": "Key trig limits: limₓ→0 sin(x)/x = 1, limₓ→0 (1 − cos(x))/x = 0, limₓ→0 tan(x)/x = 1. These support derivative definitions.",
+    "tags": ["limit", "trig", "reference", "AB"]
+  },
+  {
+    "id": "CALC01.011",
+    "title": "Limit of sin(h)/h as h approaches 0",
+    "type": "limit",
+    "content": "limₕ→0 sin(h)/h = 1. This is a fundamental limit used in the derivative of sine and must be memorized.",
+    "tags": ["trig limit", "fundamental limit", "AB", "derivative"]
+  },
+  {
+    "id": "CALC01.012",
+    "title": "Limit of (1 − cos(h))/h as h approaches 0",
+    "type": "limit",
+    "content": "limₕ→0 (1 − cos(h))/h = 0. This limit is also used when deriving the derivative of cosine.",
+    "tags": ["trig limit", "fundamental limit", "AB", "derivative"]
+  },
+  {
+    "id": "CALC01.013",
+    "title": "Common Trigonometric Limits Summary",
+    "type": "summary",
+    "content": "Key trig limits: limₓ→0 sin(x)/x = 1, limₓ→0 (1 − cos(x))/x = 0, limₓ→0 tan(x)/x = 1. These support derivative definitions.",
+    "tags": ["limit", "trig", "reference", "AB"]
+  },
+  {
+    "id": "CALC01.016",
+    "title": "Limit of ln(1 + x)/x as x approaches 0",
+    "type": "limit",
+    "content": "limₓ→0 ln(1 + x)/x = 1. This limit is essential for defining the derivative of ln(x) and understanding natural log growth near x = 0.",
+    "tags": ["limit", "logarithmic", "ln", "derivative", "BC"]
+  },
+  {
+    "id": "CALC01.017",
+    "title": "Definition of the Derivative (Limit Form)",
+    "type": "definition",
+    "content": "The derivative of f at x = a is defined as f'(a) = limₕ→0 [f(a + h) − f(a)] / h, if this limit exists.",
+    "tags": ["derivative", "definition", "limit", "AB"]
+  },
+  {
+    "id": "CALC01.018",
+    "title": "Interpretation of Derivative as Slope",
+    "type": "application",
+    "content": "The derivative f'(a) represents the slope of the tangent line to the graph of f at x = a.",
+    "tags": ["derivative", "graphical", "slope", "AB"]
+  },
+  {
+    "id": "CALC01.019",
+    "title": "Derivative as Instantaneous Rate of Change",
+    "type": "interpretation",
+    "content": "The derivative f'(a) gives the instantaneous rate of change of f with respect to x at x = a, such as velocity or growth rate.",
+    "tags": ["derivative", "rate", "real-world", "AB"]
+  },
+  {
+    "id": "CALC01.020",
+    "title": "Differentiability and Continuity",
+    "type": "property",
+    "content": "If a function is differentiable at x = a, then it is continuous at x = a. But a function can be continuous without being differentiable.",
+    "tags": ["derivative", "continuity", "corner", "AB"]
+  },
+  {
+    "id": "CALC01.021",
+    "title": "Graphical Non-Differentiability",
+    "type": "graphical",
+    "content": "A function may fail to be differentiable at a point due to a corner, cusp, vertical tangent, or discontinuity.",
+    "tags": ["graph", "derivative", "discontinuity", "AB"]
+  },
+  {
+    "id": "CALC01.022",
+    "title": "Power Rule for Derivatives",
+    "type": "rule",
+    "content": "If f(x) = x^n, then f'(x) = n·x^(n−1), for all real n.",
+    "tags": ["rule", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.023",
+    "title": "Constant and Constant Multiple Rules",
+    "type": "rule",
+    "content": "The derivative of a constant is 0. The derivative of c·f(x) is c·f'(x).",
+    "tags": ["rule", "constant", "scaling", "AB"]
+  },
+  {
+    "id": "CALC01.024",
+    "title": "Sum and Difference Rules",
+    "type": "rule",
+    "content": "The derivative of f(x) ± g(x) is f'(x) ± g'(x).",
+    "tags": ["rule", "sum", "difference", "AB"]
+  },
+  {
+    "id": "CALC01.025",
+    "title": "Product Rule",
+    "type": "rule",
+    "content": "If h(x) = f(x)·g(x), then h'(x) = f'(x)g(x) + f(x)g'(x).",
+    "tags": ["product rule", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.026",
+    "title": "Quotient Rule",
+    "type": "rule",
+    "content": "If h(x) = f(x)/g(x), then h'(x) = [f'(x)g(x) − f(x)g'(x)] / [g(x)]².",
+    "tags": ["quotient rule", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.027",
+    "title": "Chain Rule",
+    "type": "rule",
+    "content": "If y = f(g(x)), then dy/dx = f'(g(x))·g'(x). Take the derivative of the outer function, then multiply by the derivative of the inner function.",
+    "tags": ["chain rule", "composite", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.028",
+    "title": "Power Chain Rule (Generalized Power Rule)",
+    "type": "rule",
+    "content": "If y = [u(x)]^n, then dy/dx = n[u(x)]^(n−1) · u'(x).",
+    "tags": ["chain rule", "power rule", "composite", "AB"]
+  },
+  {
+    "id": "CALC01.029",
+    "title": "Derivatives of Trigonometric Functions",
+    "type": "rule",
+    "content": "d/dx [sin x] = cos x, d/dx [cos x] = −sin x, d/dx [tan x] = sec²x, etc. Know all six derivatives.",
+    "tags": ["trig", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.030",
+    "title": "Derivatives of Exponential and Logarithmic Functions",
+    "type": "rule",
+    "content": "d/dx [e^x] = e^x, d/dx [a^x] = a^x ln(a), d/dx [ln x] = 1/x, d/dx [log_b(x)] = 1/(x ln b).",
+    "tags": ["exponential", "logarithmic", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.031",
+    "title": "Implicit Differentiation",
+    "type": "procedure",
+    "content": "When a function is not explicitly solved for y, differentiate both sides with respect to x, treating y as a function of x (use dy/dx when differentiating y).",
+    "tags": ["implicit", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.032",
+    "title": "Differentiating Inverse Functions",
+    "type": "rule",
+    "content": "If f and f⁻¹ are inverses, then [f⁻¹]'(b) = 1 / f'(a), where f(a) = b. This is used to find derivatives of inverse trig and log functions.",
+    "tags": ["inverse", "derivative", "BC"]
+  },
+  {
+    "id": "CALC01.033",
+    "title": "Logarithmic Differentiation",
+    "type": "procedure",
+    "content": "To differentiate complex expressions like y = x^x or y = (f(x))^g(x), take the natural log of both sides and then differentiate implicitly.",
+    "tags": ["logarithmic", "chain rule", "advanced", "BC"]
+  },
+  {
+    "id": "CALC01.034",
+    "title": "Higher-Order Derivatives",
+    "type": "definition",
+    "content": "The second derivative is the derivative of the first derivative: f''(x) = d²y/dx². Higher-order derivatives describe concavity, jerk, and more.",
+    "tags": ["second derivative", "concavity", "AB"]
+  },
+  {
+    "id": "CALC01.035",
+    "title": "Notation for Derivatives",
+    "type": "notation",
+    "content": "Common notations include f'(x), dy/dx, d²y/dx², Leibniz form, and prime notation. Know how to interpret each.",
+    "tags": ["notation", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.036",
+    "title": "Tangent Line and Linear Approximation",
+    "type": "application",
+    "content": "The tangent line at x = a is L(x) = f(a) + f'(a)(x − a). This line can approximate values of f near x = a.",
+    "tags": ["tangent", "linear approximation", "AB"]
+  },
+  {
+    "id": "CALC01.037",
+    "title": "Differentials and Estimation",
+    "type": "procedure",
+    "content": "dy = f'(x)dx estimates the change in y for a small change dx in x. Useful for approximations using derivatives.",
+    "tags": ["differential", "approximation", "AB"]
+  },
+  {
+    "id": "CALC01.038",
+    "title": "Instantaneous Velocity and Acceleration",
+    "type": "interpretation",
+    "content": "If s(t) is position, then v(t) = s'(t) is velocity, and a(t) = s''(t) is acceleration. Units follow the context.",
+    "tags": ["motion", "velocity", "acceleration", "AB"]
+  },
+  {
+    "id": "CALC01.039",
+    "title": "Speed and Direction of Motion",
+    "type": "interpretation",
+    "content": "Speed is |v(t)|. An object changes direction when v(t) = 0 and a(t) ≠ 0. Positive v(t) means moving forward.",
+    "tags": ["motion", "speed", "direction", "AB"]
+  },
+  {
+    "id": "CALC01.040",
+    "title": "Mean Value Theorem (MVT)",
+    "type": "theorem",
+    "content": "If f is continuous on [a, b] and differentiable on (a, b), then there exists c such that f'(c) = [f(b) − f(a)] / (b − a).",
+    "tags": ["mvt", "derivative", "existence", "AB"]
+  },
+  {
+    "id": "CALC01.041",
+    "title": "Rolle's Theorem",
+    "type": "theorem",
+    "content": "If f is continuous on [a, b], differentiable on (a, b), and f(a) = f(b), then there is c in (a, b) with f'(c) = 0.",
+    "tags": ["rolle", "derivative", "critical point", "AB"]
+  },
+  {
+    "id": "CALC01.042",
+    "title": "Increasing and Decreasing Intervals",
+    "type": "procedure",
+    "content": "If f'(x) > 0, f is increasing; if f'(x) < 0, f is decreasing. Use sign chart of f' to analyze intervals.",
+    "tags": ["graph", "increasing", "decreasing", "AB"]
+  },
+  {
+    "id": "CALC01.043",
+    "title": "Critical Points and Extrema",
+    "type": "definition",
+    "content": "Critical points occur where f'(x) = 0 or undefined. Use first derivative test or second derivative test to classify extrema.",
+    "tags": ["extrema", "critical point", "test", "AB"]
+  },
+  {
+    "id": "CALC01.044",
+    "title": "Concavity and Inflection Points",
+    "type": "procedure",
+    "content": "If f''(x) > 0, the graph is concave up. If f''(x) < 0, concave down. Inflection points occur where concavity changes.",
+    "tags": ["concavity", "second derivative", "AB"]
+  },
+  {
+    "id": "CALC01.045",
+    "title": "Optimization Problems",
+    "type": "application",
+    "content": "To solve optimization problems: define a function to maximize/minimize, find critical points, and test endpoints or extrema.",
+    "tags": ["optimization", "modeling", "real-world", "AB"]
+  },
+  {
+    "id": "CALC01.046",
+    "title": "First Derivative Test",
+    "type": "procedure",
+    "content": "To determine if a critical point is a local max or min, check the sign of f'(x) before and after the point. If f' changes from + to −, it's a local max; − to + is a local min.",
+    "tags": ["first derivative test", "critical point", "AB"]
+  },
+  {
+    "id": "CALC01.047",
+    "title": "Second Derivative Test",
+    "type": "procedure",
+    "content": "If f'(c) = 0 and f''(c) > 0, then f has a local minimum at x = c. If f''(c) < 0, then f has a local maximum. If f''(c) = 0, the test is inconclusive.",
+    "tags": ["second derivative test", "extrema", "AB"]
+  },
+  {
+    "id": "CALC01.048",
+    "title": "Sketching Graphs Using Derivatives",
+    "type": "strategy",
+    "content": "Use f', f'' sign charts to determine increasing/decreasing intervals, extrema, concavity, and inflection points. Combine to sketch function behavior.",
+    "tags": ["graph", "f prime", "f double prime", "AB"]
+  },
+  {
+    "id": "CALC01.049",
+    "title": "Solving Related Rates Problems",
+    "type": "procedure",
+    "content": "1. Identify all changing quantities. 2. Relate them with an equation. 3. Differentiate implicitly with respect to time. 4. Plug in values and solve for the unknown rate.",
+    "tags": ["related rates", "implicit", "real-world", "AB"]
+  },
+  {
+    "id": "CALC01.050",
+    "title": "Interpreting Units of Derivatives",
+    "type": "interpretation",
+    "content": "If y = f(x), then f'(x) has units of output per input. For example, if f(x) is distance in meters and x is time in seconds, then f'(x) is in m/s.",
+    "tags": ["units", "real-world", "derivative", "AB"]
+  },
+  {
+    "id": "CALC01.051",
+    "title": "Euler’s Method for Approximating Solutions",
+    "type": "procedure",
+    "content": "Euler’s Method approximates a solution to a differential equation dy/dx = f(x, y) using: yₙ₊₁ = yₙ + h·f(xₙ, yₙ), where h is the step size.",
+    "tags": ["euler", "approximation", "differential equation", "BC"]
+  },
+  {
+    "id": "CALC01.052",
+    "title": "Interpretation of Small Changes Using Differentials",
+    "type": "interpretation",
+    "content": "The differential dy = f'(x)·dx approximates how much y changes for a small change dx in x. Useful for error estimation and linearization.",
+    "tags": ["differential", "dx", "dy", "AB", "approximation"]
+  },
+  {
+    "id": "CALC01.053",
+    "title": "Estimating Error Using Differentials",
+    "type": "application",
+    "content": "To estimate the error in a quantity, use dy = f'(x)·dx as an approximation of the change in f. This is useful in measurement problems.",
+    "tags": ["differential", "error estimate", "AB", "real-world"]
+  },
+  {
+    "id": "CALC01.054",
+    "title": "Newton’s Method for Approximating Roots",
+    "type": "procedure",
+    "content": "Newton’s Method estimates roots of f(x) = 0 by iterating: xₙ₊₁ = xₙ − f(xₙ)/f'(xₙ). Requires an initial guess x₀ and uses tangent lines to converge to a root.",
+    "tags": ["newton", "approximation", "roots", "bc", "numerical"]
+  },
+  {
+    "id": "CALC01.055",
+    "title": "Antiderivative and Indefinite Integral",
+    "type": "definition",
+    "content": "An antiderivative F of f satisfies F'(x) = f(x). The general antiderivative is written ∫f(x) dx = F(x) + C.",
+    "tags": ["antiderivative", "indefinite integral", "AB"]
+  },
+  {
+    "id": "CALC01.056",
+    "title": "Basic Rules for Indefinite Integrals",
+    "type": "rule",
+    "content": "∫xⁿ dx = xⁿ⁺¹ / (n+1) + C (n ≠ −1), ∫1/x dx = ln|x| + C, ∫e^x dx = e^x + C, etc.",
+    "tags": ["integral rules", "AB", "reference"]
+  },
+  {
+    "id": "CALC01.057",
+    "title": "Integration as Area Under the Curve",
+    "type": "interpretation",
+    "content": "The definite integral ∫ₐᵇ f(x) dx represents the net area between f(x) and the x-axis from x = a to x = b.",
+    "tags": ["area", "definite integral", "AB"]
+  },
+  {
+    "id": "CALC01.058",
+    "title": "Definition of the Definite Integral (Limit of Riemann Sums)",
+    "type": "definition",
+    "content": "The definite integral is defined as limₙ→∞ ∑ f(xᵢ*)·Δx, partitioning [a, b] into subintervals. This formalizes area accumulation.",
+    "tags": ["riemann sum", "definition", "AB"]
+  },
+  {
+    "id": "CALC01.059",
+    "title": "Left, Right, and Midpoint Riemann Sums",
+    "type": "procedure",
+    "content": "Approximate ∫ₐᵇ f(x) dx using left endpoints (LRAM), right endpoints (RRAM), or midpoints (MRAM).",
+    "tags": ["riemann", "estimation", "AB"]
+  },
+  {
+    "id": "CALC01.060",
+    "title": "Trapezoidal Rule for Estimating Integrals",
+    "type": "procedure",
+    "content": "The trapezoidal approximation is (Δx / 2)·[f(x₀) + 2f(x₁) + ... + 2f(xₙ₋₁) + f(xₙ)]. More accurate than LRAM/RRAM.",
+    "tags": ["trapezoidal", "numerical integration", "AB"]
+  },
+  {
+    "id": "CALC01.061",
+    "title": "Properties of Definite Integrals",
+    "type": "property",
+    "content": "Includes: ∫ₐᵇ f(x) dx = −∫ᵇₐ f(x) dx, ∫ₐᵃ f(x) dx = 0, and linearity: ∫ₐᵇ [cf(x) ± g(x)] dx = c∫ₐᵇ f(x) dx ± ∫ₐᵇ g(x) dx.",
+    "tags": ["integral properties", "AB"]
+  },
+  {
+    "id": "CALC01.062",
+    "title": "Fundamental Theorem of Calculus Part 1",
+    "type": "theorem",
+    "content": "If F(x) = ∫ₐˣ f(t) dt, then F'(x) = f(x). This links integration and differentiation.",
+    "tags": ["ftc", "derivative of integral", "AB"]
+  },
+  {
+    "id": "CALC01.063",
+    "title": "Fundamental Theorem of Calculus Part 2",
+    "type": "theorem",
+    "content": "If f is continuous on [a, b], then ∫ₐᵇ f(x) dx = F(b) − F(a), where F is any antiderivative of f.",
+    "tags": ["ftc", "net area", "AB"]
+  },
+  {
+    "id": "CALC01.064",
+    "title": "Average Value of a Function",
+    "type": "formula",
+    "content": "The average value of f on [a, b] is (1 / (b − a)) · ∫ₐᵇ f(x) dx.",
+    "tags": ["average value", "AB"]
+  },
+  {
+    "id": "CALC01.065",
+    "title": "u-Substitution for Integration",
+    "type": "procedure",
+    "content": "To evaluate ∫f(g(x))g'(x) dx, let u = g(x), then rewrite the integral in terms of u and du.",
+    "tags": ["u-substitution", "chain rule", "AB"]
+  },
+  {
+    "id": "CALC01.066",
+    "title": "Integration by Parts",
+    "type": "procedure",
+    "content": "Use ∫u·dv = uv − ∫v·du to integrate products of functions. Choose u and dv so that du and v are simpler to work with.",
+    "tags": ["integration by parts", "bc", "product rule reverse"]
+  },
+  {
+    "id": "CALC01.067",
+    "title": "Trigonometric Integrals",
+    "type": "procedure",
+    "content": "Integrals involving sin(x), cos(x), tan(x), etc., often use identities such as sin²x = (1−cos2x)/2 to simplify before integrating.",
+    "tags": ["trigonometric integration", "bc", "identity"]
+  },
+  {
+    "id": "CALC01.068",
+    "title": "Trigonometric Substitution",
+    "type": "procedure",
+    "content": "To integrate expressions like √(a² − x²), use x = a·sinθ. This simplifies the integrand using trig identities.",
+    "tags": ["trig substitution", "bc", "radical integrals"]
+  },
+  {
+    "id": "CALC01.069",
+    "title": "Partial Fraction Decomposition",
+    "type": "procedure",
+    "content": "To integrate rational functions, express them as a sum of simpler fractions: e.g., 1/[(x+1)(x+2)] = A/(x+1) + B/(x+2), then integrate term-by-term.",
+    "tags": ["partial fractions", "bc", "rational functions"]
+  },
+  {
+    "id": "CALC01.070",
+    "title": "Improper Integrals (Infinite Bounds or Discontinuities)",
+    "type": "definition",
+    "content": "An improper integral like ∫₁^∞ (1/x²) dx is defined as a limit: lim_{t→∞} ∫₁^t (1/x²) dx. Also includes integrals with vertical asymptotes.",
+    "tags": ["improper integral", "infinity", "bc"]
+  },
+  {
+    "id": "CALC01.071",
+    "title": "L'Hôpital’s Rule for Indeterminate Forms",
+    "type": "theorem",
+    "content": "If lim f(x)/g(x) gives 0/0 or ∞/∞, and both f and g are differentiable, then lim f(x)/g(x) = lim f'(x)/g'(x), provided the latter exists.",
+    "tags": ["l'hopital", "limit", "bc", "indeterminate"]
+  },
+  {
+    "id": "CALC01.072",
+    "title": "Area and Arc Length in Parametric Form",
+    "type": "formula",
+    "content": "For parametric curves x(t), y(t), the arc length is ∫ₐᵇ √[(dx/dt)² + (dy/dt)²] dt. Area is ∫ₐᵇ y(t)·x'(t) dt.",
+    "tags": ["parametric", "bc", "arc length", "area"]
+  },
+  [
+  {
+    "id": "CALC01.073",
+    "title": "Area Between Two Curves",
+    "type": "formula",
+    "content": "The area between f(x) and g(x) from x = a to x = b is ∫ₐᵇ |f(x) − g(x)| dx, assuming f and g are continuous.",
+    "tags": ["area", "application", "AB"]
+  },
+  {
+    "id": "CALC01.074",
+    "title": "Volume by Disk Method",
+    "type": "formula",
+    "content": "The volume of a solid of revolution about the x-axis is V = π∫ₐᵇ [f(x)]² dx.",
+    "tags": ["volume", "disk method", "AB"]
+  },
+  {
+    "id": "CALC01.075",
+    "title": "Volume by Washer Method",
+    "type": "formula",
+    "content": "For rotating region between y = f(x) and y = g(x), volume is V = π∫ₐᵇ ([f(x)]² − [g(x)]²) dx.",
+    "tags": ["volume", "washer method", "AB"]
+  },
+  {
+    "id": "CALC01.076",
+    "title": "Volume by Shell Method",
+    "type": "formula",
+    "content": "When revolving around the y-axis: V = 2π∫ₐᵇ x·f(x) dx.",
+    "tags": ["volume", "shell method", "bc"]
+  },
+  {
+    "id": "CALC01.077",
+    "title": "Distance Traveled from Velocity Function",
+    "type": "procedure",
+    "content": "If v(t) is velocity, then distance = ∫ₐᵇ |v(t)| dt. Net displacement = ∫ₐᵇ v(t) dt.",
+    "tags": ["motion", "distance", "AB"]
+  },
+  {
+    "id": "CALC01.078",
+    "title": "Position from Velocity (Initial Value)",
+    "type": "procedure",
+    "content": "Given v(t) and initial position s₀, position is s(t) = s₀ + ∫₀ᵗ v(x) dx.",
+    "tags": ["motion", "position", "AB"]
+  },
+  {
+    "id": "CALC01.079",
+    "title": "Accumulation Function (Total Change)",
+    "type": "interpretation",
+    "content": "For a rate of change r(t), total accumulated quantity from t = a to t = b is ∫ₐᵇ r(t) dt.",
+    "tags": ["accumulation", "contextual", "AB"]
+  },
+  {
+    "id": "CALC01.080",
+    "title": "Average Value of a Quantity Over Time",
+    "type": "formula",
+    "content": "The average of f(t) on [a, b] is (1 / (b − a)) ∫ₐᵇ f(t) dt.",
+    "tags": ["average value", "AB", "contextual"]
+  },
+  {
+    "id": "CALC01.081",
+    "title": "Improper Integrals (Infinite Limits or Discontinuity)",
+    "type": "definition",
+    "content": "An integral is called improper if it involves infinite bounds or discontinuities. Examples include ∫ₐ^∞ f(x) dx and ∫ₐᵇ f(x) dx where f is undefined at a point in [a, b]. These are defined via limits. The integral converges if the corresponding limit exists.",
+    "tags": ["improper integral", "infinity", "asymptote", "bc"]
+  },
+  {
+    "id": "CALC01.082",
+    "title": "Polar Coordinates",
+    "type": "definition",
+    "content": "A point in the plane can be described in polar coordinates as (r, θ), where r is the distance from the origin and θ is the angle from the positive x-axis.",
+    "tags": ["polar", "coordinates", "bc"]
+  },
+  {
+    "id": "CALC01.083",
+    "title": "Converting Between Polar and Cartesian Coordinates",
+    "type": "formula",
+    "content": "To convert: x = r·cos(θ), y = r·sin(θ); r = √(x² + y²), θ = arctan(y/x).",
+    "tags": ["polar", "conversion", "cartesian", "bc"]
+  },
+  {
+    "id": "CALC01.084",
+    "title": "Area in Polar Coordinates",
+    "type": "formula",
+    "content": "The area bounded by a polar curve r(θ) from θ = a to b is given by A = ½ ∫ₐᵇ [r(θ)]² dθ.",
+    "tags": ["polar", "area", "bc", "integration"]
+  },
+  {
+    "id": "CALC01.085",
+    "title": "Definition of Differential Equation",
+    "type": "definition",
+    "content": "A differential equation is an equation involving a function and its derivatives. It describes how a quantity changes.",
+    "tags": ["differential equation", "AB", "definition"]
+  },
+  {
+    "id": "CALC01.086",
+    "title": "Separable Differential Equations",
+    "type": "procedure",
+    "content": "A differential equation is separable if it can be written as dy/dx = f(x)·g(y). The solution is found by separating variables and integrating both sides.",
+    "tags": ["separable", "differential equation", "AB"]
+  },
+  {
+    "id": "CALC01.087",
+    "title": "Slope Fields (Direction Fields)",
+    "type": "concept",
+    "content": "A slope field is a graphical representation of a differential equation by drawing small line segments with slope dy/dx at various points.",
+    "tags": ["slope field", "graphical", "AB"]
+  },
+  {
+    "id": "CALC01.088",
+    "title": "Particular Solution with Initial Condition",
+    "type": "procedure",
+    "content": "To find a particular solution of a differential equation, use the general solution and substitute the initial condition (x₀, y₀) to solve for C.",
+    "tags": ["initial condition", "solution", "AB"]
+  },
+  {
+    "id": "CALC01.089",
+    "title": "Logistic Growth Model",
+    "type": "model",
+    "content": "A population model where growth slows as it approaches carrying capacity: dy/dt = r·y·(1 − y/K). The solution involves a logistic curve.",
+    "tags": ["logistic", "population", "bc", "differential equation"]
+  },
+  {
+    "id": "CALC01.090",
+    "title": "Exponential Growth and Decay Model",
+    "type": "model",
+    "content": "For a quantity y(t) that grows or decays at a rate proportional to its current value, dy/dt = ky. The solution is y(t) = y₀·e^(kt), where k > 0 indicates growth and k < 0 indicates decay.",
+    "tags": ["exponential", "growth", "decay", "differential equation", "AB"]
+  },
+  {
+    "id": "CALC01.091",
+    "title": "Definition of a Sequence",
+    "type": "definition",
+    "content": "A sequence is an ordered list of numbers defined by a rule. It can be written explicitly (e.g., aₙ = 1/n) or recursively (e.g., a₁ = 1, aₙ = aₙ₋₁ + 2).",
+    "tags": ["sequence", "definition", "bc"]
+  },
+  {
+    "id": "CALC01.092",
+    "title": "Limit of a Sequence",
+    "type": "definition",
+    "content": "The limit of a sequence aₙ as n approaches infinity is the value L such that for any ε > 0, there exists N where |aₙ − L| < ε for all n > N. If such L exists, the sequence converges.",
+    "tags": ["sequence", "limit", "convergence", "bc"]
+  },
+  {
+    "id": "CALC01.093",
+    "title": "Monotonic and Bounded Sequences",
+    "type": "theorem",
+    "content": "A sequence that is both monotonic (increasing or decreasing) and bounded must converge. This is known as the Monotonic Sequence Theorem.",
+    "tags": ["sequence", "bounded", "monotonic", "bc", "convergence"]
+  },
+  {
+    "id": "CALC01.094",
+    "title": "Definition of Infinite Series",
+    "type": "definition",
+    "content": "An infinite series is the sum of the terms of an infinite sequence: ∑aₙ = a₁ + a₂ + a₃ + .... The sequence of partial sums Sₙ determines convergence.",
+    "tags": ["series", "infinite", "definition", "bc"]
+  },
+  {
+    "id": "CALC01.095",
+    "title": "Geometric Series Test",
+    "type": "theorem",
+    "content": "A geometric series ∑arⁿ converges if |r| < 1, with sum a / (1 - r). If |r| ≥ 1, the series diverges.",
+    "tags": ["geometric series", "test", "bc"]
+  },
+  {
+    "id": "CALC01.096",
+    "title": "nth-Term Divergence Test",
+    "type": "test",
+    "content": "If limₙ→∞ aₙ ≠ 0, then ∑aₙ diverges. If limₙ→∞ aₙ = 0, this does not guarantee convergence.",
+    "tags": ["divergence test", "bc"]
+  },
+  {
+    "id": "CALC01.097",
+    "title": "p-Series Test",
+    "type": "test",
+    "content": "A p-series ∑1/nᵖ converges if p > 1, and diverges if p ≤ 1.",
+    "tags": ["p-series", "convergence", "bc"]
+  },
+  {
+    "id": "CALC01.098",
+    "title": "Comparison Test",
+    "type": "test",
+    "content": "If 0 ≤ aₙ ≤ bₙ and ∑bₙ converges, then ∑aₙ converges. If aₙ ≥ bₙ ≥ 0 and ∑bₙ diverges, then ∑aₙ diverges.",
+    "tags": ["comparison test", "bc"]
+  },
+  {
+    "id": "CALC01.099",
+    "title": "Limit Comparison Test",
+    "type": "test",
+    "content": "If limₙ→∞ aₙ/bₙ = c > 0 (finite), and ∑bₙ converges or diverges, then ∑aₙ behaves the same.",
+    "tags": ["limit comparison", "bc"]
+  },
+   {
+    "id": "CALC01.100",
+    "title": "Ratio Test",
+    "type": "test",
+    "content": "For ∑aₙ, compute L = limₙ→∞ |aₙ₊₁ / aₙ|. If L < 1, the series converges absolutely. If L > 1 or is infinite, it diverges. If L = 1, the test is inconclusive.",
+    "tags": ["ratio test", "series", "convergence", "bc"]
+  },
+  {
+    "id": "CALC01.101",
+    "title": "Alternating Series Test (Leibniz)",
+    "type": "test",
+    "content": "An alternating series ∑(−1)ⁿaₙ converges if aₙ is decreasing and limₙ→∞ aₙ = 0.",
+    "tags": ["alternating", "series", "bc"]
+  },
+  {
+    "id": "CALC01.102",
+    "title": "Absolute vs Conditional Convergence",
+    "type": "definition",
+    "content": "A series ∑aₙ converges absolutely if ∑|aₙ| converges. If ∑aₙ converges but ∑|aₙ| diverges, it converges conditionally.",
+    "tags": ["absolute convergence", "conditional", "bc"]
+  },
+  {
+    "id": "CALC01.103",
+    "title": "Taylor Series Definition",
+    "type": "definition",
+    "content": "The Taylor series for a function f(x) centered at a is ∑[f⁽ⁿ⁾(a)/n!](x−a)ⁿ. If a = 0, it is the Maclaurin series.",
+    "tags": ["taylor", "maclaurin", "power series", "bc"]
+  },
+  {
+    "id": "CALC01.104",
+    "title": "Common Maclaurin Series",
+    "type": "reference",
+    "content": "eˣ = ∑xⁿ/n!, sin(x) = ∑(−1)ⁿx²ⁿ⁺¹/(2n+1)!, cos(x) = ∑(−1)ⁿx²ⁿ/(2n)!, ln(1+x) = ∑(−1)ⁿxⁿ/n (|x|<1)",
+    "tags": ["maclaurin", "reference", "series", "bc"]
+  },
+  {
+    "id": "CALC01.105",
+    "title": "Radius and Interval of Convergence",
+    "type": "definition",
+    "content": "For a power series ∑aₙ(x−c)ⁿ, the radius of convergence R determines where the series converges. Use ratio test to find R, then check endpoints for interval.",
+    "tags": ["convergence", "radius", "power series", "bc"]
+  },
+  {
+    "id": "CALC01.106",
+    "title": "Using Power Series to Approximate Functions",
+    "type": "application",
+    "content": "Functions can be approximated by truncating their Taylor series. For example, sin(x) ≈ x − x³/6 + x⁵/120 for small x.",
+    "tags": ["taylor", "approximation", "series", "bc"]
+  },
+  {
+    "id": "CALC01.107",
+    "title": "Lagrange Error Bound for Taylor Approximation",
+    "type": "theorem",
+    "content": "The error in approximating f(x) with an n-th degree Taylor polynomial centered at a is bounded by |Rₙ(x)| ≤ [M / (n+1)!]·|x−a|ⁿ⁺¹, where M is the maximum of |f⁽ⁿ⁺¹⁾(z)| for z between a and x.",
+    "tags": ["taylor", "approximation", "error bound", "lagrange", "bc"]
+  },
+  {
+    "id": "CALC01.108",
+    "title": "Definition of Parametric Equations",
+    "type": "definition",
+    "content": "Parametric equations express a curve using a third variable t: x = f(t), y = g(t). These represent a path in the xy-plane.",
+    "tags": ["parametric", "definition", "bc"]
+  },
+  {
+    "id": "CALC01.109",
+    "title": "First Derivative for Parametric Functions",
+    "type": "formula",
+    "content": "If x = f(t) and y = g(t), then dy/dx = (dy/dt) / (dx/dt), provided dx/dt ≠ 0.",
+    "tags": ["parametric", "derivative", "bc"]
+  },
+  {
+    "id": "CALC01.110",
+    "title": "Second Derivative for Parametric Functions",
+    "type": "formula",
+    "content": "The second derivative d²y/dx² = d/dt(dy/dx) ÷ dx/dt. It measures concavity of parametric curves.",
+    "tags": ["parametric", "second derivative", "concavity", "bc"]
+  },
+  {
+    "id": "CALC01.111",
+    "title": "Arc Length of Parametric Curves",
+    "type": "formula",
+    "content": "The arc length from t = a to t = b is ∫ₐᵇ √[(dx/dt)² + (dy/dt)²] dt.",
+    "tags": ["arc length", "parametric", "bc"]
+  },
+  {
+    "id": "CALC01.112",
+    "title": "Vector-Valued Function Definition",
+    "type": "definition",
+    "content": "A vector-valued function is written as **r(t)** = ⟨x(t), y(t)⟩ and describes motion in the plane with position depending on time.",
+    "tags": ["vector", "motion", "bc"]
+  },
+  {
+    "id": "CALC01.113",
+    "title": "Velocity, Speed, and Acceleration in Vectors",
+    "type": "formula",
+    "content": "Given r(t) = ⟨x(t), y(t)⟩, velocity = r'(t), speed = |r'(t)| = √[(dx/dt)² + (dy/dt)²], acceleration = r''(t).",
+    "tags": ["vector", "motion", "speed", "acceleration", "bc"]
   }
 ]

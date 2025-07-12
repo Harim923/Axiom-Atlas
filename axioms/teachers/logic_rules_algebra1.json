@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ALG1_LR01",
+    "statement": "You may add or subtract the same number from both sides of an equation without changing its solution.",
+    "type": "equation_transformation",
+    "tags": ["equation", "equality", "basic"]
+  },
+  {
+    "id": "ALG1_LR02",
+    "statement": "You may multiply or divide both sides of an equation by a non-zero number.",
+    "type": "equation_transformation",
+    "tags": ["equation", "basic"]
+  },
+  {
+    "id": "ALG1_LR03",
+    "statement": "The square of a sum: (a + b)^2 = a^2 + 2ab + b^2",
+    "type": "identity",
+    "tags": ["factoring", "quadratic"]
+  },
+  {
+    "id": "ALG1_LR04",
+    "statement": "The square of a difference: (a - b)^2 = a^2 - 2ab + b^2",
+    "type": "identity",
+    "tags": ["factoring", "quadratic"]
+  },
+  {
+    "id": "ALG1_LR05",
+    "statement": "The difference of squares: a^2 - b^2 = (a + b)(a - b)",
+    "type": "identity",
+    "tags": ["factoring"]
+  },
+  {
+    "id": "ALG1_LR06",
+    "statement": "If ax^2 + bx + c = 0, the quadratic formula gives the solution: x = (-b ± √(b^2 - 4ac)) / 2a",
+    "type": "quadratic_formula",
+    "tags": ["quadratic", "solving"]
+  },
+  {
+    "id": "ALG1_LR07",
+    "statement": "To complete the square, convert ax^2 + bx to a perfect square form and isolate x.",
+    "type": "completing_square",
+    "tags": ["quadratic", "solving"]
+  },
+  {
+    "id": "ALG1_LR08",
+    "statement": "Trivial arithmetic (e.g., 2 + 3 = 5 or 12 ÷ 4 = 3) may be performed without explicit steps.",
+    "type": "arithmetic",
+    "tags": ["arithmetic", "simplification"]
+  }
+]

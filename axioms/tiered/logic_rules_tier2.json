@@ -688,6 +688,13 @@
       "level": "tier2",
       "statement": "A quartic function of the form f(x) = -x⁴ + a·x² + b can be maximized by substituting y = x² and analyzing the resulting quadratic f(y) = -y² + a·y + b.",
       "example": "Used to find the maximum area of a triangle when the area is expressed as a quartic in x, such as in optimization with medians or distances."
+    },
+    {
+      "id": "ALG_LR_LOG_DOMAIN_RESTRICTION",
+      "type": "logic_rule",
+      "level": "tier1",
+      "statement": "A real-valued logarithmic expression log(f(x)) is defined only when f(x) > 0.",
+      "example": "Used to eliminate values of θ where sin(3θ) or cos(2θ) is non-positive in expressions like log(sin(3θ)) + log(cos(2θ))."
     }
 
   ]

@@ -1022,6 +1022,16 @@
     "used_in_proofs": ["ComplexPolygonArea", "ZPowerRotation", "RootsOfUnityShapes"],
     "used_in_systems": ["Geometry", "ComplexPlane"],
     "strength_score": 0.92
+  },
+  {
+    "id": "T2_GEO70",
+    "name": "Shoelace Area Formula for Complex Points",
+    "statement": "Given complex numbers z₁, z₂, ..., zₙ representing polygon vertices in order, the signed area A is (1/2)·Im(z₁·conj(z₂) + z₂·conj(z₃) + ... + zₙ·conj(z₁)).",
+    "tags": ["geometry", "area", "complex", "polygon", "shoelace"],
+    "philosophy": "Generalizes the shoelace formula using complex multiplication and conjugation. Enables area computation from ordered complex vertices.",
+    "used_in_proofs": ["ComplexQuadrilateralArea", "RootsOfUnityPolygon"],
+    "used_in_systems": ["Geometry", "ComplexPlane"],
+    "strength_score": 0.93
   }
 
 ]

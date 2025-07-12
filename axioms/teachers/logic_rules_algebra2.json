@@ -368,5 +368,50 @@
     "id": "ALG2_LR77",
     "statement": "According to Descartes' Rule of Signs, the number of positive real roots of a polynomial is equal to the number of sign changes in the coefficients or less than that by an even number.",
     "tags": ["polynomial", "real roots", "sign changes", "Descartes"]
+  },
+  {
+    "id": "ALG2_LR78",
+    "statement": "To solve an equation involving a square root, isolate the radical on one side and then square both sides of the equation.",
+    "tags": ["radical", "equation", "solving", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR79",
+    "statement": "Squaring both sides of an equation may introduce extraneous solutions; always check proposed solutions in the original equation.",
+    "tags": ["radical", "extraneous", "check", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR80",
+    "statement": "If a radical equation involves two square roots, isolate one radical and square both sides before attempting to isolate the second.",
+    "tags": ["radical", "multi-step", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR81",
+    "statement": "To solve equations of the form a·b^x + c = d, isolate the exponential term and apply the logarithm to both sides.",
+    "tags": ["exponential", "logarithm", "solving", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR82",
+    "statement": "In an equation where exponential and polynomial terms are mixed, attempt substitution (e.g., let y = b^x) or isolate the exponential.",
+    "tags": ["exponential", "quadratic form", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR83",
+    "statement": "Use the change of base formula to simplify logarithmic expressions when solving logarithmic equations.",
+    "tags": ["logarithmic", "change of base", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR84",
+    "statement": "To solve logarithmic equations, first isolate the logarithmic expression, then rewrite the equation in exponential form.",
+    "tags": ["logarithmic", "equation", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR85",
+    "statement": "Use logarithmic properties (product, quotient, power rules) to combine or simplify logarithmic expressions before solving.",
+    "tags": ["logarithmic", "simplification", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR86",
+    "statement": "Check solutions to logarithmic equations to ensure that the arguments of all logarithms are positive.",
+    "tags": ["logarithmic", "domain", "check", "algebra2"]
   }
 ]

@@ -191,6 +191,489 @@
       "level": "tier2",
       "statement": "Substitute known expressions to eliminate variables and reduce the problem to a solvable form.",
       "example": "If a + b = 7 and ab = 10, substitute into the quadratic x² - 7x + 10 = 0."
+    },
+    {
+      "id": "LR_POLYNOMIAL_DEGREE_DIFFERENCE_TABLE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The degree of a polynomial can be determined by repeatedly subtracting adjacent terms in a sequence until a constant difference appears. The number of subtractions needed equals the degree.",
+      "example": "For sequence 1, 4, 9, 16, 25 → differences: 3, 5, 7, 9 → differences: 2, 2, 2 → Degree = 2."
+    },
+    {
+      "id": "LR_DESCARTES_RULE_OF_SIGNS",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The number of positive real roots of a polynomial is at most the number of sign changes in the coefficients, and differs by an even number from that count.",
+      "example": "f(x) = x^3 - 4x^2 + 5x - 2 has 3 sign changes → at most 3 positive real roots."
+    },
+    {
+      "id": "LR_RADICAL_EQUATION_VALIDATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "When solving radical equations, extraneous solutions may arise from squaring both sides, so all solutions must be checked in the original equation.",
+      "example": "√(x + 1) = x - 1 → square both sides → x² - 3x + 2 = 0 → check both roots in original equation."
+    },
+    {
+      "id": "LR_EXPONENTIAL_QUADRATIC_COMBO",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Equations that combine exponential and quadratic terms often require substitution such as u = a^x, converting the equation into a solvable quadratic form.",
+      "example": "2^(2x) - 3·2^x + 2 = 0 → let u = 2^x → u^2 - 3u + 2 = 0."
+    },
+    {
+      "id": "LR_LOGARITHMIC_EQUATION_DOMAIN_CHECK",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "When solving logarithmic equations, all candidate solutions must be checked to ensure the arguments of all logarithms are positive.",
+      "example": "log(x - 1) + log(3) = log(2x) → solve → check that x - 1 > 0 and 2x > 0."
+    },
+    {
+      "id": "LR_POLYNOMIAL_VIETA_APPLICATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Vieta's formulas relate the coefficients of a polynomial to sums and products of its roots, and can be used to derive symmetric expressions of roots without solving the equation.",
+      "example": "For f(x) = x^2 - 5x + 6, the sum of roots is 5 and the product is 6."
+    },
+    {
+      "id": "LR_RATIONAL_ROOT_THEOREM",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The Rational Root Theorem states that any rational root of a polynomial with integer coefficients must be a fraction p/q where p divides the constant term and q divides the leading coefficient.",
+      "example": "For f(x) = 2x^3 + 3x^2 - 8x + 3, possible rational roots are ±1, ±3, ±1/2, ±3/2."
+    },
+    {
+      "id": "LR_SYNTHETIC_DIVISION_PROCESS",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Synthetic division allows fast division of a polynomial by a linear binomial of the form (x - c), and helps test for roots or factorization.",
+      "example": "Using synthetic division to test if x = 2 is a root of f(x) = x^3 - 3x + 2."
+    },
+    {
+      "id": "LR_LONG_DIVISION_POLYNOMIAL",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Polynomial long division decomposes a dividend polynomial into a quotient and remainder when divided by a divisor polynomial, analogous to numeric long division.",
+      "example": "(x^3 + 2x^2 - 5x + 6) ÷ (x - 1) = x^2 + 3x - 2 with remainder 4."
+    },
+    {
+      "id": "LR_RADICAL_EQ_SQUARING_BOTH_SIDES",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "To eliminate a square root in an equation, square both sides carefully, then check for extraneous solutions caused by squaring.",
+      "example": "√(x + 2) = x → (x + 2) = x^2 → x^2 - x - 2 = 0"
+    },
+    {
+      "id": "LR_RADICAL_EQ_ISOLATION_REQUIRED",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Before squaring to eliminate radicals, isolate the radical expression to avoid creating incorrect cross terms.",
+      "example": "If √(x + 1) + 2 = x, isolate to √(x + 1) = x - 2 before squaring."
+    },
+    {
+      "id": "LR_EXPONENTIAL_EQ_LOG_BOTH_SIDES",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "To solve exponential equations with variables in exponents, take logarithms on both sides and apply log properties.",
+      "example": "2^x = 7 → log(2^x) = log(7) → x·log(2) = log(7)"
+    },
+    {
+      "id": "LR_EXPONENTIAL_QUADRATIC_SUBSTITUTION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If an exponential equation has the form a^2x + ba^x + c = 0, use substitution like y = a^x to reduce to a quadratic.",
+      "example": "2^{2x} - 5·2^x + 6 = 0 → y^2 - 5y + 6 = 0"
+    },
+    {
+      "id": "LR_LOG_EQ_APPLY_DEFINITION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Use the definition log_b(a) = c ⇔ b^c = a to transform between logarithmic and exponential forms.",
+      "example": "log_2(8) = x ⇔ 2^x = 8"
+    },
+    {
+      "id": "LR_LOG_EQ_USE_PROPERTIES",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Apply logarithmic identities such as log(ab) = log a + log b, log(a^n) = n log a to simplify and solve log equations.",
+      "example": "log(x) + log(x - 3) = log(10) → log(x(x - 3)) = log(10)"
+    },
+    {
+      "id": "LR_Z_TRANSFORMATION_STANDARDIZE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "To convert a normal random variable X ~ N(μ, σ²) to the standard normal distribution, apply z = (x - μ)/σ.",
+      "example": "If X ~ N(70, 9), then P(X > 73) = P(Z > (73 - 70)/3) = P(Z > 1)"
+    },
+    {
+      "id": "LR_PRESERVED_PARITY",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If parity (evenness or oddness) of a quantity is preserved through a transformation, it can be used as an invariant in reasoning.",
+      "example": "If an operation adds 2 to a number, its parity remains the same."
+    },
+    {
+      "id": "LR_MONOVARIANT_STRATEGY",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If a quantity consistently increases or decreases under repeated operations and is bounded, the process must eventually terminate.",
+      "example": "In a game where a score always decreases by at least 1 and is bounded below by 0, the game must end."
+    },
+    {
+      "id": "LR_SYMMETRY_EXPLOITATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If a problem has a symmetrical structure, use that symmetry to reduce casework or infer equivalences.",
+      "example": "If a polygon is regular, all side-related calculations can be done using one representative side."
+    },
+    {
+      "id": "LR_TARGETED_RECURSION_RECOGNITION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "When a quantity is defined in terms of smaller instances of itself, identify the recursive structure and solve via recurrence.",
+      "example": "If f(n) = f(n−1) + f(n−2), recognize this as a Fibonacci-type recurrence."
+    },
+    {
+      "id": "GEO_LR_SIMILAR_TRIANGLES_CONDITIONS",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Two triangles are similar if they satisfy AA, SAS, or SSS similarity criteria. Once similarity is established, corresponding side ratios are equal.",
+      "example": "If two angles in triangle ABC match two angles in triangle DEF, then ABC ∼ DEF and AB/DE = AC/DF = BC/EF."
+    },
+    {
+      "id": "GEO_LR_CYCLIC_QUADRILATERAL_ANGLE_OPPOSITE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "In a cyclic quadrilateral, the sum of opposite angles is 180 degrees.",
+      "example": "If ABCD is cyclic, then ∠A + ∠C = 180°."
+    },
+    {
+      "id": "GEO_LR_POWER_OF_A_POINT",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If a point lies outside or inside a circle, the product of segment lengths along intersecting chords or tangents follows the Power of a Point relation.",
+      "example": "If P is outside the circle and intersects at points A, B, then PA × PB = PC × PD for chords or tangents."
+    },
+    {
+      "id": "GEO_LR_MIDPOINT_CONNECT_LINE_PARALLEL_BASE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The segment connecting midpoints of two sides of a triangle is parallel to the third side and half its length.",
+      "example": "If D and E are midpoints of AB and AC, then DE ∥ BC and DE = ½ BC."
+    },
+    {
+      "id": "GEO_LR_ALTITUDE_PERPENDICULARITY",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "An altitude of a triangle is perpendicular to the side it meets and can be used to construct right triangles for analysis.",
+      "example": "If AD is an altitude from A to BC, then ∠ADC = 90°."
+    },
+    {
+      "id": "GEO_LR_TRIANGLE_AREA_RATIO_BASE_HEIGHT",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The area of a triangle is proportional to the product of its base and height. When comparing areas with a shared height or base, use ratio reasoning.",
+      "example": "If two triangles share height, their areas are in the ratio of their bases."
+    },
+    {
+      "id": "GEO_LR_COORDINATE_DISTANCE_FORMULA",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The distance between two points (x1, y1) and (x2, y2) is √((x2−x1)² + (y2−y1)²).",
+      "example": "Distance from A(1,2) to B(4,6) is √[(4−1)² + (6−2)²] = √25 = 5."
+    },
+    {
+      "id": "GEO_LR_COORDINATE_SLOPE_FORMULA",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The slope between two points is (y2−y1)/(x2−x1), provided x1 ≠ x2.",
+      "example": "Slope of line between A(1,2) and B(4,6) is (6−2)/(4−1) = 4/3."
+    },
+    {
+      "id": "GEO_LR_COORDINATE_PARALLEL_SLOPE_EQUAL",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Two lines are parallel if and only if their slopes are equal.",
+      "example": "If slope of AB = 2 and slope of CD = 2, then AB ∥ CD."
+    },
+    {
+      "id": "GEO_LR_COORDINATE_PERPENDICULAR_SLOPE_NEGATIVE_RECIPROCAL",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Two lines are perpendicular if their slopes are negative reciprocals of each other.",
+      "example": "If slope of line 1 is 3, and line 2 is −1/3, then they are perpendicular."
+    },
+    {
+      "id": "GEO_LR_COORDINATE_SECTION_FORMULA",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The point dividing the segment between (x1, y1) and (x2, y2) in the ratio m:n has coordinates ((mx2+nx1)/(m+n), (my2+ny1)/(m+n)).",
+      "example": "Midpoint is special case with m=n=1."
+    },
+    {
+      "id": "GEO_LR_COORDINATE_AREA_TRIANGLE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Area of triangle with vertices (x1, y1), (x2, y2), (x3, y3) is ½|x1(y2−y3) + x2(y3−y1) + x3(y1−y2)|.",
+      "example": "Area of triangle A(0,0), B(4,0), C(0,3) is ½|0(0−3)+4(3−0)+0(0−0)| = 6."
+    },
+    {
+      "id": "GEO_LR_VECTOR_DOT_PRODUCT",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The dot product of two vectors a·b = |a||b|cosθ. It is zero if the vectors are perpendicular.",
+      "example": "If a·b = 0, then a ⊥ b."
+    },
+    {
+      "id": "GEO_LR_VECTOR_PROJECTION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The projection of vector a onto vector b is [(a·b)/|b|²]·b.",
+      "example": "Used to find component of a along b."
+    },
+    {
+      "id": "GEO_LR_VECTOR_COMPONENT_FORM",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A vector from A(x1, y1) to B(x2, y2) is (x2−x1, y2−y1).",
+      "example": "Vector AB = B − A = (4−1, 6−2) = (3, 4)."
+    },
+    {
+      "id": "GEO_LR_VECTOR_MAGNITUDE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The magnitude of vector v = (x, y) is √(x² + y²).",
+      "example": "Magnitude of (3,4) is √(9+16) = 5."
+    },
+    {
+      "id": "GEO_LR_VECTOR_LINEAR_COMBINATION_COLLINEARITY",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If vector v is a scalar multiple of vector u, then the vectors are collinear.",
+      "example": "If v = 2u, then v and u are collinear."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_POINT_REPRESENTATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Any point (x, y) in the plane can be represented by a complex number z = x + yi.",
+      "example": "Point A(3, 4) is represented as z = 3 + 4i."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_DISTANCE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The distance between two points z1 and z2 in the complex plane is |z1 − z2|.",
+      "example": "Distance between z1 = 3 + 4i and z2 = 1 + i is |(3 + 4i) − (1 + i)| = |2 + 3i| = √13."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_ROTATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Multiplying a complex number z by cis(θ) = cos(θ) + i·sin(θ) rotates z counterclockwise by angle θ about the origin.",
+      "example": "To rotate z = 2 + 2i by 90°, compute z·i."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_REFLECTION_REAL_AXIS",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The reflection of a complex number z = x + yi over the real axis is z̄ = x − yi.",
+      "example": "Reflecting z = 3 + 4i over the x-axis gives z̄ = 3 − 4i."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CONJUGATE_SYMMETRY",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "If z lies on the unit circle, then so does its conjugate z̄, and they are reflections over the real axis.",
+      "example": "If |z| = 1, then |z̄| = 1 and arg(z̄) = −arg(z)."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_UNIT_CIRCLE_MODULUS",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A complex number z lies on the unit circle if and only if |z| = 1.",
+      "example": "z = e^{iθ} lies on the unit circle since |e^{iθ}| = 1."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_COLLINEARITY",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Points A, B, C are collinear in the complex plane if and only if (a − b)/(a − c) is a real number.",
+      "example": "If Im[(a−b)/(a−c)] = 0, then A, B, C are collinear."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CYCLIC_QUADRILATERAL",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Points a, b, c, d form a cyclic quadrilateral if and only if arg((a−b)(c−d)) + arg((b−c)(d−a)) = 0 mod π.",
+      "example": "Used in proving four points lie on a circle in complex form."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_TRIANGLE_ROTATION_PRESERVATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Rotations preserve triangle similarity and angle measures in the complex plane.",
+      "example": "If triangle ABC is rotated using complex multiplication, then triangle A′B′C′ is similar to ABC."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_POLAR_FORM_MULTIPLICATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Multiplying complex numbers in polar form multiplies their moduli and adds their arguments.",
+      "example": "If z1 = r1·cis(θ1), z2 = r2·cis(θ2), then z1·z2 = r1·r2·cis(θ1+θ2)."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CYCLIC_ANGLE_SUM",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A quadrilateral with vertices a, b, c, d (in order) is cyclic if and only if arg((b−a)/(d−a)) + arg((c−b)/(a−b)) = π.",
+      "example": "This angle condition checks if ABCD is cyclic using arguments in complex plane."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CYCLIC_OPPOSITE_ANGLES",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A quadrilateral is cyclic if and only if the sum of its opposite angles is π.",
+      "example": "If arg((b−a)/(c−a)) + arg((d−a)/(c−a)) = π, then ABCD is cyclic."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CENTER_OF_CIRCUMCIRCLE",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The center of the circumcircle of triangle with complex vertices a, b, c lies at the intersection point of the perpendicular bisectors of the sides.",
+      "example": "To find the circumcenter, solve for the intersection of midpoints + perpendicular directions."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_RADIUS_FROM_VERTICES",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The radius R of the circumcircle of triangle with complex vertices a, b, c is given by R = |a−b||b−c||c−a| / (4·|Im((b−a)·conj(c−a))|).",
+      "example": "Use the complex cross product as imaginary part to find area, then derive circumradius."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_INCENTER_CONDITION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The incenter of triangle ABC with complex coordinates is the intersection of the internal angle bisectors, computable via angle and side weighting.",
+      "example": "Use weighted average of points proportional to opposite side lengths to find incenter."
+    },
+    {
+      "id": "GEO_LR_VECTOR_COMPLEX_EQUIV",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A vector from point A to B is equivalent to the complex difference B - A when points are expressed as complex numbers.",
+      "example": "If A = a, B = b (complex), then vector AB = b − a."
+    },
+    {
+      "id": "GEO_LR_DOT_PRODUCT_COMPLEX_REAL",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The dot product of vectors AB and AC corresponds to Re[(b−a)·conj(c−a)] in complex coordinates.",
+      "example": "Use this to compute projection or angle between AB and AC."
+    },
+    {
+      "id": "GEO_LR_CROSS_PRODUCT_COMPLEX_IMAG",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The magnitude of the cross product (area-related) is the imaginary part of (b−a)·conj(c−a).",
+      "example": "Use this to compute triangle area or to test collinearity (area zero)."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_ROTATION_IS_MULTIPLICATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Rotation of a point z about the origin by angle θ is equivalent to multiplication by e^{iθ}.",
+      "example": "To rotate z by 90°, compute z · i."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_REFLECTION_REAL_AXIS",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Reflection across the real axis corresponds to complex conjugation.",
+      "example": "Reflecting z = x + iy gives conj(z) = x − iy."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_SCALING_TRANSLATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Scaling and translation in the complex plane can be represented as affine transforms: z ↦ a·z + b.",
+      "example": "For homothety centered at c with ratio r: z ↦ r(z − c) + c."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_VECTOR_NORM",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The length of a vector AB represented in complex numbers is |b − a|.",
+      "example": "This is equivalent to the Euclidean norm of the vector from A to B."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_DISTANCE_FORMULA",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The distance between two complex points z₁ and z₂ is |z₂ − z₁|.",
+      "example": "To check whether a point lies at fixed distance from another, apply |z − z₀| = r."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CIRCLE_DEFINITION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A point z lies on a circle centered at z₀ with radius r if and only if |z − z₀| = r.",
+      "example": "Used to verify whether a point lies on a circle or derive circle equation."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_LINE_REAL_RATIO",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Three points z₁, z₂, z₃ are collinear if and only if (z₁ − z₂)/(z₁ − z₃) is real.",
+      "example": "This real ratio test is useful for verifying collinearity."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_RIGHT_ANGLE_CHECK",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Angle ABC is right if and only if (a − b)/(c − b) is purely imaginary (or orthogonal vectors).",
+      "example": "Use this to check if ∠ABC = 90° by evaluating orthogonality in complex form."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_ISOSCELES_CONDITION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Triangle ABC is isosceles with AB = AC if and only if |a − b| = |a − c|.",
+      "example": "Useful for proving triangle properties from complex coordinates."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_EQUILATERAL_CONDITION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Triangle ABC is equilateral if and only if b − a = (c − a)·e^{i·2π/3}.",
+      "example": "Used to verify or construct equilateral triangles in complex geometry."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CYCLIC_QUADRILATERAL",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A quadrilateral ABCD is cyclic if and only if (a − b)(c − d)/(a − d)(c − b) is real.",
+      "example": "This condition is derived from the cross ratio being real."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_PERPENDICULAR_BISECTOR",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "The perpendicular bisector of segment AB is the set of points z such that |z − a| = |z − b|.",
+      "example": "Used to define radical axes or symmetry points."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_ROTATION_AROUND_CENTER",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Rotating a point z about a center c by θ is: z ↦ c + e^{iθ}(z − c).",
+      "example": "Used in spiral similarity and rotation transformations."
+    },
+    {
+      "id": "GEO_LR_COMPLEX_CROSS_RATIO_PRESERVATION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Möbius transformations preserve the cross ratio of four points.",
+      "example": "Used to analyze invariants under geometric transformations."
     }
   ]
 }

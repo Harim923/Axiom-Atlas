@@ -681,6 +681,13 @@
       "level": "tier2",
       "statement": "For any cubic polynomial with integer coefficients, the set of distinct integer root triples (r, s, t) such that a_3·r·s·t = constant term can be enumerated and used to reverse-engineer possible coefficients using Vieta’s formulas.",
       "example": "Used to compute valid (a_2, a_1) pairs from integer roots when the constant term and leading coefficient are known."
+    },
+    {
+      "id": "ALG_LR_BIQUADRATIC_MAX_BY_SUBSTITUTION",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "A quartic function of the form f(x) = -x⁴ + a·x² + b can be maximized by substituting y = x² and analyzing the resulting quadratic f(y) = -y² + a·y + b.",
+      "example": "Used to find the maximum area of a triangle when the area is expressed as a quartic in x, such as in optimization with medians or distances."
     }
 
   ]

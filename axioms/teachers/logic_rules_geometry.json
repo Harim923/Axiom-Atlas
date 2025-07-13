@@ -352,5 +352,11 @@
   "statement": "In an isosceles triangle, the angle bisector from the vertex angle is also the median to the base.",
   "type": "triangle_property",
   "tags": ["isosceles", "angle bisector", "median", "symmetry", "triangle"]
+  },
+  {
+  "id": "GEO_LR60",
+  "statement": "In a triangle, the angle bisector of an angle divides the opposite side in the ratio of the adjacent sides.",
+  "type": "triangle_property",
+  "tags": ["angle bisector", "ratio", "triangle"]
   }
 ]

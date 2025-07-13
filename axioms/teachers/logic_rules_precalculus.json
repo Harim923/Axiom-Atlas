@@ -1,0 +1,562 @@
+[
+  {
+    "id": "PRE_LR01",
+    "statement": "If sin²θ + cos²θ = 1, then sin²θ = 1 - cos²θ and cos²θ = 1 - sin²θ.",
+    "type": "trig_identity",
+    "tags": ["trig", "pythagorean", "identity"],
+    "applies_to_axioms": ["PRECAL01.041"],
+    "example_usage": "Used to convert expressions involving sin²θ or cos²θ."
+  },
+  {
+    "id": "PRE_LR02",
+    "statement": "If tanθ = sinθ / cosθ and cosθ ≠ 0, then tanθ is defined and continuous at that θ.",
+    "type": "trig_identity",
+    "tags": ["trig", "tangent", "domain"],
+    "applies_to_axioms": ["PRECAL01.043"],
+    "example_usage": "Used to determine when tanθ is undefined."
+  },
+  {
+    "id": "PRE_LR03",
+    "statement": "The unit circle defines sine and cosine values as the y and x coordinates of a point on the circle at angle θ.",
+    "type": "trig_definition",
+    "tags": ["unit_circle", "trig", "definition"],
+    "applies_to_axioms": ["PRECAL01.042"],
+    "example_usage": "Used to determine exact trig values for π/6, π/4, π/3, etc."
+  },
+  {
+    "id": "PRE_LR04",
+    "statement": "sin(−θ) = −sinθ and cos(−θ) = cosθ. That is, sine is odd and cosine is even.",
+    "type": "trig_symmetry",
+    "tags": ["trig", "odd_even", "symmetry"],
+    "applies_to_axioms": ["PRECAL01.047"],
+    "example_usage": "Used to simplify trigonometric expressions involving negative angles."
+  },
+  {
+    "id": "PRE_LR05",
+    "statement": "The sine of a sum, sin(A + B), is equal to sinA cosB + cosA sinB.",
+    "type": "trig_identity",
+    "tags": ["angle_sum", "sin", "identity"],
+    "applies_to_axioms": ["PRECAL01.051"],
+    "example_usage": "Used when expanding sin(x + π/3) into standard functions."
+  },
+  {
+    "id": "PRE_LR06",
+    "statement": "The cosine of a sum, cos(A + B), is equal to cosA cosB − sinA sinB.",
+    "type": "trig_identity",
+    "tags": ["angle_sum", "cos", "identity"],
+    "applies_to_axioms": ["PRECAL01.052"],
+    "example_usage": "Used when simplifying expressions like cos(x + π/6)."
+  },
+  {
+    "id": "PRE_LR07",
+    "statement": "The Law of Sines states that in any triangle, sinA/a = sinB/b = sinC/c.",
+    "type": "trig_application",
+    "tags": ["law_of_sines", "triangle"],
+    "applies_to_axioms": ["PRECAL01.066"],
+    "example_usage": "Used in triangle problems to find missing angles or sides."
+  },
+  {
+    "id": "PRE_LR08",
+    "statement": "The Law of Cosines states that for any triangle with sides a, b, c, and angle C: c² = a² + b² − 2ab cosC.",
+    "type": "trig_application",
+    "tags": ["law_of_cosines", "triangle"],
+    "applies_to_axioms": ["PRECAL01.067"],
+    "example_usage": "Used when solving oblique triangles given two sides and an included angle."
+  },
+  {
+    "id": "PRE_LR09",
+    "statement": "The identity sin²θ = 1 − cos²θ can be substituted into expressions to reduce to a single trigonometric function.",
+    "type": "trig_substitution",
+    "tags": ["substitution", "trig", "simplify"],
+    "applies_to_axioms": ["PRECAL01.041"],
+    "example_usage": "Used to express integrals or derivatives involving sin²θ as functions of cosθ."
+  },
+  {
+    "id": "PRE_LR10",
+    "statement": "If a function is even, then f(−x) = f(x); if odd, then f(−x) = −f(x).",
+    "type": "function_symmetry",
+    "tags": ["odd_even", "function", "symmetry"],
+    "applies_to_axioms": ["PRECAL01.007"],
+    "example_usage": "Used to determine graph symmetry or simplify definite integrals over symmetric intervals."
+  },
+  {
+    "id": "PRE_LR11",
+    "statement": "If a^x = a^y and a > 0, a ≠ 1, then x = y.",
+    "type": "exponential_property",
+    "tags": ["exponential", "identity", "solving"],
+    "applies_to_axioms": ["PRECAL01.201"],
+    "example_usage": "Used to solve equations like 3^(x+2) = 3^(2x−1)."
+  },
+  {
+    "id": "PRE_LR12",
+    "statement": "log_b(xy) = log_b(x) + log_b(y), for all x, y > 0.",
+    "type": "logarithmic_identity",
+    "tags": ["log", "product", "simplification"],
+    "applies_to_axioms": ["PRECAL01.204"],
+    "example_usage": "Used to expand log(5x) into log(5) + log(x)."
+  },
+  {
+    "id": "PRE_LR13",
+    "statement": "log_b(x^r) = r·log_b(x), for all x > 0.",
+    "type": "logarithmic_identity",
+    "tags": ["log", "exponent", "simplify"],
+    "applies_to_axioms": ["PRECAL01.204"],
+    "example_usage": "Used when rewriting log(x^3) as 3·log(x)."
+  },
+  {
+    "id": "PRE_LR14",
+    "statement": "To change the base of a logarithm: log_b(x) = log_c(x) / log_c(b).",
+    "type": "log_base_change",
+    "tags": ["log", "base_change", "simplify"],
+    "applies_to_axioms": ["PRECAL01.205"],
+    "example_usage": "Used to compute log base 2 using natural logs: log_2(8) = ln(8)/ln(2)."
+  },
+  {
+    "id": "PRE_LR15",
+    "statement": "If A is a 2×2 matrix, then det(A) = ad − bc for A = [[a, b], [c, d]].",
+    "type": "matrix_determinant",
+    "tags": ["matrix", "determinant", "2x2"],
+    "applies_to_axioms": ["PRECAL01.102"],
+    "example_usage": "Used to determine if a matrix is invertible."
+  },
+  {
+    "id": "PRE_LR16",
+    "statement": "The inverse of a 2×2 matrix A = [[a, b], [c, d]] is (1/det(A))·[[d, −b], [−c, a]] if det(A) ≠ 0.",
+    "type": "matrix_inverse",
+    "tags": ["matrix", "inverse", "2x2"],
+    "applies_to_axioms": ["PRECAL01.104"],
+    "example_usage": "Used to solve matrix equations like AX = B."
+  },
+  {
+    "id": "PRE_LR17",
+    "statement": "If matrices A and B are conformable, then (AB)^T = B^T A^T.",
+    "type": "matrix_property",
+    "tags": ["matrix", "transpose", "multiplication"],
+    "applies_to_axioms": ["PRECAL01.105"],
+    "example_usage": "Used to simplify the transpose of a product."
+  },
+  {
+    "id": "PRE_LR18",
+    "statement": "An arithmetic sequence has nth term a_n = a + (n−1)d.",
+    "type": "sequence_arithmetic",
+    "tags": ["sequence", "arithmetic", "nth_term"],
+    "applies_to_axioms": ["PRECAL01.131"],
+    "example_usage": "Used to find the 10th term of an arithmetic sequence."
+  },
+  {
+    "id": "PRE_LR19",
+    "statement": "The sum of the first n terms of an arithmetic sequence is S_n = n/2 · (a + l) or S_n = n/2 · (2a + (n−1)d).",
+    "type": "sequence_arithmetic",
+    "tags": ["sequence", "arithmetic", "sum"],
+    "applies_to_axioms": ["PRECAL01.132"],
+    "example_usage": "Used to calculate the total of first 20 terms in a sequence."
+  },
+  {
+    "id": "PRE_LR20",
+    "statement": "A geometric sequence has nth term a_n = ar^(n−1).",
+    "type": "sequence_geometric",
+    "tags": ["sequence", "geometric", "nth_term"],
+    "applies_to_axioms": ["PRECAL01.134"],
+    "example_usage": "Used to find the 6th term of a geometric sequence with ratio 3."
+  },
+  {
+    "id": "PRE_LR21",
+    "statement": "If a function is increasing on an interval, then its graph rises from left to right over that interval.",
+    "type": "function_behavior",
+    "tags": ["graph", "increasing", "interval"],
+    "applies_to_axioms": ["PRECAL01.005"],
+    "example_usage": "Used to identify intervals where a graph rises based on f′(x) > 0."
+  },
+  {
+    "id": "PRE_LR22",
+    "statement": "The x-intercepts of a function are the real zeros of the function, i.e., points where f(x) = 0.",
+    "type": "graph_feature",
+    "tags": ["zeros", "intercepts", "function"],
+    "applies_to_axioms": ["PRECAL01.006"],
+    "example_usage": "Used to find where a parabola intersects the x-axis."
+  },
+  {
+    "id": "PRE_LR23",
+    "statement": "A local maximum occurs at x = c if f(c) is greater than values of f near c.",
+    "type": "graph_extrema",
+    "tags": ["graph", "local_maximum", "critical_point"],
+    "applies_to_axioms": ["PRECAL01.005"],
+    "example_usage": "Used to label peaks on a graph."
+  },
+  {
+    "id": "PRE_LR24",
+    "statement": "A function has even symmetry if f(−x) = f(x), and its graph is symmetric about the y-axis.",
+    "type": "graph_symmetry",
+    "tags": ["symmetry", "even_function"],
+    "applies_to_axioms": ["PRECAL01.007"],
+    "example_usage": "Used to check whether cosine or absolute value functions are even."
+  },
+  {
+    "id": "PRE_LR25",
+    "statement": "A function has odd symmetry if f(−x) = −f(x), and its graph is symmetric about the origin.",
+    "type": "graph_symmetry",
+    "tags": ["symmetry", "odd_function"],
+    "applies_to_axioms": ["PRECAL01.007"],
+    "example_usage": "Used to test whether sine or cube root functions are odd."
+  },
+  {
+    "id": "PRE_LR26",
+    "statement": "In polar coordinates, the point (r, θ) represents a distance r from the origin at angle θ from the positive x-axis.",
+    "type": "polar_definition",
+    "tags": ["polar", "coordinates", "definition"],
+    "applies_to_axioms": ["PRECAL01.141"],
+    "example_usage": "Used to graph polar points or equations."
+  },
+  {
+    "id": "PRE_LR27",
+    "statement": "To convert from polar to rectangular: x = r·cos(θ), y = r·sin(θ).",
+    "type": "coordinate_conversion",
+    "tags": ["polar", "rectangular", "conversion"],
+    "applies_to_axioms": ["PRECAL01.142"],
+    "example_usage": "Used to rewrite r = 3 as x² + y² = 9."
+  },
+  {
+    "id": "PRE_LR28",
+    "statement": "To convert from rectangular to polar: r = √(x² + y²), θ = arctan(y/x) (adjusted by quadrant).",
+    "type": "coordinate_conversion",
+    "tags": ["polar", "rectangular", "conversion"],
+    "applies_to_axioms": ["PRECAL01.142"],
+    "example_usage": "Used to convert (−1, √3) to polar form."
+  },
+  {
+    "id": "PRE_LR29",
+    "statement": "The graph of a polar equation r = a·cos(θ) is a circle if a ≠ 0.",
+    "type": "polar_graph_shape",
+    "tags": ["polar", "circle", "cos"],
+    "applies_to_axioms": ["PRECAL01.144"],
+    "example_usage": "Used to graph r = 4·cos(θ) as a circle of radius 2."
+  },
+  {
+    "id": "PRE_LR30",
+    "statement": "The graph of r = a·sin(nθ) or r = a·cos(nθ) is a rose curve with n or 2n petals depending on n's parity.",
+    "type": "polar_graph_shape",
+    "tags": ["polar", "rose_curve", "symmetry"],
+    "applies_to_axioms": ["PRECAL01.145"],
+    "example_usage": "Used to predict petal count for r = 3·sin(4θ)."
+  },
+  {
+    "id": "PRE_LR31",
+    "statement": "The magnitude of a vector v = ⟨a, b⟩ is |v| = √(a² + b²).",
+    "type": "vector_magnitude",
+    "tags": ["vector", "magnitude", "distance"],
+    "applies_to_axioms": ["PRECAL01.151"],
+    "example_usage": "Used to find the length of vector ⟨3, 4⟩ as 5."
+  },
+  {
+    "id": "PRE_LR32",
+    "statement": "Two vectors u and v are equal if their corresponding components are equal: u₁ = v₁ and u₂ = v₂.",
+    "type": "vector_equality",
+    "tags": ["vector", "componentwise", "equality"],
+    "applies_to_axioms": ["PRECAL01.151"],
+    "example_usage": "Used to determine if ⟨2, −3⟩ = ⟨2, −3⟩."
+  },
+  {
+    "id": "PRE_LR33",
+    "statement": "The sum of two vectors u = ⟨a, b⟩ and v = ⟨c, d⟩ is u + v = ⟨a + c, b + d⟩.",
+    "type": "vector_operation",
+    "tags": ["vector", "addition"],
+    "applies_to_axioms": ["PRECAL01.152"],
+    "example_usage": "Used when combining ⟨1, 2⟩ and ⟨3, −1⟩ to get ⟨4, 1⟩."
+  },
+  {
+    "id": "PRE_LR34",
+    "statement": "The scalar multiple of vector v = ⟨a, b⟩ by scalar k is kv = ⟨ka, kb⟩.",
+    "type": "vector_operation",
+    "tags": ["vector", "scalar_multiplication"],
+    "applies_to_axioms": ["PRECAL01.152"],
+    "example_usage": "Used to compute 2·⟨−1, 3⟩ = ⟨−2, 6⟩."
+  },
+  {
+    "id": "PRE_LR35",
+    "statement": "The dot product of vectors u = ⟨a, b⟩ and v = ⟨c, d⟩ is u · v = ac + bd.",
+    "type": "dot_product",
+    "tags": ["vector", "dot", "orthogonality"],
+    "applies_to_axioms": ["PRECAL01.153"],
+    "example_usage": "Used to find angle between vectors or test orthogonality."
+  },
+  {
+    "id": "PRE_LR36",
+    "statement": "Two vectors are perpendicular if and only if their dot product is zero: u · v = 0.",
+    "type": "dot_product_property",
+    "tags": ["orthogonal", "vector", "dot"],
+    "applies_to_axioms": ["PRECAL01.153"],
+    "example_usage": "Used to test whether ⟨1, 2⟩ and ⟨−2, 1⟩ are perpendicular."
+  },
+  {
+    "id": "PRE_LR37",
+    "statement": "The angle θ between two vectors u and v satisfies cos(θ) = (u · v) / (|u||v|).",
+    "type": "dot_product_angle",
+    "tags": ["angle", "vector", "dot"],
+    "applies_to_axioms": ["PRECAL01.153"],
+    "example_usage": "Used to find the angle between two given vectors."
+  },
+  {
+    "id": "PRE_LR38",
+    "statement": "To express a direction vector using angle θ, use v = ⟨cos(θ), sin(θ)⟩.",
+    "type": "vector_direction",
+    "tags": ["unit_vector", "angle", "direction"],
+    "applies_to_axioms": ["PRECAL01.154"],
+    "example_usage": "Used to create a vector in the direction of 45°."
+  },
+  {
+    "id": "PRE_LR39",
+    "statement": "To find a unit vector in the direction of v = ⟨a, b⟩, divide by its magnitude: v / |v|.",
+    "type": "unit_vector",
+    "tags": ["unit", "vector", "normalization"],
+    "applies_to_axioms": ["PRECAL01.154"],
+    "example_usage": "Used to normalize a vector before projection."
+  },
+  {
+    "id": "PRE_LR40",
+    "statement": "The projection of vector u onto v is proj_v(u) = [(u · v) / |v|²] · v.",
+    "type": "vector_projection",
+    "tags": ["projection", "dot_product", "vector"],
+    "applies_to_axioms": ["PRECAL01.155"],
+    "example_usage": "Used in physics or geometry to compute component vectors."
+  },
+  {
+    "id": "PRE_LR41",
+    "statement": "The graph of f(x) = a^x, where a > 1, is increasing and passes through (0, 1).",
+    "type": "exponential_graph",
+    "tags": ["graph", "exponential", "increasing"],
+    "applies_to_axioms": ["PRECAL01.201"],
+    "example_usage": "Used to describe the behavior of f(x) = 2^x."
+  },
+  {
+    "id": "PRE_LR42",
+    "statement": "The graph of f(x) = a^x has a horizontal asymptote at y = 0.",
+    "type": "graph_asymptote",
+    "tags": ["asymptote", "exponential", "behavior"],
+    "applies_to_axioms": ["PRECAL01.201"],
+    "example_usage": "Used to explain why f(x) = 3^x never touches the x-axis."
+  },
+  {
+    "id": "PRE_LR43",
+    "statement": "The domain of f(x) = a^x is all real numbers, and the range is y > 0.",
+    "type": "function_domain_range",
+    "tags": ["domain", "range", "exponential"],
+    "applies_to_axioms": ["PRECAL01.201"],
+    "example_usage": "Used to determine valid input/output values of f(x) = 5^x."
+  },
+  {
+    "id": "PRE_LR44",
+    "statement": "The graph of f(x) = log_b(x), where b > 1, is increasing and passes through (1, 0).",
+    "type": "log_graph",
+    "tags": ["log", "graph", "increasing"],
+    "applies_to_axioms": ["PRECAL01.203"],
+    "example_usage": "Used to analyze the behavior of f(x) = log₂(x)."
+  },
+  {
+    "id": "PRE_LR45",
+    "statement": "The graph of f(x) = log_b(x) has a vertical asymptote at x = 0.",
+    "type": "graph_asymptote",
+    "tags": ["log", "asymptote", "domain"],
+    "applies_to_axioms": ["PRECAL01.203"],
+    "example_usage": "Used to explain why the graph of log(x) cannot include x = 0."
+  },
+  {
+    "id": "PRE_LR46",
+    "statement": "The domain of f(x) = log_b(x) is x > 0, and the range is all real numbers.",
+    "type": "function_domain_range",
+    "tags": ["log", "domain", "range"],
+    "applies_to_axioms": ["PRECAL01.203"],
+    "example_usage": "Used when solving equations like log_b(x) = −2."
+  },
+  {
+    "id": "PRE_LR47",
+    "statement": "The graph of f(x) = a^(-x) is the reflection of f(x) = a^x over the y-axis.",
+    "type": "graph_transformation",
+    "tags": ["exponential", "reflection", "graph"],
+    "applies_to_axioms": ["PRECAL01.202"],
+    "example_usage": "Used to explain the shape of f(x) = 2^(−x)."
+  },
+  {
+    "id": "PRE_LR48",
+    "statement": "The graph of f(x) = log_b(x−c) is shifted c units to the right compared to f(x) = log_b(x).",
+    "type": "graph_translation",
+    "tags": ["log", "shift", "graph"],
+    "applies_to_axioms": ["PRECAL01.207"],
+    "example_usage": "Used to graph f(x) = log(x − 3)."
+  },
+  {
+    "id": "PRE_LR49",
+    "statement": "An exponential growth model is of the form A(t) = A₀e^(kt), where k > 0.",
+    "type": "modeling_exponential",
+    "tags": ["growth", "modeling", "exponential"],
+    "applies_to_axioms": ["PRECAL01.210"],
+    "example_usage": "Used to model population or compound interest growth."
+  },
+  {
+    "id": "PRE_LR50",
+    "statement": "An exponential decay model is of the form A(t) = A₀e^(−kt), where k > 0.",
+    "type": "modeling_exponential",
+    "tags": ["decay", "modeling", "exponential"],
+    "applies_to_axioms": ["PRECAL01.210"],
+    "example_usage": "Used to describe radioactive decay or cooling."
+  },
+  {
+    "id": "PRE_LR51",
+    "statement": "The imaginary unit i is defined as i² = −1.",
+    "type": "complex_definition",
+    "tags": ["complex", "imaginary_unit"],
+    "applies_to_axioms": ["PRECAL01.161"],
+    "example_usage": "Used to simplify expressions like i⁴ = 1."
+  },
+  {
+    "id": "PRE_LR52",
+    "statement": "A complex number can be written in the form a + bi, where a is the real part and b is the imaginary part.",
+    "type": "complex_definition",
+    "tags": ["complex", "standard_form"],
+    "applies_to_axioms": ["PRECAL01.162"],
+    "example_usage": "Used to express 3 − 2i in standard form."
+  },
+  {
+    "id": "PRE_LR53",
+    "statement": "The conjugate of a + bi is a − bi, and their product is a² + b².",
+    "type": "complex_conjugate",
+    "tags": ["complex", "conjugate", "multiplication"],
+    "applies_to_axioms": ["PRECAL01.163"],
+    "example_usage": "Used to rationalize denominators like 1 / (2 + i)."
+  },
+  {
+    "id": "PRE_LR54",
+    "statement": "The magnitude of a complex number z = a + bi is |z| = √(a² + b²).",
+    "type": "complex_magnitude",
+    "tags": ["complex", "modulus"],
+    "applies_to_axioms": ["PRECAL01.164"],
+    "example_usage": "Used to find the distance from the origin to the point (a, b) on the complex plane."
+  },
+  {
+    "id": "PRE_LR55",
+    "statement": "A complex number z = a + bi can be represented in polar form as z = r(cosθ + i·sinθ), where r = |z|.",
+    "type": "complex_polar",
+    "tags": ["complex", "polar", "cis"],
+    "applies_to_axioms": ["PRECAL01.165"],
+    "example_usage": "Used to express z = 1 + i in polar form."
+  },
+  {
+    "id": "PRE_LR56",
+    "statement": "The argument of a complex number is the angle θ it makes with the positive real axis in the complex plane.",
+    "type": "complex_argument",
+    "tags": ["complex", "argument", "angle"],
+    "applies_to_axioms": ["PRECAL01.165"],
+    "example_usage": "Used to find θ = arctan(b/a) for a + bi."
+  },
+  {
+    "id": "PRE_LR57",
+    "statement": "Euler’s formula states that e^(iθ) = cosθ + i·sinθ.",
+    "type": "euler_formula",
+    "tags": ["complex", "euler", "exponential"],
+    "applies_to_axioms": ["PRECAL01.166"],
+    "example_usage": "Used to rewrite polar form as z = re^(iθ)."
+  },
+  {
+    "id": "PRE_LR58",
+    "statement": "The product of two complex numbers in polar form is given by multiplying the moduli and adding the arguments.",
+    "type": "complex_multiplication",
+    "tags": ["complex", "polar", "multiplication"],
+    "applies_to_axioms": ["PRECAL01.167"],
+    "example_usage": "Used to multiply z₁ = r₁e^(iθ₁) and z₂ = r₂e^(iθ₂)."
+  },
+  {
+    "id": "PRE_LR59",
+    "statement": "The quotient of two complex numbers in polar form is given by dividing the moduli and subtracting the arguments.",
+    "type": "complex_division",
+    "tags": ["complex", "polar", "division"],
+    "applies_to_axioms": ["PRECAL01.167"],
+    "example_usage": "Used to compute z₁ / z₂ in polar coordinates."
+  },
+  {
+    "id": "PRE_LR60",
+    "statement": "De Moivre’s Theorem: (cosθ + i·sinθ)^n = cos(nθ) + i·sin(nθ).",
+    "type": "complex_theorem",
+    "tags": ["complex", "de_moivre", "cis", "power"],
+    "applies_to_axioms": ["PRECAL01.168"],
+    "example_usage": "Used to compute powers of complex numbers like (cosθ + i·sinθ)^3."
+  },
+  {
+    "id": "PRE_LR61",
+    "statement": "To find domain of a rational function, exclude x-values that make the denominator zero.",
+    "type": "domain_check",
+    "tags": ["domain", "rational", "denominator"],
+    "applies_to_axioms": ["PRECAL01.013"],
+    "example_usage": "Used to exclude x = 2 from f(x) = 1/(x−2)."
+  },
+  {
+    "id": "PRE_LR62",
+    "statement": "Even roots require non-negative radicands; solve inequality inside radical to determine domain.",
+    "type": "domain_check",
+    "tags": ["radical", "domain", "inequality"],
+    "applies_to_axioms": ["PRECAL01.014"],
+    "example_usage": "Used to solve √(x−3) ⇒ x ≥ 3."
+  },
+  {
+    "id": "PRE_LR63",
+    "statement": "If a function is defined piecewise, check endpoints for continuity and matching values.",
+    "type": "piecewise_continuity",
+    "tags": ["continuity", "piecewise", "endpoint"],
+    "applies_to_axioms": ["PRECAL01.301"],
+    "example_usage": "Used to check continuity at transition points like x = 2."
+  },
+  {
+    "id": "PRE_LR64",
+    "statement": "Local maxima or minima occur where the graph changes direction, often at turning points.",
+    "type": "extrema_test",
+    "tags": ["graph", "maximum", "minimum"],
+    "applies_to_axioms": ["PRECAL01.005"],
+    "example_usage": "Used to identify peak points on parabolas or sinusoidal curves."
+  },
+  {
+    "id": "PRE_LR65",
+    "statement": "Vertical asymptotes occur where the function is undefined due to division by zero.",
+    "type": "graph_asymptote",
+    "tags": ["asymptote", "undefined", "rational"],
+    "applies_to_axioms": ["PRECAL01.013"],
+    "example_usage": "Used to find vertical asymptote of f(x) = 1/(x+4) at x = −4."
+  },
+  {
+    "id": "PRE_LR66",
+    "statement": "Horizontal asymptotes are determined by end behavior as x → ±∞.",
+    "type": "graph_asymptote",
+    "tags": ["horizontal", "end_behavior", "rational"],
+    "applies_to_axioms": ["PRECAL01.015"],
+    "example_usage": "Used to determine y = 0 for f(x) = 1/x."
+  },
+  {
+    "id": "PRE_LR67",
+    "statement": "Always test all quadrants when solving trig equations; general solutions must include periodicity.",
+    "type": "trig_solution_caution",
+    "tags": ["trig", "general_solution", "radians"],
+    "applies_to_axioms": ["PRECAL01.044"],
+    "example_usage": "Used when solving sinθ = 1/2 to include both π/6 and 5π/6."
+  },
+  {
+    "id": "PRE_LR68",
+    "statement": "Check for extraneous solutions when squaring both sides or clearing denominators.",
+    "type": "solution_validation",
+    "tags": ["extraneous", "equation", "check"],
+    "applies_to_axioms": ["PRECAL01.018"],
+    "example_usage": "Used when solving equations like √x = x−2."
+  },
+  {
+    "id": "PRE_LR69",
+    "statement": "For functions involving absolute value, consider both positive and negative cases.",
+    "type": "absolute_case_split",
+    "tags": ["absolute", "piecewise", "case_split"],
+    "applies_to_axioms": ["PRECAL01.016"],
+    "example_usage": "Used to solve |x−3| = 2 by considering x−3 = ±2."
+  },
+  {
+    "id": "PRE_LR70",
+    "statement": "When matching a graph to a function, check for key features: intercepts, asymptotes, and end behavior.",
+    "type": "graph_matching",
+    "tags": ["graph", "matching", "function_behavior"],
+    "applies_to_axioms": ["PRECAL01.011", "PRECAL01.012"],
+    "example_usage": "Used to identify a graph of f(x) = log(x−1) + 2."
+  }
+]

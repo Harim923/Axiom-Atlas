@@ -346,5 +346,11 @@
     "statement": "In a circle, the product of the lengths of the segments of intersecting chords is invariant.",
     "type": "circle_reasoning",
     "tags": ["circle", "intersecting chords", "power of a point"]
+  },
+  {
+  "id": "GEO_LR59",
+  "statement": "In an isosceles triangle, the angle bisector from the vertex angle is also the median to the base.",
+  "type": "triangle_property",
+  "tags": ["isosceles", "angle bisector", "median", "symmetry", "triangle"]
   }
 ]

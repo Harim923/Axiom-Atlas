@@ -1,0 +1,393 @@
+[
+  {
+    "id": "CALC_LR01",
+    "statement": "Use the derivative of a function to determine intervals of increase and decrease.",
+    "type": "function_analysis",
+    "tags": ["derivative", "increasing", "decreasing", "graph_analysis"]
+  },
+  {
+    "id": "CALC_LR02",
+    "statement": "Set the derivative equal to zero to find critical points.",
+    "type": "critical_points",
+    "tags": ["derivative", "critical_points", "extrema"]
+  },
+  {
+    "id": "CALC_LR03",
+    "statement": "Use the second derivative to classify critical points as maxima, minima, or points of inflection.",
+    "type": "second_derivative_test",
+    "tags": ["second_derivative", "classification", "extrema", "inflection"]
+  },
+  {
+    "id": "CALC_LR04",
+    "statement": "For absolute extrema on a closed interval, evaluate the function at critical points and endpoints.",
+    "type": "absolute_extrema",
+    "tags": ["extrema", "closed_interval", "endpoint_check"]
+  },
+  {
+    "id": "CALC_LR05",
+    "statement": "Interpret f'(x) as the slope of the tangent line at x, to analyze graph behavior.",
+    "type": "graph_interpretation",
+    "tags": ["derivative", "tangent_line", "graph_behavior"]
+  },
+  {
+    "id": "CALC_LR06",
+    "statement": "When solving optimization problems, express the quantity to optimize as a function of a single variable before differentiating.",
+    "type": "optimization",
+    "tags": ["optimization", "single_variable", "problem_solving"]
+  },
+  {
+    "id": "CALC_LR07",
+    "statement": "Analyze the sign change of the derivative to determine where a function transitions from increasing to decreasing or vice versa.",
+    "type": "sign_chart",
+    "tags": ["sign_chart", "derivative", "function_behavior"]
+  },
+  {
+    "id": "CALC_LR08",
+    "statement": "For area under a curve, integrate the function over the specified interval.",
+    "type": "definite_integral",
+    "tags": ["integration", "area", "definite_integral"]
+  },
+  {
+    "id": "CALC_LR09",
+    "statement": "To find average value of a function on [a, b], compute (1 / (b - a)) times the definite integral from a to b.",
+    "type": "average_value",
+    "tags": ["integration", "average_value"]
+  },
+  {
+    "id": "CALC_LR10",
+    "statement": "When a problem involves motion, interpret the derivative as velocity and the integral as total displacement.",
+    "type": "motion_interpretation",
+    "tags": ["velocity", "displacement", "motion", "application"]
+  },
+  {
+    "id": "CALC_LR11",
+    "statement": "If f(−x) = f(x) for all x in the domain, then f(x) is an even function.",
+    "type": "even_function_definition",
+    "tags": ["even_function", "symmetry", "definition"]
+  },
+  {
+    "id": "CALC_LR12",
+    "statement": "If f(−x) = −f(x) for all x in the domain, then f(x) is an odd function.",
+    "type": "odd_function_definition",
+    "tags": ["odd_function", "symmetry", "definition"]
+  },
+  {
+    "id": "CALC_LR13",
+    "statement": "The graph of an even function is symmetric about the y-axis.",
+    "type": "even_function_graph",
+    "tags": ["even_function", "graph", "symmetry"]
+  },
+  {
+    "id": "CALC_LR14",
+    "statement": "The graph of an odd function is symmetric about the origin.",
+    "type": "odd_function_graph",
+    "tags": ["odd_function", "graph", "symmetry"]
+  },
+  {
+    "id": "CALC_LR15",
+    "statement": "For definite integrals, if f(x) is even, then ∫ from −a to a of f(x) dx equals 2 times ∫ from 0 to a of f(x) dx.",
+    "type": "even_function_integration",
+    "tags": ["even_function", "definite_integral", "symmetry"]
+  },
+  {
+    "id": "CALC_LR16",
+    "statement": "For definite integrals, if f(x) is odd, then ∫ from −a to a of f(x) dx equals 0.",
+    "type": "odd_function_integration",
+    "tags": ["odd_function", "definite_integral", "symmetry"]
+  },
+  {
+    "id": "CALC_LR17",
+    "statement": "When analyzing symmetry, test whether f(−x) equals f(x) or −f(x) to determine if a function is even or odd.",
+    "type": "symmetry_test",
+    "tags": ["even_function", "odd_function", "symmetry_test"]
+  },
+  {
+    "id": "CALC_LR18",
+    "statement": "Use function symmetry to simplify definite integrals over symmetric intervals.",
+    "type": "integral_simplification",
+    "tags": ["integration", "even_function", "odd_function", "simplification"]
+  },
+  {
+    "id": "CALC_LR19",
+    "statement": "Even functions multiplied together result in an even function. Odd functions multiplied together result in an even function. Multiplying an even and an odd function results in an odd function.",
+    "type": "function_multiplication_symmetry",
+    "tags": ["even_function", "odd_function", "multiplication", "symmetry"]
+  },
+  {
+    "id": "CALC_LR20",
+    "statement": "If a function exhibits neither even nor odd symmetry, treat it as a general function for integration and analysis.",
+    "type": "no_symmetry_case",
+    "tags": ["general_function", "symmetry", "analysis"]
+  },
+  {
+    "id": "CALC_LR21",
+    "statement": "The slope of the tangent line to the graph of y = f(x) at x = a is given by f'(a).",
+    "type": "tangent_slope",
+    "tags": ["tangent", "derivative", "slope", "graph_analysis"]
+  },
+  {
+    "id": "CALC_LR22",
+    "statement": "The equation of the tangent line to y = f(x) at x = a is y = f'(a)(x - a) + f(a).",
+    "type": "tangent_line_equation",
+    "tags": ["tangent", "equation", "derivative", "graph"]
+  },
+  {
+    "id": "CALC_LR23",
+    "statement": "If the slope of the tangent line is zero at x = a, then the point (a, f(a)) is a horizontal tangent point.",
+    "type": "horizontal_tangent",
+    "tags": ["tangent", "derivative", "critical_point"]
+  },
+  {
+    "id": "CALC_LR24",
+    "statement": "To find the point where a tangent line has a specified slope m, solve f'(x) = m.",
+    "type": "tangent_slope_condition",
+    "tags": ["tangent", "slope", "derivative", "solving"]
+  },
+  {
+    "id": "CALC_LR25",
+    "statement": "When a tangent line is parallel to a given line, equate the derivative f'(x) to the slope of that line.",
+    "type": "tangent_parallel_condition",
+    "tags": ["tangent", "parallel", "slope", "derivative"]
+  },
+  {
+    "id": "CALC_LR26",
+    "statement": "A function is differentiable at x = a only if it is continuous at x = a.",
+    "type": "differentiability_condition",
+    "tags": ["differentiability", "continuity", "function_analysis"]
+  },
+  {
+    "id": "CALC_LR27",
+    "statement": "At a point where the left-hand derivative and right-hand derivative are not equal, the function is not differentiable.",
+    "type": "differentiability_one_sided",
+    "tags": ["differentiability", "one_sided_derivative", "discontinuity"]
+  },
+  {
+    "id": "CALC_LR28",
+    "statement": "Absolute value functions such as y = |x| are not differentiable at sharp corners or cusps.",
+    "type": "absolute_value_cusp",
+    "tags": ["absolute_value", "cusp", "nondifferentiability"]
+  },
+  {
+    "id": "CALC_LR29",
+    "statement": "For piecewise functions, check both continuity and matching derivative slopes at boundary points to determine differentiability.",
+    "type": "piecewise_differentiability",
+    "tags": ["piecewise_function", "differentiability", "boundary_check"]
+  },
+  {
+    "id": "CALC_LR30",
+    "statement": "If a function has a vertical tangent or infinite derivative at x = a, the function is not differentiable at that point.",
+    "type": "vertical_tangent_nondifferentiability",
+    "tags": ["differentiability", "vertical_tangent", "infinite_slope"]
+  },
+  {
+    "id": "CALC_LR31",
+    "statement": "When a function has domain restrictions or conditional expressions, divide the solution process based on the given conditions.",
+    "type": "case_split_based_on_domain",
+    "tags": ["case_split", "domain", "condition_branching"]
+  },
+  {
+    "id": "CALC_LR32",
+    "statement": "For absolute value functions, split the problem into cases based on the sign of the inner expression.",
+    "type": "case_split_absolute_value",
+    "tags": ["absolute_value", "case_split", "condition_branching"]
+  },
+  {
+    "id": "CALC_LR33",
+    "statement": "When solving piecewise functions, analyze each case separately and then combine results as appropriate.",
+    "type": "piecewise_case_analysis",
+    "tags": ["piecewise_function", "case_split", "solution_branching"]
+  },
+  {
+    "id": "CALC_LR34",
+    "statement": "Inequalities in the problem statement should trigger splitting the analysis into separate cases that respect those inequalities.",
+    "type": "case_split_inequality",
+    "tags": ["inequality", "case_split", "conditional_analysis"]
+  },
+  {
+    "id": "CALC_LR35",
+    "statement": "After solving separate cases, recombine the results carefully, considering overlapping or disjoint conditions.",
+    "type": "recombination_of_cases",
+    "tags": ["case_merge", "solution_combination", "condition_handling"]
+  },
+  {
+    "id": "CALC_LR36",
+    "statement": "To find local maximum or minimum values of a differentiable function, solve f'(x) = 0 and analyze critical points.",
+    "type": "local_extrema_differentiable",
+    "tags": ["extrema", "critical_points", "differentiation"]
+  },
+  {
+    "id": "CALC_LR37",
+    "statement": "On a closed interval, evaluate the function at critical points and at endpoints to determine the absolute maximum and minimum.",
+    "type": "absolute_extrema_closed_interval",
+    "tags": ["extrema", "closed_interval", "evaluation"]
+  },
+  {
+    "id": "CALC_LR38",
+    "statement": "When analyzing the range of a function, consider both the function's critical points and the behavior at the domain's endpoints.",
+    "type": "range_analysis_extrema",
+    "tags": ["range", "function_analysis", "extrema"]
+  },
+  {
+    "id": "CALC_LR39",
+    "statement": "In optimization problems, carefully apply constraints to limit the feasible region before finding extrema.",
+    "type": "optimization_constraints",
+    "tags": ["optimization", "constraints", "extrema", "problem_solving"]
+  },
+  {
+    "id": "CALC_LR40",
+    "statement": "Use the behavior of the derivative (sign change) around critical points to confirm whether they correspond to maxima, minima, or neither.",
+    "type": "sign_change_extrema_classification",
+    "tags": ["extrema", "derivative", "sign_chart"]
+  },
+  {
+    "id": "CALC_LR41",
+    "statement": "To determine the range of a continuous function on a closed interval, evaluate critical points and endpoints.",
+    "type": "range_closed_interval",
+    "tags": ["range", "extrema", "function_analysis"]
+  },
+  {
+    "id": "CALC_LR42",
+    "statement": "For functions with square root, logarithm, or fractional forms, analyze domain restrictions first, then trace possible output values to determine the range.",
+    "type": "range_domain_restriction",
+    "tags": ["range", "domain", "restriction", "function_analysis"]
+  },
+  {
+    "id": "CALC_LR43",
+    "statement": "For invertible functions, the range of the original function equals the domain of its inverse.",
+    "type": "range_inverse_function",
+    "tags": ["range", "inverse_function", "domain_range_relation"]
+  },
+  {
+    "id": "CALC_LR44",
+    "statement": "When analyzing the graph of a function, project the entire curve onto the y-axis to infer the range.",
+    "type": "range_graph_projection",
+    "tags": ["range", "graph", "projection", "visual_analysis"]
+  },
+  {
+    "id": "CALC_LR45",
+    "statement": "For composite functions, consider the output of the inner function as the domain for the outer function to trace the composite range.",
+    "type": "range_composite_function",
+    "tags": ["range", "composite_function", "function_analysis"]
+  },
+  {
+    "id": "CALC_LR46",
+    "statement": "The derivative of the position function s(t) with respect to time t gives the velocity function v(t).",
+    "type": "velocity_as_derivative",
+    "tags": ["motion", "velocity", "derivative", "position"]
+  },
+  {
+    "id": "CALC_LR47",
+    "statement": "The derivative of the velocity function v(t) gives the acceleration function a(t).",
+    "type": "acceleration_as_derivative",
+    "tags": ["motion", "acceleration", "velocity", "derivative"]
+  },
+  {
+    "id": "CALC_LR48",
+    "statement": "The definite integral of the velocity function over a time interval gives the total displacement during that interval.",
+    "type": "displacement_as_integral",
+    "tags": ["motion", "displacement", "integration", "velocity"]
+  },
+  {
+    "id": "CALC_LR49",
+    "statement": "To find total distance traveled, integrate the absolute value of the velocity function over the time interval.",
+    "type": "total_distance_as_integral",
+    "tags": ["motion", "distance", "absolute_value", "integration"]
+  },
+  {
+    "id": "CALC_LR50",
+    "statement": "To analyze when an object changes direction, solve for the points where the velocity function v(t) equals zero and check sign changes.",
+    "type": "change_direction_analysis",
+    "tags": ["motion", "velocity", "sign_change", "direction"]
+  },
+  {
+    "id": "CALC_LR51",
+    "statement": "To compute a definite integral, first find the indefinite integral (antiderivative) of the integrand.",
+    "type": "integral_computation_step1",
+    "tags": ["definite_integral", "indefinite_integral", "antiderivative"]
+  },
+  {
+    "id": "CALC_LR52",
+    "statement": "After finding the antiderivative, evaluate it at the upper and lower limits and subtract to get the definite integral result.",
+    "type": "integral_computation_step2",
+    "tags": ["definite_integral", "evaluation", "limits"]
+  },
+  {
+    "id": "CALC_LR53",
+    "statement": "For piecewise functions or functions with sign changes, split the integral into separate intervals before calculating.",
+    "type": "integral_interval_split",
+    "tags": ["definite_integral", "piecewise_function", "interval_split"]
+  },
+  {
+    "id": "CALC_LR54",
+    "statement": "When integrating absolute value functions, express them as piecewise functions to correctly compute the integral.",
+    "type": "integral_absolute_value_handling",
+    "tags": ["definite_integral", "absolute_value", "case_split"]
+  },
+  {
+    "id": "CALC_LR55",
+    "statement": "Use symmetry properties of even or odd functions to simplify integrals over symmetric intervals when possible.",
+    "type": "integral_symmetry_simplification",
+    "tags": ["definite_integral", "symmetry", "even_function", "odd_function"]
+  },
+  {
+    "id": "CALC_LR56",
+    "statement": "Recognize ∫(1/x) dx as a logarithmic integral, with the result ln|x| + C.",
+    "type": "pattern_ln_integral",
+    "tags": ["integration", "logarithm", "pattern_recognition"]
+  },
+  {
+    "id": "CALC_LR57",
+    "statement": "For integrals involving exponential functions like ∫(e^x) dx, apply the rule that the derivative and integral of e^x are both e^x.",
+    "type": "pattern_exponential_integral",
+    "tags": ["integration", "exponential", "pattern_recognition"]
+  },
+  {
+    "id": "CALC_LR58",
+    "statement": "If the integrand contains a composite function and its derivative, apply substitution method (u-substitution) to simplify the integral.",
+    "type": "substitution_method_trigger",
+    "tags": ["integration", "substitution", "pattern_recognition"]
+  },
+  {
+    "id": "CALC_LR59",
+    "statement": "For integrands matching the form ax^n, apply the power rule of integration: ∫(x^n) dx = (x^{n+1})/(n+1) + C.",
+    "type": "pattern_power_rule_integral",
+    "tags": ["integration", "power_rule", "pattern_recognition"]
+  },
+  {
+    "id": "CALC_LR60",
+    "statement": "Identify trigonometric integrals (e.g., ∫sin(x) dx or ∫cos(x) dx) and apply basic trigonometric integration formulas.",
+    "type": "pattern_trig_integral",
+    "tags": ["integration", "trigonometric", "pattern_recognition"]
+  },
+  {
+    "id": "CALC_LR61",
+    "statement": "If a function has the form f(g(x)), recognize it as a composite function and prepare to apply chain rule for differentiation.",
+    "type": "composite_function_identification",
+    "tags": ["composite_function", "chain_rule", "differentiation"]
+  },
+  {
+    "id": "CALC_LR62",
+    "statement": "When differentiating f(g(x)), apply the chain rule: f'(g(x)) × g'(x).",
+    "type": "chain_rule_application",
+    "tags": ["composite_function", "chain_rule", "differentiation"]
+  },
+  {
+    "id": "CALC_LR63",
+    "statement": "For integrals involving composite functions where the derivative of the inner function appears, apply substitution method (u-substitution) for simplification.",
+    "type": "composite_function_substitution_integration",
+    "tags": ["composite_function", "substitution", "integration"]
+  },
+  {
+    "id": "CALC_LR64",
+    "statement": "When solving problems involving the domain or range of a composite function, analyze the output of the inner function and its compatibility with the outer function.",
+    "type": "composite_function_domain_range",
+    "tags": ["composite_function", "domain", "range", "function_analysis"]
+  },
+  {
+    "id": "CALC_LR65",
+    "statement": "For inverse function differentiation, use the relationship (f⁻¹)'(x) = 1 / f'(f⁻¹(x)), recognizing the inverse as a special case of composite function analysis.",
+    "type": "inverse_function_differentiation",
+    "tags": ["inverse_function", "differentiation", "composite_function"]
+  }
+  
+]

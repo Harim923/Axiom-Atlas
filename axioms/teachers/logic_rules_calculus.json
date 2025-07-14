@@ -406,7 +406,20 @@
     "statement": "If the derivative magnitude at a point equals a constant multiple of the function value at that point, express as |f'(a)| = k * |f(a)| and solve accordingly.",
     "type": "derivative_proportional_condition",
     "tags": ["derivative", "proportionality", "equation_setup"]
+  },
+  {
+    "id": "CALC_LR69",
+    "statement": "Do not approximate expressions during reasoning unless explicitly required. Preserve exact symbolic expressions.",
+    "type": "approximation_forbidden",
+    "tags": ["approximation_control", "exact_reasoning"]
+  },
+  {
+    "id": "CALC_LR70",
+    "statement": "When a problem involves conditions, explicitly handle all branches without skipping or merging cases.",
+    "type": "condition_branching_required",
+    "tags": ["case_split", "branching", "no_skip"]
   }
+
 
 
   

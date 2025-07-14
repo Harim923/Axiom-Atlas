@@ -558,5 +558,13 @@
     "tags": ["graph", "matching", "function_behavior"],
     "applies_to_axioms": ["PRECAL01.011", "PRECAL01.012"],
     "example_usage": "Used to identify a graph of f(x) = log(x−1) + 2."
+  },
+  {
+    "id": "PRE_LR71",
+    "statement": "To find possible rational roots of a polynomial with integer coefficients, apply the Rational Root Theorem: possible roots are of the form ±(factor of constant term) divided by (factor of leading coefficient).",
+    "type": "polynomial_root_strategy",
+    "tags": ["polynomial", "root_finding", "rational_root_theorem"],
+    "applies_to_axioms": ["PRECAL01.067", "PRECAL01.068"],
+    "example_usage": "Applied when solving f(x) = 2x^3 - 3x^2 + x - 6 to list possible rational roots as ±1, ±2, ±3, ±6, ±1/2, ±3/2, ±6/2."
   }
 ]

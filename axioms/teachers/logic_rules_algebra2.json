@@ -413,5 +413,11 @@
     "id": "ALG2_LR86",
     "statement": "Check solutions to logarithmic equations to ensure that the arguments of all logarithms are positive.",
     "tags": ["logarithmic", "domain", "check", "algebra2"]
+  },
+  {
+    "id": "ALG2_LR87",
+    "statement": "If two quantities are inversely proportional, their product remains constant: as one increases, the other decreases proportionally.",
+    "tags": ["inverse_variation", "proportionality", "algebra2"],
+    "example_usage": "Used when interpreting equations like y = k/x or analyzing situations where doubling one quantity halves the other."
   }
 ]

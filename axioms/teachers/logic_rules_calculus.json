@@ -388,6 +388,20 @@
     "statement": "For inverse function differentiation, use the relationship (f⁻¹)'(x) = 1 / f'(f⁻¹(x)), recognizing the inverse as a special case of composite function analysis.",
     "type": "inverse_function_differentiation",
     "tags": ["inverse_function", "differentiation", "composite_function"]
+  },
+  {
+    "id": "CALC_LR66",
+    "statement": "For differentiable functions f(x), the derivative of |f(x)| is (f(x) / |f(x)|) * f'(x) whenever f(x) ≠ 0.",
+    "type": "absolute_value_differentiation",
+    "tags": ["absolute_value", "differentiation", "composite_function"]
+  },
+  {
+    "id": "CALC_LR67",
+    "statement": "For composite functions g(x) = |f(u(x))|, the derivative is (f(u(x)) / |f(u(x))|) × f'(u(x)) × u'(x), wherever f(u(x)) ≠ 0.",
+    "type": "chain_rule_absolute_value",
+    "tags": ["absolute_value", "chain_rule", "composite_function", "differentiation"]
   }
+
+
   
 ]

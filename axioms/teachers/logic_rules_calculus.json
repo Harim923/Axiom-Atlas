@@ -178,5 +178,23 @@
     "statement": "In all symbolic reasoning, preserve algebraic transparency and avoid introducing numeric estimation unless problem explicitly allows.",
     "type": "symbolic_reasoning_preservation",
     "tags": ["symbolic_reasoning", "exact_form", "no_approximation"]
+  },
+  {
+    "id": "CALC_RULE31",
+    "statement": "When differentiating g(x) = |f(x)|, split into cases based on the sign of f(x): If f(x) > 0, then g'(x) = f'(x). If f(x) < 0, then g'(x) = -f'(x). If f(x) = 0, examine left and right derivatives for differentiability.",
+    "type": "absolute_value_derivative_case_split",
+    "tags": ["absolute_value", "derivative", "case_split", "differentiability"]
+  },
+  {
+    "id": "CALC_RULE32",
+    "statement": "For composite functions like g(x) = |f(u(x))|, the derivative is (f(u(x)) / |f(u(x))|) * f'(u(x)) * u'(x) whenever f(u(x)) ≠ 0.",
+    "type": "composite_absolute_value_derivative",
+    "tags": ["absolute_value", "composite_function", "chain_rule", "differentiation"]
+  },
+  {
+    "id": "CALC_RULE33",
+    "statement": "When given a proportionality condition involving absolute values, such as |g'(a)| = k * g(a), express it as |expression| = constant * |expression|, then solve by considering the possible signs of inner expressions explicitly.",
+    "type": "absolute_value_proportionality_condition",
+    "tags": ["absolute_value", "proportionality", "equation_setup", "case_split"]
   }
 ]

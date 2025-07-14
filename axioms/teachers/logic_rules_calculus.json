@@ -1,213 +1,85 @@
-[
-  {
-    "id": "CALC_RULE01",
-    "statement": "Differentiate the function to analyze increasing, decreasing, or constant behavior over intervals.",
-    "type": "function_behavior_analysis",
-    "tags": ["derivative", "increasing", "decreasing", "function_behavior"]
-  },
-  {
-    "id": "CALC_RULE02",
-    "statement": "Set the derivative equal to zero to identify critical points where slope is zero.",
-    "type": "critical_point_detection",
-    "tags": ["derivative", "critical_point", "extrema"]
-  },
-  {
-    "id": "CALC_RULE03",
-    "statement": "Use the second derivative to classify each critical point as local maximum, local minimum, or point of inflection.",
-    "type": "critical_point_classification",
-    "tags": ["second_derivative", "classification", "extrema"]
-  },
-  {
-    "id": "CALC_RULE04",
-    "statement": "At domain boundaries, evaluate the function directly to determine possible absolute extrema.",
-    "type": "boundary_extrema_check",
-    "tags": ["evaluation", "endpoint", "extrema"]
-  },
-  {
-    "id": "CALC_RULE05",
-    "statement": "When a function contains absolute value expressions, split the domain based on the sign of inner expressions and analyze each case separately.",
-    "type": "absolute_value_case_split",
-    "tags": ["absolute_value", "case_split", "piecewise"]
-  },
-  {
-    "id": "CALC_RULE06",
-    "statement": "For piecewise functions, ensure continuity and derivative agreement at boundary points before proceeding.",
-    "type": "piecewise_continuity_differentiability",
-    "tags": ["piecewise", "continuity", "differentiability"]
-  },
-  {
-    "id": "CALC_RULE07",
-    "statement": "If the derivative fails to exist (sharp corner, cusp, vertical tangent), mark the function as non-differentiable at that point.",
-    "type": "differentiability_failure_detection",
-    "tags": ["nondifferentiability", "cusp", "corner", "vertical_tangent"]
-  },
-  {
-    "id": "CALC_RULE08",
-    "statement": "When applying definite integration, compute the antiderivative first, then evaluate at upper and lower limits.",
-    "type": "definite_integral_procedure",
-    "tags": ["integration", "antiderivative", "evaluation"]
-  },
-  {
-    "id": "CALC_RULE09",
-    "statement": "For integrals involving absolute value, rewrite as a piecewise function and integrate over separated intervals.",
-    "type": "absolute_value_integral_split",
-    "tags": ["integration", "absolute_value", "case_split"]
-  },
-  {
-    "id": "CALC_RULE10",
-    "statement": "Do not approximate symbolic expressions during reasoning unless explicitly required by the problem.",
-    "type": "approximation_control",
-    "tags": ["symbolic_reasoning", "no_approximation"]
-  },
-  {
-    "id": "CALC_RULE11",
-    "statement": "When the problem contains inequalities or conditional cases, do not merge or skip cases. Explicitly analyze all branches.",
-    "type": "case_branching_required",
-    "tags": ["case_split", "condition_handling", "solution_branching"]
-  },
-  {
-    "id": "CALC_RULE12",
-    "statement": "For composite functions, recognize inner and outer functions, then apply the chain rule when differentiating.",
-    "type": "chain_rule_application",
-    "tags": ["composite_function", "chain_rule", "differentiation"]
-  },
-  {
-    "id": "CALC_RULE13",
-    "statement": "For integrals involving composite functions and their derivatives, apply substitution method for simplification.",
-    "type": "substitution_trigger",
-    "tags": ["composite_function", "integration", "substitution"]
-  },
-  {
-    "id": "CALC_RULE14",
-    "statement": "Recognize basic integration patterns such as power rule, exponential, logarithmic, and trigonometric forms, and apply appropriate formulas.",
-    "type": "pattern_based_integration",
-    "tags": ["integration", "pattern_recognition", "standard_form"]
-  },
-  {
-    "id": "CALC_RULE15",
-    "statement": "For functions defined on symmetric intervals, apply symmetry properties of even or odd functions to simplify definite integrals when possible.",
-    "type": "symmetry_integration_simplification",
-    "tags": ["integration", "symmetry", "even_function", "odd_function"]
-  },
-  {
-    "id": "CALC_RULE16",
-    "statement": "To find total distance traveled from velocity function, integrate the absolute value of velocity over the interval.",
-    "type": "total_distance_integral",
-    "tags": ["motion", "distance", "integration"]
-  },
-  {
-    "id": "CALC_RULE17",
-    "statement": "For motion problems, interpret derivative of position as velocity, and derivative of velocity as acceleration.",
-    "type": "motion_derivative_interpretation",
-    "tags": ["motion", "velocity", "acceleration"]
-  },
-  {
-    "id": "CALC_RULE18",
-    "statement": "To check when an object changes direction, solve v(t) = 0 and analyze sign changes of the velocity function.",
-    "type": "direction_change_detection",
-    "tags": ["motion", "velocity", "sign_change"]
-  },
-  {
-    "id": "CALC_RULE19",
-    "statement": "When analyzing range, project graph onto the y-axis or use critical points and endpoints to determine possible output values.",
-    "type": "range_determination",
-    "tags": ["range", "function_analysis", "graph"]
-  },
-  {
-    "id": "CALC_RULE20",
-    "statement": "In optimization problems, apply domain constraints before solving for extrema to ensure the solution lies within feasible range.",
-    "type": "optimization_constraints_enforcement",
-    "tags": ["optimization", "constraints", "solution_check"]
-  },
-  {
-    "id": "CALC_RULE21",
-    "statement": "Always explicitly verify all branches and domain restrictions during solution, even if they seem trivial.",
-    "type": "branch_verification_required",
-    "tags": ["case_split", "branching", "verification"]
-  },
-  {
-    "id": "CALC_RULE22",
-    "statement": "When a tangent line is parallel to a given line, equate the derivative to the slope of that line to solve.",
-    "type": "tangent_parallel_condition_solving",
-    "tags": ["tangent", "parallel", "slope", "derivative"]
-  },
-  {
-    "id": "CALC_RULE23",
-    "statement": "For inverse functions, compute derivatives using (f⁻¹)'(x) = 1 / f'(f⁻¹(x)).",
-    "type": "inverse_function_differentiation",
-    "tags": ["inverse_function", "differentiation"]
-  },
-  {
-    "id": "CALC_RULE24",
-    "statement": "In composite function domain/range analysis, use output of inner function as domain for outer function.",
-    "type": "composite_function_domain_range_logic",
-    "tags": ["composite_function", "domain", "range"]
-  },
-  {
-    "id": "CALC_RULE25",
-    "statement": "For logarithmic integrals, recognize ∫(1/x) dx as ln|x| + C.",
-    "type": "log_integral_pattern",
-    "tags": ["integration", "logarithm", "pattern"]
-  },
-  {
-    "id": "CALC_RULE26",
-    "statement": "During solution, prevent premature approximation unless numerically required in the final answer stage.",
-    "type": "approximation_postponement",
-    "tags": ["approximation", "numerical_control"]
-  },
-  {
-    "id": "CALC_RULE27",
-    "statement": "Treat derivative proportionality conditions such as |f'(a)| = k * |f(a)| as equations to solve directly without transforming unnecessarily.",
-    "type": "proportionality_condition_handling",
-    "tags": ["derivative", "proportionality", "equation"]
-  },
-  {
-    "id": "CALC_RULE28",
-    "statement": "For trigonometric integrals like ∫sin(x) dx and ∫cos(x) dx, apply basic integration formulas directly.",
-    "type": "trig_integral_pattern",
-    "tags": ["integration", "trigonometric", "pattern"]
-  },
-  {
-    "id": "CALC_RULE29",
-    "statement": "When dealing with composite functions containing absolute value, apply chain rule carefully accounting for the absolute value derivative form.",
-    "type": "chain_rule_absolute_value_derivative",
-    "tags": ["absolute_value", "composite_function", "chain_rule", "differentiation"]
-  },
-  {
-    "id": "CALC_RULE30",
-    "statement": "In all symbolic reasoning, preserve algebraic transparency and avoid introducing numeric estimation unless problem explicitly allows.",
-    "type": "symbolic_reasoning_preservation",
-    "tags": ["symbolic_reasoning", "exact_form", "no_approximation"]
-  },
-  {
-    "id": "CALC_RULE31",
-    "statement": "When differentiating g(x) = |f(x)|, split into cases based on the sign of f(x): If f(x) > 0, then g'(x) = f'(x). If f(x) < 0, then g'(x) = -f'(x). If f(x) = 0, examine left and right derivatives for differentiability.",
-    "type": "absolute_value_derivative_case_split",
-    "tags": ["absolute_value", "derivative", "case_split", "differentiability"]
-  },
-  {
-    "id": "CALC_RULE32",
-    "statement": "For composite functions like g(x) = |f(u(x))|, the derivative is (f(u(x)) / |f(u(x))|) * f'(u(x)) * u'(x) whenever f(u(x)) ≠ 0.",
-    "type": "composite_absolute_value_derivative",
-    "tags": ["absolute_value", "composite_function", "chain_rule", "differentiation"]
-  },
-  {
-    "id": "CALC_RULE33",
-    "statement": "When given a proportionality condition involving absolute values, such as |g'(a)| = k * g(a), express it as |expression| = constant * |expression|, then solve by considering the possible signs of inner expressions explicitly.",
-    "type": "absolute_value_proportionality_condition",
-    "tags": ["absolute_value", "proportionality", "equation_setup", "case_split"]
-  },
-  {
-    "id": "CALC_RULE34",
-    "statement": "If multiple algebraic constraints result in an underdetermined system, use optimization reasoning to select the extremal (minimum or maximum) value satisfying all constraints.",
-    "type": "algebraic_optimization_resolution",
-    "tags": ["optimization", "constraint_handling", "underdetermined_system", "extremal_solution"]
-  },
-  {
-    "id": "CALC_RULE35",
-    "statement": "When conditions form proportional relations involving unknown function values, treat function evaluations directly as primary variables and solve proportionally without reconstructing the entire function form.",
-    "type": "value_direct_solving",
-    "tags": ["proportionality", "function_value_focus", "direct_solving"]
-  }
+{
+  "STRATEGY_RULES": [
+    {
+      "id": "STRATEGY_RULE01",
+      "statement": "Solve all problems using stepwise differentiation, integration, and algebraic analysis without heuristic optimization.",
+      "tags": ["strategy", "stepwise", "calculus", "AP", "IB"]
+    },
+    {
+      "id": "STRATEGY_RULE02",
+      "statement": "Explicitly analyze domain and split into cases when absolute value, piecewise functions, or domain restrictions appear.",
+      "tags": ["strategy", "case_split", "domain", "AP", "IB"]
+    }
+  ],
 
-]
+  "PROCESS_RULES": [
+    {
+      "id": "PROCESS_RULE01",
+      "statement": "Differentiate functions to analyze increasing/decreasing behavior and locate critical points.",
+      "tags": ["derivative", "function_behavior", "critical_points"]
+    },
+    {
+      "id": "PROCESS_RULE02",
+      "statement": "Use the second derivative to classify each critical point as local maximum, minimum, or inflection point.",
+      "tags": ["second_derivative", "classification", "extrema"]
+    },
+    {
+      "id": "PROCESS_RULE03",
+      "statement": "At domain endpoints, evaluate the function directly to determine possible absolute extrema.",
+      "tags": ["endpoint", "extrema", "evaluation"]
+    },
+    {
+      "id": "PROCESS_RULE04",
+      "statement": "Perform definite integrals by computing the antiderivative and evaluating upper and lower limits.",
+      "tags": ["integration", "definite_integral", "antiderivative"]
+    },
+    {
+      "id": "PROCESS_RULE05",
+      "statement": "For composite functions, differentiate using chain rule and integrate using substitution (u-substitution).",
+      "tags": ["chain_rule", "substitution", "composite_function"]
+    },
+    {
+      "id": "PROCESS_RULE06",
+      "statement": "When functions contain absolute values, split cases based on inner expression sign before proceeding with differentiation or integration.",
+      "tags": ["absolute_value", "case_split"]
+    },
+    {
+      "id": "PROCESS_RULE07",
+      "statement": "In motion problems, treat first derivative of position as velocity, and second derivative as acceleration.",
+      "tags": ["motion", "velocity", "acceleration"]
+    },
+    {
+      "id": "PROCESS_RULE08",
+      "statement": "Find total distance by integrating absolute value of velocity over the interval.",
+      "tags": ["motion", "total_distance", "integration"]
+    },
+    {
+      "id": "PROCESS_RULE09",
+      "statement": "When working on symmetric intervals, apply symmetry properties of even or odd functions to simplify definite integrals where applicable.",
+      "tags": ["symmetry", "integration", "even_function", "odd_function"]
+    },
+    {
+      "id": "PROCESS_RULE10",
+      "statement": "During reasoning, maintain exact symbolic form unless numerical approximation is explicitly requested.",
+      "tags": ["symbolic_reasoning", "exact_form"]
+    }
+  ],
+
+  "EDGE_CASE_RULES": [
+    {
+      "id": "EDGE_RULE01",
+      "statement": "Detect and note points where the derivative does not exist, such as cusps, corners, or vertical tangents.",
+      "tags": ["nondifferentiability", "cusp", "corner", "vertical_tangent"]
+    },
+    {
+      "id": "EDGE_RULE02",
+      "statement": "Explicitly verify all branches and domain conditions before merging cases.",
+      "tags": ["case_split", "branch_verification"]
+    },
+    {
+      "id": "EDGE_RULE03",
+      "statement": "When differentiating or integrating absolute value functions, handle sign of inner function before applying calculus procedures.",
+      "tags": ["absolute_value", "derivative", "integration", "case_handling"]
+    }
+  ]
+}

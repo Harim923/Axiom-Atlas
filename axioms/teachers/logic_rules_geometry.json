@@ -361,7 +361,7 @@
   },
   {
   "id": "GEO_LR61",
-  "statement": "A non-degenerate segment length is always positive real number.",
+  "statement": "A non-degenerate segment length is always positive real number. If you get algebraic solution, make sure you plug it back into geometric object to figure out whether the value is valid.",
   "type": "segment_property",
   "tags": ["segment", "length"]
   }

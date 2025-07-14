@@ -196,5 +196,18 @@
     "statement": "When given a proportionality condition involving absolute values, such as |g'(a)| = k * g(a), express it as |expression| = constant * |expression|, then solve by considering the possible signs of inner expressions explicitly.",
     "type": "absolute_value_proportionality_condition",
     "tags": ["absolute_value", "proportionality", "equation_setup", "case_split"]
+  },
+  {
+    "id": "CALC_RULE34",
+    "statement": "If multiple algebraic constraints result in an underdetermined system, use optimization reasoning to select the extremal (minimum or maximum) value satisfying all constraints.",
+    "type": "algebraic_optimization_resolution",
+    "tags": ["optimization", "constraint_handling", "underdetermined_system", "extremal_solution"]
+  },
+  {
+    "id": "CALC_RULE35",
+    "statement": "When conditions form proportional relations involving unknown function values, treat function evaluations directly as primary variables and solve proportionally without reconstructing the entire function form.",
+    "type": "value_direct_solving",
+    "tags": ["proportionality", "function_value_focus", "direct_solving"]
   }
+
 ]

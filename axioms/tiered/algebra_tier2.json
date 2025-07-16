@@ -573,5 +573,16 @@
     "used_in_proofs": ["SymmetricPolynomialReasoning"],
     "used_in_systems": ["Algebra"],
     "strength_score": 0.9
+  },
+  {
+    "id": "T2_ALG33",
+    "name": "Logarithmic Addition Property",
+    "statement": "For any positive real numbers a and b:\nlog(a) + log(b) = log(ab).",
+    "formal": "∀a, b ∈ ℝ⁺, log(a) + log(b) = log(a · b)",
+    "tags": ["algebra", "logarithm", "properties", "identity"],
+    "philosophy": "Fundamental property of logarithms expressing multiplication as addition.",
+    "used_in_proofs": ["LogarithmicSimplification", "ExponentialEquations"],
+    "used_in_systems": ["Algebra"],
+    "strength_score": 0.85
   }
 ]

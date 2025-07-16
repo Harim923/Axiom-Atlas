@@ -584,5 +584,17 @@
     "used_in_proofs": ["LogarithmicSimplification", "ExponentialEquations"],
     "used_in_systems": ["Algebra"],
     "strength_score": 0.85
+  },
+  {
+    "id": "T2_ALG34",
+    "name": "Sum of Squares as Conjugate Product",
+    "statement": "For any real numbers a and b:\na² + b² = (a + b·i)(a − b·i), where i = √−1.",
+    "formal": "∀a, b ∈ ℝ, a² + b² = (a + b·i)(a − b·i)",
+    "tags": ["algebra", "complex", "conjugate", "identity"],
+    "philosophy": "Expressing sum of squares as a product of conjugate pairs using complex numbers.",
+    "used_in_proofs": ["ComplexFactorization", "SumOfSquaresSimplification"],
+    "used_in_systems": ["Algebra", "ComplexNumbers"],
+    "strength_score": 0.8
   }
+
 ]

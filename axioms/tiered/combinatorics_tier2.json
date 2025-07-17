@@ -752,6 +752,24 @@
       "Combinatorics"
     ],
     "strength_score": 0.85
+  },
+  {
+    "id": "T2_CMB42",
+    "name": "Product Form Diophantine to Pell Equation Transformation",
+    "statement": "Equations of the form N(N+1) = 2M^2 can be transformed into a Pell equation using the substitution 2N+1 = x and M = y, leading to x² - 8y² = 1.",
+    "formal": "Given N(N+1) = 2M², define x = 2N + 1 and y = M. Then, x² - 8y² = 1.",
+    "tags": ["pell_equation", "number_theory", "equation_transformation", "combinatorics"],
+    "philosophy": "Transforms multiplicative Diophantine problems into standard Pell equations to allow solution via recursive Pell techniques.",
+    "used_in_proofs": [
+      "TriangularNumberSquareProblems",
+      "PellEquationBasedProblems"
+    ],
+    "used_in_systems": [
+      "NumberTheory",
+      "Combinatorics"
+    ],
+    "strength_score": 0.9
   }
+
 
 ]

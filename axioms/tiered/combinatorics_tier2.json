@@ -705,6 +705,20 @@
       "Combinatorics"
     ],
     "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB39",
+    "name": "Pell Equation Solution Sequence",
+    "statement": "Given solutions (x, y) to the Pell equation x² - D·y² = 1, sequence terms can be generated using transformations of x and y. Specifically for D = 8, let x = 2n + 1, so n = (x - 1) / 2. Sequence terms tₙ can then be computed using combinatorial or polynomial expressions derived from n.",
+    "formal": "If x² - 8·y² = 1, then n = (x - 1) / 2. Sequence term tₙ can be computed as tₙ = n(n + 1)/2 or other expressions involving n as defined.",
+    "tags": ["combinatorics", "number_theory", "pell_equation", "sequence_generation"],
+    "philosophy": "This combinatorial rule utilizes algebraic solutions from Pell’s Equation to generate structured sequences, linking number theory to combinatorial sequence construction.",
+    "used_in_proofs": [
+      "PellEquationSequenceProblems"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.85
   }
-
 ]

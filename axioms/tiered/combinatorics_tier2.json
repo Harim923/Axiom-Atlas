@@ -736,5 +736,22 @@
       "Combinatorics"
     ],
     "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB41",
+    "name": "Pell Equation Recursive Solution Generation",
+    "statement": "Given the minimal solution (x₁, y₁) of a Pell equation x² - D·y² = 1, all further solutions can be generated recursively by using (x₁ + y₁√D)ⁿ = xₙ + yₙ√D for n ≥ 1.",
+    "formal": "From minimal solution (x₁, y₁), compute (xₙ₊₁ + yₙ₊₁√D) = (x₁ + y₁√D) × (xₙ + yₙ√D). Extract integer parts for new xₙ₊₁, yₙ₊₁.",
+    "tags": ["pell_equation", "number_theory", "recursive_sequence", "combinatorics"],
+    "philosophy": "This recursive method enables generation of all solutions to the Pell equation from the minimal solution by repeated multiplication in the quadratic integer ring ℤ[√D].",
+    "used_in_proofs": [
+      "PellEquationSequenceProblems"
+    ],
+    "used_in_systems": [
+      "NumberTheory",
+      "Combinatorics"
+    ],
+    "strength_score": 0.85
   }
+
 ]

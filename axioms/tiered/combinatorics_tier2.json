@@ -720,5 +720,21 @@
       "Combinatorics"
     ],
     "strength_score": 0.85
+  },
+  {
+    "id": "T2_CMB40",
+    "name": "Sum of First n Positive Integers",
+    "statement": "The sum of the first n positive integers is given by the formula 1 + 2 + 3 + ⋯ + n = n(n + 1)/2.",
+    "formal": "∑_{k=1}^n k = n(n + 1)/2",
+    "tags": ["combinatorics", "triangular_numbers", "sequence_sum"],
+    "philosophy": "This formula represents the closed-form expression for the sum of the first n consecutive positive integers, which is fundamental for triangular numbers and related sequence sums.",
+    "used_in_proofs": [
+      "TriangularNumberProblems",
+      "ArithmeticSequenceSums"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.95
   }
 ]

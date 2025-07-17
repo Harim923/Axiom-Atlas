@@ -769,6 +769,22 @@
       "Combinatorics"
     ],
     "strength_score": 0.9
+  },
+  {
+    "id": "T2_CMB43",
+    "name": "Hockey Stick Identity",
+    "statement": "The sum of consecutive combinations in the form C(r, k) + C(r+1, k) + ... + C(n, k) equals C(n+1, k+1).",
+    "formal": "∑_{i=r}^{n} C(i, k) = C(n+1, k+1)",
+    "tags": ["combinatorics", "binomial_sum", "hockey_stick_identity"],
+    "philosophy": "This identity allows telescoping sums of combinations to simplify into a single binomial coefficient.",
+    "used_in_proofs": [
+      "HockeyStickSummationProblems",
+      "BinomialIdentitySimplifications"
+    ],
+    "used_in_systems": [
+      "Combinatorics"
+    ],
+    "strength_score": 0.95
   }
 
 

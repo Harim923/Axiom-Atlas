@@ -595,6 +595,16 @@
     "used_in_proofs": ["ComplexFactorization", "SumOfSquaresSimplification"],
     "used_in_systems": ["Algebra", "ComplexNumbers"],
     "strength_score": 0.8
+  },
+  {
+    "id": "T2_ALG35",
+    "name": "Sophie Germain Identity",
+    "statement": "For any real numbers a and b:\na⁴ + 4·b⁴ = (a² + 2·b² + 2·a·b)(a² + 2·b² − 2·a·b).",
+    "formal": "∀a, b ∈ ℝ, a⁴ + 4·b⁴ = (a² + 2·b² + 2·a·b)·(a² + 2·b² − 2·a·b)",
+    "tags": ["algebra", "identity", "factorization", "sophie_germain", "sum_of_powers"],
+    "philosophy": "Expressing a⁴ + 4·b⁴ as a product of two conjugate-like terms, facilitating factorization.",
+    "used_in_proofs": ["SophieGermainFactorization"],
+    "used_in_systems": ["Algebra", "Factorization"],
+    "strength_score": 0.85
   }
-
 ]

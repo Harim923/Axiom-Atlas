@@ -419,5 +419,12 @@
     "statement": "If two quantities are inversely proportional, their product remains constant: as one increases, the other decreases proportionally.",
     "tags": ["inverse_variation", "proportionality", "algebra2"],
     "example_usage": "Used when interpreting equations like y = k/x or analyzing situations where doubling one quantity halves the other."
+  },
+  {
+    "id": "ALG2_LR88",
+    "statement": "A system of linear equations can be solved using substitution, elimination, or matrix methods such as Gaussian elimination, provided that the number of independent equations equals the number of unknowns.",
+    "tags": ["systems_of_equations", "solving", "linear_algebra", "matrix", "Gaussian_elimination", "substitution", "elimination"],
+    "example": "Given four equations with four unknowns, apply substitution, elimination, or row-reduction methods to solve the system."
   }
+
 ]

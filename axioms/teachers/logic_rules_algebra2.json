@@ -425,6 +425,23 @@
     "statement": "A system of linear equations can be solved using substitution, elimination, or matrix methods such as Gaussian elimination, provided that the number of independent equations equals the number of unknowns.",
     "tags": ["systems_of_equations", "solving", "linear_algebra", "matrix", "Gaussian_elimination", "substitution", "elimination"],
     "example": "Given four equations with four unknowns, apply substitution, elimination, or row-reduction methods to solve the system."
+  },
+  {
+    "id": "ALG2_LR89",
+    "statement": "A system of linear equations can be solved using substitution, elimination, or matrix methods such as Gaussian elimination, provided that the number of independent equations equals the number of unknowns.",
+    "tags": ["systems_of_equations", "solving", "linear_algebra", "matrix", "Gaussian_elimination", "substitution", "elimination"],
+    "example": "Given four equations with four unknowns, apply substitution, elimination, or row-reduction methods to solve the system."
+  },
+  {
+    "id": "ALG2_LR90",
+    "statement": "The change of base formula states that $\\log_b{x} = \\frac{\\log_k{x}}{\\log_k{b}}$, where $k$ is any valid base.",
+    "tags": ["logarithms", "change_of_base", "log_identity", "transformation"],
+    "example": "To compute $\\log_2{10}$ using base 10 logs, apply: $\\log_2{10} = \\frac{\\log_{10}{10}}{\\log_{10}{2}} = \\frac{1}{\\log_{10}{2}}$."
+  },
+  {
+    "id": "ALG2_LR91",
+    "statement": "The product rule of logarithms states that $\\log_b{(a \\cdot c)} = \\log_b{a} + \\log_b{c}$.",
+    "tags": ["logarithms", "log_rules", "product_rule", "simplification"],
+    "example": "Simplify $\\log_2{(4 \\cdot 8)}$ using the product rule: $\\log_2{4} + \\log_2{8} = 2 + 3 = 5$."
   }
-
 ]

@@ -569,10 +569,18 @@
   },
   {
     "id": "PRE_LR72",
-    "statement": "To find the period of a combined periodic function, compute the least common multiple (LCM) of the individual periods.",
+    "statement": "If two periodic functions have commensurable periods (their ratio is a rational number), then the period of their sum is the least common multiple (LCM) of their individual periods.",
     "type": "period_lcm_strategy",
     "tags": ["period", "lcm", "repetition", "trig"],
     "applies_to_axioms": ["PRECAL01.045"],
-    "example_usage": "Used to find the period of sin(2x) + cos(3x) by computing LCM of π and (2π/3)."
+    "example_usage": "Used to find the period of sin(2x) + cos(3x) when the ratio of periods is rational."
+  },
+  {
+    "id": "PRE_LR73",
+    "statement": "Before applying LCM of periods, verify that the ratio of the two periods is a rational number (commensurability check).",
+    "type": "period_commensurability_check",
+    "tags": ["period", "rational_ratio", "condition_check"],
+    "applies_to_axioms": ["PRECAL01.045"],
+    "example_usage": "Used before applying LCM to verify that periods π and (2π/3) are commensurable since their ratio 3/2 is rational."
   }
 ]

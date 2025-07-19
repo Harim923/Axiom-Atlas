@@ -566,5 +566,13 @@
     "tags": ["polynomial", "root_finding", "rational_root_theorem"],
     "applies_to_axioms": ["PRECAL01.067", "PRECAL01.068"],
     "example_usage": "Applied when solving f(x) = 2x^3 - 3x^2 + x - 6 to list possible rational roots as ±1, ±2, ±3, ±6, ±1/2, ±3/2, ±6/2."
+  },
+  {
+    "id": "PRE_LR72",
+    "statement": "To find the period of a combined periodic function, compute the least common multiple (LCM) of the individual periods.",
+    "type": "period_lcm_strategy",
+    "tags": ["period", "lcm", "repetition", "trig"],
+    "applies_to_axioms": ["PRECAL01.045"],
+    "example_usage": "Used to find the period of sin(2x) + cos(3x) by computing LCM of π and (2π/3)."
   }
 ]

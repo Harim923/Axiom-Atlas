@@ -785,7 +785,22 @@
       "Combinatorics"
     ],
     "strength_score": 0.95
+  },
+  {
+    "id": "T2_CMB44",
+    "name": "Chicken McNugget Theorem",
+    "statement": "For two relatively prime positive integers m and n, the greatest number that cannot be expressed as a non-negative integer linear combination of m and n is mn - m - n.",
+    "formal": "If gcd(m, n) = 1, then the largest unattainable number is m·n - m - n.",
+    "tags": ["combinatorics", "number_theory", "frobenius_problem", "linear_combination"],
+    "philosophy": "This theorem identifies the maximal unattainable value using two relatively prime denominations, offering insight into coin problems and Diophantine equations.",
+    "used_in_proofs": [
+      "FrobeniusCoinProblem",
+      "UnattainableNumberProblems"
+    ],
+    "used_in_systems": [
+      "Combinatorics",
+      "NumberTheory"
+    ],
+    "strength_score": 0.90
   }
-
-
 ]

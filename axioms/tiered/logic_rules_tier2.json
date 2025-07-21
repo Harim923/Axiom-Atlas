@@ -695,7 +695,38 @@
       "level": "tier1",
       "statement": "A real-valued logarithmic expression log(f(x)) is defined only when f(x) > 0.",
       "example": "Used to eliminate values of θ where sin(3θ) or cos(2θ) is non-positive in expressions like log(sin(3θ)) + log(cos(2θ))."
+    },
+    {
+      "id": "PRECAL_LR_TAN_SEC_IDENTITY",
+      "type": "logic_rule",
+      "level": "tier1",
+      "statement": "For any angle θ, 1 + tan²(θ) = sec²(θ).",
+      "example": "If tan(θ) is known, sec(θ) can be found using sec²(θ) = 1 + tan²(θ).",
+      "tags": ["trigonometry", "identity", "tangent", "secant", "pythagorean_identity"]
+    },
+    {
+      "id": "PRECAL_LR_TAN_SEC_IDENTITY",
+      "type": "logic_rule",
+      "level": "tier1",
+      "statement": "For any angle θ, 1 + tan²(θ) = sec²(θ).",
+      "example": "If tan(θ) is known, sec(θ) can be found using sec²(θ) = 1 + tan²(θ).",
+      "tags": ["trigonometry", "identity", "tangent", "secant", "pythagorean_identity"]
+    },
+    {
+      "id": "PRECAL_LR_CSC_DEFINITION",
+      "type": "logic_rule",
+      "level": "tier1",
+      "statement": "For any angle θ, csc(θ) = 1 / sin(θ).",
+      "example": "If sin(θ) = -1/2, then csc(θ) = -2.",
+      "tags": ["trigonometry", "cosecant", "definition"]
+    },
+    {
+      "id": "PRECAL_LR_TAN_DEFINITION",
+      "type": "logic_rule",
+      "level": "tier1",
+      "statement": "For any angle θ, tan(θ) = sin(θ) / cos(θ).",
+      "example": "If sin(θ) = 3/5 and cos(θ) = 4/5, then tan(θ) = 3/4.",
+      "tags": ["trigonometry", "tangent", "definition"]
     }
-
   ]
 }

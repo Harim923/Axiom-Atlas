@@ -1055,5 +1055,31 @@
     "used_in_systems": ["SyntheticGeometry", "Euclidean"],
     "philosophy": "Apollonius’s Theorem relates the sides of a triangle to the median, essential for expressing unknowns using fixed quantities.",
     "strength_score": 0.88
+  },
+  {
+    "id": "T2_GEO73",
+    "name": "Triple Angle Formula for Cosine",
+    "type": "identity",
+    "level": "tier2",
+    "statement": "The cosine of triple angle is given by cos(3θ) = 4cos³θ − 3cosθ.",
+    "formal": "cos(3θ) = 4·cos³(θ) − 3·cos(θ)",
+    "tags": ["trigonometry", "triple_angle", "identity", "cosine", "expansion"],
+    "used_in_proofs": ["TrigEquationSolving", "ComplexRotationAngleTripling"],
+    "used_in_systems": ["Trigonometry", "ComplexPlane"],
+    "philosophy": "This identity expands cos(3θ) in terms of cos(θ), allowing for simplification or solving of trigonometric equations involving triple angles.",
+    "strength_score": 0.90
+  },
+  {
+    "id": "T2_TRIG32",
+    "name": "Triple Angle Formula for Sine",
+    "type": "identity",
+    "level": "tier2",
+    "statement": "The sine of triple angle is given by sin(3θ) = 3sinθ − 4sin³θ.",
+    "formal": "sin(3θ) = 3·sin(θ) − 4·sin³(θ)",
+    "tags": ["trigonometry", "triple_angle", "identity", "sine", "expansion"],
+    "used_in_proofs": ["TrigEquationSolving", "PeriodicFunctionAnalysis"],
+    "used_in_systems": ["Trigonometry", "ComplexPlane"],
+    "philosophy": "This identity expresses sin(3θ) as a cubic in sin(θ), useful in transformations, graphing, and solving advanced trigonometric expressions.",
+    "strength_score": 0.90
   }
 ]

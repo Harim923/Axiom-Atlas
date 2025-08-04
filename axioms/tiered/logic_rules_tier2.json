@@ -727,6 +727,15 @@
       "statement": "For any angle θ, tan(θ) = sin(θ) / cos(θ).",
       "example": "If sin(θ) = 3/5 and cos(θ) = 4/5, then tan(θ) = 3/4.",
       "tags": ["trigonometry", "tangent", "definition"]
+    },
+    {
+      "id": "LR_ARITH1",
+      "name": "Trivial Arithmetic Rule",
+      "type": "logic_rule",
+      "level": "core",
+      "statement": "Simple integer addition, subtraction, or multiplication may be directly evaluated.",
+      "formal": "If a + b is a basic integer computation (e.g., a=1, b=1), then a + b = c without step-by-step justification.",
+      "tags": ["logic", "arithmetic", "simplification"]
     }
   ]
 }

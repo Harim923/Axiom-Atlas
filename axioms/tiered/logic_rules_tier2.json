@@ -736,6 +736,15 @@
       "statement": "Simple integer addition, subtraction, or multiplication may be directly evaluated.",
       "formal": "If a + b is a basic integer computation (e.g., a=1, b=1), then a + b = c without step-by-step justification.",
       "tags": ["logic", "arithmetic", "simplification"]
+    },
+    {
+      "id": "LR_ARITH2",
+      "name": "Trivial Division Rule",
+      "type": "logic_rule",
+      "level": "core",
+      "statement": "Basic integer division with exact result may be directly evaluated.",
+      "formal": "If a ÷ b results in an exact integer c (e.g., 6 ÷ 3 = 2), then c may be written directly.",
+      "tags": ["logic", "arithmetic", "division", "simplification"]
     }
   ]
 }

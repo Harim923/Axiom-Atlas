@@ -745,6 +745,33 @@
       "statement": "Basic integer division with exact result may be directly evaluated.",
       "formal": "If a ÷ b results in an exact integer c (e.g., 6 ÷ 3 = 2), then c may be written directly.",
       "tags": ["logic", "arithmetic", "division", "simplification"]
-    }
+    },
+    {
+      "id": "LR_FRACTIONAL_SPLIT1",
+      "name": "Fractional Decomposition Rule",
+      "type": "logic_rule",
+      "level": "core",
+      "statement": "When analyzing a function that depends on the fractional part of a real number, the domain should be partitioned into integer intervals, and each value expressed as x = n + r, where n is an integer and r ∈ [0,1).",
+      "formal": "If f(x) depends on the fractional part {x}, then for real x, write x = n + r with integer n = ⌊x⌋ and r = {x}, and analyze f(x) using r ∈ [0,1).",
+      "tags": ["logic", "fractional", "interval analysis", "modular reasoning"]
+    },
+    {
+      "id": "LR_GRAPH_BRANCHING",
+      "name": "Case-wise Function Decomposition Rule",
+      "type": "logic_rule",
+      "level": "core",
+      "statement": "When a function is defined piecewise across intervals, all branches must be analyzed separately with respect to their defined domains.",
+      "formal": "If f(x) is defined by different expressions over disjoint intervals (e.g., f(x) = a₁(x) for x in I₁, a₂(x) for x in I₂, ...), then solving f(x) = g(x) requires case-wise comparison over each interval Iₖ.",
+      "tags": ["logic", "graph", "piecewise", "case analysis", "branch decomposition"]
+    },
+    {
+      "id": "LR_OPT_NO_CALC",
+      "name": "Olympiad Optimization Rule (No Calculus)",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "In competition math settings like AIME/AMC, calculus-based optimization is disallowed. Instead, apply algebraic techniques such as AM-GM inequality, Cauchy-Schwarz inequality, or completing the square.",
+      "formal": "If an optimization problem appears in a setting where calculus is not allowed (e.g., AIME), then techniques such as d/dx = 0 or critical point analysis must be blocked. Use algebraic strategies instead.",
+      "tags": ["optimization", "inequality", "non-calculus", "AIME", "AMC", "algebraic method"]
+    }    
   ]
 }

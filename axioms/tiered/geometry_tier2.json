@@ -1172,5 +1172,18 @@
     "used_in_systems": ["Trigonometry", "SignalProcessing"],
     "philosophy": "This identity is valuable for converting differences of cosines into product form, especially in harmonic analysis.",
     "strength_score": 0.86
+  },
+  {
+    "id": "T2_GEO82",
+    "name": "Euler’s Polyhedron Formula",
+    "type": "theorem",
+    "level": "tier2",
+    "statement": "For any convex polyhedron, the relationship between vertices (V), edges (E), and faces (F) is given by V − E + F = 2.",
+    "formal": "V − E + F = 2",
+    "tags": ["geometry", "polyhedron", "topology", "euler_formula"],
+    "used_in_proofs": ["ConvexPolyhedraProperties", "TopologyApplications"],
+    "used_in_systems": ["Geometry", "GraphTheory", "Topology"],
+    "philosophy": "This classical relation by Euler reveals deep structural harmony in three-dimensional geometry and serves as a bridge between geometry and topology.",
+    "strength_score": 0.95
   }
 ]

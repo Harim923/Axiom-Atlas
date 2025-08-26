@@ -772,6 +772,15 @@
       "statement": "In competition math settings like AIME/AMC, calculus-based optimization is disallowed. Instead, apply algebraic techniques such as AM-GM inequality, Cauchy-Schwarz inequality, or completing the square.",
       "formal": "If an optimization problem appears in a setting where calculus is not allowed (e.g., AIME), then techniques such as d/dx = 0 or critical point analysis must be blocked. Use algebraic strategies instead.",
       "tags": ["optimization", "inequality", "non-calculus", "AIME", "AMC", "algebraic method"]
-    }    
+    },
+    {
+      "id": "LR_QUADRATIC_FORMULA",
+      "name": "Quadratic Formula Rule",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "Any quadratic equation of the form ax^2 + bx + c = 0 with a ≠ 0 can be solved using the quadratic formula: x = [-b ± √(b^2 - 4ac)] / (2a).",
+      "formal": "Given ax^2 + bx + c = 0, the solutions are x = (-b ± sqrt(b^2 - 4ac)) / (2a).",
+      "tags": ["algebra", "quadratic", "formula", "roots", "AMC", "AIME"]
+    }
   ]
 }

@@ -781,6 +781,15 @@
       "statement": "Any quadratic equation of the form ax^2 + bx + c = 0 with a ≠ 0 can be solved using the quadratic formula: x = [-b ± √(b^2 - 4ac)] / (2a).",
       "formal": "Given ax^2 + bx + c = 0, the solutions are x = (-b ± sqrt(b^2 - 4ac)) / (2a).",
       "tags": ["algebra", "quadratic", "formula", "roots", "AMC", "AIME"]
+    },
+    {
+      "id": "LR_BAYESIAN_THEOREM",
+      "name": "Bayesian Probability Rule",
+      "type": "logic_rule",
+      "level": "tier2",
+      "statement": "For events A and B with P(B) ≠ 0, Bayes' Theorem expresses the conditional probability of A given B as P(A|B) = [P(B|A)·P(A)] / P(B).",
+      "formal": "Given events A and B, with P(B) > 0: P(A|B) = (P(B|A) * P(A)) / P(B).",
+      "tags": ["probability", "bayes", "conditional", "statistics", "inference", "AMC", "AIME"]
     }
   ]
 }
